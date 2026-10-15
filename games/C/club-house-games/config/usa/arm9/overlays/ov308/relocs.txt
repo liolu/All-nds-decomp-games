@@ -18,7 +18,7 @@ from:0x02275acc kind:load to:0x022aabe4 module:overlay(308)
 from:0x02275c54 kind:load to:0x020b8c88 module:main
 from:0x02275c58 kind:load to:0x022aabe4 module:overlay(308)
 from:0x02275ca0 kind:load to:0x022aabe4 module:overlay(308)
-from:0x02275ca4 kind:load to:0x01ffbaa1 module:itcm
+from:0x02275ca4 kind:load to:0x01ffbaa0 module:itcm
 from:0x02275e60 kind:load to:0x020b8c88 module:main
 from:0x02275e64 kind:load to:0x022aabe4 module:overlay(308)
 from:0x02275e70 kind:load to:0x022765c8 module:overlay(308)

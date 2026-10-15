@@ -23,7 +23,7 @@ from:0x02275970 kind:load to:0x020e6b48 module:main
 from:0x02275988 kind:load to:0x0229f1c8 module:overlay(307)
 from:0x0227598c kind:load to:0x02030d6c module:main
 from:0x022759ac kind:load to:0x0229f1c8 module:overlay(307)
-from:0x022759b4 kind:load to:0x01ffbaa1 module:itcm
+from:0x022759b4 kind:load to:0x01ffbaa0 module:itcm
 from:0x02275b00 kind:load to:0x0229f1c8 module:overlay(307)
 from:0x02275b04 kind:load to:0x020b8c88 module:main
 from:0x02275c6c kind:load to:0x0229f1c8 module:overlay(307)

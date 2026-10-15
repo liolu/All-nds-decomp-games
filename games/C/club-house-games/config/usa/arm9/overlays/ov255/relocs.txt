@@ -52,9 +52,9 @@ from:0x02277238 kind:load to:0x0202db5c module:main
 from:0x02277308 kind:load to:0x0229cac0 module:overlay(255)
 from:0x0227739c kind:load to:0x0229cac0 module:overlay(255)
 from:0x022773c4 kind:load to:0x0229cac0 module:overlay(255)
-from:0x022773c8 kind:load to:0x01ffbaa1 module:itcm
+from:0x022773c8 kind:load to:0x01ffbaa0 module:itcm
 from:0x022773f0 kind:load to:0x0229cac0 module:overlay(255)
-from:0x022773f4 kind:load to:0x01ffbaa1 module:itcm
+from:0x022773f4 kind:load to:0x01ffbaa0 module:itcm
 from:0x02277404 kind:load to:0x02277408 module:overlay(255)
 from:0x02277480 kind:load to:0x0229cac0 module:overlay(255)
 from:0x02277490 kind:load to:0x02277494 module:overlay(255)

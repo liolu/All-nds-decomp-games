@@ -1,11 +1,9 @@
-func_ov309_022750cc kind:function(thumb,size=0x2) addr:0x022750cc
-func_ov309_022750d6 kind:function(thumb,size=0x8) addr:0x022750d6
+data_ov309_022750cc kind:data(any) addr:0x022750cc
 func_ov309_02275180 kind:function(arm,size=0x48) addr:0x02275180
 func_ov309_022751c8 kind:function(arm,size=0x48) addr:0x022751c8
 func_ov309_02275210 kind:function(arm,size=0xa0) addr:0x02275210
 func_ov309_022752b0 kind:function(arm,size=0x124) addr:0x022752b0
 func_ov309_022753d4 kind:function(arm,size=0x330) addr:0x022753d4
-.L_022755fe kind:label(thumb) addr:0x022755fe
 func_ov309_02275704 kind:function(arm,size=0x1dc) addr:0x02275704
 func_ov309_022758e0 kind:function(arm,size=0x138) addr:0x022758e0
 func_ov309_02275a18 kind:function(arm,size=0x304) addr:0x02275a18
