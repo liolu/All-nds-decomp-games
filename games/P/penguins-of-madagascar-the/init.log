@@ -1,0 +1,881 @@
+[INFO ] Loading ROM from extract/eu/config.yaml
+[WARN ] Massive gap from constant pool at 0x200508c to next label at 0x200a090
+[WARN ] Massive gap from constant pool at 0x20666e8 to next label at 0x206b4a4
+[WARN ] Local function call from 0x021475a0 in ARM9 main to 0x02008b38 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0214766c in ARM9 main to 0x020096f0 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0200a0dc in ARM9 main to 0x02009808 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0200a0e8 in ARM9 main to 0x0200a068 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0200a11c in ARM9 main to 0x02009808 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0200a184 in ARM9 main to 0x0200a030 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0200a888 in ARM9 main to 0x02008b0c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0200aa10 in ARM9 main to 0x02008b0c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0200ab9c in ARM9 main to 0x02008b0c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0200ac3c in ARM9 main to 0x020092a8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0200ad9c in ARM9 main to 0x02008d20 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0200ada0 in ARM9 main to 0x020079f4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0200adf4 in ARM9 main to 0x02009234 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0200ae00 in ARM9 main to 0x02005cb8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0200ae7c in ARM9 main to 0x02007dbc goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0200ae88 in ARM9 main to 0x02007dbc goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0200af18 in ARM9 main to 0x020092a8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0200ca84 in ARM9 main to 0x02008b0c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0200cad8 in ARM9 main to 0x02008b0c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0200cbb0 in ARM9 main to 0x02008b0c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0200d0d4 in ARM9 main to 0x02008d44 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0200d0f4 in ARM9 main to 0x02008d8c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0200d164 in ARM9 main to 0x02008d44 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0200d1b8 in ARM9 main to 0x02008d8c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0200d2a8 in ARM9 main to 0x02008d44 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0200eda4 in ARM9 main to 0x02007048 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0200ee00 in ARM9 main to 0x0200668c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0200ee70 in ARM9 main to 0x02007048 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0200eedc in ARM9 main to 0x0200714c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0200ef1c in ARM9 main to 0x0200672c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0200f1d8 in ARM9 main to 0x020071cc goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0200f5bc in ARM9 main to 0x020074b4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0200f62c in ARM9 main to 0x020075b8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0200f778 in ARM9 main to 0x020074b4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0200fd38 in ARM9 main to 0x02008cfc goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02010c98 in ARM9 main to 0x02007b10 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02010cc0 in ARM9 main to 0x02007a7c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020116a8 in ARM9 main to 0x020075b8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02011780 in ARM9 main to 0x020075b8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02011884 in ARM9 main to 0x020074b4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02013314 in ARM9 main to 0x02008b0c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02013538 in ARM9 main to 0x02008b0c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020136d8 in ARM9 main to 0x02008b0c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02013d08 in ARM9 main to 0x02008b0c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02013f34 in ARM9 main to 0x02008b0c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020148e4 in ARM9 main to 0x02007ce4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02014b68 in ARM9 main to 0x020075b8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02014bc0 in ARM9 main to 0x020075b8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02015b64 in ARM9 main to 0x02007bdc goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02015c0c in ARM9 main to 0x02007bdc goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02015c14 in ARM9 main to 0x020075b8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02016638 in ARM9 main to 0x020074b4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02016ea8 in ARM9 main to 0x0200714c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02017100 in ARM9 main to 0x0200714c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02017218 in ARM9 main to 0x0200714c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0201722c in ARM9 main to 0x02006a50 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02017318 in ARM9 main to 0x02006864 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02017418 in ARM9 main to 0x0200714c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0201742c in ARM9 main to 0x02006a50 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02017520 in ARM9 main to 0x02006864 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020179d4 in ARM9 main to 0x020075b8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020179f8 in ARM9 main to 0x020074b4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02019064 in ARM9 main to 0x02008e68 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0201986c in ARM9 main to 0x02008e68 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020198a0 in ARM9 main to 0x020075b8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020198a8 in ARM9 main to 0x020075b8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0201a330 in ARM9 main to 0x020075b8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0201a35c in ARM9 main to 0x020075b8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0201a3f8 in ARM9 main to 0x020074b4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0201ac60 in ARM9 main to 0x02008a6c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0201acb8 in ARM9 main to 0x02008ac8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0201acc4 in ARM9 main to 0x02008ad0 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0201af94 in ARM9 main to 0x020092a8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0201b400 in ARM9 main to 0x020092a8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0201bbe0 in ARM9 main to 0x020075b8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0201bd50 in ARM9 main to 0x0200714c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0201bfb0 in ARM9 main to 0x02009ab4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0201c000 in ARM9 main to 0x02009ab4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0201c054 in ARM9 main to 0x02009ab4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0201c0a8 in ARM9 main to 0x02009c48 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0201c158 in ARM9 main to 0x02009b78 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0201c19c in ARM9 main to 0x02009b78 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0201c1e8 in ARM9 main to 0x02009b78 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0201c698 in ARM9 main to 0x0200714c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0201c7c0 in ARM9 main to 0x02007048 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0201c82c in ARM9 main to 0x0200714c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0201c860 in ARM9 main to 0x0200672c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0201c9d8 in ARM9 main to 0x02008d8c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0201d104 in ARM9 main to 0x02007048 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0201d160 in ARM9 main to 0x0200668c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0201d1b0 in ARM9 main to 0x020071cc goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0201da4c in ARM9 main to 0x0200714c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0201da88 in ARM9 main to 0x0200714c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0201dc80 in ARM9 main to 0x0200714c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0201dcec in ARM9 main to 0x0200714c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0201dd00 in ARM9 main to 0x02006a50 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0201ddf8 in ARM9 main to 0x0200714c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0201de0c in ARM9 main to 0x02006a50 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0201dee8 in ARM9 main to 0x02006864 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0201e518 in ARM9 main to 0x020075b8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0201e560 in ARM9 main to 0x02009b90 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0201e6a8 in ARM9 main to 0x02009b90 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0201e6b0 in ARM9 main to 0x02009d4c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0201f3cc in ARM9 main to 0x0200714c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0201f880 in ARM9 main to 0x02006864 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0201f8d4 in ARM9 main to 0x0200714c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0201f8e8 in ARM9 main to 0x02006a50 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02022b34 in ARM9 main to 0x0200714c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02022d8c in ARM9 main to 0x0200714c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02022edc in ARM9 main to 0x0200714c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02022ef0 in ARM9 main to 0x02006a50 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02022fd4 in ARM9 main to 0x02006864 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020230f0 in ARM9 main to 0x0200714c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02023104 in ARM9 main to 0x02006a50 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020231ec in ARM9 main to 0x02006864 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0202517c in ARM9 main to 0x0200714c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02025e44 in ARM9 main to 0x02009374 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02027268 in ARM9 main to 0x02005408 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02027270 in ARM9 main to 0x020054ac goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02027298 in ARM9 main to 0x02005408 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020272a0 in ARM9 main to 0x020054ac goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020272d0 in ARM9 main to 0x02005408 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020272d8 in ARM9 main to 0x020054ac goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0202b3a8 in ARM9 main to 0x02009310 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0202b3b4 in ARM9 main to 0x020092a8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0202b44c in ARM9 main to 0x02009310 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0202b458 in ARM9 main to 0x020092a8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0202b4c4 in ARM9 main to 0x020075b8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0203a10c in ARM9 main to 0x020075b8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0203be68 in ARM9 main to 0x020075b8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0203be84 in ARM9 main to 0x020074b4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0204c74c in ARM9 main to 0x020075b8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0204c768 in ARM9 main to 0x020075b8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0204cfec in ARM9 main to 0x02009808 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0204faf8 in ARM9 main to 0x02005188 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0204fce4 in ARM9 main to 0x020051e8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0204ff28 in ARM9 main to 0x020059f4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0204ff54 in ARM9 main to 0x02005a20 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02050168 in ARM9 main to 0x02005224 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0205023c in ARM9 main to 0x020050d4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02050300 in ARM9 main to 0x02005a40 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020503f8 in ARM9 main to 0x02005a40 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02050570 in ARM9 main to 0x02005814 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02050638 in ARM9 main to 0x02005814 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02051548 in ARM9 main to 0x02008d8c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02051624 in ARM9 main to 0x02008d8c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02051b48 in ARM9 main to 0x020075b8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02051b6c in ARM9 main to 0x02008ad8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02051b7c in ARM9 main to 0x020075b8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02051b8c in ARM9 main to 0x020075b8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02051cd4 in ARM9 main to 0x020074b4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02051e60 in ARM9 main to 0x020074b4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02055ce0 in ARM9 main to 0x02008b9c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02055dc4 in ARM9 main to 0x02008b9c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02055e10 in ARM9 main to 0x02008cac goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02055e98 in ARM9 main to 0x02008cac goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02056290 in ARM9 main to 0x02008c70 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020562b8 in ARM9 main to 0x02008b9c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020562fc in ARM9 main to 0x02008cfc goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0205632c in ARM9 main to 0x02008c70 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02056354 in ARM9 main to 0x02008b9c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020567b8 in ARM9 main to 0x02008cfc goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020567e8 in ARM9 main to 0x02008b58 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02060988 in ARM9 main to 0x0211f020 goes to middle of function 'func_0211f010' at 0x0211f010, adding an external label symbol
+[WARN ] Local function call from 0x02061f68 in ARM9 main to 0x0211f020 goes to middle of function 'func_0211f010' at 0x0211f010, adding an external label symbol
+[WARN ] Local function call from 0x02065d14 in ARM9 main to 0x02007048 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02065d70 in ARM9 main to 0x0200668c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02065de0 in ARM9 main to 0x02007048 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02065e4c in ARM9 main to 0x0200714c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02065e88 in ARM9 main to 0x0200672c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02065f30 in ARM9 main to 0x02008b0c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02066044 in ARM9 main to 0x02008b0c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02066164 in ARM9 main to 0x02008b0c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02066338 in ARM9 main to 0x020071cc goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0206b820 in ARM9 main to 0x0206ac90 goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x0206b93c in ARM9 main to 0x0206b14c goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x0206b944 in ARM9 main to 0x0206b454 goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x0206bb64 in ARM9 main to 0x020051e8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0206bbb8 in ARM9 main to 0x020673e4 goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x0206bcd0 in ARM9 main to 0x020673e4 goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x0206be68 in ARM9 main to 0x020673e4 goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x0206c024 in ARM9 main to 0x020051e8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0206c048 in ARM9 main to 0x020051e8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0206c0c4 in ARM9 main to 0x020051e8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0206c150 in ARM9 main to 0x020051e8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0206c174 in ARM9 main to 0x020051e8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0206c1d0 in ARM9 main to 0x020051e8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0206c5a4 in ARM9 main to 0x02005188 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0206d0f0 in ARM9 main to 0x020050d4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0206d29c in ARM9 main to 0x0206b14c goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x0206d2e8 in ARM9 main to 0x0206b204 goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x0206d7ec in ARM9 main to 0x0206d97c goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x0206d81c in ARM9 main to 0x0206da64 goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x0206d838 in ARM9 main to 0x0206da9c goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x0206d844 in ARM9 main to 0x0206daac goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x0206d860 in ARM9 main to 0x0206dac4 goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x0206d88c in ARM9 main to 0x0206dabc goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x0206d908 in ARM9 main to 0x0206da44 goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x0206d91c in ARM9 main to 0x0206da44 goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x0206db44 in ARM9 main to 0x0206d97c goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x0206db5c in ARM9 main to 0x0206d970 goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x0206dbc8 in ARM9 main to 0x0206dac4 goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x0206dbf4 in ARM9 main to 0x0206da44 goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x0206dc08 in ARM9 main to 0x0206da44 goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x0206dc54 in ARM9 main to 0x0206dac4 goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x0206dcb0 in ARM9 main to 0x0206dabc goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x0206dccc in ARM9 main to 0x02005224 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0206dd94 in ARM9 main to 0x020051e8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0206ddbc in ARM9 main to 0x0206d97c goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x0206de58 in ARM9 main to 0x0206dac4 goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x0206de84 in ARM9 main to 0x0206dabc goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x0206ded0 in ARM9 main to 0x0206dac4 goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x0206dee4 in ARM9 main to 0x0206dabc goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x0206e088 in ARM9 main to 0x0206dac4 goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x0206e118 in ARM9 main to 0x0206dac4 goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x0206e280 in ARM9 main to 0x0206d97c goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x0206e2d4 in ARM9 main to 0x0206dac4 goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x0206e358 in ARM9 main to 0x0206da44 goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x0206e3bc in ARM9 main to 0x0206da44 goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x0206e80c in ARM9 main to 0x020051e8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0206e8f8 in ARM9 main to 0x020051e8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0206e920 in ARM9 main to 0x020051e8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0206ea4c in ARM9 main to 0x020050d4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0206eb60 in ARM9 main to 0x0206d97c goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x0206ebb8 in ARM9 main to 0x0206dac4 goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x0206ed34 in ARM9 main to 0x020051e8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0206ed68 in ARM9 main to 0x0206d97c goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x0206ed80 in ARM9 main to 0x0206d970 goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x0206ee00 in ARM9 main to 0x0206dac4 goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x0206ee98 in ARM9 main to 0x0206da44 goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x0206ef04 in ARM9 main to 0x0206da44 goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x0206ef7c in ARM9 main to 0x020051e8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0206f118 in ARM9 main to 0x0206dabc goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x0206f640 in ARM9 main to 0x0206d97c goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x0206f6e4 in ARM9 main to 0x0206dac4 goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x0206f710 in ARM9 main to 0x0206dabc goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x0206f75c in ARM9 main to 0x0206dac4 goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x0206f770 in ARM9 main to 0x0206dabc goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x0206f878 in ARM9 main to 0x0206dabc goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x0206f9a4 in ARM9 main to 0x0206dac4 goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x0206fa34 in ARM9 main to 0x0206dac4 goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x0206fb58 in ARM9 main to 0x0206d97c goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x0206fbf4 in ARM9 main to 0x0206dac4 goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x0206fc18 in ARM9 main to 0x0206da44 goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x0206fc2c in ARM9 main to 0x0206da44 goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x0206fd04 in ARM9 main to 0x02005224 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0206fe28 in ARM9 main to 0x0206d97c goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x0206fe58 in ARM9 main to 0x0206dac4 goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x0206fe78 in ARM9 main to 0x0206da44 goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x0206fe8c in ARM9 main to 0x0206da44 goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x0206fed4 in ARM9 main to 0x0206d97c goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x0206ff14 in ARM9 main to 0x0206dac4 goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x0206ff64 in ARM9 main to 0x020051e8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02070000 in ARM9 main to 0x0206da44 goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x0207004c in ARM9 main to 0x020051e8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020700e8 in ARM9 main to 0x0206da44 goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x02070334 in ARM9 main to 0x0206d97c goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x02070374 in ARM9 main to 0x0206dac4 goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x02070948 in ARM9 main to 0x0206da44 goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x0207095c in ARM9 main to 0x0206da44 goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x02070978 in ARM9 main to 0x0206da44 goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x0207098c in ARM9 main to 0x0206da44 goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x020709a8 in ARM9 main to 0x0206da44 goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x020709bc in ARM9 main to 0x0206da44 goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x020709d8 in ARM9 main to 0x0206da44 goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x020709ec in ARM9 main to 0x0206da44 goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x02070bec in ARM9 main to 0x020050d4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02070c20 in ARM9 main to 0x02005188 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02071010 in ARM9 main to 0x0206a9f0 goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x020712d8 in ARM9 main to 0x0206ac90 goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x020714e8 in ARM9 main to 0x0206b14c goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x02071504 in ARM9 main to 0x02006170 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02071514 in ARM9 main to 0x0200621c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02071590 in ARM9 main to 0x020075b8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020715a0 in ARM9 main to 0x020065b0 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02071c08 in ARM9 main to 0x0206b14c goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x02071c64 in ARM9 main to 0x0206b454 goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x02072044 in ARM9 main to 0x0206b454 goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x0207225c in ARM9 main to 0x02005188 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02072344 in ARM9 main to 0x02005188 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020726a4 in ARM9 main to 0x020051e8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0207270c in ARM9 main to 0x020051e8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02072ccc in ARM9 main to 0x020075b8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02072d4c in ARM9 main to 0x020075b8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02072e00 in ARM9 main to 0x0206b14c goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x02072ef4 in ARM9 main to 0x0206ac90 goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x02073614 in ARM9 main to 0x020051e8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02073744 in ARM9 main to 0x0206b454 goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x020737cc in ARM9 main to 0x020050d4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02073b2c in ARM9 main to 0x020673e4 goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x02073c2c in ARM9 main to 0x020051e8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0207403c in ARM9 main to 0x0206ac90 goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x02074198 in ARM9 main to 0x0206ac90 goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x0207427c in ARM9 main to 0x0206ac90 goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x020743c8 in ARM9 main to 0x0206ac90 goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x020744e8 in ARM9 main to 0x0206ada8 goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x020748cc in ARM9 main to 0x020051e8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02074960 in ARM9 main to 0x020050d4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02074ac0 in ARM9 main to 0x02005224 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02074ad4 in ARM9 main to 0x0206b454 goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x02074f40 in ARM9 main to 0x020051e8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020752c8 in ARM9 main to 0x0206af60 goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x02075410 in ARM9 main to 0x0206b14c goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x02075428 in ARM9 main to 0x0206b204 goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x020755d0 in ARM9 main to 0x0206b454 goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x020756b8 in ARM9 main to 0x02069978 goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x02075b74 in ARM9 main to 0x02005188 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02075cf8 in ARM9 main to 0x0206ae94 goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x02075ee0 in ARM9 main to 0x0206b454 goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x020761c8 in ARM9 main to 0x0206ac90 goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x020762f8 in ARM9 main to 0x0206b14c goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x0207666c in ARM9 main to 0x0206b454 goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x02076d58 in ARM9 main to 0x0206d97c goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x02076d90 in ARM9 main to 0x0206dac4 goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x02076db0 in ARM9 main to 0x0206daac goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x02076e44 in ARM9 main to 0x0206da44 goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x02076e58 in ARM9 main to 0x0206da44 goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x02076e98 in ARM9 main to 0x0206ac90 goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x02076f70 in ARM9 main to 0x02006170 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02076f80 in ARM9 main to 0x0200621c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02077000 in ARM9 main to 0x020075b8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02077010 in ARM9 main to 0x020065b0 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02077030 in ARM9 main to 0x0206b454 goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x02077564 in ARM9 main to 0x02006170 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02077574 in ARM9 main to 0x0200621c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020776fc in ARM9 main to 0x020065b0 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02077944 in ARM9 main to 0x0206b204 goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x02077d70 in ARM9 main to 0x020075b8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02077d98 in ARM9 main to 0x020075b8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02077e10 in ARM9 main to 0x020075b8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02077e38 in ARM9 main to 0x020075b8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02078088 in ARM9 main to 0x0206ac90 goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x0207886c in ARM9 main to 0x020075b8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020788c8 in ARM9 main to 0x020075b8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02078ac8 in ARM9 main to 0x0206a9f0 goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x0207910c in ARM9 main to 0x02068048 goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x02079414 in ARM9 main to 0x020051e8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02079658 in ARM9 main to 0x0206ac90 goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x02079cf0 in ARM9 main to 0x020051e8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02079d0c in ARM9 main to 0x0206b454 goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x02079eb0 in ARM9 main to 0x02006170 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02079ec0 in ARM9 main to 0x0200621c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02079ed4 in ARM9 main to 0x020065b0 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02079ef4 in ARM9 main to 0x020075b8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02079f50 in ARM9 main to 0x020075b8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0207a04c in ARM9 main to 0x0206ae94 goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x0207a3f4 in ARM9 main to 0x0206679c goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x0207a54c in ARM9 main to 0x0207aa68 goes to middle of function 'func_0207a72c' at 0x0207a72c, adding an external label symbol
+[WARN ] Local function call from 0x0207b37c in ARM9 main to 0x0206a9f0 goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x0207b49c in ARM9 main to 0x02067d1c goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x0207b568 in ARM9 main to 0x0206b14c goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x0207b5ac in ARM9 main to 0x0206b204 goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x0207b708 in ARM9 main to 0x0206d97c goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x0207b78c in ARM9 main to 0x0206dac4 goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x0207bb88 in ARM9 main to 0x0206da44 goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x0207bbd4 in ARM9 main to 0x0206da44 goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x0207bdc0 in ARM9 main to 0x0206b14c goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x0207c33c in ARM9 main to 0x02068048 goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x0207c3a8 in ARM9 main to 0x020681b0 goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x0207c58c in ARM9 main to 0x02068158 goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x0207c5a4 in ARM9 main to 0x02068158 goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x0207c664 in ARM9 main to 0x02068048 goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x0207c6d0 in ARM9 main to 0x020681b0 goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x0207c960 in ARM9 main to 0x020681e4 goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x0207c968 in ARM9 main to 0x020681e4 goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x0207ca04 in ARM9 main to 0x020681e4 goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x0207ca0c in ARM9 main to 0x020681e4 goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x0207cf10 in ARM9 main to 0x02006170 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0207cf40 in ARM9 main to 0x0200621c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0207cf6c in ARM9 main to 0x020065b0 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0207d140 in ARM9 main to 0x020050d4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0207d1f8 in ARM9 main to 0x020050d4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0207d8c4 in ARM9 main to 0x02068158 goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x0207d99c in ARM9 main to 0x02068048 goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x0207da04 in ARM9 main to 0x020681b0 goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x0207db38 in ARM9 main to 0x0206b14c goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x0207dd98 in ARM9 main to 0x020681e4 goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x0207de24 in ARM9 main to 0x020681e4 goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x0207e07c in ARM9 main to 0x02005970 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0207e1ac in ARM9 main to 0x020050d4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0207e268 in ARM9 main to 0x02005970 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0207e34c in ARM9 main to 0x020050d4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0207eb14 in ARM9 main to 0x02008b0c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0207ed54 in ARM9 main to 0x02008b0c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0207ede4 in ARM9 main to 0x0206ac90 goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x0207f00c in ARM9 main to 0x0206b454 goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x0207f1e4 in ARM9 main to 0x020673e4 goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x0207f2a8 in ARM9 main to 0x020673e4 goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x0207f41c in ARM9 main to 0x02005188 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0207f69c in ARM9 main to 0x020050d4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0207f7d4 in ARM9 main to 0x020051e8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0207f818 in ARM9 main to 0x020051e8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0207f93c in ARM9 main to 0x02005188 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0207fb44 in ARM9 main to 0x020051e8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0207fb88 in ARM9 main to 0x020051e8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0207fcac in ARM9 main to 0x020065b0 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0207fcd0 in ARM9 main to 0x020065b0 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0207fd0c in ARM9 main to 0x02007228 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0207fd24 in ARM9 main to 0x020065b0 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0207fd60 in ARM9 main to 0x02006200 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0207fda4 in ARM9 main to 0x02007270 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0207fe04 in ARM9 main to 0x020064c8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0207fe0c in ARM9 main to 0x020065b0 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0207fea8 in ARM9 main to 0x02005188 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0207ff88 in ARM9 main to 0x020051e8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020802c8 in ARM9 main to 0x02008b0c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020804e8 in ARM9 main to 0x02008b0c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02083974 in ARM9 main to 0x02069214 goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x020839a4 in ARM9 main to 0x02007354 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020839bc in ARM9 main to 0x02006200 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02083e58 in ARM9 main to 0x0200621c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02083eec in ARM9 main to 0x020073ac goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02083f10 in ARM9 main to 0x0200740c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02084dc0 in ARM9 main to 0x02006404 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02084dcc in ARM9 main to 0x020063f0 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02085974 in ARM9 main to 0x02005188 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02085a30 in ARM9 main to 0x02005224 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02085aa8 in ARM9 main to 0x020065b0 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02085acc in ARM9 main to 0x02007394 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02085b7c in ARM9 main to 0x020075b8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02085d84 in ARM9 main to 0x020065b0 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02085da8 in ARM9 main to 0x02007394 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02085e58 in ARM9 main to 0x020075b8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02085ed4 in ARM9 main to 0x020065b0 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02085ef8 in ARM9 main to 0x02007394 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02085fa8 in ARM9 main to 0x020075b8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020863ac in ARM9 main to 0x02006170 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02086540 in ARM9 main to 0x020065b0 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02086880 in ARM9 main to 0x02007490 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0208856c in ARM9 main to 0x020050d4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0208a650 in ARM9 main to 0x02068048 goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x0208a9c4 in ARM9 main to 0x02068048 goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x0208abe8 in ARM9 main to 0x020051e8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0208aec8 in ARM9 main to 0x020051e8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0208afc0 in ARM9 main to 0x020051e8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0208b6a8 in ARM9 main to 0x02067d1c goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x0208b740 in ARM9 main to 0x020051e8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0208bb88 in ARM9 main to 0x02008b0c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0208bd94 in ARM9 main to 0x02008b0c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0208c890 in ARM9 main to 0x020051e8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0208eb2c in ARM9 main to 0x02005970 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0208ed84 in ARM9 main to 0x02067c48 goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x0209106c in ARM9 main to 0x02005970 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0209261c in ARM9 main to 0x020050d4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02092818 in ARM9 main to 0x020050d4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02094868 in ARM9 main to 0x02009b90 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02094eac in ARM9 main to 0x020075b8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02094eb4 in ARM9 main to 0x020075b8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020952a8 in ARM9 main to 0x0206da64 goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x020952c4 in ARM9 main to 0x0206da9c goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x02095300 in ARM9 main to 0x0206daac goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x02095394 in ARM9 main to 0x020050d4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020954dc in ARM9 main to 0x020050d4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020955c0 in ARM9 main to 0x020050d4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0209563c in ARM9 main to 0x02066e8c goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x020956d8 in ARM9 main to 0x020050d4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020957dc in ARM9 main to 0x020050d4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0209594c in ARM9 main to 0x020050d4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02095c20 in ARM9 main to 0x020050d4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02095c74 in ARM9 main to 0x0206da64 goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x02095c90 in ARM9 main to 0x0206da9c goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x02095ccc in ARM9 main to 0x0206daac goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x02095d44 in ARM9 main to 0x020050d4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02095e20 in ARM9 main to 0x020050d4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02095fc0 in ARM9 main to 0x020050d4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02096168 in ARM9 main to 0x020050d4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02096284 in ARM9 main to 0x020050d4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020962d8 in ARM9 main to 0x0206da64 goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x020962f4 in ARM9 main to 0x0206da9c goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x02096330 in ARM9 main to 0x0206daac goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x02096394 in ARM9 main to 0x020050d4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02096494 in ARM9 main to 0x020050d4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02096650 in ARM9 main to 0x020050d4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0209696c in ARM9 main to 0x02005540 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020969b4 in ARM9 main to 0x020050d4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02096bb0 in ARM9 main to 0x020050d4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02096c9c in ARM9 main to 0x020050d4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02096ce8 in ARM9 main to 0x02005540 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02096ddc in ARM9 main to 0x020050d4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02096f38 in ARM9 main to 0x020050d4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020970fc in ARM9 main to 0x020050d4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020971e0 in ARM9 main to 0x020050d4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02097354 in ARM9 main to 0x020050d4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020974c4 in ARM9 main to 0x020050d4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02097ba0 in ARM9 main to 0x020050d4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02097c8c in ARM9 main to 0x020050d4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02097d8c in ARM9 main to 0x020050d4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02097eb0 in ARM9 main to 0x020050d4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0209800c in ARM9 main to 0x020050d4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02098108 in ARM9 main to 0x020050d4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0209823c in ARM9 main to 0x020050d4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02098398 in ARM9 main to 0x020050d4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02098418 in ARM9 main to 0x02066e8c goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x020984b4 in ARM9 main to 0x020050d4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02098580 in ARM9 main to 0x020050d4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020985e8 in ARM9 main to 0x0206da64 goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x02098604 in ARM9 main to 0x0206da9c goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x0209864c in ARM9 main to 0x0206daac goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x020986b8 in ARM9 main to 0x020050d4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0209872c in ARM9 main to 0x0206da64 goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x02098748 in ARM9 main to 0x0206da9c goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x02098784 in ARM9 main to 0x0206daac goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x020987fc in ARM9 main to 0x020050d4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02098864 in ARM9 main to 0x0206da64 goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x02098880 in ARM9 main to 0x0206da9c goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x020988bc in ARM9 main to 0x0206daac goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x02098904 in ARM9 main to 0x020050d4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02098958 in ARM9 main to 0x0206da64 goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x02098974 in ARM9 main to 0x0206da9c goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x020989b0 in ARM9 main to 0x0206daac goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x02098a30 in ARM9 main to 0x020050d4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02098a9c in ARM9 main to 0x0206da64 goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x02098ab8 in ARM9 main to 0x0206da9c goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x02098af4 in ARM9 main to 0x0206daac goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x02098b90 in ARM9 main to 0x020050d4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02098bec in ARM9 main to 0x0206da64 goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x02098c08 in ARM9 main to 0x0206da9c goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x02098c44 in ARM9 main to 0x0206daac goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x02098cd4 in ARM9 main to 0x020050d4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02098d64 in ARM9 main to 0x0206da64 goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x02098d80 in ARM9 main to 0x0206da9c goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x02098dbc in ARM9 main to 0x0206daac goes to middle of function 'func_0206d940' at 0x0206d940, adding an external label symbol
+[WARN ] Local function call from 0x02098e44 in ARM9 main to 0x020050d4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x02099004 in ARM9 main to 0x020050d4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0209ae38 in ARM9 main to 0x02006864 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0209b25c in ARM9 main to 0x02066b14 goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x0209b2f0 in ARM9 main to 0x02005188 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0209b4a4 in ARM9 main to 0x02067a74 goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x0209b604 in ARM9 main to 0x02068708 goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x0209b7c4 in ARM9 main to 0x02068a08 goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x0209b958 in ARM9 main to 0x02069d20 goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x0209ba88 in ARM9 main to 0x0206a66c goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x0209bbb8 in ARM9 main to 0x0206ab40 goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x0209c370 in ARM9 main to 0x02005188 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0209c8a0 in ARM9 main to 0x02005188 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0209ee40 in ARM9 main to 0x020058c4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0209eef0 in ARM9 main to 0x020058c4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0209ef40 in ARM9 main to 0x020058c4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0209ef8c in ARM9 main to 0x020058c4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0209f00c in ARM9 main to 0x020058c4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x0209f2c4 in ARM9 main to 0x020050d4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020a0078 in ARM9 main to 0x02068f1c goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x020a00e4 in ARM9 main to 0x02068ed8 goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x020a049c in ARM9 main to 0x02009808 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020a07e4 in ARM9 main to 0x020059a4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020a081c in ARM9 main to 0x02005970 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020a096c in ARM9 main to 0x020059a4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020a09a8 in ARM9 main to 0x02005970 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020a2570 in ARM9 main to 0x0200933c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020a2590 in ARM9 main to 0x020092b8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020a25a0 in ARM9 main to 0x020091e0 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020a2620 in ARM9 main to 0x02009388 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020a26a8 in ARM9 main to 0x02007a7c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020a26b8 in ARM9 main to 0x02009374 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020a26f0 in ARM9 main to 0x020092b8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020a27a0 in ARM9 main to 0x020074b4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020a3a18 in ARM9 main to 0x020093c4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020a3a80 in ARM9 main to 0x020093c4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020a3bb0 in ARM9 main to 0x020093c4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020a5028 in ARM9 main to 0x02007354 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020a52b4 in ARM9 main to 0x02067168 goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x020a52d4 in ARM9 main to 0x02006170 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020a5334 in ARM9 main to 0x020065b0 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020a5384 in ARM9 main to 0x0200621c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020a53a0 in ARM9 main to 0x020063f0 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020a53cc in ARM9 main to 0x020063c8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020a53f4 in ARM9 main to 0x020063dc goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020a5410 in ARM9 main to 0x020073ac goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020a5420 in ARM9 main to 0x02007490 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020a54c0 in ARM9 main to 0x02007490 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020a55a0 in ARM9 main to 0x02006170 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020a55b8 in ARM9 main to 0x020065b0 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020a55dc in ARM9 main to 0x02007394 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020a5618 in ARM9 main to 0x02007394 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020a5cdc in ARM9 main to 0x020074b4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020a6578 in ARM9 main to 0x02006170 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020a658c in ARM9 main to 0x0200621c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020a6618 in ARM9 main to 0x020075b8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020a6628 in ARM9 main to 0x020065b0 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020a6674 in ARM9 main to 0x020075b8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020a6684 in ARM9 main to 0x020065b0 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020a6784 in ARM9 main to 0x020075b8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020a6794 in ARM9 main to 0x020065b0 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020a67c8 in ARM9 main to 0x020065b0 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020a6888 in ARM9 main to 0x02009b90 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020a6998 in ARM9 main to 0x020074b4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020a69c4 in ARM9 main to 0x020075b8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020a69e0 in ARM9 main to 0x020075b8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020a7a68 in ARM9 main to 0x02007048 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020a7ac4 in ARM9 main to 0x0200668c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020a7b34 in ARM9 main to 0x02007048 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020a7ba0 in ARM9 main to 0x0200714c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020a7bdc in ARM9 main to 0x0200672c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020a7ca8 in ARM9 main to 0x020071cc goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020a80a4 in ARM9 main to 0x020051e8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020ada5c in ARM9 main to 0x020091e0 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020ada84 in ARM9 main to 0x020096f0 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020ada9c in ARM9 main to 0x0200933c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020adaac in ARM9 main to 0x02009388 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020adabc in ARM9 main to 0x02009374 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020adba0 in ARM9 main to 0x020099a8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020adbc4 in ARM9 main to 0x020099ec goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020adc34 in ARM9 main to 0x02009808 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020add00 in ARM9 main to 0x0200950c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020add88 in ARM9 main to 0x0200950c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020ae050 in ARM9 main to 0x02009220 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020ae164 in ARM9 main to 0x02009220 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020ae1d4 in ARM9 main to 0x02009738 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020ae1ec in ARM9 main to 0x02009628 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020ae1f8 in ARM9 main to 0x02009680 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020aebbc in ARM9 main to 0x020075b8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020af45c in ARM9 main to 0x0200714c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020af6b8 in ARM9 main to 0x02005a78 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020af7f0 in ARM9 main to 0x020074b4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020b01cc in ARM9 main to 0x020075b8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020b0334 in ARM9 main to 0x020075b8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020b0420 in ARM9 main to 0x02005350 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020b0e88 in ARM9 main to 0x02005408 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020b0e90 in ARM9 main to 0x020054ac goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020b0ed4 in ARM9 main to 0x02005408 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020b0edc in ARM9 main to 0x020054ac goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020b137c in ARM9 main to 0x020698e8 goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x020b15d0 in ARM9 main to 0x020052fc goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020b1634 in ARM9 main to 0x0200532c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020b1cd0 in ARM9 main to 0x02006170 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020b1d04 in ARM9 main to 0x0200621c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020b1d34 in ARM9 main to 0x020063c8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020b1d5c in ARM9 main to 0x020063dc goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020b1d88 in ARM9 main to 0x020065b0 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020b3ecc in ARM9 main to 0x0200535c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020b3edc in ARM9 main to 0x0200539c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020b3f50 in ARM9 main to 0x020052b4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020b3f5c in ARM9 main to 0x0200539c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020b3fb0 in ARM9 main to 0x020091e0 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020b4014 in ARM9 main to 0x0200933c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020b4204 in ARM9 main to 0x02009374 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020b4214 in ARM9 main to 0x02009374 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020b4300 in ARM9 main to 0x02009220 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020b4684 in ARM9 main to 0x02009808 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020b46cc in ARM9 main to 0x02009808 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020b51e0 in ARM9 main to 0x020091e0 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020b51f4 in ARM9 main to 0x0200933c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020b5204 in ARM9 main to 0x02009388 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020b5214 in ARM9 main to 0x02009388 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020b5388 in ARM9 main to 0x02009220 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020b7af4 in ARM9 main to 0x020091e0 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020b7b14 in ARM9 main to 0x020096f0 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020b7b38 in ARM9 main to 0x0200933c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020b7b48 in ARM9 main to 0x02009388 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020b7b58 in ARM9 main to 0x02009388 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020b7b68 in ARM9 main to 0x02009374 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020b7c64 in ARM9 main to 0x020099a8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020b7c80 in ARM9 main to 0x020099ec goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020b7e00 in ARM9 main to 0x02009220 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020b7f14 in ARM9 main to 0x02009220 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020b7f8c in ARM9 main to 0x02009738 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020b7fa4 in ARM9 main to 0x02009628 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020b7fb0 in ARM9 main to 0x02009680 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020b8340 in ARM9 main to 0x02009388 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020b8530 in ARM9 main to 0x02009310 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020b8538 in ARM9 main to 0x02008f58 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020b854c in ARM9 main to 0x02009310 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020b8554 in ARM9 main to 0x02008f58 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020b9318 in ARM9 main to 0x02009388 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020b9328 in ARM9 main to 0x02009388 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020bab94 in ARM9 main to 0x02009388 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020badf0 in ARM9 main to 0x020093d8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020bcc10 in ARM9 main to 0x02009388 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020be404 in ARM9 main to 0x020093f8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020bfac4 in ARM9 main to 0x02005408 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020bfacc in ARM9 main to 0x020054ac goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020c061c in ARM9 main to 0x0200535c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020c062c in ARM9 main to 0x0200539c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020c0650 in ARM9 main to 0x020051ac goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020c0658 in ARM9 main to 0x020052b4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020c0664 in ARM9 main to 0x0200539c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020c326c in ARM9 main to 0x02009388 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020c3ec4 in ARM9 main to 0x02009310 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020c3ecc in ARM9 main to 0x02008f58 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020c3ee4 in ARM9 main to 0x02009310 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020c3eec in ARM9 main to 0x02008f58 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020c6110 in ARM9 main to 0x020075b8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020d75e4 in ARM9 main to 0x0200933c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020d7630 in ARM9 main to 0x0200933c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020dad2c in ARM9 main to 0x020091e0 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020dae64 in ARM9 main to 0x02009afc goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020daf84 in ARM9 main to 0x02009808 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020db000 in ARM9 main to 0x02009388 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020db010 in ARM9 main to 0x02009388 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020db088 in ARM9 main to 0x0200933c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020db1fc in ARM9 main to 0x0200933c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020db34c in ARM9 main to 0x02009220 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020db428 in ARM9 main to 0x02009680 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020dbb3c in ARM9 main to 0x02009808 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020dcbb4 in ARM9 main to 0x0200933c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020dd0f4 in ARM9 main to 0x02009b90 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020ddd24 in ARM9 main to 0x0200950c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020ddd44 in ARM9 main to 0x02009628 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020ddd50 in ARM9 main to 0x02009680 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020ddd60 in ARM9 main to 0x02009628 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020ddd9c in ARM9 main to 0x0200950c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020de730 in ARM9 main to 0x020091e0 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020de8cc in ARM9 main to 0x02009808 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020de8f0 in ARM9 main to 0x02009388 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020de900 in ARM9 main to 0x02009388 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020de990 in ARM9 main to 0x0200933c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020dea98 in ARM9 main to 0x0200933c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020deb6c in ARM9 main to 0x02009220 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020dedd8 in ARM9 main to 0x02009808 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020df058 in ARM9 main to 0x02009afc goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020df830 in ARM9 main to 0x02009388 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020df858 in ARM9 main to 0x0200933c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020dfb64 in ARM9 main to 0x020050d4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020dfd8c in ARM9 main to 0x0200933c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020e167c in ARM9 main to 0x020050d4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020e26d8 in ARM9 main to 0x0206a9f0 goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x020e2bd4 in ARM9 main to 0x02005224 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020e2be8 in ARM9 main to 0x0206b454 goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x020e30bc in ARM9 main to 0x02006170 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020e3194 in ARM9 main to 0x020065b0 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020e31fc in ARM9 main to 0x02006170 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020e3210 in ARM9 main to 0x0200621c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020e323c in ARM9 main to 0x020063c8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020e3264 in ARM9 main to 0x020063dc goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020e3278 in ARM9 main to 0x020065b0 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020e338c in ARM9 main to 0x02009388 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020e33b4 in ARM9 main to 0x0200933c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020e443c in ARM9 main to 0x02009388 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020e4464 in ARM9 main to 0x0200933c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020e44fc in ARM9 main to 0x0200933c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020e4e34 in ARM9 main to 0x020050d4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020e5be0 in ARM9 main to 0x0200535c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020e5bf0 in ARM9 main to 0x0200539c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020e5c34 in ARM9 main to 0x020051e8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020e5c3c in ARM9 main to 0x020052b4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020e5c48 in ARM9 main to 0x0200539c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020e662c in ARM9 main to 0x0206a9f0 goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x020e6a00 in ARM9 main to 0x02005224 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020e6a14 in ARM9 main to 0x0206b454 goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x020e6adc in ARM9 main to 0x02005224 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020e8500 in ARM9 main to 0x020091e0 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020e8518 in ARM9 main to 0x02009388 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020e8528 in ARM9 main to 0x02009388 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020e855c in ARM9 main to 0x02009220 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020e857c in ARM9 main to 0x02009220 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020e85d0 in ARM9 main to 0x020092b8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020e89cc in ARM9 main to 0x02009808 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020e9c74 in ARM9 main to 0x020096f0 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020ea8c0 in ARM9 main to 0x02009920 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020ea8d0 in ARM9 main to 0x020099a8 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020ea8f4 in ARM9 main to 0x02009a30 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020ea9d4 in ARM9 main to 0x02008f58 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020ea9f8 in ARM9 main to 0x0200950c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020eaa38 in ARM9 main to 0x02009808 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020eaa48 in ARM9 main to 0x02009a70 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020eaa50 in ARM9 main to 0x020099ec goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020eaa58 in ARM9 main to 0x02009964 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020eb05c in ARM9 main to 0x02009738 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020eb074 in ARM9 main to 0x02009628 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020eb080 in ARM9 main to 0x02009680 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020eb2bc in ARM9 main to 0x02009808 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020eb3f0 in ARM9 main to 0x02009808 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020f13fc in ARM9 main to 0x020091e0 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020f1688 in ARM9 main to 0x02009220 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020f1714 in ARM9 main to 0x02009220 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020f17e0 in ARM9 main to 0x02009808 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020f3644 in ARM9 main to 0x020673e4 goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x020f37cc in ARM9 main to 0x020050d4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020f3810 in ARM9 main to 0x020050d4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020f3868 in ARM9 main to 0x020050d4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020f38c0 in ARM9 main to 0x020050d4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020f3cc4 in ARM9 main to 0x0207a78c goes to middle of function 'func_0207a72c' at 0x0207a72c, adding an external label symbol
+[WARN ] Local function call from 0x020f3f2c in ARM9 main to 0x0206ab40 goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x020f3fc8 in ARM9 main to 0x020091e0 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020f4068 in ARM9 main to 0x0200933c goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020f4078 in ARM9 main to 0x02009388 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020f4088 in ARM9 main to 0x02009388 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020f4100 in ARM9 main to 0x02009220 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020f44e8 in ARM9 main to 0x020693dc goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x020f4568 in ARM9 main to 0x020050d4 goes to middle of function 'func_02005080' at 0x02005080, adding an external label symbol
+[WARN ] Local function call from 0x020f477c in ARM9 main to 0x02069340 goes to middle of function 'func_020666dc' at 0x020666dc, adding an external label symbol
+[WARN ] Local function call from 0x020f5efc in ARM9 main to 0x0211f1dc goes to middle of function 'func_0211f1d0' at 0x0211f1d0, adding an external label symbol
+[WARN ] Local function call from 0x020f85c8 in ARM9 main to 0x0211f1dc goes to middle of function 'func_0211f1d0' at 0x0211f1d0, adding an external label symbol
+[WARN ] Local function call from 0x020f9dfc in ARM9 main to 0x0211f1dc goes to middle of function 'func_0211f1d0' at 0x0211f1d0, adding an external label symbol
+[WARN ] Local function call from 0x0211f200 in ARM9 main to 0x0211f42c goes to middle of function 'func_0211f424' at 0x0211f424, adding an external label symbol
+[WARN ] Local function call from 0x02126dec in ARM9 main to 0x0211f020 goes to middle of function 'func_0211f010' at 0x0211f010, adding an external label symbol
+[WARN ] Local function call from 0x02126efc in ARM9 main to 0x0211f020 goes to middle of function 'func_0211f010' at 0x0211f010, adding an external label symbol
+[WARN ] Local function call from 0x02126f70 in ARM9 main to 0x0211f020 goes to middle of function 'func_0211f010' at 0x0211f010, adding an external label symbol
+[WARN ] Local function call from 0x02126fcc in ARM9 main to 0x0211f020 goes to middle of function 'func_0211f010' at 0x0211f010, adding an external label symbol
+[WARN ] No functions from 0x0200ad88 in ARM9 main to 0x02198804:
+[WARN ] No functions from 0x020429f0 in ARM9 main to 0x02198b78:
+[WARN ] No functions from 0x02042a7c in ARM9 main to 0x0219897c:
+[WARN ] No functions from 0x0209459c in ARM9 main to 0x02198768:
+[WARN ] No functions from 0x020945e0 in ARM9 main to 0x021988dc:
+[WARN ] No functions from 0x02094dc0 in ARM9 main to 0x0219958c:
+[WARN ] No functions from 0x02094dcc in ARM9 main to 0x02199aa0:
+[WARN ] No functions from 0x02094ddc in ARM9 main to 0x0219958c:
+[WARN ] No functions from 0x02094de8 in ARM9 main to 0x02199aa0:
+[WARN ] No functions from 0x0209e5cc in ARM9 main to 0x02199fe4:
+[WARN ] No functions from 0x0209e664 in ARM9 main to 0x02199f98:
+[WARN ] No functions from 0x0209e67c in ARM9 main to 0x02199f4c:
+[WARN ] No functions from 0x02100a8c in ARM9 main to 0x02199fa8:
+[WARN ] No functions from 0x021031a0 in ARM9 main to 0x02195a20:
+[WARN ] No functions from 0x0210372c in ARM9 main to 0x02199fa8:
+[WARN ] No functions from 0x021044cc in ARM9 main to 0x02199c10:
+[WARN ] No functions from 0x021044e0 in ARM9 main to 0x02198e10:
+[WARN ] No functions from 0x021044f4 in ARM9 main to 0x02199660:
+[WARN ] No functions from 0x02104510 in ARM9 main to 0x02199430:
+[WARN ] No functions from 0x02104890 in ARM9 main to 0x02198e9c:
+[WARN ] No functions from 0x021048e0 in ARM9 main to 0x02198e9c:
+[WARN ] No functions from 0x02104b7c in ARM9 main to 0x02198e4c:
+[WARN ] No functions from 0x02104b8c in ARM9 main to 0x02198e74:
+[WARN ] No functions from 0x02104d78 in ARM9 main to 0x02199fa8:
+[WARN ] No functions from 0x02104ee0 in ARM9 main to 0x0219958c:
+[WARN ] No functions from 0x02104eec in ARM9 main to 0x0219958c:
+[WARN ] No functions from 0x02122080 in ARM9 main to 0x02195c9c:
+[WARN ] No functions from 0x021221c4 in ARM9 main to 0x02199fcc:
+[WARN ] No functions from 0x021221e4 in ARM9 main to 0x021987a0:
+[WARN ] No functions from 0x02125364 in ARM9 main to 0x02196968:
+[WARN ] No functions from 0x02125428 in ARM9 main to 0x02195e04:
+[WARN ] No functions from 0x021254a8 in ARM9 main to 0x021962e4:
+[WARN ] No functions from 0x02125d4c in ARM9 main to 0x021981c0:
+[WARN ] No functions from 0x0212762c in ARM9 main to 0x021985b0:
+[WARN ] No functions from 0x02127648 in ARM9 main to 0x021985b0:
+[WARN ] No functions from 0x02127d98 in ARM9 main to 0x02198658:
+[WARN ] No functions from 0x02127db0 in ARM9 main to 0x021985b0:
+[WARN ] No functions from 0x021283e8 in ARM9 main to 0x02198600:
+[WARN ] No functions from 0x02128484 in ARM9 main to 0x02198600:
+[WARN ] No functions from 0x02128538 in ARM9 main to 0x02198600:
+[WARN ] No functions from 0x021285ec in ARM9 main to 0x02198600:
+[WARN ] No functions from 0x0212868c in ARM9 main to 0x02198600:
+[WARN ] No functions from 0x0212870c in ARM9 main to 0x02198600:
+[WARN ] No functions from 0x02128788 in ARM9 main to 0x02198600:
+[WARN ] No functions from 0x0212880c in ARM9 main to 0x02198600:
+[WARN ] No functions from 0x021288ac in ARM9 main to 0x02198600:
+[WARN ] No functions from 0x02128968 in ARM9 main to 0x02198600:
+[WARN ] No functions from 0x02128a24 in ARM9 main to 0x02198600:
+[WARN ] No functions from 0x02128ae0 in ARM9 main to 0x02198600:
+[WARN ] No functions from 0x02128b9c in ARM9 main to 0x02198600:
+[WARN ] No functions from 0x02128c58 in ARM9 main to 0x02198600:
+[WARN ] No functions from 0x02128d14 in ARM9 main to 0x02198600:
+[WARN ] No functions from 0x02128dd0 in ARM9 main to 0x02198600:
+[WARN ] No functions from 0x02128e7c in ARM9 main to 0x02198600:
+[WARN ] No functions from 0x02128f10 in ARM9 main to 0x02198600:
+[WARN ] No functions from 0x02128fa4 in ARM9 main to 0x02198600:
+[WARN ] No functions from 0x02129038 in ARM9 main to 0x02198600:
+[WARN ] No functions from 0x021290cc in ARM9 main to 0x02198600:
+[WARN ] No functions from 0x02129160 in ARM9 main to 0x02198600:
+[WARN ] No functions from 0x021291f4 in ARM9 main to 0x02198600:
+[WARN ] No functions from 0x02129288 in ARM9 main to 0x02198600:
+[WARN ] No functions from 0x021293ac in ARM9 main to 0x021986b4:
+[WARN ] No functions from 0x02129410 in ARM9 main to 0x02198738:
+[WARN ] No functions from 0x021294d8 in ARM9 main to 0x021986b4:
+[WARN ] No functions from 0x02129548 in ARM9 main to 0x02198738:
+[WARN ] No functions from 0x021295d4 in ARM9 main to 0x021986b4:
+[WARN ] No functions from 0x02129644 in ARM9 main to 0x02198738:
+[WARN ] No functions from 0x021296cc in ARM9 main to 0x021986b4:
+[WARN ] No functions from 0x0212973c in ARM9 main to 0x02198738:
+[WARN ] No functions from 0x02129850 in ARM9 main to 0x02198600:
+[WARN ] No functions from 0x021298b8 in ARM9 main to 0x021986b4:
+[WARN ] No functions from 0x02129938 in ARM9 main to 0x021986b4:
+[WARN ] No functions from 0x0212999c in ARM9 main to 0x02198738:
+[WARN ] No functions from 0x02129a54 in ARM9 main to 0x021986b4:
+[WARN ] No functions from 0x02129ac4 in ARM9 main to 0x02198738:
+[WARN ] No functions from 0x02129bc8 in ARM9 main to 0x021986b4:
+[WARN ] No functions from 0x02129c58 in ARM9 main to 0x021986b4:
+[WARN ] No functions from 0x02129ccc in ARM9 main to 0x02198738:
+[WARN ] No functions from 0x0212ae74 in ARM9 main to 0x02198ef0:
+[WARN ] No functions from 0x0212c474 in ARM9 main to 0x02198598:
+[WARN ] No functions from 0x0212e4c0 in ARM9 main to 0x02199d98:
+[WARN ] No functions from 0x0212fc70 in ARM9 main to 0x02199db4:
+[WARN ] No functions from 0x02132928 in ARM9 main to 0x02199f00:
+[WARN ] No functions from 0x02132958 in ARM9 main to 0x02199f00:
+[WARN ] No functions from 0x02132dfc in ARM9 main to 0x021987a0:
+[WARN ] No functions from 0x02132f88 in ARM9 main to 0x02199e44:
+[WARN ] No functions from 0x021348be in ARM9 main to 0x0219a168:
+[WARN ] No functions from 0x021348de in ARM9 main to 0x0219a174:
+[WARN ] No functions from 0x021348fa in ARM9 main to 0x0219a178:
