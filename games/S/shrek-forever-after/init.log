@@ -1,0 +1,113 @@
+[INFO ] Loading ROM from extract/eu/config.yaml
+[INFO ] Function at 0x020e95fc was adjusted to include pre-code constant pool at 0x020e95ec
+[WARN ] Local function call from 0x02030fb6 in ARM9 main to 0x02031b16 goes to middle of function 'func_02030f7c' at 0x02030f7c, adding an external label symbol
+[WARN ] Local function call from 0x02031046 in ARM9 main to 0x02031882 goes to middle of function 'func_02030f7c' at 0x02030f7c, adding an external label symbol
+[WARN ] Local function call from 0x020553a0 in ARM9 main to 0x020e0d34 goes to middle of function 'func_020e0d24' at 0x020e0d24, adding an external label symbol
+[WARN ] Local function call from 0x020569f8 in ARM9 main to 0x020e0d34 goes to middle of function 'func_020e0d24' at 0x020e0d24, adding an external label symbol
+[WARN ] Local function call from 0x02082516 in ARM9 main to 0x02082d9e goes to middle of function 'func_020824d4' at 0x020824d4, adding an external label symbol
+[WARN ] Local function call from 0x02082520 in ARM9 main to 0x02082d70 goes to middle of function 'func_020824d4' at 0x020824d4, adding an external label symbol
+[WARN ] Local function call from 0x0208252a in ARM9 main to 0x02082d9e goes to middle of function 'func_020824d4' at 0x020824d4, adding an external label symbol
+[WARN ] Local function call from 0x02082532 in ARM9 main to 0x02082d8a goes to middle of function 'func_020824d4' at 0x020824d4, adding an external label symbol
+[WARN ] Local function call from 0x02082536 in ARM9 main to 0x02082d9e goes to middle of function 'func_020824d4' at 0x020824d4, adding an external label symbol
+[WARN ] Local function call from 0x020bb26c in ARM9 main to 0x020bba7e goes to middle of function 'func_020bb250' at 0x020bb250, adding an external label symbol
+[WARN ] Local function call from 0x020d6c54 in ARM9 main to 0x020e0ef0 goes to middle of function 'func_020e0ee4' at 0x020e0ee4, adding an external label symbol
+[WARN ] Local function call from 0x020d8794 in ARM9 main to 0x020e0ef0 goes to middle of function 'func_020e0ee4' at 0x020e0ee4, adding an external label symbol
+[WARN ] Local function call from 0x020d9b4e in ARM9 main to 0x020e0ef0 goes to middle of function 'func_020e0ee4' at 0x020e0ee4, adding an external label symbol
+[WARN ] Local function call from 0x020da1f8 in ARM9 main to 0x020dbe20 leads to no function, inserting an unknown function symbol
+[WARN ] Local function call from 0x020db410 in ARM9 main to 0x020dbe58 leads to no function, inserting an unknown function symbol
+[WARN ] Local function call from 0x020ddc10 in ARM9 main to 0x020dd934 leads to no function, inserting an unknown function symbol
+[WARN ] Local function call from 0x020e0f14 in ARM9 main to 0x020e1190 goes to middle of function 'func_020e1188' at 0x020e1188, adding an external label symbol
+[WARN ] Local function call from 0x020e6504 in ARM9 main to 0x020e0d34 goes to middle of function 'func_020e0d24' at 0x020e0d24, adding an external label symbol
+[WARN ] Local function call from 0x020e6614 in ARM9 main to 0x020e0d34 goes to middle of function 'func_020e0d24' at 0x020e0d24, adding an external label symbol
+[WARN ] Local function call from 0x020e6688 in ARM9 main to 0x020e0d34 goes to middle of function 'func_020e0d24' at 0x020e0d24, adding an external label symbol
+[WARN ] Local function call from 0x020e66e4 in ARM9 main to 0x020e0d34 goes to middle of function 'func_020e0d24' at 0x020e0d24, adding an external label symbol
+[WARN ] No functions from 0x02008b42 in ARM9 main to 0x0215f6f0:
+[WARN ] No functions from 0x0203d366 in ARM9 main to 0x0215f948:
+[WARN ] No functions from 0x0203d3d2 in ARM9 main to 0x0215f7e4:
+[WARN ] No functions from 0x0208c3be in ARM9 main to 0x0215f680:
+[WARN ] No functions from 0x0208c3ea in ARM9 main to 0x0215f788:
+[WARN ] No functions from 0x0208c6b8 in ARM9 main to 0x021600a8:
+[WARN ] No functions from 0x0208c6c0 in ARM9 main to 0x02160468:
+[WARN ] No functions from 0x0208c6c8 in ARM9 main to 0x021600a8:
+[WARN ] No functions from 0x0208c6d0 in ARM9 main to 0x02160468:
+[WARN ] No functions from 0x0208c906 in ARM9 main to 0x0216085c:
+[WARN ] No functions from 0x0208c99e in ARM9 main to 0x02160828:
+[WARN ] No functions from 0x0208c9be in ARM9 main to 0x021607f4:
+[WARN ] No functions from 0x020dc498 in ARM9 main to 0x02160834:
+[WARN ] No functions from 0x020ddf5a in ARM9 main to 0x0215d7b0:
+[WARN ] No functions from 0x020de2f8 in ARM9 main to 0x02160834:
+[WARN ] No functions from 0x020dec1a in ARM9 main to 0x02160584:
+[WARN ] No functions from 0x020dec26 in ARM9 main to 0x0215fb30:
+[WARN ] No functions from 0x020dec32 in ARM9 main to 0x02160140:
+[WARN ] No functions from 0x020dec42 in ARM9 main to 0x0215ffb4:
+[WARN ] No functions from 0x020deee4 in ARM9 main to 0x0215fb98:
+[WARN ] No functions from 0x020def2a in ARM9 main to 0x0215fb98:
+[WARN ] No functions from 0x020df0da in ARM9 main to 0x0215fb60:
+[WARN ] No functions from 0x020df0e8 in ARM9 main to 0x0215fb7c:
+[WARN ] No functions from 0x020df226 in ARM9 main to 0x02160834:
+[WARN ] No functions from 0x020df31c in ARM9 main to 0x021600a8:
+[WARN ] No functions from 0x020df324 in ARM9 main to 0x021600a8:
+[WARN ] No functions from 0x020e29b6 in ARM9 main to 0x0215d958:
+[WARN ] No functions from 0x020e2a8c in ARM9 main to 0x0216084c:
+[WARN ] No functions from 0x020e2aa4 in ARM9 main to 0x0215f6a8:
+[WARN ] No functions from 0x020e4e62 in ARM9 main to 0x0215e19c:
+[WARN ] No functions from 0x020e4ede in ARM9 main to 0x0215da5c:
+[WARN ] No functions from 0x020e4f34 in ARM9 main to 0x0215dd54:
+[WARN ] No functions from 0x020e54fe in ARM9 main to 0x0215f29c:
+[WARN ] No functions from 0x020e6ba6 in ARM9 main to 0x0215f55c:
+[WARN ] No functions from 0x020e6bb8 in ARM9 main to 0x0215f55c:
+[WARN ] No functions from 0x020e70ec in ARM9 main to 0x0215f5c8:
+[WARN ] No functions from 0x020e70fc in ARM9 main to 0x0215f55c:
+[WARN ] No functions from 0x020e762a in ARM9 main to 0x0215f590:
+[WARN ] No functions from 0x020e7694 in ARM9 main to 0x0215f590:
+[WARN ] No functions from 0x020e7700 in ARM9 main to 0x0215f590:
+[WARN ] No functions from 0x020e776c in ARM9 main to 0x0215f590:
+[WARN ] No functions from 0x020e77ca in ARM9 main to 0x0215f590:
+[WARN ] No functions from 0x020e781c in ARM9 main to 0x0215f590:
+[WARN ] No functions from 0x020e786e in ARM9 main to 0x0215f590:
+[WARN ] No functions from 0x020e78ba in ARM9 main to 0x0215f590:
+[WARN ] No functions from 0x020e791a in ARM9 main to 0x0215f590:
+[WARN ] No functions from 0x020e798e in ARM9 main to 0x0215f590:
+[WARN ] No functions from 0x020e7a02 in ARM9 main to 0x0215f590:
+[WARN ] No functions from 0x020e7a76 in ARM9 main to 0x0215f590:
+[WARN ] No functions from 0x020e7aea in ARM9 main to 0x0215f590:
+[WARN ] No functions from 0x020e7b5e in ARM9 main to 0x0215f590:
+[WARN ] No functions from 0x020e7bd2 in ARM9 main to 0x0215f590:
+[WARN ] No functions from 0x020e7c46 in ARM9 main to 0x0215f590:
+[WARN ] No functions from 0x020e7cac in ARM9 main to 0x0215f590:
+[WARN ] No functions from 0x020e7d04 in ARM9 main to 0x0215f590:
+[WARN ] No functions from 0x020e7d5c in ARM9 main to 0x0215f590:
+[WARN ] No functions from 0x020e7db4 in ARM9 main to 0x0215f590:
+[WARN ] No functions from 0x020e7e0c in ARM9 main to 0x0215f590:
+[WARN ] No functions from 0x020e7e64 in ARM9 main to 0x0215f590:
+[WARN ] No functions from 0x020e7ebc in ARM9 main to 0x0215f590:
+[WARN ] No functions from 0x020e7f14 in ARM9 main to 0x0215f590:
+[WARN ] No functions from 0x020e7fd0 in ARM9 main to 0x0215f604:
+[WARN ] No functions from 0x020e8018 in ARM9 main to 0x0215f65c:
+[WARN ] No functions from 0x020e8098 in ARM9 main to 0x0215f604:
+[WARN ] No functions from 0x020e80e0 in ARM9 main to 0x0215f65c:
+[WARN ] No functions from 0x020e813c in ARM9 main to 0x0215f604:
+[WARN ] No functions from 0x020e8184 in ARM9 main to 0x0215f65c:
+[WARN ] No functions from 0x020e81dc in ARM9 main to 0x0215f604:
+[WARN ] No functions from 0x020e8224 in ARM9 main to 0x0215f65c:
+[WARN ] No functions from 0x020e82c8 in ARM9 main to 0x0215f590:
+[WARN ] No functions from 0x020e8306 in ARM9 main to 0x0215f604:
+[WARN ] No functions from 0x020e8350 in ARM9 main to 0x0215f604:
+[WARN ] No functions from 0x020e8398 in ARM9 main to 0x0215f65c:
+[WARN ] No functions from 0x020e840c in ARM9 main to 0x0215f604:
+[WARN ] No functions from 0x020e8454 in ARM9 main to 0x0215f65c:
+[WARN ] No functions from 0x020e84fe in ARM9 main to 0x0215f604:
+[WARN ] No functions from 0x020e855c in ARM9 main to 0x0215f604:
+[WARN ] No functions from 0x020e85a4 in ARM9 main to 0x0215f65c:
+[WARN ] No functions from 0x020e9922 in ARM9 main to 0x0215fbd8:
+[WARN ] No functions from 0x020ea948 in ARM9 main to 0x0215f548:
+[WARN ] No functions from 0x020ec06e in ARM9 main to 0x02160694:
+[WARN ] No functions from 0x020ed0fc in ARM9 main to 0x021606a8:
+[WARN ] No functions from 0x020eeea8 in ARM9 main to 0x021607c0:
+[WARN ] No functions from 0x020eeec2 in ARM9 main to 0x021607c0:
+[WARN ] No functions from 0x020ef1aa in ARM9 main to 0x0215f6a8:
+[WARN ] No functions from 0x020ef2ba in ARM9 main to 0x02160738:
+[WARN ] No functions from 0x020f0582 in ARM9 main to 0x02160970:
+[WARN ] No functions from 0x020f05a2 in ARM9 main to 0x0216097c:
+[WARN ] No functions from 0x020f05be in ARM9 main to 0x02160980:
+[WARN ] No functions from 0x020f05e6 in ARM9 main to 0x02160b3c:
