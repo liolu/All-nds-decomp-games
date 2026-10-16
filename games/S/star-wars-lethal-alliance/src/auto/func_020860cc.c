@@ -1,0 +1,5 @@
+#include "m2c.h"
+
+void func_020860cc(void *arg0) {
+    M2C_FIELD(arg0, s32 *, 0) = (s32) M2C_FIELD(arg0, s32 *, 8);
+}
