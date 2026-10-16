@@ -1,0 +1,32 @@
+/* compiler: 1.2/sp2p3 */
+#include "m2c.h"
+
+s32 func_02063cf8();                                /* extern */
+M2C_UNK func_02063d0c(s32);                         /* extern */
+s32 func_02063d24();                                /* extern */
+M2C_UNK func_02063d38(s32);                         /* extern */
+s32 func_020648e0(s16, void *);                     /* extern */
+
+s32 func_0206205c(s16 arg0, void *arg1, M2C_UNK (*arg2)(), s32 arg3) {
+    s32 temp_r0;
+    s32 var_r5;
+
+    if (arg3 != 0) {
+        var_r5 = func_02063d24();
+    } else {
+        var_r5 = func_02063cf8();
+    }
+    temp_r0 = func_020648e0(arg0, arg1);
+    if (temp_r0 == 0) {
+        if (arg2 != NULL) {
+            arg2();
+        }
+        M2C_FIELD(arg1, s16 *, 4) = arg0;
+    }
+    if (arg3 != 0) {
+        func_02063d38(var_r5);
+    } else {
+        func_02063d0c(var_r5);
+    }
+    return temp_r0;
+}
