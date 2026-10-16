@@ -6,3 +6,23 @@
     .ctor       start:0x021543bc end:0x02154720 kind:rodata align:4
     .data       start:0x02154740 end:0x0217b5c0 kind:data align:32
     .bss        start:0x0217b5c0 end:0x02195680 kind:bss align:32
+
+src/auto/func_0202ab98.c:
+    complete
+    .text       start:0x0202ab98 end:0x0202ab9c
+
+src/auto/func_0207728c.c:
+    complete
+    .text       start:0x0207728c end:0x02077290
+
+src/auto/func_02095964.c:
+    complete
+    .text       start:0x02095964 end:0x02095968
+
+src/auto/func_0209e71c.c:
+    complete
+    .text       start:0x0209e71c end:0x0209e720
+
+src/auto/func_020b51b0.c:
+    complete
+    .text       start:0x020b51b0 end:0x020b51c4

@@ -4,6 +4,18 @@ Nintendo DS, game code `VPEV`. Matching decompilation with Metrowerks mwccarm (c
 
 No game assets in this repository: see `extract/README.md`.
 
+## Progress
+
+<!-- progress:start -->
+`░░░░░░░░░░░░░░░░░░░░` **0.00%** of the code matched · data 0.00% · 5/8880 functions
+
+| Part of the code | Files | Functions | Share of all code |
+|---|---|---|---|
+| Auto-matched (raw m2c output, to clean up) | 5 | 5/5 | 0.00% |
+
+*Updated 2026-10-16 by `python tools/match.py progress` ([DS Decomp Studio](https://github.com/liolu/ds-decomp-studio)). A function counts only when it compiles to the exact same bytes and the ROM still rebuilds byte for byte.*
+<!-- progress:end -->
+
 ```shell
 python tools/configure.py eu
 ninja
