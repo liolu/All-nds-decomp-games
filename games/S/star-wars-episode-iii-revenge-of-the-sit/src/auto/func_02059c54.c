@@ -1,0 +1,12 @@
+/* compiler: 1.2/sp2p3 */
+#include "m2c.h"
+
+M2C_UNK func_020457d0(s32, s32);                    /* extern */
+M2C_UNK func_02046628(s32);                         /* extern */
+M2C_UNK func_02059d00(s32, M2C_UNK, M2C_UNK);       /* extern */
+
+void func_02059c54(s32 arg0, s32 arg1, M2C_UNK arg2, M2C_UNK arg3) {
+    func_02059d00(arg0, arg2, arg3);
+    func_020457d0(arg0, arg0 + arg1);
+    func_02046628(arg0);
+}
