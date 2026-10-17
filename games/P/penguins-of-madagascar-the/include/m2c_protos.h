@@ -6,6 +6,9 @@
 #include "engine.h"
 // clang-format on
 
+#ifndef M2C_SELF_func_020b51b0
+s32 func_020b51b0(s32);
+#endif
 #ifndef M2C_SELF_AutoloadCallback
 void AutoloadCallback(void);
 #endif
@@ -4349,9 +4352,6 @@ void func_0202ab90(void);
 #endif
 #ifndef M2C_SELF_func_0202ab94
 void func_0202ab94(void);
-#endif
-#ifndef M2C_SELF_func_0202ab98
-void func_0202ab98(void);
 #endif
 #ifndef M2C_SELF_func_0202ab9c
 void func_0202ab9c(void);
@@ -10515,9 +10515,6 @@ void func_0207719c(M2C_UNK);
 #ifndef M2C_SELF_func_020771ac
 M2C_UNK func_020771ac(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_0207728c
-void func_0207728c(void);
-#endif
 #ifndef M2C_SELF_func_02077290
 void func_02077290(M2C_UNK);
 #endif
@@ -13638,9 +13635,6 @@ void func_020957f8(M2C_UNK, M2C_UNK);
 #ifndef M2C_SELF_func_02095880
 void func_02095880(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
-#ifndef M2C_SELF_func_02095964
-void func_02095964(void);
-#endif
 #ifndef M2C_SELF_func_02095968
 void func_02095968(M2C_UNK, M2C_UNK);
 #endif
@@ -15200,9 +15194,6 @@ void func_0209e70c(void);
 #endif
 #ifndef M2C_SELF_func_0209e710
 void func_0209e710(void);
-#endif
-#ifndef M2C_SELF_func_0209e71c
-void func_0209e71c(void);
 #endif
 #ifndef M2C_SELF_func_0209e720
 M2C_UNK func_0209e720(void);
@@ -17861,9 +17852,6 @@ void func_020b510c(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020b5158
 void func_020b5158(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
-#endif
-#ifndef M2C_SELF_func_020b51b0
-void func_020b51b0(M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020b51c4
 void func_020b51c4(M2C_UNK);
