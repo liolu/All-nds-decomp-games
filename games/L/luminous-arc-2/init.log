@@ -1,0 +1,17 @@
+[INFO ] Loading ROM from extract/eu/config.yaml
+[INFO ] Function at 0x0200c064 was adjusted to include pre-code constant pool at 0x0200c050
+[WARN ] Local function call from 0x02000ea0 in ARM9 main to 0x02021a50 goes to middle of function 'func_02021a40' at 0x02021a40, adding an external label symbol
+[WARN ] Local function call from 0x02000f14 in ARM9 main to 0x02021a50 goes to middle of function 'func_02021a40' at 0x02021a40, adding an external label symbol
+[WARN ] Local function call from 0x02000f64 in ARM9 main to 0x02021a50 goes to middle of function 'func_02021a40' at 0x02021a40, adding an external label symbol
+[WARN ] Local function call from 0x0200e8b0 in ARM9 main to 0x02021a50 goes to middle of function 'func_02021a40' at 0x02021a40, adding an external label symbol
+[WARN ] Local function call from 0x0201992c in ARM9 main to 0x02021c0c goes to middle of function 'func_02021c00' at 0x02021c00, adding an external label symbol
+[WARN ] Local function call from 0x0201e6bc in ARM9 main to 0x02021c0c goes to middle of function 'func_02021c00' at 0x02021c00, adding an external label symbol
+[WARN ] Local function call from 0x02021c30 in ARM9 main to 0x02021e7c goes to middle of function 'func_02021e74' at 0x02021e74, adding an external label symbol
+[WARN ] Local function call from 0x0206fe48 in ARM9 main to 0x02021a50 goes to middle of function 'func_02021a40' at 0x02021a40, adding an external label symbol
+[WARN ] Local function call from 0x020cf7b0 in ARM9 main to 0x02021a50 goes to middle of function 'func_02021a40' at 0x02021a40, adding an external label symbol
+[WARN ] Local function call from 0x020cf7e4 in ARM9 main to 0x02021a50 goes to middle of function 'func_02021a40' at 0x02021a40, adding an external label symbol
+[WARN ] Local function call from 0x020d549c in ARM9 main to 0x02021c0c goes to middle of function 'func_02021c00' at 0x02021c00, adding an external label symbol
+[WARN ] Local function call from 0x020d54c0 in ARM9 main to 0x02021c0c goes to middle of function 'func_02021c00' at 0x02021c00, adding an external label symbol
+[WARN ] Local function call from 0x020d7004 in ARM9 main to 0x020eda20 leads to no function, inserting an unknown function symbol
+[WARN ] Local function call from 0x020d7140 in ARM9 main to 0x020e1518 leads to no function, inserting an unknown function symbol
+[WARN ] Local function call from 0x020d7184 in ARM9 main to 0x020e1ed8 leads to no function, inserting an unknown function symbol
