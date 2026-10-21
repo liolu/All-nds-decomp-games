@@ -1,0 +1,83 @@
+/* compiler: 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto */
+/* WM_StartMPEx from projets/blue-dragon-awakened-shadow/src/donor/WM_StartMPEx.c (same code in another game of this
+ * workspace), reused by tools/donor_match.py */
+typedef unsigned char u8;
+typedef unsigned short int u16;
+typedef unsigned long u32;
+typedef int BOOL;
+extern void func_020074b8(u32 data, void *destp, u32 size);
+static inline void MI_CpuFill32(void *dest, u32 data, u32 size) {
+    ((void) 0);
+    ((void) 0);
+
+    func_020074b8(data, dest, size);
+}
+static inline void MI_CpuClear32(void *dest, u32 size) {
+    MI_CpuFill32(dest, 0, size);
+}
+typedef enum WMErrCode {
+    WM_ERRCODE_SUCCESS            = 0,
+    WM_ERRCODE_FAILED             = 1,
+    WM_ERRCODE_OPERATING          = 2,
+    WM_ERRCODE_ILLEGAL_STATE      = 3,
+    WM_ERRCODE_WM_DISABLE         = 4,
+    WM_ERRCODE_NO_KEYSET          = 5,
+    WM_ERRCODE_NO_DATASET         = 5,
+    WM_ERRCODE_INVALID_PARAM      = 6,
+    WM_ERRCODE_NO_CHILD           = 7,
+    WM_ERRCODE_FIFO_ERROR         = 8,
+    WM_ERRCODE_TIMEOUT            = 9,
+    WM_ERRCODE_SEND_QUEUE_FULL    = 10,
+    WM_ERRCODE_NO_ENTRY           = 11,
+    WM_ERRCODE_OVER_MAX_ENTRY     = 12,
+    WM_ERRCODE_INVALID_POLLBITMAP = 13,
+    WM_ERRCODE_NO_DATA            = 14,
+    WM_ERRCODE_SEND_FAILED        = 15,
+    WM_ERRCODE_DCF_TEST,
+    WM_ERRCODE_WL_INVALID_PARAM,
+    WM_ERRCODE_WL_LENGTH_ERR,
+    WM_ERRCODE_FLASH_ERROR,
+    WM_ERRCODE_MAX
+} WMErrCode;
+typedef void (*WMCallbackFunc)(void *arg);
+typedef struct WMMPTmpParam {
+    u32 mask;
+    u16 minFrequency;
+    u16 frequency;
+    u16 maxFrequency;
+    u16 defaultRetryCount;
+    u8 minPollBmpMode;
+    u8 singlePacketMode;
+    u8 ignoreFatalErrorMode;
+    u8 reserved[1];
+} WMMPTmpParam;
+extern WMErrCode func_02011988(WMCallbackFunc callback, u16 *recvBuf, u16 recvBufSize, u16 *sendBuf, u16 sendBufSize,
+                               u16 mpFreq, u16 defaultRetryCount, BOOL minPollBmpMode, BOOL singlePacketMode, BOOL fixFreqMode,
+                               BOOL ignoreFatalError);
+extern const u16(*ctrdgi_fl_maxtime);
+extern WMErrCode func_02011818(WMCallbackFunc callback, u16 *recvBuf, u16 recvBufSize, u16 *sendBuf, u16 sendBufSize,
+                               WMMPTmpParam *tmpParam);
+extern WMErrCode func_02011818(WMCallbackFunc callback, u16 *recvBuf, u16 recvBufSize, u16 *sendBuf, u16 sendBufSize,
+                               WMMPTmpParam *tmpParam);
+WMErrCode func_02011988(WMCallbackFunc callback, u16 *recvBuf, u16 recvBufSize, u16 *sendBuf, u16 sendBufSize, u16 mpFreq,
+                        u16 defaultRetryCount, BOOL minPollBmpMode, BOOL singlePacketMode, BOOL fixFreqMode,
+                        BOOL ignoreFatalError) {
+    WMMPTmpParam tmpParam;
+
+    MI_CpuClear32(&tmpParam, sizeof(tmpParam));
+
+    tmpParam.mask                 = 0x0001 | 0x0002 | 0x0200 | 0x0400 | 0x0800 | 0x1000;
+    tmpParam.minFrequency         = mpFreq;
+    tmpParam.frequency            = mpFreq;
+    tmpParam.defaultRetryCount    = defaultRetryCount;
+    tmpParam.minPollBmpMode       = (u8) minPollBmpMode;
+    tmpParam.singlePacketMode     = (u8) singlePacketMode;
+    tmpParam.ignoreFatalErrorMode = (u8) ignoreFatalError;
+
+    if (fixFreqMode != 0 && mpFreq != 0) {
+        tmpParam.mask |= 0x0004;
+        tmpParam.maxFrequency = mpFreq;
+    }
+
+    return func_02011818(callback, recvBuf, recvBufSize, sendBuf, sendBufSize, &tmpParam);
+}

@@ -1,0 +1,12 @@
+#include "engine.h"
+#include "m2c.h"
+
+s32 func_0207bba8(s32 arg0) {
+    s32 var_r0;
+
+    var_r0 = arg0;
+    if ((u32) var_r0 > 2U) {
+        var_r0 = (s32) (u8) (var_r0 - 3);
+    }
+    return var_r0;
+}

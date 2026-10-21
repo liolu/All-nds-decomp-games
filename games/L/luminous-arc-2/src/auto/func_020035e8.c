@@ -1,0 +1,17 @@
+#include "m2c.h"
+
+s32 func_020029b4();                                /* extern */
+M2C_UNK func_02007050(s32, M2C_UNK, s32, u32);      /* extern */
+M2C_UNK func_02007484(M2C_UNK, s32, u32);           /* extern */
+extern s32 data_020ee404;
+
+void func_020035e8(M2C_UNK arg0, s32 arg1, u32 arg2) {
+    s32 temp_ip;
+
+    temp_ip = func_020029b4();
+    if ((data_020ee404 != -1) && (arg2 > 0x1CU)) {
+        func_02007050(data_020ee404, arg0, temp_ip + arg1, arg2);
+        return;
+    }
+    func_02007484(arg0, temp_ip + arg1, arg2);
+}

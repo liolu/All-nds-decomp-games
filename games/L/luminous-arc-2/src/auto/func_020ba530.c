@@ -1,0 +1,17 @@
+#include "m2c.h"
+
+s32 *func_020aa070(s32);                            /* extern */
+extern M2C_UNK data_02173dcc;
+
+s32 func_020ba530(void *arg0, s32 arg1) {
+    void *var_r0;
+
+    var_r0 = arg0;
+    if (var_r0 == NULL) {
+        var_r0 = M2C_FIELD(&data_02173dcc, void **, 0xC);
+    }
+    if (var_r0 == NULL) {
+        return arg1;
+    }
+    return *func_020aa070(M2C_FIELD(var_r0, s32 *, 0x1C));
+}
