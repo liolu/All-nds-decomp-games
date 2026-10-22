@@ -3,3 +3,35 @@
     .ctor       start:0x02167bac end:0x02167bac kind:rodata align:4
     .data       start:0x02167bc0 end:0x02167f20 kind:data align:32
     .bss        start:0x02167f20 end:0x02167f60 kind:bss align:32
+
+src/data/ov001_data_02167c50.c:
+    complete
+    .data       start:0x02167c50 end:0x02167c70
+
+src/data/ov001_data_02167ca0.c:
+    complete
+    .data       start:0x02167ca0 end:0x02167ca4
+
+src/data/ov001_data_02167e58.c:
+    complete
+    .data       start:0x02167e58 end:0x02167e5c
+
+src/data/ov001_data_02167e5c.c:
+    complete
+    .data       start:0x02167e5c end:0x02167e60
+
+src/data/ov001_data_02167e60.c:
+    complete
+    .data       start:0x02167e60 end:0x02167e64
+
+src/data/ov001_data_02167e64.c:
+    complete
+    .data       start:0x02167e64 end:0x02167e68
+
+src/data/ov001_data_02167e68.c:
+    complete
+    .data       start:0x02167e68 end:0x02167e6c
+
+src/data/ov001_data_02167e6c.c:
+    complete
+    .data       start:0x02167e6c end:0x02167e70
