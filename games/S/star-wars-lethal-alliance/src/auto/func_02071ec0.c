@@ -33,7 +33,7 @@ typedef struct UnkWmDataSharingInfo {
 } UnkWmDataSharingInfo;
 extern u16 func_02070804(void);
 extern u32 func_02071330(UnkWmCallbackFunc callback, void *arg, const u16 *sendData, u16 sendDataSize, u16 destBitmap,
-                                u16 port, u16 prio);
+                         u16 port, u16 prio);
 extern void func_02071afc(void *arg);
 extern void func_02071ec0(UnkWmDataSharingInfo *dsInfo, BOOL delayed);
 void func_02071afc(void *arg);
@@ -62,7 +62,7 @@ void func_02071ec0(UnkWmDataSharingInfo *dsInfo, BOOL delayed) {
         func_0206728c(enabled);
 
         result = func_02071330(func_02071afc, dsInfo, (u16 *) &dsInfo->ds[oldWI], dsInfo->dataSetLength,
-                                      (u16) (dsInfo->aidBitmap & connectedAIDs), dsInfo->port, 1);
+                               (u16) (dsInfo->aidBitmap & connectedAIDs), dsInfo->port, 1);
         if (result == 7) {
             dsInfo->seqNum[oldWI] = 0xffff;
             dsInfo->sendIndex     = (u16) ((dsInfo->sendIndex + 1) & 3);

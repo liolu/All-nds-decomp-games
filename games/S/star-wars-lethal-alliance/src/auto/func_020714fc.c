@@ -36,7 +36,7 @@ extern u16 func_020707a4(void);
 extern u16 func_02070804(void);
 extern u32 func_0207084c(u16 port, UnkWmCallbackFunc callback, void *arg);
 extern u32 func_02071330(UnkWmCallbackFunc callback, void *arg, const u16 *sendData, u16 sendDataSize, u16 destBitmap,
-                                u16 port, u16 prio);
+                         u16 port, u16 prio);
 extern u32 func_020714fc(UnkWmDataSharingInfo *dsInfo, u16 port, u16 aidBitmap, u16 dataLength, BOOL doubleMode);
 extern void func_02071afc(void *arg);
 extern void func_02071bd4(void *arg);
@@ -94,8 +94,8 @@ u32 func_020714fc(UnkWmDataSharingInfo *dsInfo, u16 port, u16 aidBitmap, u16 dat
 
         for (i = 0; i < ((dsInfo->doubleMode == 1) ? 2 : 1); i++) {
             dsInfo->writeIndex = (u16) ((dsInfo->writeIndex + 1) & 3);
-            result = func_02071330(func_02071afc, dsInfo, (u16 *) &dsInfo->ds[i], dsInfo->dataSetLength,
-                                          (u16) (dsInfo->aidBitmap & connectedAIDs), dsInfo->port, 1);
+            result             = func_02071330(func_02071afc, dsInfo, (u16 *) &dsInfo->ds[i], dsInfo->dataSetLength,
+                                               (u16) (dsInfo->aidBitmap & connectedAIDs), dsInfo->port, 1);
             if (result == 7) {
                 dsInfo->seqNum[i] = 0xffff;
                 dsInfo->sendIndex = (u16) ((dsInfo->sendIndex + 1) & 3);

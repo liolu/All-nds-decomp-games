@@ -33,7 +33,7 @@ extern u32 func_02070348(s32 paramNum, ...);
 extern u16 func_020707a4(void);
 extern u16 func_02070804(void);
 extern u32 func_02071330(UnkWmCallbackFunc callback, void *arg, const u16 *sendData, u16 sendDataSize, u16 destBitmap,
-                                u16 port, u16 prio);
+                         u16 port, u16 prio);
 extern void func_02071afc(void *arg);
 extern void func_02071df4(UnkWmDataSharingInfo *dsInfo, u16 aid, u16 *data);
 extern void func_02071ec0(UnkWmDataSharingInfo *dsInfo, BOOL delayed);
@@ -83,8 +83,8 @@ u32 func_020717b4(UnkWmDataSharingInfo *dsInfo, const u16 *sendData, UnkWmDataSe
 
             dsInfo->state = 1;
             index         = (u16) ((dsInfo->writeIndex + 3) & 3);
-            ret = func_02071330(func_02071afc, dsInfo, (u16 *) &dsInfo->ds[index], dsInfo->dataSetLength,
-                                       (u16) (dsInfo->aidBitmap & connectedAIDs), dsInfo->port, 1);
+            ret           = func_02071330(func_02071afc, dsInfo, (u16 *) &dsInfo->ds[index], dsInfo->dataSetLength,
+                                          (u16) (dsInfo->aidBitmap & connectedAIDs), dsInfo->port, 1);
             if (ret == 7) {
                 dsInfo->seqNum[index] = 0xffff;
                 dsInfo->sendIndex     = (u16) ((dsInfo->sendIndex + 1) & 3);
@@ -137,8 +137,7 @@ u32 func_020717b4(UnkWmDataSharingInfo *dsInfo, const u16 *sendData, UnkWmDataSe
             UnkWmDataSet *ds = &dsInfo->ds[dsInfo->sendIndex];
 
             func_02067bcc(sendData, ds->childData, dsInfo->dataLength);
-            ret               = func_02071330(func_02071afc, dsInfo, ds->childData, dsInfo->dataLength,
-                                                     dsInfo->aidBitmap, dsInfo->port, 1);
+            ret = func_02071330(func_02071afc, dsInfo, ds->childData, dsInfo->dataLength, dsInfo->aidBitmap, dsInfo->port, 1);
             dsInfo->sendIndex = (u16) ((dsInfo->sendIndex + 1) & 3);
             if (ret != 2 && ret != 0) {
                 dsInfo->state = 5;

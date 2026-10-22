@@ -1,6 +1,6 @@
 /* compiler: 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto */
-/* func_0205e65c from https://github.com/kh-recoded-decomp/kh-recoded-decomp eu/src/asm_stubs/calls/func_0205e65c.c (license: MIT), reused by
- * tools/donor_match.py */
+/* func_0205e65c from https://github.com/kh-recoded-decomp/kh-recoded-decomp eu/src/asm_stubs/calls/func_0205e65c.c (license:
+ * MIT), reused by tools/donor_match.py */
 // clang-format off
 #pragma ipa file
 asm unsigned int func_0205e65c (float value)

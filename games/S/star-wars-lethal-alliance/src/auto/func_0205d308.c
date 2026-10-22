@@ -1,6 +1,6 @@
 /* compiler: 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto */
-/* func_0205d308 from https://github.com/sturmds/advance-wars-dual-strike-decomp src/sdk/runtime/dfltu.c (license: CC0-1.0), reused by
- * tools/donor_match.py */
+/* func_0205d308 from https://github.com/sturmds/advance-wars-dual-strike-decomp src/sdk/runtime/dfltu.c (license: CC0-1.0),
+ * reused by tools/donor_match.py */
 typedef unsigned int u32;
 // clang-format off
 asm double func_0205d308(u32 x)
