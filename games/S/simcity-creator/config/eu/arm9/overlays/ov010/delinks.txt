@@ -3,3 +3,11 @@
     .ctor       start:0x02164514 end:0x02164514 kind:rodata align:4
     .data       start:0x02164520 end:0x021645c0 kind:data align:32
     .bss        start:0x021645c0 end:0x021645e0 kind:bss align:32
+
+src/auto/func_ov010_02163d5c.c:
+    complete
+    .text       start:0x02163d5c end:0x02163d68
+
+src/auto/func_ov010_021644cc.c:
+    complete
+    .text       start:0x021644cc end:0x021644d4
