@@ -15,7 +15,7 @@ Matching decompilation of Layton4 (EU, `BLFP`): C compiled with the original com
 python tools/configure.py eu
 ninja
 python tools/match.py verify
-python tools/auto_match.py        # m2c drafts + assembly-only functions
+python ../../studio/gametools/auto_match.py        # m2c drafts + assembly-only functions
 ```
 
 ## TODO for a new project
