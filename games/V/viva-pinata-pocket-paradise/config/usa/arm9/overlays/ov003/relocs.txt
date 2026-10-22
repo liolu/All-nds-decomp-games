@@ -980,9 +980,9 @@ from:0x020de0d6 kind:thumb_call to:0x02089410 module:main
 from:0x020de0ea kind:thumb_call to:0x020894b4 module:main
 from:0x020de0f2 kind:thumb_call to:0x020895a8 module:main
 from:0x020de102 kind:thumb_call_arm to:0x01ffdf24 module:itcm
-from:0x020de110 kind:thumb_call_arm to:0x01ffdf4c module:none
-from:0x020de11c kind:thumb_call_arm to:0x01ffdf4c module:none
-from:0x020de126 kind:thumb_call_arm to:0x01ffdf4c module:none
+from:0x020de110 kind:thumb_call_arm to:0x01ffdf4c module:itcm
+from:0x020de11c kind:thumb_call_arm to:0x01ffdf4c module:itcm
+from:0x020de126 kind:thumb_call_arm to:0x01ffdf4c module:itcm
 from:0x020de12c kind:thumb_call to:0x020895c0 module:main
 from:0x020de134 kind:thumb_call to:0x0208936c module:main
 from:0x020de13c kind:thumb_call to:0x02089398 module:main
