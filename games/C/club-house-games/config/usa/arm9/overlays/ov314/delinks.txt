@@ -2,3 +2,15 @@
     .ctor       start:0x02294e18 end:0x02294e18 kind:rodata align:4
     .data       start:0x02294e20 end:0x022958e0 kind:data align:32
     .bss        start:0x022958e0 end:0x022a3f40 kind:bss align:32
+
+src/data/ov314_data_02295834.c:
+    complete
+    .data       start:0x02295834 end:0x02295838
+
+src/data/ov314_data_02295838.c:
+    complete
+    .data       start:0x02295838 end:0x0229583c
+
+src/data/ov314_data_0229583c.c:
+    complete
+    .data       start:0x0229583c end:0x02295840

@@ -27,3 +27,11 @@ src/auto/func_ov304_0227a960.c:
 src/auto/func_ov304_0227a970.c:
     complete
     .text       start:0x0227a970 end:0x0227a980
+
+src/data/ov304_data_02295df8.c:
+    complete
+    .data       start:0x02295df8 end:0x02295e20
+
+src/data/ov304_data_02294090.c:
+    complete
+    .data       start:0x02294090 end:0x02294098

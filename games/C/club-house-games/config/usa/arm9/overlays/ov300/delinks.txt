@@ -7,3 +7,15 @@
 src/auto/func_ov300_022a55bc.c:
     complete
     .text       start:0x022a55bc end:0x022a55c8
+
+src/data/ov300_data_022a9a20.c:
+    complete
+    .data       start:0x022a9a20 end:0x022a9a30
+
+src/data/ov300_data_022a9a50.c:
+    complete
+    .data       start:0x022a9a50 end:0x022a9a70
+
+src/data/ov300_data_022a9a70.c:
+    complete
+    .data       start:0x022a9a70 end:0x022a9a98

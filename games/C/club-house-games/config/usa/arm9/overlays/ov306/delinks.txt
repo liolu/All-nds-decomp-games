@@ -1,3 +1,7 @@
     .text       start:0x01ffdcc0 end:0x01ffe5a0 kind:code align:32
     .ctor       start:0x01ffe5a0 end:0x01ffe5a0 kind:rodata align:4
     .bss        start:0x01ffe5c0 end:0x01ffe5e0 kind:bss align:32
+
+src/auto/func_ov306_01ffe228.c:
+    complete
+    .text       start:0x01ffe228 end:0x01ffe238

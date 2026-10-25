@@ -1,0 +1,2 @@
+#include "m2c.h"
+char data_0219a33c[40] = "WM_STATECODE_DISCONNECTED_FROM_MYSELF";

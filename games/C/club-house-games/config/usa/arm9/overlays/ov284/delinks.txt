@@ -2,3 +2,11 @@
     .ctor       start:0x0229d52c end:0x0229d52c kind:rodata align:4
     .data       start:0x0229d540 end:0x0229d580 kind:data align:32
     .bss        start:0x0229d580 end:0x0229d620 kind:bss align:32
+
+src/data/ov284_data_0229d558.c:
+    complete
+    .data       start:0x0229d558 end:0x0229d580
+
+src/auto/func_ov284_0229b144.c:
+    complete
+    .text       start:0x0229b144 end:0x0229b15c

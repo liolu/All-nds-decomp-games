@@ -128,3 +128,27 @@ src/donor/func_0207c884.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
 src/donor/func_0207ecf4.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
 src/auto/func_02006400.c 1.2/sp2p3
 src/auto/func_02050f28.c 1.2/sp2p3 -thumb
+src/auto/func_02044290.c 1.2/sp2p3
+src/auto/func_02063940.c 1.2/sp2p3 -thumb
+src/auto/func_0202fb08.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_02058334.c 1.2/sp3
+src/auto/func_020588a8.c 1.2/sp3
+src/auto/func_02058914.c 1.2/sp3
+src/auto/func_0205ad1c.c 1.2/sp3
+src/auto/func_0205bfb4.c 1.2/sp3
+src/auto/func_0205c56c.c 1.2/sp3
+src/auto/func_0205c9e0.c 1.2/sp3
+src/auto/func_0205d1f8.c 1.2/sp3
+src/donor/func_0202da34.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_02036cd8.c 2.0/sp1p5
+src/donor/func_02036e10.c 2.0/sp1p5
+src/donor/func_02036e20.c 2.0/sp1p5
+src/donor/func_02036e30.c 2.0/sp1p5
+src/donor/func_02036e60.c 2.0/sp1p5
+src/donor/func_02036e84.c 2.0/sp1p5
+src/donor/func_02046fdc.c 2.0/sp1p5
+src/donor/func_02049480.c 2.0/sp1p5
+src/donor/func_0204949c.c 2.0/sp1p5
+src/donor/func_0205de38.c 2.0/sp1p5
+src/donor/func_020741e4.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/donor/func_0207aefc.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto

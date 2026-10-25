@@ -2,3 +2,7 @@
     .ctor       start:0x022a7394 end:0x022a7394 kind:rodata align:4
     .data       start:0x022a73a0 end:0x022a83e0 kind:data align:32
     .bss        start:0x022a83e0 end:0x022aac00 kind:bss align:32
+
+src/data/ov308_data_022a7440.c:
+    complete
+    .data       start:0x022a7440 end:0x022a7448

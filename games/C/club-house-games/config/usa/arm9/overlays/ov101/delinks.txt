@@ -1,3 +1,19 @@
     .ctor       start:0x02268c80 end:0x02268c80 kind:rodata align:4
     .data       start:0x02268ca0 end:0x0226d2a0 kind:data align:32
     .bss        start:0x0226d2a0 end:0x0226d2a0 kind:bss align:32
+
+src/data/ov101_data_02269384.c:
+    complete
+    .data       start:0x02269384 end:0x02269388
+
+src/data/ov101_data_02269388.c:
+    complete
+    .data       start:0x02269388 end:0x02269390
+
+src/data/ov101_data_0226b3d8.c:
+    complete
+    .data       start:0x0226b3d8 end:0x0226b3e0
+
+src/data/ov101_data_0226b95c.c:
+    complete
+    .data       start:0x0226b95c end:0x0226b960
