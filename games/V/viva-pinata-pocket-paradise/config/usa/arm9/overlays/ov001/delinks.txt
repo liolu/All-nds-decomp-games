@@ -4,3 +4,15 @@
     .ctor       start:0x020d8da4 end:0x020d8da8 kind:rodata align:4
     .data       start:0x020d8dc0 end:0x020d8e40 kind:data align:32
     .bss        start:0x020d8e40 end:0x020d8e60 kind:bss align:32
+
+src/data/ov001_rodata_020d8d30.c:
+    complete
+    .rodata     start:0x020d8d30 end:0x020d8d38
+
+src/data/ov001_data_020d8dc8.c:
+    complete
+    .data       start:0x020d8dc8 end:0x020d8dd0
+
+src/data/ov001_data_020d8dec.c:
+    complete
+    .data       start:0x020d8dec end:0x020d8e18

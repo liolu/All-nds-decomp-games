@@ -1,0 +1,35 @@
+#include "m2c.h"
+extern u8 func_0207f1a0[];
+extern u8 func_0207f100[];
+extern u8 func_ov004_020ba6ac[];
+extern u8 func_0207f0c0[];
+extern u8 func_ov004_020ba6c8[];
+extern u8 func_ov004_020bcb20[];
+extern u8 func_ov004_020bcb34[];
+extern u8 func_ov004_020be13c[];
+extern u8 func_ov004_020be1c8[];
+extern u8 func_ov004_020be214[];
+extern u8 func_0207f088[];
+extern u8 func_ov004_020be3b0[];
+extern u8 func_ov004_020be3b4[];
+extern u8 func_0207ed3c[];
+extern u8 func_0207f098[];
+extern u8 func_ov004_020be59c[];
+extern u8 func_ov004_020be5a8[];
+extern u8 func_ov004_020be5d0[];
+extern u8 func_ov004_020be600[];
+extern u8 func_ov004_020be63c[];
+extern u8 func_ov004_020be680[];
+extern u8 func_ov004_020be6a0[];
+extern u8 func_ov004_020be6c8[];
+extern u8 func_ov004_020be6d0[];
+extern u8 func_ov004_020be6d8[];
+extern u8 func_ov004_020be710[];
+extern u8 func_ov004_020be720[];
+extern u8 func_ov004_020be728[];
+extern u8 func_ov004_020be9e4[];
+extern u8 func_ov004_020be9f8[];
+extern u8 func_ov004_020bec94[];
+extern u8 func_ov004_020beca8[];
+u32 data_020b944c[8] = {(u32) &func_0207f088, (u32) &func_0207f098, (u32) &func_0207f0c0, (u32) &func_0207f100,
+                        (u32) &func_0207f1a0, (u32) &func_0207ed3c, 0x00000000,           0x00000000};

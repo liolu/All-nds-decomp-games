@@ -4,3 +4,99 @@
     .ctor       start:0x020de010 end:0x020de018 kind:rodata align:4
     .data       start:0x020de020 end:0x020de780 kind:data align:32
     .bss        start:0x020de780 end:0x020de7c0 kind:bss align:32
+
+src/data/ov005_rodata_020ddef0.c:
+    complete
+    .rodata     start:0x020ddef0 end:0x020ddf04
+
+src/data/ov005_data_020de028.c:
+    complete
+    .data       start:0x020de028 end:0x020de030
+
+src/data/ov005_data_020de04c.c:
+    complete
+    .data       start:0x020de04c end:0x020de070
+
+src/data/ov005_data_020de070.c:
+    complete
+    .data       start:0x020de070 end:0x020de09c
+
+src/data/ov005_data_020de0c0.c:
+    complete
+    .data       start:0x020de0c0 end:0x020de0c8
+
+src/data/ov005_data_020de0e0.c:
+    complete
+    .data       start:0x020de0e0 end:0x020de114
+
+src/data/ov005_data_020de114.c:
+    complete
+    .data       start:0x020de114 end:0x020de138
+
+src/data/ov005_data_020de138.c:
+    complete
+    .data       start:0x020de138 end:0x020de154
+
+src/data/ov005_data_020de220.c:
+    complete
+    .data       start:0x020de220 end:0x020de244
+
+src/data/ov005_data_020de244.c:
+    complete
+    .data       start:0x020de244 end:0x020de268
+
+src/data/ov005_data_020de268.c:
+    complete
+    .data       start:0x020de268 end:0x020de28c
+
+src/data/ov005_data_020de5e4.c:
+    complete
+    .data       start:0x020de5e4 end:0x020de5e8
+
+src/data/ov005_data_020de5e8.c:
+    complete
+    .data       start:0x020de5e8 end:0x020de5ec
+
+src/data/ov005_data_020de678.c:
+    complete
+    .data       start:0x020de678 end:0x020de69c
+
+src/data/ov005_data_020de69c.c:
+    complete
+    .data       start:0x020de69c end:0x020de6b8
+
+src/data/ov005_data_020de6b8.c:
+    complete
+    .data       start:0x020de6b8 end:0x020de6c8
+
+src/data/ov005_data_020de6c8.c:
+    complete
+    .data       start:0x020de6c8 end:0x020de6e4
+
+src/data/ov005_data_020de6e4.c:
+    complete
+    .data       start:0x020de6e4 end:0x020de6f4
+
+src/data/ov005_data_020de6f4.c:
+    complete
+    .data       start:0x020de6f4 end:0x020de70c
+
+src/data/ov005_data_020de70c.c:
+    complete
+    .data       start:0x020de70c end:0x020de728
+
+src/data/ov005_data_020de728.c:
+    complete
+    .data       start:0x020de728 end:0x020de734
+
+src/data/ov005_data_020de734.c:
+    complete
+    .data       start:0x020de734 end:0x020de750
+
+src/data/ov005_data_020de750.c:
+    complete
+    .data       start:0x020de750 end:0x020de764
+
+src/data/ov005_data_020de764.c:
+    complete
+    .data       start:0x020de764 end:0x020de780
