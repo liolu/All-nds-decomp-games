@@ -2,3 +2,39 @@
     .ctor       start:0x0229509c end:0x0229509c kind:rodata align:4
     .data       start:0x022950a0 end:0x02298980 kind:data align:32
     .bss        start:0x02298980 end:0x02299700 kind:bss align:32
+
+src/data/ov280_bss_02298980.c:
+    complete
+    .bss        start:0x02298980 end:0x02299700
+
+src/data/ov280_data_02297540.c:
+    complete
+    .data       start:0x02297540 end:0x022975dc
+
+src/data/ov280_data_022976cc.c:
+    complete
+    .data       start:0x022976cc end:0x02297770
+
+src/data/ov280_data_0229786c.c:
+    complete
+    .data       start:0x0229786c end:0x02297920
+
+src/data/ov280_data_02297980.c:
+    complete
+    .data       start:0x02297980 end:0x02297aac
+
+src/data/ov280_data_02297ddc.c:
+    complete
+    .data       start:0x02297ddc end:0x02297ff8
+
+src/data/ov280_data_02297ff8.c:
+    complete
+    .data       start:0x02297ff8 end:0x022981e4
+
+src/data/ov280_data_022981e4.c:
+    complete
+    .data       start:0x022981e4 end:0x02298980
+
+src/data/ov280_rodata_02294b58.c:
+    complete
+    .rodata     start:0x02294b58 end:0x0229509c

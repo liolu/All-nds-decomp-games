@@ -329,8 +329,7 @@ from:0x0226a7ec kind:load to:0x02269284 module:overlay(218)
 from:0x0226a7f8 kind:load to:0x02268ce8 module:overlay(218)
 from:0x0226a7fc kind:load to:0x022692a0 module:overlay(218)
 from:0x0226a810 kind:load to:0x021801bc module:main
-from:0x0226a814 kind:load to:0x022a022a module:overlays(257,258,266,282,303,308,309,310,311,312,314,316,320,330,332,337,339,349)
-from:0x0226a9f4 kind:load to:0x02220222 module:main
-from:0x0226a9f8 kind:load to:0x02220222 module:main
-from:0x0226a9fc kind:load to:0x02220222 module:main
-from:0x0226aa00 kind:load to:0x02220222 module:main
+from:0x0226a9f4 kind:load to:0x02220110 add:0x112 module:main
+from:0x0226a9f8 kind:load to:0x02220110 add:0x112 module:main
+from:0x0226a9fc kind:load to:0x02220110 add:0x112 module:main
+from:0x0226aa00 kind:load to:0x02220110 add:0x112 module:main

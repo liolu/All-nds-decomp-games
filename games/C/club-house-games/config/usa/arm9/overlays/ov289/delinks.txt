@@ -15,3 +15,7 @@ src/data/ov289_data_0229deec.c:
 src/auto/func_ov289_0229b144.c:
     complete
     .text       start:0x0229b144 end:0x0229b15c
+
+src/data/ov289_bss_0229df40.c:
+    complete
+    .bss        start:0x0229df40 end:0x0229dfa0

@@ -15,3 +15,27 @@ src/data/ov288_data_0229ee88.c:
 src/auto/func_ov288_0229b144.c:
     complete
     .text       start:0x0229b144 end:0x0229b15c
+
+src/data/ov288_bss_0229f040.c:
+    complete
+    .bss        start:0x0229f040 end:0x0229f084
+
+src/data/ov288_bss_0229f084.c:
+    complete
+    .bss        start:0x0229f084 end:0x0229f0c4
+
+src/data/ov288_bss_0229f0c4.c:
+    complete
+    .bss        start:0x0229f0c4 end:0x0229f0ec
+
+src/data/ov288_bss_0229f0ec.c:
+    complete
+    .bss        start:0x0229f0ec end:0x0229f260
+
+src/data/ov288_data_0229eeb0.c:
+    complete
+    .data       start:0x0229eeb0 end:0x0229ef64
+
+src/data/ov288_data_0229ef64.c:
+    complete
+    .data       start:0x0229ef64 end:0x0229f040

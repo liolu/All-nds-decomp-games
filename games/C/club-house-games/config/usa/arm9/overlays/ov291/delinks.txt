@@ -11,3 +11,7 @@ src/data/ov291_data_0229e26c.c:
 src/auto/func_ov291_0229b218.c:
     complete
     .text       start:0x0229b218 end:0x0229b230
+
+src/data/ov291_bss_0229e2c0.c:
+    complete
+    .bss        start:0x0229e2c0 end:0x0229e320

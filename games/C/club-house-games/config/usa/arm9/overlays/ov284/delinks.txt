@@ -10,3 +10,7 @@ src/data/ov284_data_0229d558.c:
 src/auto/func_ov284_0229b144.c:
     complete
     .text       start:0x0229b144 end:0x0229b15c
+
+src/data/ov284_bss_0229d580.c:
+    complete
+    .bss        start:0x0229d580 end:0x0229d620

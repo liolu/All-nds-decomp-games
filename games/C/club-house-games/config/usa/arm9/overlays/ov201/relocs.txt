@@ -33,6 +33,6 @@ from:0x02268ec8 kind:load to:0x02268da0 module:overlay(201)
 from:0x02268ed4 kind:load to:0x02268da0 module:overlay(201)
 from:0x02268ee0 kind:load to:0x02268cc0 module:overlay(201)
 from:0x02268f14 kind:load to:0x02268e7c module:overlay(201)
-from:0x022693e4 kind:load to:0x020e01fa module:main
-from:0x022693e8 kind:load to:0x020e020e module:main
-from:0x022693ec kind:load to:0x020e020e module:main
+from:0x022693e4 kind:load to:0x020e01f0 add:0xa module:main
+from:0x022693e8 kind:load to:0x020e020c add:0x2 module:main
+from:0x022693ec kind:load to:0x020e020c add:0x2 module:main

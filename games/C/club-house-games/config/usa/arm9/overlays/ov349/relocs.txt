@@ -325,7 +325,7 @@ from:0x02284924 kind:arm_call to:0x02284a38 module:overlay(349)
 from:0x022849a0 kind:arm_call_thumb to:0x02056780 module:main
 from:0x022849f4 kind:arm_call to:0x02284ac8 module:overlay(349)
 from:0x02284a28 kind:load to:0x02299180 module:overlay(349)
-from:0x02284a2c kind:load to:0x0229919d module:overlay(349)
+from:0x02284a2c kind:load to:0x0229919c add:0x1 module:overlay(349)
 from:0x02284a30 kind:load to:0x0223b8e4 module:main
 from:0x02284a34 kind:load to:0x022991d0 module:overlay(349)
 from:0x02284a68 kind:arm_call to:0x02284b38 module:overlay(349)

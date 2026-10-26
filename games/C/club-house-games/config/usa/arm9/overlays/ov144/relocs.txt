@@ -171,18 +171,10 @@ from:0x02269fa4 kind:load to:0x02269694 module:overlay(144)
 from:0x02269fa8 kind:load to:0x0226903c module:overlay(144)
 from:0x02269fb4 kind:load to:0x022696c8 module:overlay(144)
 from:0x02269fb8 kind:load to:0x02269020 module:overlay(144)
-from:0x0226a928 kind:load to:0x02222222 module:main
-from:0x0226ab6c kind:load to:0x02112112 module:main
-from:0x0226abac kind:load to:0x02111211 module:main
-from:0x0226abec kind:load to:0x02111121 module:main
-from:0x0226ae74 kind:load to:0x02222222 module:main
+from:0x0226ae74 kind:load to:0x02222000 add:0x222 module:main
 from:0x0226b138 kind:load to:0x02222000 module:main
 from:0x0226b338 kind:load to:0x02222000 module:main
-from:0x0226b434 kind:load to:0x02222222 module:main
 from:0x0226b674 kind:load to:0x021201a8 module:main
-from:0x0226b948 kind:load to:0x02220252 module:main
-from:0x0226b94c kind:load to:0x02220222 module:main
-from:0x0226b950 kind:load to:0x02220222 module:main
-from:0x0226b954 kind:load to:0x02220222 module:main
-from:0x0226b958 kind:load to:0x02220222 module:main
-from:0x0226b95c kind:load to:0x02220222 module:main
+from:0x0226b954 kind:load to:0x02220110 add:0x112 module:main
+from:0x0226b958 kind:load to:0x02220110 add:0x112 module:main
+from:0x0226b95c kind:load to:0x02220110 add:0x112 module:main

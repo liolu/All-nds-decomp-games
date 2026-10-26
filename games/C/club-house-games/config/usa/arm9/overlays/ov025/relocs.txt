@@ -130,9 +130,6 @@ from:0x02269ca4 kind:load to:0x02269410 module:overlay(25)
 from:0x02269ca8 kind:load to:0x02268ed0 module:overlay(25)
 from:0x02269cb4 kind:load to:0x02269478 module:overlay(25)
 from:0x02269cb8 kind:load to:0x02268eec module:overlay(25)
-from:0x0226a15c kind:load to:0x02222222 module:main
-from:0x0226a3a0 kind:load to:0x02112112 module:main
-from:0x0226a3e0 kind:load to:0x02111211 module:main
-from:0x0226a420 kind:load to:0x02111121 module:main
-from:0x0226a6a8 kind:load to:0x02222222 module:main
-from:0x0226ac68 kind:load to:0x02222222 module:main
+from:0x0226a15c kind:load to:0x02222000 add:0x222 module:main
+from:0x0226a6a8 kind:load to:0x02222000 add:0x222 module:main
+from:0x0226ac68 kind:load to:0x02222000 add:0x222 module:main

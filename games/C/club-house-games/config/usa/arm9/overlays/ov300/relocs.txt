@@ -392,7 +392,7 @@ from:0x022a8a7c kind:load to:0x022a9b00 module:overlay(300)
 from:0x022a8a80 kind:load to:0x02294754 module:overlays(255,257,258,275,303,304,305,307,308,309,310,311,312,314,315,316,320,325,330,332,338,339,349,359)
 from:0x022a8b98 kind:load to:0x02294754 module:overlays(255,257,258,275,303,304,305,307,308,309,310,311,312,314,315,316,320,325,330,332,338,339,349,359)
 from:0x022a8b9c kind:load to:0x022a9b00 module:overlay(300)
-from:0x022a8ba0 kind:load to:0x022a99a7 module:overlay(300)
+from:0x022a8ba0 kind:load to:0x022a99a4 add:0x3 module:overlay(300)
 from:0x022a8bd0 kind:arm_call to:0x02281ca8 module:overlay(275)
 from:0x022a8bd8 kind:arm_call to:0x02281c6c module:overlay(275)
 from:0x022a8bf4 kind:arm_call to:0x0227bbc8 module:overlay(275)
@@ -424,7 +424,7 @@ from:0x022a9054 kind:arm_call to:0x0202fc00 module:main
 from:0x022a9114 kind:arm_call to:0x0207f0d0 module:main
 from:0x022a9128 kind:load to:0x020b8c88 module:main
 from:0x022a912c kind:load to:0x02294754 module:overlays(255,257,258,275,303,304,305,307,308,309,310,311,312,314,315,316,320,325,330,332,338,339,349,359)
-from:0x022a9130 kind:load to:0x022a99a7 module:overlay(300)
+from:0x022a9130 kind:load to:0x022a99a4 add:0x3 module:overlay(300)
 from:0x022a9134 kind:load to:0x022a99a8 module:overlay(300)
 from:0x022a9154 kind:arm_call to:0x020302f0 module:main
 from:0x022a9184 kind:arm_call to:0x0200f8cc module:main

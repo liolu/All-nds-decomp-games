@@ -6,3 +6,15 @@
 src/data/ov285_data_022a1d90.c:
     complete
     .data       start:0x022a1d90 end:0x022a1db8
+
+src/data/ov285_bss_022a1f00.c:
+    complete
+    .bss        start:0x022a1f00 end:0x022a1f0c
+
+src/data/ov285_bss_022a1f0c.c:
+    complete
+    .bss        start:0x022a1f0c end:0x022a1f60
+
+src/data/ov285_data_022a1db8.c:
+    complete
+    .data       start:0x022a1db8 end:0x022a1f00

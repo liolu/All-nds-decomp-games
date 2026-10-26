@@ -7,3 +7,11 @@
 src/data/ov297_data_022a36cc.c:
     complete
     .data       start:0x022a36cc end:0x022a36f4
+
+src/data/ov297_bss_022a37c0.c:
+    complete
+    .bss        start:0x022a37c0 end:0x022a3820
+
+src/data/ov297_data_022a36f4.c:
+    complete
+    .data       start:0x022a36f4 end:0x022a37c0

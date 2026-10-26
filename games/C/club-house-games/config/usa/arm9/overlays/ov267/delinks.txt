@@ -11,3 +11,31 @@ src/data/ov267_data_0227a348.c:
 src/data/ov267_data_0227a358.c:
     complete
     .data       start:0x0227a358 end:0x0227a360
+
+src/data/ov267_bss_0227a440.c:
+    complete
+    .bss        start:0x0227a440 end:0x0227a460
+
+src/data/ov267_data_0227a3b4.c:
+    complete
+    .data       start:0x0227a3b4 end:0x0227a440
+
+src/data/ov267_rodata_02275280.c:
+    complete
+    .rodata     start:0x02275280 end:0x022757e0
+
+src/data/ov267_rodata_022757e0.c:
+    complete
+    .rodata     start:0x022757e0 end:0x02275fe0
+
+src/data/ov267_rodata_02275fe0.c:
+    complete
+    .rodata     start:0x02275fe0 end:0x02278a24
+
+src/data/ov267_rodata_02278a24.c:
+    complete
+    .rodata     start:0x02278a24 end:0x02279514
+
+src/data/ov267_rodata_02279514.c:
+    complete
+    .rodata     start:0x02279514 end:0x0227a2f8

@@ -7,3 +7,11 @@
 src/data/ov290_data_022a4540.c:
     complete
     .data       start:0x022a4540 end:0x022a4568
+
+src/data/ov290_bss_022a4700.c:
+    complete
+    .bss        start:0x022a4700 end:0x022a4760
+
+src/data/ov290_data_022a4568.c:
+    complete
+    .data       start:0x022a4568 end:0x022a4700

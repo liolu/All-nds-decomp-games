@@ -13,3 +13,15 @@ src/data/ov033_data_022692bc.c:
 src/data/ov033_data_02269384.c:
     complete
     .data       start:0x02269384 end:0x02269388
+
+src/data/ov033_bss_022693e0.c:
+    complete
+    .bss        start:0x022693e0 end:0x022693f0
+
+src/data/ov033_bss_022693f0.c:
+    complete
+    .bss        start:0x022693f0 end:0x02269400
+
+src/data/ov033_data_02269014.c:
+    complete
+    .data       start:0x02269014 end:0x02269144

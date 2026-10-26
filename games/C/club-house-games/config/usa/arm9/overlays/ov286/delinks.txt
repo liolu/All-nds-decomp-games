@@ -27,3 +27,11 @@ src/auto/func_ov286_022a1b4c.c:
 src/auto/func_ov286_022a210c.c:
     complete
     .text       start:0x022a210c end:0x022a2128
+
+src/data/ov286_bss_022a30e0.c:
+    complete
+    .bss        start:0x022a30e0 end:0x022a36cc
+
+src/data/ov286_bss_022a36cc.c:
+    complete
+    .bss        start:0x022a36cc end:0x022a3940

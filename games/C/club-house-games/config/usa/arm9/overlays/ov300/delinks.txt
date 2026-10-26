@@ -19,3 +19,7 @@ src/data/ov300_data_022a9a50.c:
 src/data/ov300_data_022a9a70.c:
     complete
     .data       start:0x022a9a70 end:0x022a9a98
+
+src/data/ov300_bss_022a9b00.c:
+    complete
+    .bss        start:0x022a9b00 end:0x022a9b60

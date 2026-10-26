@@ -1224,7 +1224,6 @@ from:0x02295880 kind:arm_call to:0x0207db0c module:main
 from:0x02295898 kind:arm_call to:0x0207ea24 module:main
 from:0x022958a8 kind:arm_call to:0x0207db0c module:main
 from:0x0229593c kind:arm_call to:0x02295948 module:overlay(337)
-from:0x02295c84 kind:load to:0x0220dfd1 module:main
 from:0x02295ca4 kind:load to:0x02101c10 module:main
 from:0x02295d7c kind:load to:0x02200200 module:main
 from:0x02295e88 kind:load to:0x02200140 module:main

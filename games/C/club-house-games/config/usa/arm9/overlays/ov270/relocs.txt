@@ -1,6 +1,5 @@
 from:0x022750c8 kind:arm_branch to:0x022748cc module:none
 from:0x02277d3c kind:load to:0x02000800 module:main
-from:0x02278c5c kind:load to:0x02104b12 module:main
 from:0x022796d4 kind:load to:0x02279928 module:overlay(270)
 from:0x022796e4 kind:load to:0x022798f8 module:overlay(270)
 from:0x022796fc kind:load to:0x022798c8 module:overlay(270)

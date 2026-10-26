@@ -23,3 +23,7 @@ src/data/ov296_data_022a4bc0.c:
 src/auto/func_ov296_022a4acc.c:
     complete
     .text       start:0x022a4acc end:0x022a4ad8
+
+src/data/ov296_bss_022a4c60.c:
+    complete
+    .bss        start:0x022a4c60 end:0x022a4cc0

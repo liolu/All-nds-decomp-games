@@ -300,7 +300,7 @@ from:0x022a174c kind:arm_call to:0x0227bb4c module:overlay(275)
 from:0x022a17a0 kind:arm_call to:0x02281ca8 module:overlay(275)
 from:0x022a18ac kind:arm_call to:0x02282d04 module:overlay(275)
 from:0x022a1920 kind:load to:0x022a4700 module:overlay(290)
-from:0x022a192c kind:load to:0x022a456e module:overlay(290)
+from:0x022a192c kind:load to:0x022a4568 add:0x6 module:overlay(290)
 from:0x022a1934 kind:load to:0x0223b8e4 module:main
 from:0x022a1b70 kind:load to:0x022a4520 module:overlay(290)
 from:0x022a1b74 kind:load to:0x0223b8fc module:main

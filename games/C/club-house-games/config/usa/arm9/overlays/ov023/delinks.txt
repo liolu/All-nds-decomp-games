@@ -49,3 +49,27 @@ src/data/ov023_data_02269b94.c:
 src/data/ov023_data_02269c78.c:
     complete
     .data       start:0x02269c78 end:0x02269c80
+
+src/data/ov023_bss_02269d20.c:
+    complete
+    .bss        start:0x02269d20 end:0x02269d40
+
+src/data/ov023_data_02269514.c:
+    complete
+    .data       start:0x02269514 end:0x022695a0
+
+src/data/ov023_data_022695a0.c:
+    complete
+    .data       start:0x022695a0 end:0x02269704
+
+src/data/ov023_data_02269704.c:
+    complete
+    .data       start:0x02269704 end:0x02269790
+
+src/data/ov023_data_02269834.c:
+    complete
+    .data       start:0x02269834 end:0x02269a74
+
+src/data/ov023_data_02269a74.c:
+    complete
+    .data       start:0x02269a74 end:0x02269b30

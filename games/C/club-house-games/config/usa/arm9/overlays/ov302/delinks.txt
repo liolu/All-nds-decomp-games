@@ -23,3 +23,15 @@ src/data/ov302_rodata_022aacf8.c:
 src/data/ov302_rodata_022aad04.c:
     complete
     .rodata     start:0x022aad04 end:0x022aad08
+
+src/data/ov302_bss_022aaee0.c:
+    complete
+    .bss        start:0x022aaee0 end:0x022aaee4
+
+src/data/ov302_bss_022aaee4.c:
+    complete
+    .bss        start:0x022aaee4 end:0x022aafa0
+
+src/data/ov302_data_022aae4c.c:
+    complete
+    .data       start:0x022aae4c end:0x022aaee0

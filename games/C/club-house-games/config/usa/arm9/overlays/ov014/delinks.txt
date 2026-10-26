@@ -85,3 +85,43 @@ src/data/ov014_data_0226a188.c:
 src/data/ov014_data_0226a1e8.c:
     complete
     .data       start:0x0226a1e8 end:0x0226a200
+
+src/data/ov014_bss_0226a2e0.c:
+    complete
+    .bss        start:0x0226a2e0 end:0x0226a2f8
+
+src/data/ov014_bss_0226a2f8.c:
+    complete
+    .bss        start:0x0226a2f8 end:0x0226a300
+
+src/data/ov014_data_02269480.c:
+    complete
+    .data       start:0x02269480 end:0x02269514
+
+src/data/ov014_data_02269514.c:
+    complete
+    .data       start:0x02269514 end:0x022695e8
+
+src/data/ov014_data_02269604.c:
+    complete
+    .data       start:0x02269604 end:0x02269784
+
+src/data/ov014_data_02269834.c:
+    complete
+    .data       start:0x02269834 end:0x02269a74
+
+src/data/ov014_data_02269a74.c:
+    complete
+    .data       start:0x02269a74 end:0x02269b30
+
+src/data/ov014_data_02269d10.c:
+    complete
+    .data       start:0x02269d10 end:0x02269ef0
+
+src/data/ov014_data_02269f00.c:
+    complete
+    .data       start:0x02269f00 end:0x02269f8c
+
+src/data/ov014_data_0226a200.c:
+    complete
+    .data       start:0x0226a200 end:0x0226a2b8

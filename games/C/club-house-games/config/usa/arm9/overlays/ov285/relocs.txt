@@ -289,7 +289,7 @@ from:0x022a10d0 kind:arm_call to:0x0202fc00 module:main
 from:0x022a10f4 kind:arm_call to:0x0227bb4c module:overlay(275)
 from:0x022a110c kind:arm_call to:0x0227bb4c module:overlay(275)
 from:0x022a1184 kind:load to:0x022a1f00 module:overlay(285)
-from:0x022a1190 kind:load to:0x022a1dbd module:overlay(285)
+from:0x022a1190 kind:load to:0x022a1db8 add:0x5 module:overlay(285)
 from:0x022a1320 kind:arm_call to:0x0202fc00 module:main
 from:0x022a1348 kind:arm_call to:0x022a1a38 module:overlay(285)
 from:0x022a1510 kind:load to:0x0223b8fc module:main

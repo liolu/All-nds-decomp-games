@@ -243,17 +243,8 @@ from:0x02269b74 kind:load to:0x02268e1c module:overlay(164)
 from:0x02269b80 kind:load to:0x02268e1c module:overlay(164)
 from:0x02269b8c kind:load to:0x02268e1c module:overlay(164)
 from:0x02269bb0 kind:load to:0x021601c0 module:main
-from:0x02269c30 kind:load to:0x02210251 module:main
-from:0x02269c34 kind:load to:0x02210221 module:main
-from:0x02269c38 kind:load to:0x02210221 module:main
-from:0x02269c3c kind:load to:0x02210221 module:main
-from:0x0226a430 kind:load to:0x02222222 module:main
-from:0x0226a470 kind:load to:0x02111111 module:main
-from:0x0226a4b0 kind:load to:0x02111111 module:main
-from:0x0226a4f0 kind:load to:0x02111111 module:main
-from:0x0226a530 kind:load to:0x02111111 module:main
-from:0x0226a570 kind:load to:0x02111111 module:main
-from:0x0226a5b0 kind:load to:0x02111111 module:main
-from:0x0226a5f0 kind:load to:0x02111111 module:main
-from:0x0226a630 kind:load to:0x02111111 module:main
-from:0x0226a670 kind:load to:0x02222222 module:main
+from:0x02269c30 kind:load to:0x02210140 add:0x111 module:main
+from:0x02269c34 kind:load to:0x02210140 add:0xe1 module:main
+from:0x02269c38 kind:load to:0x02210140 add:0xe1 module:main
+from:0x02269c3c kind:load to:0x02210140 add:0xe1 module:main
+from:0x0226a670 kind:load to:0x02222000 add:0x222 module:main

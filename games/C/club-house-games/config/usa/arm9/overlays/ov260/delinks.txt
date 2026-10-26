@@ -7,3 +7,15 @@
 src/data/ov260_data_022757e0.c:
     complete
     .data       start:0x022757e0 end:0x022757f4
+
+src/data/ov260_bss_02275820.c:
+    complete
+    .bss        start:0x02275820 end:0x022758a8
+
+src/data/ov260_bss_022758a8.c:
+    complete
+    .bss        start:0x022758a8 end:0x022758b4
+
+src/data/ov260_bss_022758b4.c:
+    complete
+    .bss        start:0x022758b4 end:0x022758c0

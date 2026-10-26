@@ -1,0 +1,47 @@
+/* compiler: 2.0/sp1p5 */
+#include "m2c.h"
+
+extern u8 data_020e6b48[];
+extern u8 data_ov255_02291ce0[];
+extern u8 data_ov255_0229cac0[];
+
+const u32 data_ov255_02277494[80] = {0xE92D4010, 0xE1A04001,
+                                     0xEB0018C3, 0xE59F1020,
+                                     0xE1A02004, 0xE5911000,
+                                     0xE1D11BFC, 0xE1510000,
+                                     0x03A01001, 0x13A01000,
+                                     0xE3A00001, 0xEBF6FADF,
+                                     0xE8BD8010, (u32) &data_ov255_0229cac0,
+                                     0xE92D4070, 0xE24DD008,
+                                     0xE1A06000, 0xE1A00002,
+                                     0xE1A05001, 0xE1A04003,
+                                     0xEB000008, 0xE1A03000,
+                                     0xE59F1014, 0xE1A00006,
+                                     0xE1A02005, 0xE58D4000,
+                                     0xEBF6FB50, 0xE28DD008,
+                                     0xE8BD8070, (u32) &data_020e6b48,
+                                     0xE3500000, 0xE3A01000,
+                                     0x0A000004, 0xE3500001,
+                                     0x0A000004, 0xE3500002,
+                                     0x03A01003, 0xEA000002,
+                                     0xE3A01002, 0xEA000000,
+                                     0xE3A01001, 0xE1A00001,
+                                     0xE12FFF1E, 0xE92D4070,
+                                     0xE1A06000, 0xE3A00001,
+                                     0xE1A05001, 0xE1A04002,
+                                     0xFAF77EE1, 0xE3A02000,
+                                     0xE1A0C002, 0xE3500000,
+                                     0xE3A03001, 0xDA000008,
+                                     0xE2461001, 0xE0411005,
+                                     0xE0010194, 0xE050C001,
+                                     0x41A0C002, 0x4A00000B,
+                                     0xE35C0000, 0xC28CC002,
+                                     0xEA000008, 0xE3500000,
+                                     0xAA000006, 0xE02C0495,
+                                     0xE35C0000, 0xC1A0C002,
+                                     0xCA000001, 0xE35C0000,
+                                     0xB24CC002, 0xE3E03000,
+                                     0xE59F0014, 0xE0010C9C,
+                                     0xE5900000, 0xE0020390,
+                                     0xE0000192, 0xE1A00600,
+                                     0xE8BD8070, (u32) &data_ov255_02291ce0};

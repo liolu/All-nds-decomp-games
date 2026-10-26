@@ -254,8 +254,4 @@ from:0x0226a704 kind:load to:0x02269920 module:overlay(43)
 from:0x0226a708 kind:load to:0x0226901c module:overlay(43)
 from:0x0226a714 kind:load to:0x02269e9c module:overlay(43)
 from:0x0226a718 kind:load to:0x02268e5c module:overlay(43)
-from:0x0226c8e4 kind:load to:0x020e020e module:main
-from:0x0226cb4c kind:load to:0x02220252 module:main
-from:0x0226cb50 kind:load to:0x02220222 module:main
-from:0x0226cb54 kind:load to:0x02220222 module:main
-from:0x0226cb58 kind:load to:0x02220222 module:main
+from:0x0226c8e4 kind:load to:0x020e020c add:0x2 module:main

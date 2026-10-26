@@ -1,0 +1,10 @@
+/* compiler: 2.0/sp1p5 */
+#include "m2c.h"
+
+#pragma explicit_zero_data on
+u32 data_ov061_0226acac[10] = {0};
+u32 data_ov061_0226acd4[36] = {0x803F03E0, 0x90849084, 0x90849084, 0xE739D6FF, 0xADBFCA7C, 0xA15DCA52, 0x8059807D, 0x80008055,
+                               0xFFFF03E0, 0x9084D294, 0x90849084, 0xE739D6FF, 0xADBFCA7C, 0xA15DCA52, 0x8059807D, 0x80008055,
+                               0xFFFF03E0, 0x803FB5FF, 0x90849084, 0xE739D6FF, 0xADBFCA7C, 0xA15DCA52, 0x8059807D, 0x80008055,
+                               0xFFFF03E0, 0xB5FF9084, 0x803FB49F, 0x00000000, 0x00000000, 0x00000000, 0x00000000, 0x00000000,
+                               0xE73903E0, 0x8000C210, 0x00008000, 0x00000000};

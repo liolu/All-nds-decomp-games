@@ -13,3 +13,31 @@ src/data/ov034_data_02269790.c:
 src/data/ov034_data_02269a74.c:
     complete
     .data       start:0x02269a74 end:0x02269a90
+
+src/data/ov034_bss_02269b40.c:
+    complete
+    .bss        start:0x02269b40 end:0x02269b60
+
+src/data/ov034_data_02269480.c:
+    complete
+    .data       start:0x02269480 end:0x02269514
+
+src/data/ov034_data_02269514.c:
+    complete
+    .data       start:0x02269514 end:0x022695a0
+
+src/data/ov034_data_022695a0.c:
+    complete
+    .data       start:0x022695a0 end:0x02269704
+
+src/data/ov034_data_02269704.c:
+    complete
+    .data       start:0x02269704 end:0x02269790
+
+src/data/ov034_data_02269834.c:
+    complete
+    .data       start:0x02269834 end:0x02269a74
+
+src/data/ov034_data_02269a90.c:
+    complete
+    .data       start:0x02269a90 end:0x02269b30

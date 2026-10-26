@@ -6,3 +6,47 @@
 src/data/ov283_data_022958b4.c:
     complete
     .data       start:0x022958b4 end:0x022958bc
+
+src/data/ov283_bss_0229b3c0.c:
+    complete
+    .bss        start:0x0229b3c0 end:0x0229b7b8
+
+src/data/ov283_bss_0229b7b8.c:
+    complete
+    .bss        start:0x0229b7b8 end:0x0229c140
+
+src/data/ov283_data_0229977c.c:
+    complete
+    .data       start:0x0229977c end:0x0229980c
+
+src/data/ov283_data_02299a8c.c:
+    complete
+    .data       start:0x02299a8c end:0x02299b3c
+
+src/data/ov283_data_02299b9c.c:
+    complete
+    .data       start:0x02299b9c end:0x02299c6c
+
+src/data/ov283_data_02299c6c.c:
+    complete
+    .data       start:0x02299c6c end:0x02299d6c
+
+src/data/ov283_data_02299d6c.c:
+    complete
+    .data       start:0x02299d6c end:0x0229a6c0
+
+src/data/ov283_data_0229a6c0.c:
+    complete
+    .data       start:0x0229a6c0 end:0x0229accc
+
+src/data/ov283_data_0229accc.c:
+    complete
+    .data       start:0x0229accc end:0x0229af08
+
+src/data/ov283_data_0229af08.c:
+    complete
+    .data       start:0x0229af08 end:0x0229b3c0
+
+src/data/ov283_rodata_02294b58.c:
+    complete
+    .rodata     start:0x02294b58 end:0x02294be4

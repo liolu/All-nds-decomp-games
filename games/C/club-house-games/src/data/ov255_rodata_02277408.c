@@ -1,0 +1,41 @@
+/* compiler: 2.0/sp1p5 */
+#include "m2c.h"
+
+extern u8 data_ov255_02277494[];
+extern u8 data_ov255_0229cac0[];
+
+const u32 data_ov255_02277408[35] = {0xE92D4070,
+                                     0xE1A06002,
+                                     0xE3500003,
+                                     0xE3A04000,
+                                     0x908FF100,
+                                     0xEA000008,
+                                     0xEA000002,
+                                     0xEA000003,
+                                     0xEA000003,
+                                     0xEA000003,
+                                     0xE3A04003,
+                                     0xEA000002,
+                                     0xE3A04001,
+                                     0xEA000000,
+                                     0xE3A04002,
+                                     0xE1A00001,
+                                     0xEB00002F,
+                                     0xE1A05000,
+                                     0xEB0018D6,
+                                     0xE59F1024,
+                                     0xE1A03006,
+                                     0xE5911000,
+                                     0xE1D11BFE,
+                                     0xE1510000,
+                                     0x03A02001,
+                                     0x13A02000,
+                                     0xE1A00004,
+                                     0xE1A01005,
+                                     0xEBF6FB07,
+                                     0xE8BD8070,
+                                     (u32) &data_ov255_0229cac0,
+                                     0xE59FC004,
+                                     0xE3A01A01,
+                                     0xE12FFF1C,
+                                     (u32) &data_ov255_02277494};

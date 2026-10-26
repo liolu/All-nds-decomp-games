@@ -2,3 +2,127 @@
     .ctor       start:0x0229509c end:0x0229509c kind:rodata align:4
     .data       start:0x022950a0 end:0x0229ddc0 kind:data align:32
     .bss        start:0x0229ddc0 end:0x0229eb60 kind:bss align:32
+
+src/data/ov279_bss_0229ddc0.c:
+    complete
+    .bss        start:0x0229ddc0 end:0x0229eb60
+
+src/data/ov279_data_02299338.c:
+    complete
+    .data       start:0x02299338 end:0x022993ec
+
+src/data/ov279_data_02299c0c.c:
+    complete
+    .data       start:0x02299c0c end:0x02299c98
+
+src/data/ov279_data_0229a118.c:
+    complete
+    .data       start:0x0229a118 end:0x0229a1ac
+
+src/data/ov279_data_0229a40c.c:
+    complete
+    .data       start:0x0229a40c end:0x0229a4a8
+
+src/data/ov279_data_0229ab88.c:
+    complete
+    .data       start:0x0229ab88 end:0x0229ac2c
+
+src/data/ov279_data_0229b1c0.c:
+    complete
+    .data       start:0x0229b1c0 end:0x0229b26c
+
+src/data/ov279_data_0229b794.c:
+    complete
+    .data       start:0x0229b794 end:0x0229b848
+
+src/data/ov279_data_0229b8d8.c:
+    complete
+    .data       start:0x0229b8d8 end:0x0229b9bc
+
+src/data/ov279_data_0229bcbc.c:
+    complete
+    .data       start:0x0229bcbc end:0x0229bdec
+
+src/data/ov279_data_0229c074.c:
+    complete
+    .data       start:0x0229c074 end:0x0229c150
+
+src/data/ov279_data_0229c204.c:
+    complete
+    .data       start:0x0229c204 end:0x0229c2a0
+
+src/data/ov279_data_0229c2a0.c:
+    complete
+    .data       start:0x0229c2a0 end:0x0229c380
+
+src/data/ov279_data_0229c380.c:
+    complete
+    .data       start:0x0229c380 end:0x0229c464
+
+src/data/ov279_data_0229c71c.c:
+    complete
+    .data       start:0x0229c71c end:0x0229c810
+
+src/data/ov279_data_0229c890.c:
+    complete
+    .data       start:0x0229c890 end:0x0229c970
+
+src/data/ov279_data_0229c970.c:
+    complete
+    .data       start:0x0229c970 end:0x0229ca10
+
+src/data/ov279_data_0229ca10.c:
+    complete
+    .data       start:0x0229ca10 end:0x0229cc50
+
+src/data/ov279_data_0229cc50.c:
+    complete
+    .data       start:0x0229cc50 end:0x0229ccf0
+
+src/data/ov279_data_0229ccf0.c:
+    complete
+    .data       start:0x0229ccf0 end:0x0229cd90
+
+src/data/ov279_data_0229cd90.c:
+    complete
+    .data       start:0x0229cd90 end:0x0229ce30
+
+src/data/ov279_data_0229ce30.c:
+    complete
+    .data       start:0x0229ce30 end:0x0229cf80
+
+src/data/ov279_data_0229cf80.c:
+    complete
+    .data       start:0x0229cf80 end:0x0229d028
+
+src/data/ov279_data_0229d028.c:
+    complete
+    .data       start:0x0229d028 end:0x0229d0d0
+
+src/data/ov279_data_0229d0d0.c:
+    complete
+    .data       start:0x0229d0d0 end:0x0229d258
+
+src/data/ov279_data_0229d258.c:
+    complete
+    .data       start:0x0229d258 end:0x0229d458
+
+src/data/ov279_data_0229d458.c:
+    complete
+    .data       start:0x0229d458 end:0x0229d558
+
+src/data/ov279_data_0229d558.c:
+    complete
+    .data       start:0x0229d558 end:0x0229d728
+
+src/data/ov279_data_0229d728.c:
+    complete
+    .data       start:0x0229d728 end:0x0229d854
+
+src/data/ov279_data_0229d854.c:
+    complete
+    .data       start:0x0229d854 end:0x0229ddc0
+
+src/data/ov279_rodata_02294b58.c:
+    complete
+    .rodata     start:0x02294b58 end:0x0229509c

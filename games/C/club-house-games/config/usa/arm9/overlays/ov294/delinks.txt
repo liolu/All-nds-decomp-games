@@ -6,3 +6,7 @@
 src/auto/func_ov294_02299700.c:
     complete
     .text       start:0x02299700 end:0x0229970c
+
+src/data/ov294_bss_0229c300.c:
+    complete
+    .bss        start:0x0229c300 end:0x0229c320

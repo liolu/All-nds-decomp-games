@@ -61,5 +61,5 @@ from:0x022692a8 kind:load to:0x02268ca8 module:overlay(70)
 from:0x022692ac kind:load to:0x02268fe4 module:overlay(70)
 from:0x022692b8 kind:load to:0x02268cb8 module:overlay(70)
 from:0x022692bc kind:load to:0x02268d98 module:overlay(70)
-from:0x02269b40 kind:load to:0x021201ba module:main
-from:0x02269b44 kind:load to:0x02220222 module:main
+from:0x02269b40 kind:load to:0x021201ac add:0xe module:main
+from:0x02269b44 kind:load to:0x02220110 add:0x112 module:main

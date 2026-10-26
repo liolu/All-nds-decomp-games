@@ -6,7 +6,7 @@ from:0x022883c0 kind:arm_call_thumb to:0x01ffbaa0 module:itcm
 from:0x022883dc kind:arm_call to:0x0228841c module:overlay(354)
 from:0x02288408 kind:arm_call to:0x0228841c module:overlay(354)
 from:0x02288414 kind:load to:0x0228fab8 module:overlay(354)
-from:0x02288418 kind:load to:0x0228edbe module:overlay(354)
+from:0x02288418 kind:load to:0x0228edbc add:0x2 module:overlay(354)
 from:0x02288444 kind:arm_call_thumb to:0x02056780 module:main
 from:0x02288478 kind:arm_call to:0x020386f0 module:main
 from:0x02288484 kind:load to:0x0228fab8 module:overlay(354)

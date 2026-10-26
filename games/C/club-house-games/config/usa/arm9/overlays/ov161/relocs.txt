@@ -109,5 +109,5 @@ from:0x022695d0 kind:load to:0x02269358 module:overlay(161)
 from:0x022695d4 kind:load to:0x02268ff0 module:overlay(161)
 from:0x022695e0 kind:load to:0x0226917c module:overlay(161)
 from:0x022695e4 kind:load to:0x02268f48 module:overlay(161)
-from:0x0226a118 kind:load to:0x02220222 module:main
-from:0x0226a11c kind:load to:0x02220222 module:main
+from:0x0226a118 kind:load to:0x02220110 add:0x112 module:main
+from:0x0226a11c kind:load to:0x02220110 add:0x112 module:main

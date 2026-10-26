@@ -6,3 +6,7 @@
 src/data/ov263_data_02275280.c:
     complete
     .data       start:0x02275280 end:0x02275294
+
+src/data/ov263_bss_022752c0.c:
+    complete
+    .bss        start:0x022752c0 end:0x022752e0
