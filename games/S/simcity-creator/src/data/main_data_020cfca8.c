@@ -1,0 +1,4 @@
+/* compiler: 2.0/sp1p5 */
+#include "m2c.h"
+
+u32 data_020cfca8[2] = {0x04030201, 0x0E0B0A05};

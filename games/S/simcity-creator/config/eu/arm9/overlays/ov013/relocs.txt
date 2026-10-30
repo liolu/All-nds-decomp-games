@@ -124,7 +124,7 @@ from:0x021641ec kind:arm_call to:0x020536d8 module:main
 from:0x021641f0 kind:arm_call to:0x020b11e8 module:main
 from:0x021641fc kind:arm_call to:0x020536d8 module:main
 from:0x02164200 kind:arm_call to:0x020b11f0 module:main
-from:0x02164264 kind:load to:0x021647a2 module:overlay(13)
+from:0x02164264 kind:load to:0x0216479c add:0x6 module:overlay(13)
 from:0x02164274 kind:arm_call to:0x020536c8 module:main
 from:0x0216427c kind:arm_call to:0x0201c658 module:main
 from:0x021642b8 kind:arm_call to:0x0201c660 module:main
