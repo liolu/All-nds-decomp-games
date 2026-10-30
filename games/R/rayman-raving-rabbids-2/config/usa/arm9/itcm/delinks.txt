@@ -1,2 +1,54 @@
     .text       start:0x01ff8000 end:0x01ffaccc kind:code align:32
     .bss        start:0x01fface0 end:0x01ffade0 kind:bss align:32
+
+src/data/itcm_bss_01fface0.c:
+    complete
+    .bss        start:0x01fface0 end:0x01fface4
+
+src/data/itcm_bss_01fface4.c:
+    complete
+    .bss        start:0x01fface4 end:0x01fface8
+
+src/data/itcm_bss_01fface8.c:
+    complete
+    .bss        start:0x01fface8 end:0x01ffacec
+
+src/data/itcm_bss_01ffacec.c:
+    complete
+    .bss        start:0x01ffacec end:0x01ffacf0
+
+src/data/itcm_bss_01ffacf0.c:
+    complete
+    .bss        start:0x01ffacf0 end:0x01ffacf4
+
+src/data/itcm_bss_01ffacf4.c:
+    complete
+    .bss        start:0x01ffacf4 end:0x01ffacf8
+
+src/data/itcm_bss_01ffacf8.c:
+    complete
+    .bss        start:0x01ffacf8 end:0x01ffacfc
+
+src/data/itcm_bss_01ffad00.c:
+    complete
+    .bss        start:0x01ffad00 end:0x01ffad0c
+
+src/data/itcm_bss_01ffad0c.c:
+    complete
+    .bss        start:0x01ffad0c end:0x01ffad94
+
+src/data/itcm_bss_01ffad94.c:
+    complete
+    .bss        start:0x01ffad94 end:0x01ffadbc
+
+src/data/itcm_bss_01ffadbc.c:
+    complete
+    .bss        start:0x01ffadbc end:0x01ffade0
+
+src/data/itcm_bss_01ffacfc.c:
+    complete
+    .bss        start:0x01ffacfc end:0x01ffacfe
+
+src/data/itcm_bss_01ffacfe.c:
+    complete
+    .bss        start:0x01ffacfe end:0x01ffad00

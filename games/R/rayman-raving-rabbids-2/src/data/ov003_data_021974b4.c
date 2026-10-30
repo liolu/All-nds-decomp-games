@@ -1,0 +1,5 @@
+/* compiler: 2.0/sp1p5 */
+#include "m2c.h"
+
+char data_ov003_021974b4[4]  = "111";
+char data_ov003_021974b8[12] = "+%d";

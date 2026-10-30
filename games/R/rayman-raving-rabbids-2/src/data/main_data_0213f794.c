@@ -1,0 +1,5 @@
+/* compiler: 2.0/sp1p5 */
+#include "m2c.h"
+
+char data_0213f794[20] = "/3d/level/customize";
+char data_0213f7a8[32] = "/3d/level/customizehabillage";
