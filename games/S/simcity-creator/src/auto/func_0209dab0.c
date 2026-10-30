@@ -1,0 +1,10 @@
+#include "m2c.h"
+
+extern M2C_UNK data_020e1b74;
+
+void func_0209dab0(s32 arg0, s32 arg1) {
+    if ((arg0 != 0) && (arg0 != 0x7F) && (arg1 != 0) && (arg1 != 0x7F)) {
+        return;
+    }
+    M2C_FIELD(&data_020e1b74, s8 *, 3) = 1;
+}

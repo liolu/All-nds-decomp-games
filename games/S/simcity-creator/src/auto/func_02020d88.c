@@ -1,0 +1,7 @@
+#include "m2c.h"
+
+M2C_UNK func_02073ba8(s32, M2C_UNK, u8);            /* extern */
+
+void func_02020d88(void *arg0, s32 arg1, void *arg2) {
+    func_02073ba8(M2C_FIELD(arg0, s32 *, 0x34E8), 0, M2C_FIELD(arg2, u8 *, 0x342C4));
+}
