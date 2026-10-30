@@ -10257,11 +10257,6 @@ from:0x02061294 kind:arm_call to:0x0206ee3c module:main
 from:0x020612a4 kind:arm_call to:0x01ff8fac module:itcm
 from:0x020612b4 kind:arm_call to:0x01ff9070 module:itcm
 from:0x020613c0 kind:arm_call to:0x0206ee3c module:main
-from:0x02061e5e kind:arm_branch to:0x0206199c module:main
-from:0x02061e96 kind:arm_branch to:0x020619cc module:main
-from:0x02061f5a kind:arm_branch to:0x02061a98 module:main
-from:0x02061f8e kind:arm_branch to:0x02061acc module:main
-from:0x02061fb6 kind:arm_branch to:0x02061af4 module:main
 from:0x02062124 kind:load to:0x020611a4 module:main
 from:0x02062128 kind:load to:0x020e3a38 module:main
 from:0x0206214c kind:arm_call to:0x01ff94b8 module:itcm
@@ -13324,7 +13319,6 @@ from:0x02076cf0 kind:arm_call to:0x020395dc module:main
 from:0x02076d14 kind:arm_call to:0x01ff94b8 module:itcm
 from:0x02076d38 kind:arm_call to:0x0205056c module:main
 from:0x02076d44 kind:load to:0x020d5868 module:main
-from:0x02076df6 kind:arm_branch to:0x02076938 module:main
 from:0x02077008 kind:arm_call to:0x01ffa084 module:itcm
 from:0x02077028 kind:arm_call to:0x01ff9e54 module:itcm
 from:0x02077058 kind:arm_branch to:0x02077018 module:main
