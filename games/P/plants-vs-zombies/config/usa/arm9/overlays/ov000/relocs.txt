@@ -2371,7 +2371,7 @@ from:0x021f0dcc kind:arm_call to:0x01ff98a8 module:itcm
 from:0x021f0dd8 kind:arm_call to:0x01ff98a8 module:itcm
 from:0x021f0e00 kind:arm_call to:0x0203b054 module:main
 from:0x021f0e0c kind:load to:0x02108230 module:main
-from:0x021f1458 kind:load to:0x021fdcd1 module:overlay(0)
+from:0x021f1458 kind:load to:0x021fdccc add:0x5 module:overlay(0)
 from:0x021f145c kind:load to:0x021fdccc module:overlay(0)
 from:0x021f18e4 kind:load to:0x021fe96c module:overlay(0)
 from:0x021f1e60 kind:arm_call to:0x02065fb4 module:main

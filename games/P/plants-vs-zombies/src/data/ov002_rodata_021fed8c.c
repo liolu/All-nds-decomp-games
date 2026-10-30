@@ -1,0 +1,7 @@
+/* compiler: 2.0/sp1p5 */
+#include "m2c.h"
+
+const u32 data_ov002_021fed8c[25] = {0xEBF7E9C9, 0xE5940038, 0xE1510000, 0xBA0003E4, 0xE1A00005, 0xEBFFFEDE, 0xE1A04000,
+                                     0xE1A00005, 0xEBFFFEDB, 0xE5900030, 0xE2600000, 0xEA000018, 0xE1A00005, 0xEBFFFED6,
+                                     0xE580400C, 0xE1A00005, 0xEBFFFED3, 0xE5804014, 0xE1A00005, 0xEBFFFED0, 0xE5900030,
+                                     0xE3500000, 0xE1A00005, 0xDA00000E, 0xEBFFFECB};

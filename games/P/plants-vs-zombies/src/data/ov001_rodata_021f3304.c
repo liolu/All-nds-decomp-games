@@ -1,0 +1,78 @@
+/* compiler: 2.0/sp1p5 */
+#include "m2c.h"
+
+extern u8 data_020e1688[];
+extern u8 data_ov001_0221bc24[];
+extern u8 data_ov001_0221c5e0[];
+extern u8 func_020b86cc[];
+extern u8 func_020be4c8[];
+extern u8 func_020c1f20[];
+extern u8 func_020c262c[];
+
+const u32 data_ov001_021f3304[56] = {0xE92D40F8,
+                                     0xE59F10B8,
+                                     0xE1A04000,
+                                     0xE5841000,
+                                     0xE5901000,
+                                     0xE5911074,
+                                     0xE12FFF31,
+                                     0xE2840F51,
+                                     0xE59F10A0,
+                                     0xE3A03000,
+                                     0xE59F209C,
+                                     0xE5813000,
+                                     0xE2841A01,
+                                     0xE2800B06,
+                                     0xE5812944,
+                                     0xEBFB18F4,
+                                     0xE59F5088,
+                                     0xE3A07004,
+                                     0xE3A06010,
+                                     0xE1A01007,
+                                     0xE2840C19,
+                                     0xE1A02006,
+                                     0xE1A03005,
+                                     0xEBF8CB2C,
+                                     0xE1A02006,
+                                     0xE1A03005,
+                                     0xE2840D63,
+                                     0xE1A01007,
+                                     0xEBF8CB27,
+                                     0xE1A01007,
+                                     0xE2840C0E,
+                                     0xE3A02F96,
+                                     0xE59F304C,
+                                     0xEBF8CB22,
+                                     0xE2840FB2,
+                                     0xE2800B01,
+                                     0xE3A01003,
+                                     0xE3A02F9A,
+                                     0xE59F3038,
+                                     0xEBF8CB1C,
+                                     0xE2840E56,
+                                     0xE3A01008,
+                                     0xE3A0200C,
+                                     0xE59F3028,
+                                     0xEBF8CB17,
+                                     0xE1A00004,
+                                     0xEBFB00B3,
+                                     0xE1A00004,
+                                     0xE8BD80F8,
+                                     (u32) &data_ov001_0221bc24,
+                                     (u32) &data_ov001_0221c5e0,
+                                     (u32) &data_020e1688,
+                                     (u32) &func_020b86cc,
+                                     (u32) &func_020c1f20,
+                                     (u32) &func_020c262c,
+                                     (u32) &func_020be4c8};
+const u32 data_ov001_021f33e4[96] = {
+    0xE92D47F8, 0xE24DD04C, 0xE1A04000, 0xEBFB00B8, 0xE3A0A000, 0xE59F1150, 0xE3A00405, 0xE1C1A0B0, 0xE1C0A0B0, 0xE1A0200A,
+    0xE2840E52, 0xE3A01002, 0xE3A03010, 0xE58DA000, 0xEBFB5595, 0xEBF8EE07, 0xE1A0000A, 0xEBFB1DD4, 0xE3A09004, 0xE1A00009,
+    0xEBF84040, 0xE59F8114, 0xE28D703C, 0xE1D810B0, 0xE2483008, 0xE3A06001, 0xE2011043, 0xE3811D7E, 0xE1C810B0, 0xE5932000,
+    0xE1A00007, 0xE3C22C1F, 0xE3822C01, 0xE5832000, 0xE1A0100A, 0xE1A02006, 0xEBFB148C, 0xE28D502C, 0xE1A0100A, 0xE1A00005,
+    0xE1A02006, 0xEBFB1487, 0xE28D401C, 0xE1A0100A, 0xE1A00004, 0xE1A02006, 0xEBFB1482, 0xE59F10B0, 0xE1A00007, 0xE1A0200A,
+    0xEBFB14B1, 0xE59F10A4, 0xE1A00005, 0xE1A0200A, 0xEBFB14AD, 0xE59F1098, 0xE1A0200A, 0xE1A00004, 0xEBFB14A9, 0xE1D820B0,
+    0xE1A00009, 0xE2461002, 0xE1CD21B6, 0xE1DD91B6, 0xE1D820B0, 0xE1A03007, 0xE1CD91B8, 0xE58D5000, 0xE58D4004, 0xE58D1008,
+    0xE58D100C, 0xE1CD21B4, 0xE58D1010, 0xE1DD21B4, 0xE1DD11B8, 0xE1CD21BA, 0xE1A01D01, 0xE1A02E21, 0xE1DD11BA, 0xE1A01981,
+    0xE1A01DA1, 0xEBFB27C8, 0xE1A00004, 0xEBFB1465, 0xE1A00005, 0xEBFB1463, 0xE1A00007, 0xEBFB1461, 0xE1A00006, 0xE28DD04C,
+    0xE8BD87F8, 0x05000400, 0x04001008, 0x575C2AD9, 0x2F164CAD, 0xCCE29566};
