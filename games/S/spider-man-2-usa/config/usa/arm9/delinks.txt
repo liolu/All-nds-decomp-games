@@ -54275,3 +54275,15 @@ src/data/main_data_02157aa4.c:
 src/data/main_rodata_020fb648.c:
     complete
     .rodata     start:0x020fb648 end:0x020ff66c
+
+src/auto/func_02055c00.c:
+    complete
+    .text       start:0x02055c00 end:0x02055cac
+
+src/auto/func_02055cac.c:
+    complete
+    .text       start:0x02055cac end:0x02055d5c
+
+src/auto/func_02056aa4.c:
+    complete
+    .text       start:0x02056aa4 end:0x02056ab8
