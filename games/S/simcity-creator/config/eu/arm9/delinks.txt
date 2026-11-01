@@ -21495,3 +21495,35 @@ src/data/main_rodata_020c2520.c:
 src/data/main_rodata_020c38d0.c:
     complete
     .rodata     start:0x020c38d0 end:0x020c38f8
+
+src/data/main_ctor_020c7a54.c:
+    complete
+    .ctor       start:0x020c7a54 end:0x020c7a58
+
+src/data/main_ctor_020c7a58.c:
+    complete
+    .ctor       start:0x020c7a58 end:0x020c7a5c
+
+src/data/main_ctor_020c7a5c.c:
+    complete
+    .ctor       start:0x020c7a5c end:0x020c7a60
+
+src/data/main_ctor_020c7a60.c:
+    complete
+    .ctor       start:0x020c7a60 end:0x020c7a64
+
+src/data/main_ctor_020c7a64.c:
+    complete
+    .ctor       start:0x020c7a64 end:0x020c7a68
+
+src/data/main_ctor_020c7a68.c:
+    complete
+    .ctor       start:0x020c7a68 end:0x020c7a6c
+
+src/data/main_ctor_020c7a6c.c:
+    complete
+    .ctor       start:0x020c7a6c end:0x020c7a70
+
+src/data/main_ctor_020c7a70.c:
+    complete
+    .ctor       start:0x020c7a70 end:0x020c7a74
