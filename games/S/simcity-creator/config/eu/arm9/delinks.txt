@@ -21447,3 +21447,51 @@ src/data/main_bss_020d0b80.c:
 src/data/main_bss_020d0b8c.c:
     complete
     .bss        start:0x020d0b8c end:0x020d0b9c
+
+src/data/main_data_020cc63c.c:
+    complete
+    .data       start:0x020cc63c end:0x020cc670
+
+src/data/main_data_020cdb64.c:
+    complete
+    .data       start:0x020cdb64 end:0x020cdb70
+
+src/data/main_data_020cdb88.c:
+    complete
+    .data       start:0x020cdb88 end:0x020cdb90
+
+src/data/main_data_020cdbe8.c:
+    complete
+    .data       start:0x020cdbe8 end:0x020cdbf8
+
+src/data/main_data_020cdbfc.c:
+    complete
+    .data       start:0x020cdbfc end:0x020cdc08
+
+src/data/main_data_020ce3f0.c:
+    complete
+    .data       start:0x020ce3f0 end:0x020ce4b4
+
+src/data/main_data_020ce558.c:
+    complete
+    .data       start:0x020ce558 end:0x020ce580
+
+src/data/main_data_020ceb98.c:
+    complete
+    .data       start:0x020ceb98 end:0x020cebe4
+
+src/data/main_data_020cef84.c:
+    complete
+    .data       start:0x020cef84 end:0x020cef88
+
+src/data/main_data_020cf554.c:
+    complete
+    .data       start:0x020cf554 end:0x020cf560
+
+src/data/main_rodata_020c2520.c:
+    complete
+    .rodata     start:0x020c2520 end:0x020c257c
+
+src/data/main_rodata_020c38d0.c:
+    complete
+    .rodata     start:0x020c38d0 end:0x020c38f8
