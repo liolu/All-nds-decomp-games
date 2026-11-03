@@ -1,0 +1,46 @@
+func_ov008_02215a20 kind:function(arm,size=0x40,dsprot=(0x38,0xfa8fd0ea)) addr:0x02215a20
+func_ov008_02215a60 kind:function(arm,size=0x18) addr:0x02215a60
+data_ov008_02215a78 kind:data(any) addr:0x02215a78
+data_ov008_02215b00 kind:data(any) addr:0x02215b00
+data_ov008_02215c2c kind:data(any) addr:0x02215c2c
+__sinit_ov008_02215cb4 kind:function(arm,size=0x28) addr:0x02215cb4
+data_ov008_02215cdc kind:data(any) addr:0x02215cdc
+data_ov008_02215df8 kind:data(any) addr:0x02215df8
+data_ov008_02215f14 kind:data(any) addr:0x02215f14
+data_ov008_02215f9c kind:data(any) addr:0x02215f9c
+__sinit_ov008_02216024 kind:function(arm,size=0x24) addr:0x02216024
+data_ov008_02216108 kind:data(any) addr:0x02216108
+data_ov008_022161cc kind:data(any) addr:0x022161cc
+data_ov008_022162ac kind:data(any) addr:0x022162ac
+__sinit_ov008_0221631c kind:function(arm,size=0x2c) addr:0x0221631c
+data_ov008_02216348 kind:data(any) addr:0x02216348
+data_ov008_022163f8 kind:data(any) addr:0x022163f8
+data_ov008_0221648c kind:data(any) addr:0x0221648c
+data_ov008_02216944 kind:data(any) addr:0x02216944
+data_ov008_022169cc kind:data(any) addr:0x022169cc
+__sinit_ov008_02216a54 kind:function(arm,size=0x2c) addr:0x02216a54
+data_ov008_02216a80 kind:data(any) addr:0x02216a80
+data_ov008_02216abc kind:data(any) addr:0x02216abc
+data_ov008_02216b48 kind:data(any) addr:0x02216b48
+data_ov008_02216ba0 kind:data(any) addr:0x02216ba0
+data_ov008_02216cbc kind:data(any) addr:0x02216cbc ambiguous
+data_ov008_02216ce8 kind:data(any) addr:0x02216ce8
+data_ov008_02216d44 kind:data(any) addr:0x02216d44 ambiguous
+data_ov008_02216dcc kind:data(any) addr:0x02216dcc ambiguous
+data_ov008_02216e54 kind:data(any) addr:0x02216e54 ambiguous
+data_ov008_02216e9c kind:data(any) addr:0x02216e9c
+data_ov008_02216f14 kind:data(any) addr:0x02216f14
+__sinit_ov008_02216f8c kind:function(arm,size=0x4c) addr:0x02216f8c
+data_ov008_02216fd8 kind:data(any) addr:0x02216fd8
+data_ov008_02216ff0 kind:data(any) addr:0x02216ff0
+data_ov008_02216ff4 kind:data(any) addr:0x02216ff4
+data_ov008_02216ff8 kind:data(any) addr:0x02216ff8
+data_ov008_02217000 kind:data(any) addr:0x02217000
+data_ov008_02217004 kind:data(any) addr:0x02217004
+data_ov008_02217008 kind:data(any) addr:0x02217008
+.p__sinit_ov008_02215cb4 kind:data(word) addr:0x0221701c
+.p__sinit_ov008_02216024 kind:data(word) addr:0x02217020
+.p__sinit_ov008_0221631c kind:data(word) addr:0x02217024
+.p__sinit_ov008_02216a54 kind:data(word) addr:0x02217028
+.p__sinit_ov008_02216f8c kind:data(word) addr:0x0221702c
+DSProt_BSS_ov008 kind:bss addr:0x02217040
