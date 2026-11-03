@@ -1,0 +1,15 @@
+[INFO ] Loading ROM from extract/usa/config.yaml
+[INFO ] Function at 0x02008fec was adjusted to include pre-code constant pool at 0x02008fd8
+[WARN ] Local function call from 0x0200da34 in ARM9 main to 0x020117c8 goes to middle of function 'func_020117bc' at 0x020117bc, adding an external label symbol
+[WARN ] Local function call from 0x0200fce0 in ARM9 main to 0x020117c8 goes to middle of function 'func_020117bc' at 0x020117bc, adding an external label symbol
+[WARN ] Local function call from 0x020117ec in ARM9 main to 0x02011a18 goes to middle of function 'func_02011a10' at 0x02011a10, adding an external label symbol
+[WARN ] Local function call from 0x01ff84c8 in ITCM to 0x01ff847c goes to middle of function 'func_01ff844c' at 0x01ff844c, adding an external label symbol
+[WARN ] Local function call from 0x01ff99e0 in ITCM to 0x01ffd460 leads to a label, updating the label to be external
+[WARN ] Local function call from 0x01ff9a28 in ITCM to 0x01ffd460 leads to a label, updating the label to be external
+[WARN ] Local function call from 0x01ff9e14 in ITCM to 0x01ffd460 leads to a label, updating the label to be external
+[WARN ] Local function call from 0x01ff9e5c in ITCM to 0x01ffd460 leads to a label, updating the label to be external
+[WARN ] Local function call from 0x01ffae00 in ITCM to 0x01ffd460 leads to a label, updating the label to be external
+[WARN ] Local function call from 0x01ffae38 in ITCM to 0x01ffd460 leads to a label, updating the label to be external
+[WARN ] Local function call from 0x01ffb2b8 in ITCM to 0x01ffd460 leads to a label, updating the label to be external
+[WARN ] Local function call from 0x01ffb2f0 in ITCM to 0x01ffd460 leads to a label, updating the label to be external
+[WARN ] No functions from 0x020b57c8 in overlay 0 to 0x0201160c:
