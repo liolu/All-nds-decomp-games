@@ -1,0 +1,20 @@
+[INFO ] Loading ROM from extract/jp/config.yaml
+[WARN ] Local function call from 0x02005fe0 in ARM9 main to 0x020063cc goes to middle of function 'func_020063c4' at 0x020063c4, adding an external label symbol
+[WARN ] Local function call from 0x02008734 in ARM9 main to 0x02004c78 goes to middle of function 'func_02004624' at 0x02004624, adding an external label symbol
+[WARN ] Local function call from 0x02008e74 in ARM9 main to 0x02004b8c goes to middle of function 'func_02004624' at 0x02004624, adding an external label symbol
+[WARN ] Local function call from 0x02009308 in ARM9 main to 0x02005fbc goes to middle of function 'func_02005fb0' at 0x02005fb0, adding an external label symbol
+[WARN ] Local function call from 0x0200a3bc in ARM9 main to 0x02004b8c goes to middle of function 'func_02004624' at 0x02004624, adding an external label symbol
+[WARN ] Local function call from 0x0200a70c in ARM9 main to 0x02004b8c goes to middle of function 'func_02004624' at 0x02004624, adding an external label symbol
+[WARN ] Local function call from 0x0200afc4 in ARM9 main to 0x02005fbc goes to middle of function 'func_02005fb0' at 0x02005fb0, adding an external label symbol
+[WARN ] Local function call from 0x0208277c in ARM9 main to 0x02005fbc goes to middle of function 'func_02005fb0' at 0x02005fb0, adding an external label symbol
+[WARN ] Local function call from 0x020828c4 in ARM9 main to 0x02005fbc goes to middle of function 'func_02005fb0' at 0x02005fb0, adding an external label symbol
+[WARN ] Local function call from 0x020c5e54 in ARM9 main to 0x020065c0 leads to no function, inserting an unknown function symbol
+[WARN ] No functions from 0x021e8dd0 in overlay 12 to 0x02005a04:
+[WARN ] No functions from 0x021e8dec in overlay 12 to 0x02004740:
+[WARN ] No functions from 0x021e8ecc in overlay 12 to 0x02005a04:
+[WARN ] No functions from 0x021e8ee8 in overlay 12 to 0x02004740:
+[WARN ] No functions from 0x021e8fe8 in overlay 12 to 0x02005a04:
+[WARN ] No functions from 0x021e9004 in overlay 12 to 0x02004740:
+[WARN ] No functions from 0x021e90e4 in overlay 12 to 0x02005a04:
+[WARN ] No functions from 0x021e9100 in overlay 12 to 0x02004740:
+[WARN ] No functions from 0x021ee2c0 in overlay 16 to 0x02004d00:
