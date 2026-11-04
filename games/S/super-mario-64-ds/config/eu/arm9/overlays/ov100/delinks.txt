@@ -4,3 +4,19 @@
     .ctor       start:0x02147de8 end:0x02147e04 kind:rodata align:4
     .data       start:0x02147e20 end:0x02148600 kind:data align:32
     .bss        start:0x02148600 end:0x02148a80 kind:bss align:32
+
+src/auto/func_ov100_02141fa8.c:
+    complete
+    .text       start:0x02141fa8 end:0x02141fb0
+
+src/auto/func_ov100_021442d4.c:
+    complete
+    .text       start:0x021442d4 end:0x021442dc
+
+src/auto/func_ov100_02144c64.c:
+    complete
+    .text       start:0x02144c64 end:0x02144c6c
+
+src/auto/func_ov100_0214639c.c:
+    complete
+    .text       start:0x0214639c end:0x021463b0

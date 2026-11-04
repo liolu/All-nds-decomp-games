@@ -4,3 +4,19 @@
     .ctor       start:0x02127f60 end:0x02127f6c kind:rodata align:4
     .data       start:0x02127f80 end:0x021283c0 kind:data align:32
     .bss        start:0x021283c0 end:0x02128860 kind:bss align:32
+
+src/auto/func_ov080_02123858.c:
+    complete
+    .text       start:0x02123858 end:0x02123860
+
+src/auto/func_ov080_02124ac4.c:
+    complete
+    .text       start:0x02124ac4 end:0x02124acc
+
+src/auto/func_ov080_021251cc.c:
+    complete
+    .text       start:0x021251cc end:0x021251ec
+
+src/auto/func_ov080_02125404.c:
+    complete
+    .text       start:0x02125404 end:0x02125428

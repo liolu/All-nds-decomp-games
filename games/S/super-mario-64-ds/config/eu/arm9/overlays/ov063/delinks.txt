@@ -4,3 +4,15 @@
     .ctor       start:0x0211e6fc end:0x0211e70c kind:rodata align:4
     .data       start:0x0211e720 end:0x0211edc0 kind:data align:32
     .bss        start:0x0211edc0 end:0x0211efe0 kind:bss align:32
+
+src/auto/func_ov063_02116068.c:
+    complete
+    .text       start:0x02116068 end:0x0211608c
+
+src/auto/func_ov063_02118ea0.c:
+    complete
+    .text       start:0x02118ea0 end:0x02118eac
+
+src/auto/func_ov063_0211d454.c:
+    complete
+    .text       start:0x0211d454 end:0x0211d468
