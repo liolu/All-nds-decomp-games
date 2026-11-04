@@ -1,0 +1,10 @@
+[INFO ] Loading ROM from extract/usa/config.yaml
+[INFO ] Function at 0x020b4418 was adjusted to include pre-code constant pool at 0x020b4414
+[WARN ] Local function call from 0x02076230 in ARM9 main to 0x020c0c78 leads to no function, inserting an unknown function symbol
+[INFO ] Function at 0x01ff948c was adjusted to include pre-code constant pool at 0x01ff9488
+[WARN ] Local function call from 0x01ff8da8 in ITCM to 0x01ff8c98 goes to middle of function 'func_01ff8c50' at 0x01ff8c50, adding an external label symbol
+[WARN ] Local function call from 0x01ff8dd0 in ITCM to 0x01ff8c98 goes to middle of function 'func_01ff8c50' at 0x01ff8c50, adding an external label symbol
+[WARN ] Local function call from 0x01ff8df0 in ITCM to 0x01ff8c98 goes to middle of function 'func_01ff8c50' at 0x01ff8c50, adding an external label symbol
+[WARN ] Local function call from 0x01ff8df8 in ITCM to 0x01ff8c98 goes to middle of function 'func_01ff8c50' at 0x01ff8c50, adding an external label symbol
+[WARN ] Local function call from 0x01ff8e50 in ITCM to 0x01ff8c98 goes to middle of function 'func_01ff8c50' at 0x01ff8c50, adding an external label symbol
+[WARN ] Local function call from 0x01ff8e70 in ITCM to 0x01ff8d2c goes to middle of function 'func_01ff8c50' at 0x01ff8c50, adding an external label symbol
