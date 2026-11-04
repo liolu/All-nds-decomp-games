@@ -499,3 +499,56 @@ src/donor/func_02066a30.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
 src/donor/func_02066a9c.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
 src/donor/func_02066b2c.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
 src/donor/func_02066da4.c 1.2/sp2p3
+src/auto/_ZN16TownStageManager4drawEv.c 1.2/sp2p3
+src/auto/func_020568b8.c 1.2/sp2p3
+src/auto/func_02056b68.c 1.2/sp2p3
+src/auto/func_020570fc.c 1.2/sp2p3
+src/auto/func_020574c0.c 1.2/sp2p3
+src/auto/_Z24EnableSpecificInterruptsj.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/_Z24SetDMACompletionCallbackiPFviEi.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_020596d4.c 1.2/sp2p3
+src/auto/func_02059764.c 1.2/sp2p3
+src/auto/func_02059960.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_0205999c.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_02059b44.c 1.2/sp2p3
+src/auto/func_02059b78.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_02059bec.c 1.2/sp2p3
+src/auto/func_02059c54.c 1.2/sp2p3
+src/auto/func_02059cac.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_0205a13c.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_0205a340.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_0205aa50.c 1.2/sp2p3
+src/auto/func_0205aa70.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_0205ab10.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_0205abcc.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_0205ac08.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_0205ac7c.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_0205b13c.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_0205b2ec.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_0205b580.c 1.2/sp2p3
+src/auto/func_0205ca80.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_0205cba4.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_0205ccf4.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_0205da88.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_0205e044.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_0205eb78.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_0205f030.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_0205f0d4.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_0205f1e8.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_0206018c.c 1.2/sp2p3
+src/auto/func_02060250.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_02060580.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_02060e84.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_02062190.c 1.2/sp2p3
+src/auto/func_02063f2c.c 1.2/sp2p3
+src/auto/func_02063f54.c 1.2/sp2p3
+src/auto/func_02064170.c 1.2/sp2p3
+src/auto/_ll_sdiv.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/_s32_div_f.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_0206536c.c 1.2/sp2p3
+src/auto/_Z22__DecodeUnsignedNumberPcPm.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/_Z20__DecodeSignedNumberPcPl.c 1.2/sp2p3
+src/auto/func_02065748.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_0206589c.cpp 1.2/sp2p3 -O4,p -inline on,noauto
+src/auto/func_02066554.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_0206690c.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
