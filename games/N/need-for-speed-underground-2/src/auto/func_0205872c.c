@@ -1,0 +1,27 @@
+/* compiler: 1.2/sp2p3 */
+#include "m2c.h"
+
+s32 func_020585b0(s32 *);                           /* extern */
+s32 func_02058584(s32 *);                           /* extern */
+
+void func_0205872c(void) {
+    s32 sp4;
+    s32 sp0;
+
+    *(s32 *) 0x04000600 |= 0x8000;
+    do {
+
+    } while (func_020585b0(&sp4) != 0);
+    do {
+
+    } while (func_02058584(&sp0) != 0);
+    M2C_FIELD((void *) 0x04000440, s32 *, 0)    = 3;
+    M2C_FIELD((void *) 0x04000440, s32 *, 0x14) = 0;
+    M2C_FIELD((void *) 0x04000440, s32 *, 0)    = 0;
+    if (sp0 != 0) {
+        M2C_FIELD((void *) 0x04000440, s32 *, 8) = sp0;
+    }
+    M2C_FIELD((void *) 0x04000440, s32 *, 0)    = 2;
+    M2C_FIELD((void *) 0x04000440, s32 *, 8)    = sp4;
+    M2C_FIELD((void *) 0x04000440, s32 *, 0x14) = 0;
+}
