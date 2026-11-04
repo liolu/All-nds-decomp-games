@@ -1,0 +1,236 @@
+/* compiler: 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto */
+/* FIELD_PLACE_NAME_DeleteWordSet from https://github.com/Project-Holon/aletheia src/game/ov021/field_place_name.c (license:
+ * none (MIT = tooling only)), reused by tools/donor_match.py */
+typedef unsigned char u8;
+typedef unsigned short u16;
+typedef unsigned int u32;
+typedef signed short s16;
+typedef signed int s32;
+typedef s32 fx32;
+typedef struct PlaceNamePaletteBlock {
+    unsigned int header[3];
+    void *colors;
+} PlaceNamePaletteBlock;
+typedef struct FieldPlaceName {
+    struct GameSystem *gameSystem;
+    struct GameData *gameData;
+    struct WordSet *wordSet;
+    unsigned short heapId;
+    struct ArcFile *arcHandle;
+    struct MsgBank *msgData;
+    struct GfFont *font;
+    struct Strbuf *message;
+    unsigned char messageLength;
+    struct BmpWin *bmpWin;
+    int bgCharOffset;
+    int clactPaletteId;
+    struct BmpOamSys *bmpOamSys;
+    struct Unit *clactUnit[1];
+    struct ClactRenderer *clactRenderer;
+    int state;
+    unsigned char step;
+    unsigned short frame;
+    unsigned short prevZoneId;
+    unsigned short zoneId;
+    unsigned int zoneChangeRequested;
+    unsigned int forceShowRequested;
+    struct PlaceNameLetter *letters[30];
+    struct PlaceNameLetter *shownLetters[32];
+    unsigned char spawnedCount;
+    unsigned char launchedCount;
+    unsigned char blittedCount;
+    unsigned char skippedSpaceCount;
+    struct NitroFileHeader *paletteFile;
+    PlaceNamePaletteBlock *paletteBlock;
+} FieldPlaceName;
+typedef struct PlaceNameLetterMotion {
+    float x;
+    float y;
+    float vx;
+    float vy;
+    float ax;
+    float ay;
+    float targetX;
+    float targetY;
+    float targetVx;
+    float targetVy;
+    int framesX;
+    int framesY;
+} PlaceNameLetterMotion;
+typedef struct PlaceNameLetter {
+    unsigned short heapId;
+    struct GfFont *font;
+    struct Bmp *bmp;
+    struct BmpOam *bmpOam;
+    PlaceNameLetterMotion motion;
+    unsigned char width;
+    unsigned char height;
+    unsigned int active;
+    unsigned short ch;
+} PlaceNameLetter;
+typedef struct GameSystem GameSystem;
+typedef struct GameData GameData;
+typedef struct WordSet WordSet;
+typedef struct ArcFile ArcFile;
+typedef struct GfFont GfFont;
+typedef struct Strbuf Strbuf;
+typedef struct BmpWin BmpWin;
+typedef struct Bmp Bmp;
+typedef struct ClactRenderer ClactRenderer;
+typedef struct NitroFileHeader NitroFileHeader;
+typedef struct VecFx32 {
+    fx32 x, y, z;
+} VecFx32;
+struct BmpWin {
+    u16 magic : 15;
+    u16 is8bpp : 1;
+    u8 bgLayer;
+    u8 posX;
+    u8 posY;
+    u8 width;
+    u8 height;
+    u8 dispWidth;
+    u8 dispHeight;
+    u8 palette;
+    u16 charOffset;
+    struct Bmp *bmp;
+};
+typedef struct RailLocation {
+    u16 railIndex;
+    u8 type;
+    u8 key;
+    s16 widthGrid;
+    u16 lineGrid;
+} RailLocation;
+typedef struct Location {
+    u32 type;
+    u16 zoneId;
+    s16 exitId;
+    s16 dir;
+    u16 exitOffset;
+    u32 posType;
+    union {
+        VecFx32 vec;
+        RailLocation rail;
+    } pos;
+} Location;
+typedef struct PlayerPosition {
+    u32 x;
+    u32 y;
+    u32 z;
+} PlayerPosition;
+struct MyStatus {
+    u16 name[8];
+    u32 id;
+    u32 profile_id;
+    u8 nation;
+    u8 area;
+    u8 language;
+    u8 rom_code;
+    u8 trainer_view;
+    u8 sex;
+};
+struct PlayerWork {
+    unsigned short zoneId;
+    unsigned short railZoneId;
+    PlayerPosition position;
+    RailLocation rail;
+    unsigned short direction;
+    unsigned char posType;
+    unsigned char moveForm;
+    unsigned short palaceZoneId;
+    unsigned char pad1E[2];
+    struct MyStatus status;
+    unsigned int objectCode;
+};
+struct GameData {
+    struct SaveControl *saveControl;
+    struct PlayerWork playerWork[5];
+    void *eventData;
+    struct PlayerLocationData *situation;
+    struct Location *startLocation;
+    struct Location *entranceLocation;
+    struct Location *specialLocation;
+    struct Location *escapeLocation;
+    struct Location warpLocation;
+    struct BagCursor *mapMatrix;
+    void *myItem;
+    void *myParty;
+    struct Config *config;
+    u32 *boxManager;
+    struct WifiList *wifiList;
+    struct BgmInfoTable *bagCursor;
+    void *occupyInfo;
+    void *eventWork;
+    struct MapMatrix *fieldWork;
+    struct FieldSoundSystem *bgmInfo;
+    void *moveModelSys;
+    unsigned int lastBattleResult;
+    unsigned int saveStatus;
+    unsigned char season;
+    unsigned char weatherId;
+    unsigned char subscreenType;
+    unsigned char fieldMenuCursor;
+    unsigned char walkCount;
+    unsigned char walkCountEnabled;
+    unsigned char enterMode;
+    unsigned char ownNetId;
+    unsigned char intrudeCount;
+    unsigned char intrudeId;
+    unsigned char isSaving;
+    unsigned char symbolMapFlag;
+    unsigned char slotFlags[4];
+    unsigned char battleRecSlot[4][0x10];
+    unsigned char unionInfo[2][0x1E8];
+    void *fieldGimmick;
+    unsigned char rtcWork[4];
+    unsigned char fieldSave[0x94];
+    void *eventState;
+    struct CommPlayerSupport *pmsWork;
+    void *currentEvent;
+    struct BeaconStatus *itemUseWork;
+    struct CalenderWork *musicalWork;
+    unsigned char saveSyncBlock[0x10];
+    unsigned int listCursor;
+    void *externalWork;
+    struct PlayTime *playTime;
+};
+typedef int (*GameEventFunc)(struct GameEvent *event, int *seq, void *work);
+typedef struct GameEvent *(*GameEventCreatorFn)(struct GameSystem *gameSystem, void *arg);
+struct GameSystem {
+    u16 heapId;
+    u8 pad02[2];
+    struct GameInitWork *initParam;
+    struct ProcSys *procSys;
+    u32 procStatus;
+    GameEventCreatorFn eventCreator;
+    void *eventCreatorArg;
+    struct GameEvent *event;
+    struct GameData *gameData;
+    void *fieldMap;
+    struct GameComm *gameComm;
+    u32 reserved;
+    void *issSystem;
+    u8 fieldMapState;
+    u8 eventActive;
+    u8 commBlocked;
+    u8 netOffBySleep : 1;
+    u8 unusedBits : 7;
+};
+struct GameEvent {
+    struct GameEvent *parent;
+    GameEventFunc func;
+    int seq;
+    void *work;
+    struct GameSystem *gameSystem;
+};
+typedef struct GameComm GameComm;
+extern u32 func_0201f538(struct WordSet *words);
+extern void func_0202155c(FieldPlaceName *placeName);
+typedef struct BmpOamSys BmpOamSys;
+void func_0202155c(FieldPlaceName *placeName) {
+    if (placeName->wordSet != 0) {
+        func_0201f538(placeName->wordSet);
+        placeName->wordSet = 0;
+    }
+}
