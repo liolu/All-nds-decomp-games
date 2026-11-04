@@ -3,13 +3,13 @@ typedef struct {
     short a;
     unsigned short e;
 } G;
-void func_02002480(int);
-void func_02002460(int);
+void _Z16unkfunc_021210f0i(int);
+void _Z16unkfunc_02121100i(int);
 void func_02000d94(G *g) {
     if (g->e != 0) {
-        func_02002480(9);
-        func_02002460(g->e);
+        _Z16unkfunc_021210f0i(9);
+        _Z16unkfunc_02121100i(g->e);
     } else {
-        func_02002480(1);
+        _Z16unkfunc_021210f0i(1);
     }
 }

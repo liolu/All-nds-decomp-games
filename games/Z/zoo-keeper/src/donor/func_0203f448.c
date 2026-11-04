@@ -1,0 +1,122 @@
+/* compiler: 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto */
+/* WIH_SetGgid from https://github.com/Project-Holon/aletheia src/game/ov014/wih.c (license: none (MIT = tooling only)), reused
+ * by tools/donor_match.py */
+typedef unsigned char u8;
+typedef unsigned short u16;
+typedef unsigned int u32;
+typedef signed short s16;
+typedef int (*WihJudgeAcceptFunc)(void *startParentCb, void *userArg);
+typedef int (*WihRecvCallback)(u32 aid, u32 data, u32 length);
+typedef void (*WihSlotCallback)(u16 aid);
+typedef void (*WihBeaconFoundCallback)(void *bssDesc, void *userArg, u16 linkLevel);
+typedef int (*WihJudgeScanFunc)(void *bssDesc);
+typedef int (*WihEndCallback)(int ok);
+typedef struct WMGameInfo {
+    unsigned short magicNumber;
+    unsigned char ver;
+    unsigned char platform;
+    unsigned long ggid;
+    unsigned short tgid;
+    unsigned char userGameInfoLength;
+    unsigned char attribute;
+    unsigned short parentMaxSize;
+    unsigned short childMaxSize;
+    unsigned char userGameInfo[0x70];
+} WMGameInfo;
+typedef struct WMBssDesc {
+    u16 length;
+    u16 rssi;
+    u8 bssid[6];
+    u16 ssidLength;
+    u8 ssid[32];
+    u16 capaInfo;
+    struct {
+        u16 basic;
+        u16 support;
+    } rateSet;
+    u16 beaconPeriod;
+    u16 dtimPeriod;
+    u16 channel;
+    u16 cfpPeriod;
+    u16 cfpMaxDuration;
+    u16 gameInfoLength;
+    u16 otherElementCount;
+    WMGameInfo gameInfo;
+} WMBssDesc;
+typedef struct WihParentParam {
+    void *userGameInfo;
+    u16 userGameInfoLength;
+    u16 padding;
+    u32 ggid;
+    u16 tgid;
+    u16 entryFlag;
+    u16 maxEntry;
+    u16 multiBootFlag;
+    u16 keySharing;
+    u16 cswitch;
+    u16 beaconPeriod;
+    u16 reserved[12];
+    u16 channel;
+    u16 parentMaxSize;
+    u16 childMaxSize;
+} WihParentParam;
+typedef struct WihScanParam {
+    u8 *scanBuf;
+    u16 scanBufSize;
+    u16 channelList;
+    u16 maxChannelTime;
+    u16 bssid[3];
+    u16 scanType;
+    u16 ssidLength;
+    u8 ssid[0x20];
+    u16 ssidMatchLength;
+    u8 reserved[0xE];
+} WihScanParam;
+typedef struct WihWork {
+    WihParentParam parentParam;
+    u8 reserved38[8];
+    u8 wmSystemBuf[0xF00];
+    WMBssDesc scanBssDesc;
+    u8 scanBuf[0x400];
+    WihScanParam scanParam;
+    u8 dataSharingInfo[0x820];
+    u8 dataSet[0x200];
+    WihEndCallback initCallback;
+    void *sendBuf;
+    void *recvBuf;
+    int sysState;
+    int connectMode;
+    WihRecvCallback recvCallback;
+    WihJudgeAcceptFunc judgeAcceptFunc;
+    WihSlotCallback disconnectCallback;
+    WihSlotCallback connectCallback;
+    WihBeaconFoundCallback beaconFoundCallback;
+    int sendBufSize;
+    int recvBufSize;
+    WihJudgeScanFunc judgeScanFunc;
+    int lastError;
+    u32 randomSeed;
+    u8 reserved1EA0[8];
+    u16 ownAid;
+    u16 aidBitmap;
+    u16 measuredChannel;
+    u16 minBusyRatio;
+    u16 bestChannelBitmap;
+    u16 fixedScanChannel;
+    u16 autoConnect;
+    u8 reserved1EB6[4];
+    u16 beaconSendCount;
+    u16 scanCount;
+    s16 scanWait;
+    u16 heapId;
+    u16 scanWaitFrames;
+    u8 connectSsid[0x1A];
+    u8 scanPaused;
+    u8 endScanPending;
+} WihWork;
+extern void func_0203f448(u32 ggid);
+extern void func_0203f448(u32 ggid);
+extern WihWork *data_0206a0f0;
+void func_0203f448(u32 ggid) {
+    data_0206a0f0->parentParam.ggid = ggid;
+}
