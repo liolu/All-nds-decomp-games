@@ -1,0 +1,3 @@
+#include "m2c.h"
+extern u8 func_ov002_020c6f34[];
+u32 data_ov002_0210a0fc[2] = {(u32) &func_ov002_020c6f34, 0x00000000};

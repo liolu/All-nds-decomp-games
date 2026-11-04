@@ -1,0 +1,2 @@
+#include "m2c.h"
+u32 data_ov009_02112c08[4] = {0xFFFFFFFF, 0xFFFFFFFF, 0xFFFFFFFF, 0xFFFFFFFF};
