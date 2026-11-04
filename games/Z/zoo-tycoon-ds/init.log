@@ -1,0 +1,4 @@
+[INFO ] Loading ROM from extract/eu/config.yaml
+[WARN ] Local function call from 0x02042828 in ARM9 main to 0x02074140 leads to no function, inserting an unknown function symbol
+[WARN ] Local function call from 0x020438d0 in ARM9 main to 0x02073818 goes to middle of function 'func_02072fc4' at 0x02072fc4, adding an external label symbol
+[WARN ] Local function call from 0x02073b60 in ARM9 main to 0x02073f4c goes to middle of function 'func_02073f44' at 0x02073f44, adding an external label symbol
