@@ -1,0 +1,20 @@
+[INFO ] Loading ROM from extract/usa/config.yaml
+[INFO ] Function at 0x020a3634 was adjusted to include pre-code constant pool at 0x020a3620
+[WARN ] Local function call from 0x02007d90 in ARM9 main to 0x020bd720 goes to middle of function 'func_020bd714' at 0x020bd714, adding an external label symbol
+[WARN ] Local function call from 0x02056458 in ARM9 main to 0x020bd720 goes to middle of function 'func_020bd714' at 0x020bd714, adding an external label symbol
+[WARN ] Local function call from 0x020b2b38 in ARM9 main to 0x020bd720 goes to middle of function 'func_020bd714' at 0x020bd714, adding an external label symbol
+[WARN ] Local function call from 0x020b7cb0 in ARM9 main to 0x020bd720 goes to middle of function 'func_020bd714' at 0x020bd714, adding an external label symbol
+[WARN ] Local function call from 0x020bb120 in ARM9 main to 0x020bd720 goes to middle of function 'func_020bd714' at 0x020bd714, adding an external label symbol
+[WARN ] Local function call from 0x020bc970 in ARM9 main to 0x020bc904 goes to middle of function 'func_020bc8f0' at 0x020bc8f0, adding an external label symbol
+[WARN ] Local function call from 0x020bcb18 in ARM9 main to 0x020bca98 goes to middle of function 'func_020bca84' at 0x020bca84, adding an external label symbol
+[WARN ] Local function call from 0x020bccc0 in ARM9 main to 0x020bcc40 goes to middle of function 'func_020bcc2c' at 0x020bcc2c, adding an external label symbol
+[WARN ] Local function call from 0x020bd744 in ARM9 main to 0x020bdb50 goes to middle of function 'func_020bdb48' at 0x020bdb48, adding an external label symbol
+[WARN ] Local function call from 0x01ff8388 in ITCM to 0x01ff833c goes to middle of function 'func_01ff830c' at 0x01ff830c, adding an external label symbol
+[WARN ] Local function call from 0x01ff98a0 in ITCM to 0x01ffd320 leads to a label, updating the label to be external
+[WARN ] Local function call from 0x01ff98e8 in ITCM to 0x01ffd320 leads to a label, updating the label to be external
+[WARN ] Local function call from 0x01ff9cd4 in ITCM to 0x01ffd320 leads to a label, updating the label to be external
+[WARN ] Local function call from 0x01ff9d1c in ITCM to 0x01ffd320 leads to a label, updating the label to be external
+[WARN ] Local function call from 0x01ffacc0 in ITCM to 0x01ffd320 leads to a label, updating the label to be external
+[WARN ] Local function call from 0x01ffacf8 in ITCM to 0x01ffd320 leads to a label, updating the label to be external
+[WARN ] Local function call from 0x01ffb178 in ITCM to 0x01ffd320 leads to a label, updating the label to be external
+[WARN ] Local function call from 0x01ffb1b0 in ITCM to 0x01ffd320 leads to a label, updating the label to be external
