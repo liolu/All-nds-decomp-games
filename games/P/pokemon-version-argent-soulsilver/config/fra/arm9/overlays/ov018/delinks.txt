@@ -2,3 +2,67 @@
     .rodata     start:0x021f9394 end:0x021fba90 kind:rodata align:4
     .ctor       start:0x021fba90 end:0x021fba90 kind:rodata align:4
     .bss        start:0x021fbaa0 end:0x021fbaa0 kind:bss align:32
+
+src/auto/func_ov018_021e5920.c:
+    complete
+    .text       start:0x021e5920 end:0x021e5924
+
+src/auto/func_ov018_021e5928.c:
+    complete
+    .text       start:0x021e5928 end:0x021e592c
+
+src/auto/func_ov018_021e6ca4.c:
+    complete
+    .text       start:0x021e6ca4 end:0x021e6cac
+
+src/auto/func_ov018_021f64e0.c:
+    complete
+    .text       start:0x021f64e0 end:0x021f64e8
+
+src/auto/func_ov018_021f8bf8.c:
+    complete
+    .text       start:0x021f8bf8 end:0x021f8c00
+
+src/data/ov018_rodata_021fa228.c:
+    complete
+    .rodata     start:0x021fa228 end:0x021fa26c
+
+src/data/ov018_rodata_021fb270.c:
+    complete
+    .rodata     start:0x021fb270 end:0x021fb280
+
+src/data/ov018_rodata_021fb280.c:
+    complete
+    .rodata     start:0x021fb280 end:0x021fb290
+
+src/data/ov018_rodata_021fb290.c:
+    complete
+    .rodata     start:0x021fb290 end:0x021fb2a0
+
+src/data/ov018_rodata_021fb2a0.c:
+    complete
+    .rodata     start:0x021fb2a0 end:0x021fb2b0
+
+src/data/ov018_rodata_021fb2b0.c:
+    complete
+    .rodata     start:0x021fb2b0 end:0x021fb2c0
+
+src/data/ov018_rodata_021fb2c0.c:
+    complete
+    .rodata     start:0x021fb2c0 end:0x021fb2d0
+
+src/data/ov018_rodata_021fb2d0.c:
+    complete
+    .rodata     start:0x021fb2d0 end:0x021fb2e0
+
+src/data/ov018_rodata_021fb2e0.c:
+    complete
+    .rodata     start:0x021fb2e0 end:0x021fb2f0
+
+src/data/ov018_rodata_021fb2f0.c:
+    complete
+    .rodata     start:0x021fb2f0 end:0x021fb300
+
+src/data/ov018_rodata_021fb3f8.c:
+    complete
+    .rodata     start:0x021fb3f8 end:0x021fb418

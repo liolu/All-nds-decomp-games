@@ -2,3 +2,15 @@
     .rodata     start:0x0221fd54 end:0x022201b4 kind:rodata align:4
     .ctor       start:0x022201b4 end:0x022201b4 kind:rodata align:4
     .bss        start:0x022201c0 end:0x022201c0 kind:bss align:32
+
+src/data/ov065_rodata_0221fd88.c:
+    complete
+    .rodata     start:0x0221fd88 end:0x0221fd8c
+
+src/data/ov065_rodata_0221fd8c.c:
+    complete
+    .rodata     start:0x0221fd8c end:0x0221fd90
+
+src/data/ov065_rodata_0221ff6c.c:
+    complete
+    .rodata     start:0x0221ff6c end:0x0221ff70

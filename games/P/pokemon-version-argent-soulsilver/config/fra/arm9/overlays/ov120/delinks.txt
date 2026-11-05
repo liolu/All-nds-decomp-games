@@ -2,3 +2,23 @@
     .rodata     start:0x022600fc end:0x022602a4 kind:rodata align:4
     .ctor       start:0x022602a4 end:0x022602a4 kind:rodata align:4
     .bss        start:0x022602c0 end:0x022602c0 kind:bss align:32
+
+src/auto/func_ov120_0225ef98.c:
+    complete
+    .text       start:0x0225ef98 end:0x0225efa0
+
+src/auto/func_ov120_0225f078.c:
+    complete
+    .text       start:0x0225f078 end:0x0225f080
+
+src/data/ov120_rodata_02260154.c:
+    complete
+    .rodata     start:0x02260154 end:0x02260158
+
+src/data/ov120_rodata_02260158.c:
+    complete
+    .rodata     start:0x02260158 end:0x0226015c
+
+src/data/ov120_rodata_0226015c.c:
+    complete
+    .rodata     start:0x0226015c end:0x02260160
