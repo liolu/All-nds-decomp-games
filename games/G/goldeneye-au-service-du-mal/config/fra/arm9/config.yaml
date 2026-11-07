@@ -1,0 +1,27 @@
+rom_config: ../../../extract/fra/config.yaml
+build_path: ../../../build/fra
+delinks_path: ../../../build/fra/delinks
+main_module:
+  name: main
+  object: ../../../build/fra/build/arm9.bin
+  hash: d2ba2b6a4e143bc6
+  delinks: delinks.txt
+  symbols: symbols.txt
+  relocations: relocs.txt
+autoloads:
+  - kind: Itcm
+    name: itcm
+    object: ../../../build/fra/build/itcm.bin
+    hash: 913dd196cb6b34ca
+    delinks: itcm/delinks.txt
+    symbols: itcm/symbols.txt
+    relocations: itcm/relocs.txt
+  - kind: Dtcm
+    name: dtcm
+    object: ../../../build/fra/build/dtcm.bin
+    hash: a3051d1c98a8cc28
+    delinks: dtcm/delinks.txt
+    symbols: dtcm/symbols.txt
+    relocations: dtcm/relocs.txt
+overlays:
+  []
