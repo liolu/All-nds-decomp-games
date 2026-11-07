@@ -1,0 +1,4 @@
+from:0x02163894 kind:arm_call to:0x02065b70 module:main
+from:0x0216389c kind:arm_call to:0x0201a3ac module:main
+from:0x021638a4 kind:arm_call to:0x0201e504 module:main
+from:0x021638ac kind:load to:0x021638c0 module:overlay(0)
