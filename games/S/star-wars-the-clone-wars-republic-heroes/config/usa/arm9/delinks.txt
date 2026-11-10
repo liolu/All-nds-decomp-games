@@ -26,6 +26,18 @@ src/auto/func_02000b98.c:
     complete
     .text       start:0x02000b98 end:0x02000b9c
 
+src/nitro/init/module_params.c:
+    complete
+    .text       start:0x02000b9c end:0x02000bc0
+
+src/nitro/init/version_backup.c:
+    complete
+    .text       start:0x02000bc0 end:0x02000bd8
+
+src/nitro/init/version_mobiclip.c:
+    complete
+    .text       start:0x02000bd8 end:0x02000c00
+
 src/auto/func_020544d4.c:
     complete
     .text       start:0x020544d4 end:0x020544f0
