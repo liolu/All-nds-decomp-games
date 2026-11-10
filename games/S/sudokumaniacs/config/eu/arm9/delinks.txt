@@ -22,6 +22,14 @@ src/donor/func_020009f0.c:
     complete
     .text       start:0x020009f0 end:0x02000a68
 
+src/nitro/init/module_params.c:
+    complete
+    .text       start:0x02000b58 end:0x02000b7c
+
+src/nitro/init/version_backup.c:
+    complete
+    .text       start:0x02000b7c end:0x02000b94
+
 src/donor/func_0200a6a4.c:
     complete
     .text       start:0x0200a6a4 end:0x0200a6b0
