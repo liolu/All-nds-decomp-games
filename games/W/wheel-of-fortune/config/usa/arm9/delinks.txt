@@ -1182,3 +1182,15 @@ src/data/main_data_020e0a98.c:
 src/data/main_data_020e0b54.c:
     complete
     .data       start:0x020e0b54 end:0x020e0b6c
+
+src/nitro/init/module_params.c:
+    complete
+    .text       start:0x02004b88 end:0x02004bac
+
+src/nitro/init/version_backup.c:
+    complete
+    .text       start:0x02004bac end:0x02004bc4
+
+src/nitro/init/version_mcrlib.c:
+    complete
+    .text       start:0x02004bc4 end:0x02004be0
