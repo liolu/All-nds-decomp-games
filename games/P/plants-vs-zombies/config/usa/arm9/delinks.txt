@@ -10054,3 +10054,15 @@ src/data/main_bss_021da411.c:
 src/data/main_bss_021da412.c:
     complete
     .bss        start:0x021da412 end:0x021da420
+
+src/nitro/init/module_params.c:
+    complete
+    .text       start:0x02000b88 end:0x02000bac
+
+src/nitro/init/version_backup.c:
+    complete
+    .text       start:0x02000bac end:0x02000bc4
+
+src/nitro/init/version_mobiclip.c:
+    complete
+    .text       start:0x02000bc4 end:0x02000bec
