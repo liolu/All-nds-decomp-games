@@ -24,6 +24,11 @@ AutoloadCallback kind:function(arm,size=0x4) addr:0x02000a74
 func_02000a78 kind:function(arm,size=0xe8) addr:0x02000a78
 func_02000b60 kind:function(arm,size=0x4) addr:0x02000b60
 BuildInfo kind:data(any) addr:0x02000b64
+_SDK_NintendoDwc kind:data(any) addr:0x02000b88
+_SDK_NintendoWifi kind:data(any) addr:0x02000bc0
+_SDK_UbiquitousCps kind:data(any) addr:0x02000be8
+_SDK_UbiquitousSsl kind:data(any) addr:0x02000c00
+_SDK_NintendoBackup kind:data(any) addr:0x02000c18
 main kind:function(arm,size=0x1c) addr:0x02000c30
 func_02000c4c kind:function(thumb,size=0x14) addr:0x02000c4c
 func_02000c60 kind:function(thumb,size=0x14) addr:0x02000c60
