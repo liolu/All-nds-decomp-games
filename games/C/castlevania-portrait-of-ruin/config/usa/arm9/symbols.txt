@@ -25,6 +25,12 @@ func_02000a6c kind:function(arm,size=0xe8) addr:0x02000a6c
 func_02000b54 kind:function(arm,size=0x4) addr:0x02000b54
 func_02000b58 kind:function(arm,size=0x4) addr:0x02000b58
 BuildInfo kind:data(any) addr:0x02000b5c
+_SDK_ActimagineVx kind:data(any) addr:0x02000b80
+_SDK_NintendoBackup kind:data(any) addr:0x02000b94
+_SDK_NintendoWifi kind:data(any) addr:0x02000bac
+_SDK_UbiquitousCps kind:data(any) addr:0x02000bd4
+_SDK_UbiquitousSsl kind:data(any) addr:0x02000bec
+_SDK_NintendoDwc kind:data(any) addr:0x02000c04
 main kind:function(arm,size=0x340) addr:0x02000c3c
 func_02000f7c kind:function(arm,size=0x10) addr:0x02000f7c
 func_02000f8c kind:function(arm,size=0x14) addr:0x02000f8c
