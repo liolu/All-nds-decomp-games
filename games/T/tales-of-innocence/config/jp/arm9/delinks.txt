@@ -5,3 +5,15 @@
     .ctor       start:0x0207ed80 end:0x0207eda8 kind:rodata align:4
     .data       start:0x0207edc0 end:0x020a5140 kind:data align:32
     .bss        start:0x020a5140 end:0x02120e60 kind:bss align:32
+
+src/nitro/init/module_params.c:
+    complete
+    .text       start:0x02000ba0 end:0x02000bc4
+
+src/nitro/init/version_backup.c:
+    complete
+    .text       start:0x02000bc4 end:0x02000bdc
+
+src/nitro/init/version_mo.c:
+    complete
+    .text       start:0x02000bdc end:0x02000bf0
