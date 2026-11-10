@@ -25,6 +25,9 @@ func_02000a14 kind:function(arm,size=0xe8) addr:0x02000a14
 func_02000afc kind:function(arm,size=0x4) addr:0x02000afc
 func_02000b00 kind:function(arm,size=0x4) addr:0x02000b00
 BuildInfo kind:data(any) addr:0x02000b04
+_SDK_MeiLibasr kind:data(any) addr:0x02000b28
+_SDK_ZiCorporationMcrlib kind:data(any) addr:0x02000b48
+_SDK_ZiCorporationScrlib kind:data(any) addr:0x02000b64
 main kind:function(arm,size=0x14) addr:0x02000b80
 func_02000b94 kind:function(arm,size=0x18) addr:0x02000b94
 func_02000bac kind:function(thumb,size=0xc) addr:0x02000bac

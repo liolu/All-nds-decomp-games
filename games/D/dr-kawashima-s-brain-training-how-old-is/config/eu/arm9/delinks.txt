@@ -5,3 +5,19 @@
     .ctor       start:0x020cb15c end:0x020cb16c kind:rodata align:4
     .data       start:0x020cb180 end:0x020d6180 kind:data align:32
     .bss        start:0x020d6180 end:0x020eacc0 kind:bss align:32
+
+src/nitro/init/module_params.c:
+    complete
+    .text       start:0x02000b04 end:0x02000b28
+
+src/nitro/init/version_libasr.c:
+    complete
+    .text       start:0x02000b28 end:0x02000b48
+
+src/nitro/init/version_mcrlib.c:
+    complete
+    .text       start:0x02000b48 end:0x02000b64
+
+src/nitro/init/version_scrlib.c:
+    complete
+    .text       start:0x02000b64 end:0x02000b80
