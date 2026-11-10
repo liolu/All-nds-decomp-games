@@ -3972,3 +3972,11 @@ src/data/main_rodata_02095d0a.c:
 src/data/main_rodata_02095d0b.c:
     complete
     .rodata     start:0x02095d0b end:0x02095d2c
+
+src/nitro/init/module_params.c:
+    complete
+    .text       start:0x02000ba0 end:0x02000bc4
+
+src/nitro/init/version_backup.c:
+    complete
+    .text       start:0x02000bc4 end:0x02000bdc
