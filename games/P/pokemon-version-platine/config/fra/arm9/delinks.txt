@@ -5,3 +5,31 @@
     .ctor       start:0x020fed94 end:0x020fed94 kind:rodata align:4
     .data       start:0x020feda0 end:0x02101f00 kind:data align:32
     .bss        start:0x02101f00 end:0x021d0f60 kind:bss align:32
+
+src/nitro/init/module_params.c:
+    complete
+    .text       start:0x02000ba0 end:0x02000bc4
+
+src/nitro/init/version_dwc.c:
+    complete
+    .text       start:0x02000bc4 end:0x02000bfc
+
+src/nitro/init/version_backup.c:
+    complete
+    .text       start:0x02000bfc end:0x02000c14
+
+src/nitro/init/version_libvct.c:
+    complete
+    .text       start:0x02000c14 end:0x02000c30
+
+src/nitro/init/version_wifi.c:
+    complete
+    .text       start:0x02000c30 end:0x02000c58
+
+src/nitro/init/version_cps.c:
+    complete
+    .text       start:0x02000c58 end:0x02000c70
+
+src/nitro/init/version_ssl.c:
+    complete
+    .text       start:0x02000c70 end:0x02000c88
