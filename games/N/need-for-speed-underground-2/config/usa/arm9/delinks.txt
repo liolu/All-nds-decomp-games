@@ -7,6 +7,10 @@
     .data       start:0x0206c240 end:0x020a2ea0 kind:data align:32
     .bss        start:0x020a2ea0 end:0x0217e860 kind:bss align:32
 
+src/nitro/init/module_params.c:
+    complete
+    .text       start:0x02000b00 end:0x02000b24
+
 src/auto/func_02001d6c.c:
     complete
     .text       start:0x02001d6c end:0x02001d78
