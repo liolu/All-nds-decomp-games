@@ -4,3 +4,11 @@
     .ctor       start:0x020b6de4 end:0x020b6e64 kind:rodata align:4
     .data       start:0x020b6e80 end:0x020bdf60 kind:data align:32
     .bss        start:0x020bdf60 end:0x020d70e0 kind:bss align:32
+
+src/nitro/init/module_params.c:
+    complete
+    .text       start:0x02000b64 end:0x02000b88
+
+src/nitro/init/version_backup.c:
+    complete
+    .text       start:0x02000b88 end:0x02000ba0
