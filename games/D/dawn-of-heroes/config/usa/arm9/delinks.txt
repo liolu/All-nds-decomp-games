@@ -18,6 +18,30 @@ src/donor/func_02000a1c.c:
     complete
     .text       start:0x02000a1c end:0x02000aac
 
+src/nitro/init/module_params.c:
+    complete
+    .text       start:0x02000ba0 end:0x02000bc4
+
+src/nitro/init/version_dwc.c:
+    complete
+    .text       start:0x02000bc4 end:0x02000bfc
+
+src/nitro/init/version_cps.c:
+    complete
+    .text       start:0x02000bfc end:0x02000c14
+
+src/nitro/init/version_wifi.c:
+    complete
+    .text       start:0x02000c14 end:0x02000c3c
+
+src/nitro/init/version_ssl.c:
+    complete
+    .text       start:0x02000c3c end:0x02000c54
+
+src/nitro/init/version_backup.c:
+    complete
+    .text       start:0x02000c54 end:0x02000c6c
+
 src/donor/func_02059894.c:
     complete
     .text       start:0x02059894 end:0x020598e0
