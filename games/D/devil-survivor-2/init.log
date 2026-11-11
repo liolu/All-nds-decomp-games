@@ -1,0 +1,16 @@
+[INFO ] Loading ROM from extract/jp/config.yaml
+[INFO ] Function at 0x02011dbc was adjusted to include pre-code constant pool at 0x02011dac
+[WARN ] Local function call from 0x020020b4 in ARM9 main to 0x0201f1a8 goes to middle of function 'func_0201f198' at 0x0201f198, adding an external label symbol
+[WARN ] Local function call from 0x02002138 in ARM9 main to 0x0201f1a8 goes to middle of function 'func_0201f198' at 0x0201f198, adding an external label symbol
+[WARN ] Local function call from 0x020021cc in ARM9 main to 0x0201f1a8 goes to middle of function 'func_0201f198' at 0x0201f198, adding an external label symbol
+[WARN ] Local function call from 0x02002328 in ARM9 main to 0x0201f1a8 goes to middle of function 'func_0201f198' at 0x0201f198, adding an external label symbol
+[WARN ] Local function call from 0x02002438 in ARM9 main to 0x0201f1a8 goes to middle of function 'func_0201f198' at 0x0201f198, adding an external label symbol
+[WARN ] Local function call from 0x020024ac in ARM9 main to 0x0201f1a8 goes to middle of function 'func_0201f198' at 0x0201f198, adding an external label symbol
+[WARN ] Local function call from 0x02002508 in ARM9 main to 0x0201f1a8 goes to middle of function 'func_0201f198' at 0x0201f198, adding an external label symbol
+[WARN ] Local function call from 0x02013028 in ARM9 main to 0x0201f364 goes to middle of function 'func_0201f358' at 0x0201f358, adding an external label symbol
+[WARN ] Local function call from 0x0201770c in ARM9 main to 0x0201f364 goes to middle of function 'func_0201f358' at 0x0201f358, adding an external label symbol
+[WARN ] Local function call from 0x0201f388 in ARM9 main to 0x0201f5b4 goes to middle of function 'func_0201f5ac' at 0x0201f5ac, adding an external label symbol
+[WARN ] Local function call from 0x02029664 in ARM9 main to 0x0201f1a8 goes to middle of function 'func_0201f198' at 0x0201f198, adding an external label symbol
+[WARN ] Local function call from 0x02029ec8 in ARM9 main to 0x0201f1a8 goes to middle of function 'func_0201f198' at 0x0201f198, adding an external label symbol
+[WARN ] Local function call from 0x0211bbd4 in ARM9 main to 0x0211be9c goes to middle of function 'func_0211be58' at 0x0211be58, adding an external label symbol
+[WARN ] The DS Protect relocation from 0x021c44c8 points to 0x02007ec0 which is outside of overlay 5, keeping the raw value
