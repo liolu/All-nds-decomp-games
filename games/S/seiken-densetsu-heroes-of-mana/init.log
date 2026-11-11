@@ -1,0 +1,16 @@
+[INFO ] Loading ROM from extract/jp/config.yaml
+[INFO ] Function at 0x02015db0 was adjusted to include pre-code constant pool at 0x02015d9c
+[WARN ] Local function call from 0x0200b998 in ARM9 main to 0x0202f884 goes to middle of function 'func_0202f874' at 0x0202f874, adding an external label symbol
+[WARN ] Local function call from 0x02024690 in ARM9 main to 0x0202fa40 goes to middle of function 'func_0202fa34' at 0x0202fa34, adding an external label symbol
+[WARN ] Local function call from 0x02029ea8 in ARM9 main to 0x0202fa40 goes to middle of function 'func_0202fa34' at 0x0202fa34, adding an external label symbol
+[WARN ] Local function call from 0x0202cd6c in ARM9 main to 0x0202fa40 goes to middle of function 'func_0202fa34' at 0x0202fa34, adding an external label symbol
+[WARN ] Local function call from 0x0202fa64 in ARM9 main to 0x0202fcb0 goes to middle of function 'func_0202fca8' at 0x0202fca8, adding an external label symbol
+[WARN ] Local function call from 0x01ff85a8 in ITCM to 0x01ff855c goes to middle of function 'func_01ff852c' at 0x01ff852c, adding an external label symbol
+[WARN ] Local function call from 0x01ff9ac0 in ITCM to 0x01ffd540 leads to a label, updating the label to be external
+[WARN ] Local function call from 0x01ff9b08 in ITCM to 0x01ffd540 leads to a label, updating the label to be external
+[WARN ] Local function call from 0x01ff9ef4 in ITCM to 0x01ffd540 leads to a label, updating the label to be external
+[WARN ] Local function call from 0x01ff9f3c in ITCM to 0x01ffd540 leads to a label, updating the label to be external
+[WARN ] Local function call from 0x01ffaee0 in ITCM to 0x01ffd540 leads to a label, updating the label to be external
+[WARN ] Local function call from 0x01ffaf18 in ITCM to 0x01ffd540 leads to a label, updating the label to be external
+[WARN ] Local function call from 0x01ffb398 in ITCM to 0x01ffd540 leads to a label, updating the label to be external
+[WARN ] Local function call from 0x01ffb3d0 in ITCM to 0x01ffd540 leads to a label, updating the label to be external
