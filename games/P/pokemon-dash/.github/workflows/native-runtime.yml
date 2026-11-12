@@ -70,6 +70,6 @@ jobs:
         run: |
           version="${GITHUB_REF_NAME#runtime-v}"
           test "$version" = "$(tr -d '[:space:]' < native/VERSION)" || { echo "native/VERSION ne dit pas $version"; exit 1; }
-          python3 native/tools/runtime_package.py APDE --version "$version" --out dist
+          python3 native/tools/runtime_package.py APDE,APDJ,APDP,APDK --version "$version" --out dist
       - name: Publier
         run: gh release create "$GITHUB_REF_NAME" dist/* --title "Runtime natif $GITHUB_REF_NAME" --notes "Telecharge par Nds Game Studio pour generer ce jeu depuis la rom du joueur. Aucun code du jeu."

@@ -29,5 +29,133 @@
   "values": {
    "nds_old_sdk": "1"
   }
+ },
+ "APDJ": {
+  "data": {
+   "OSi_IrqThreadQueue": "0x023c0000",
+   "OSi_ThreadInfo": "0x020d7944"
+  },
+  "eh_end_catch": "0x020b0750",
+  "hooks": {
+   "0x0209a8dc": "nds_hook_game_halt",
+   "0x020a79b8": "nds_hook_game_halt"
+  },
+  "names": {
+   "0x02000128": "VBlankIntrWait",
+   "0x02000204": "GetCRC16",
+   "0x02000278": "Sqrt",
+   "0x020003c0": "IntrWait",
+   "0x02000580": "Halt",
+   "0x02000600": "CpuFastSet",
+   "0x02000668": "WaitByLoop",
+   "0x020006be": "CpuSet",
+   "0x02000794": "Div",
+   "0x02099408": "OS_SelectThread",
+   "0x02099954": "OS_InitContext",
+   "0x020999b8": "OS_SaveContext",
+   "0x02099a04": "OS_LoadContext",
+   "0x0209dee4": "FSi_ReadRomCallback",
+   "0x0209ed98": "TP_WaitBusy",
+   "0x0209edb0": "TP_GetCalibratedPoint",
+   "0x0209f150": "TP_WaitCalibratedResult",
+   "0x0209f1a8": "TP_RequestSamplingAsync",
+   "0x0209f34c": "TP_GetUserInfo",
+   "0x0209f3d8": "TP_Init",
+   "0x020a08a4": "RTC_GetTime",
+   "0x020a0964": "RTC_Init",
+   "0x020af534": "_s32_div_f",
+   "0x020af740": "_u32_div_f",
+   "0x020b02f8": "nds_eh_resume"
+  },
+  "overlays": true,
+  "values": {
+   "nds_old_sdk": "1"
+  }
+ },
+ "APDK": {
+  "data": {
+   "OSi_IrqThreadQueue": "0x027e0000",
+   "OSi_ThreadInfo": "0x020e27a0"
+  },
+  "eh_end_catch": "0x020b0f9c",
+  "hooks": {
+   "0x0209f3d4": "nds_hook_game_halt",
+   "0x020aa254": "nds_hook_game_halt"
+  },
+  "names": {
+   "0x0200007a": "Sqrt",
+   "0x0200016c": "IntrWait",
+   "0x020002ea": "WaitByLoop",
+   "0x020003cc": "Div",
+   "0x0200043c": "GetCRC16",
+   "0x020004a2": "CpuSet",
+   "0x02000594": "VBlankIntrWait",
+   "0x020005f8": "CpuFastSet",
+   "0x02000798": "Halt",
+   "0x0209d888": "OS_SelectThread",
+   "0x0209dfa8": "OS_InitContext",
+   "0x0209e00c": "OS_SaveContext",
+   "0x0209e058": "OS_LoadContext",
+   "0x020a306c": "FSi_ReadRomCallback",
+   "0x020a4030": "TP_WaitBusy",
+   "0x020a4048": "TP_GetCalibratedPoint",
+   "0x020a43e8": "TP_WaitCalibratedResult",
+   "0x020a4440": "TP_RequestSamplingAsync",
+   "0x020a4628": "TP_GetUserInfo",
+   "0x020a46d4": "TP_Init",
+   "0x020a5bb4": "RTC_GetTime",
+   "0x020a5c74": "RTC_Init",
+   "0x020b01dc": "_s32_div_f",
+   "0x020b03e8": "_u32_div_f",
+   "0x020b0b48": "nds_eh_resume"
+  },
+  "overlays": true,
+  "values": {
+   "nds_card_bus": "1",
+   "nds_dma_edge": "1"
+  }
+ },
+ "APDP": {
+  "data": {
+   "OSi_IrqThreadQueue": "0x023c0000",
+   "OSi_ThreadInfo": "0x020d84d4"
+  },
+  "eh_end_catch": "0x020b3a3c",
+  "hooks": {
+   "0x0209d71c": "nds_hook_game_halt",
+   "0x020aaca4": "nds_hook_game_halt"
+  },
+  "names": {
+   "0x02000080": "GetCRC16",
+   "0x020001a8": "Div",
+   "0x02000336": "CpuSet",
+   "0x0200039e": "IntrWait",
+   "0x0200050c": "VBlankIntrWait",
+   "0x02000588": "Sqrt",
+   "0x020005f2": "Halt",
+   "0x0200071c": "WaitByLoop",
+   "0x02000784": "CpuFastSet",
+   "0x02000b24": "main",
+   "0x0209c22c": "OS_SelectThread",
+   "0x0209c778": "OS_InitContext",
+   "0x0209c7dc": "OS_SaveContext",
+   "0x0209c828": "OS_LoadContext",
+   "0x020a0f84": "FSi_ReadRomCallback",
+   "0x020a1f70": "TP_WaitBusy",
+   "0x020a1f88": "TP_GetCalibratedPoint",
+   "0x020a2328": "TP_WaitCalibratedResult",
+   "0x020a2380": "TP_RequestSamplingAsync",
+   "0x020a2524": "TP_GetUserInfo",
+   "0x020a25b0": "TP_Init",
+   "0x020a3a7c": "RTC_GetTime",
+   "0x020a3b3c": "RTC_Init",
+   "0x020b2820": "_s32_div_f",
+   "0x020b2a2c": "_u32_div_f",
+   "0x020b35e4": "nds_eh_resume"
+  },
+  "overlays": true,
+  "values": {
+   "nds_old_sdk": "1"
+  }
  }
 }

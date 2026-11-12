@@ -24,13 +24,16 @@ def files(code):
     out = [("native/tools/" + name, (HERE / name).read_bytes()) for name in TOOLS]
     out += [("native/nitro-pc/" + f.name, f.read_bytes()) for f in sorted((NATIVE / "nitro-pc").iterdir()) if f.is_file()]
     out += [("native/sdk/" + f.name, f.read_bytes()) for f in sorted((NATIVE / "sdk").iterdir()) if f.is_file()]
-    recipe = NATIVE / "games" / (code + ".json.gz")
-    if not recipe.is_file():
-        sys.exit("pas de recette %s" % recipe)
-    out.append(("native/games/" + recipe.name, recipe.read_bytes()))
+    # un jeu et ses zones (versions d'autres pays, "AL7E,AL7P,AL7J") : une recette chacune, dans la meme archive
+    codes = code.split(",")
+    for c in codes:
+        recipe = NATIVE / "games" / (c + ".json.gz")
+        if not recipe.is_file():
+            sys.exit("pas de recette %s" % recipe)
+        out.append(("native/games/" + recipe.name, recipe.read_bytes()))
     patches = json.loads((NATIVE / "games" / "patches.json").read_text(encoding="utf8"))
-    # un seul jeu : les reglages des autres n'ont rien a faire ici
-    out.append(("native/games/patches.json", (json.dumps({code: patches[code]} if code in patches else {}, indent=1, sort_keys=True) + "\n").encode()))
+    # ce jeu seul : les reglages des autres n'ont rien a faire ici
+    out.append(("native/games/patches.json", (json.dumps({c: patches[c] for c in codes if c in patches}, indent=1, sort_keys=True) + "\n").encode()))
     for name in ("LICENSE", "VERSION"):
         if (NATIVE / name).is_file():
             out.append(("native/" + name, (NATIVE / name).read_bytes()))

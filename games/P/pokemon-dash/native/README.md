@@ -1,4 +1,4 @@
-# Runtime natif de ce jeu (APDE)
+# Runtime natif de ce jeu (APDE,APDJ,APDP,APDK)
 
 Ce dossier est le runtime de [Nds Game Studio](https://github.com/liolu/nds-game-studio) propre à ce jeu : le traducteur ARM vers C, le runtime `nitro-pc`, le SDK des mods (`sdk/nds_mod.h`) et la recette du jeu (adresses des fonctions, sans code). Le launcher le télécharge depuis la release `runtime-v<n>` de ce dépôt, puis génère le jeu chez le joueur, depuis sa rom.
 

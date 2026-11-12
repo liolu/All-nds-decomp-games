@@ -76,7 +76,7 @@ int io_irq_ready(void) {
     return (REG32(IO + 0x210) & if_state) != 0;
 }
 
-extern const u32 nds_old_sdk;
+extern const u32 nds_old_sdk, nds_card_bus, nds_dma_edge;
 
 /* ------------------------------------------------------------------ DMA */
 static u8 dma_on[4]; /* nds_old_sdk : une copie immediate part quand le canal s'active, pas a chaque ecriture de son controle */
@@ -386,9 +386,10 @@ static void sqrt_unit(void) {
     REG32(IO + 0x2B0) = cnt & ~0x8000u;
 }
 
-/* Pilote de carte propre au jeu (Pokemon Dash) : commande 0xB7 sur le bus, mots recus par un DMA en mode carte, interruption a la fin */
+/* Pilote de carte propre au jeu (Pokemon Dash) : commande 0xB7 sur le bus, mots recus par un DMA en mode carte, interruption a la fin.
+ * nds_card_bus (Pokemon Dash coreen) : ce pilote avec les fils du SDK recent */
 static int card_rom_read(void) {
-    if (!nds_old_sdk || REG8(IO + 0x1A8) != 0xB7) return 0;
+    if (!(nds_old_sdk || nds_card_bus) || REG8(IO + 0x1A8) != 0xB7) return 0;
     int channel = -1;
     for (int i = 0; i < 4 && channel < 0; i++) {
         u32 cnt = REG32(IO + 0xB8 + i * 12);
@@ -415,7 +416,7 @@ void io_after_write(u32 addr) {
         u32 cnt = REG32(IO + 0xB8 + i * 12);
         if ((r - 0xB0) % 12 >= 8) {
             u32 mode = (cnt >> 27) & 7;
-            int started = (cnt >> 31) && (!dma_on[i] || !nds_old_sdk);
+            int started = (cnt >> 31) && (!dma_on[i] || !(nds_old_sdk || nds_dma_edge));
             dma_on[i] = cnt >> 31;
             if (started && (mode == 0 || mode == 7)) dma_run(i);
         }
