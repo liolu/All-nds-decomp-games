@@ -1,8 +1,8 @@
 #include "m2c.h"
 
 M2C_UNK func_0208c330(void *, M2C_UNK);             /* extern */
-s32 func_02085130();                                /* extern */
-M2C_UNK func_02085144(s32);                         /* extern */
+s32 _Z20DisableIRQInterruptsv();                                /* extern */
+M2C_UNK _Z20SetIRQInterruptStatei(s32);                         /* extern */
 s32 func_02086208(s32, M2C_UNK, s32, M2C_UNK);      /* extern */
 
 s32 func_0208c42c(void *arg0) {
@@ -15,9 +15,9 @@ s32 func_0208c42c(void *arg0) {
     }
     if (M2C_FIELD(arg0, s32 *, 0x38) != 0) {
         do {
-            temp_r6 = func_02085130();
+            temp_r6 = _Z20DisableIRQInterruptsv();
             func_0208c330(arg0, 1);
-            func_02085144(temp_r6);
+            _Z20SetIRQInterruptStatei(temp_r6);
         } while (M2C_FIELD(arg0, s32 *, 0x38) != 0);
     }
     return func_02086208(M2C_FIELD(arg0, s32 *, 0x44), 0, 1 << M2C_FIELD(arg0, s32 *, 0x40), 0);

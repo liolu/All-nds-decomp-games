@@ -1,6 +1,6 @@
 #include "m2c.h"
 
-M2C_UNK func_02084a58(void *, M2C_UNK);             /* extern */
+M2C_UNK _Z15CleanCacheRangePKvj(void *, M2C_UNK);             /* extern */
 M2C_UNK func_02086468();                            /* extern */
 M2C_UNK func_0208647c();                            /* extern */
 
@@ -15,7 +15,7 @@ void func_02086ed8(void *arg0) {
             temp_r6                       = M2C_FIELD(var_r0, void **, 4);
             M2C_FIELD(var_r0, s32 *, 0)   = 0;
             M2C_FIELD(var_r0, void **, 4) = NULL;
-            func_02084a58(var_r0, 8);
+            _Z15CleanCacheRangePKvj(var_r0, 8);
             var_r0 = temp_r6;
         } while (temp_r6 != NULL);
     }
