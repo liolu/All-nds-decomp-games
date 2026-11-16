@@ -1,2 +1,55 @@
 # Source files built with another compiler than tools/configure.py MWCC_VERSION
 # <source path> <mwccarm version> [extra flags]
+src/auto/func_02003320.c 2.0/sp1p5 -O2,p
+src/auto/func_020076b8.c 1.2/sp2p3
+src/auto/func_020076c4.c 1.2/sp2p3
+src/auto/func_02007a34.c 1.2/sp2p3
+src/auto/func_02007a80.c 1.2/sp2p3
+src/auto/func_02009a0c.c 1.2/sp2p3
+src/auto/func_0200aa08.c 1.2/sp2p3
+src/auto/func_0200b8c4.c 1.2/sp2p3
+src/auto/func_0200c3d8.c 1.2/sp2p3
+src/auto/func_0200c3e4.c 1.2/sp2p3
+src/auto/func_0200c3f0.c 1.2/sp2p3
+src/auto/func_0200c3fc.c 1.2/sp2p3
+src/auto/func_0200c408.c 1.2/sp2p3
+src/auto/func_0200c724.c 1.2/sp2p3
+src/auto/func_0200c730.c 1.2/sp2p3
+src/auto/func_0201450c.c 1.2/sp2p3
+src/auto/func_02029304.c 1.2/sp2p3
+src/auto/func_02037494.c 1.2/sp2p3
+src/auto/func_020374bc.c 1.2/sp2p3
+src/auto/func_02049714.c 1.2/sp2p3
+src/auto/func_0204a3b4.c 2.0/sp1p5 -O2,p
+src/auto/func_0204a3cc.c 2.0/sp1p5 -O2,p
+src/auto/func_0204e8e8.c 1.2/sp2p3
+src/auto/func_0204efd8.c 1.2/sp2p3
+src/auto/func_0207d1e0.c 1.2/sp2p3
+src/auto/func_0207d430.c 2.0/sp1p5 -O3,p
+src/auto/func_0207e660.c 2.0/sp1p5 -O2,p
+src/auto/func_0207e760.c 2.0/sp1p5 -O2,p
+src/auto/func_0207ee24.c 2.0/sp1p5 -O4,s
+src/auto/func_0207f660.c 2.0/sp1p5 -O4,s
+src/auto/func_02083700.c 2.0/sp1p5 -O3,p
+src/auto/func_02083778.c 2.0/sp1p5 -O2,s
+src/auto/func_02083898.c 2.0/sp1p5 -O3,s
+src/auto/func_020853b4.c 1.2/sp2p3
+src/auto/func_0208962c.c 1.2/sp2p3
+src/auto/func_02089638.c 1.2/sp2p3
+src/auto/func_02089d20.c 1.2/sp2p3
+src/auto/func_0208a970.c 1.2/sp2p3
+src/auto/func_0208a99c.c 2.0/sp1p5 -nointerworking
+src/auto/func_0208a9f0.c 2.0/sp1p5 -O2,p
+src/auto/func_0208abc0.c 2.0/sp1p5 -O2,p
+src/auto/func_0208ac54.c 2.0/sp1p5 -O2,p
+src/auto/func_0208adc8.c 1.2/sp2p3
+src/auto/func_0208b77c.c 1.2/sp2p3
+src/auto/func_0208bd2c.c 1.2/sp2p3
+src/auto/func_0208c1b0.c 1.2/sp3
+src/auto/func_0208c28c.c 2.0/sp1p5 -O2,p
+src/auto/func_0208c300.c 1.2/sp3
+src/auto/func_0208c9f4.c 1.2/sp2p3 -proc arm7tdmi
+src/auto/func_0208ca58.c 1.2/sp2p3 -proc arm7tdmi
+src/auto/func_0208cabc.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_0208cb84.c 1.2/sp2p3 -proc arm7tdmi
+src/auto/func_0208cbe8.c 1.2/sp2p3 -proc arm7tdmi
