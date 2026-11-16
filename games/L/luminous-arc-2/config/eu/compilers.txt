@@ -680,3 +680,11 @@ src/auto/func_02074cb8.c 1.2/sp2p3
 src/auto/func_020a33f0.c 2.0/sp1p5 -O4,s
 src/auto/func_020c8928.c 2.0/sp1p5 -O4,s
 src/auto/func_020cc3fc.c 2.0/sp1p5 -O4,s
+src/auto/func_02062254.c 1.2/sp3
+src/auto/func_0206dc9c.c 1.2/sp3
+src/auto/func_02074dc8.c 2.0/sp1p5 -flag no-opt_rebuildconditionals
+src/auto/func_02078f64.c 1.2/sp3
+src/auto/func_0208eff8.c 1.2/sp3
+src/auto/func_020a7f0c.c 1.2/sp3
+src/auto/func_020c89bc.c 2.0/sp1p5 -flag no-opt_rebuildconditionals
+src/auto/func_020d3320.c 2.0/sp1p5 -flag no-opt_rebuildconditionals
