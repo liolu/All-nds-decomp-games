@@ -490,3 +490,7 @@ src/donor/func_0208ee7c.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
 src/donor/func_0208ef00.c 2.0/sp1p5
 src/donor/func_0208ef94.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
 src/donor/func_0208f064.c 2.0/sp1p5
+src/auto/func_02001d98.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_02002398.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_0200372c.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/_dmul.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
