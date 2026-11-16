@@ -688,3 +688,8 @@ src/auto/func_0208eff8.c 1.2/sp3
 src/auto/func_020a7f0c.c 1.2/sp3
 src/auto/func_020c89bc.c 2.0/sp1p5 -flag no-opt_rebuildconditionals
 src/auto/func_020d3320.c 2.0/sp1p5 -flag no-opt_rebuildconditionals
+src/auto/func_0203be34.c 2.0/sp1p5 -flag no-opt_common_subs
+src/auto/func_0203d8c0.c 2.0/sp1p5 -flag no-opt_common_subs
+src/auto/func_02064bbc.c 2.0/sp1p5 -flag no-opt_common_subs
+src/auto/func_02079654.c 2.0/sp1p5 -pid
+src/auto/func_020c14ec.c 2.0/sp1p5 -flag no-opt_strength_reduction
