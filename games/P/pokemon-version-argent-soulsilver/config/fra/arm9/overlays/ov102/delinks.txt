@@ -26,3 +26,7 @@ src/data/ov102_rodata_021ec5f8.c:
 src/data/ov102_rodata_021ec608.c:
     complete
     .rodata     start:0x021ec608 end:0x021ec614
+
+src/auto/func_ov102_021e87ac.c:
+    complete
+    .text       start:0x021e87ac end:0x021e87b6

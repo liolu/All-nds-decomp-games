@@ -2,3 +2,19 @@
     .rodata     start:0x021e78a8 end:0x021e7b44 kind:rodata align:4
     .ctor       start:0x021e7b44 end:0x021e7b44 kind:rodata align:4
     .bss        start:0x021e7b60 end:0x021e7b60 kind:bss align:32
+
+src/auto/func_ov109_021e5c60.c:
+    complete
+    .text       start:0x021e5c60 end:0x021e5c68
+
+src/auto/func_ov109_021e5ca8.c:
+    complete
+    .text       start:0x021e5ca8 end:0x021e5cb0
+
+src/auto/func_ov109_021e5cb0.c:
+    complete
+    .text       start:0x021e5cb0 end:0x021e5cb8
+
+src/auto/func_ov109_021e5ccc.c:
+    complete
+    .text       start:0x021e5ccc end:0x021e5cd4

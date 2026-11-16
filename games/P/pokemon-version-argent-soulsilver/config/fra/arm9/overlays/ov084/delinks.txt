@@ -2,3 +2,7 @@
     .rodata     start:0x0223f920 end:0x0223fa28 kind:rodata align:4
     .ctor       start:0x0223fa28 end:0x0223fa28 kind:rodata align:4
     .bss        start:0x0223fa40 end:0x0223fa60 kind:bss align:32
+
+src/auto/func_ov084_0223edc0.c:
+    complete
+    .text       start:0x0223edc0 end:0x0223edc8

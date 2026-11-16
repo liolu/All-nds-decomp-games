@@ -51,3 +51,11 @@ src/data/ov040_rodata_02245c38.c:
 src/data/ov040_rodata_02245cc8.c:
     complete
     .rodata     start:0x02245cc8 end:0x02245cd8
+
+src/auto/func_ov040_0222f754.cpp:
+    complete
+    .text       start:0x0222f754 end:0x0222f760
+
+src/auto/func_ov040_0222fa38.cpp:
+    complete
+    .text       start:0x0222fa38 end:0x0222fa44

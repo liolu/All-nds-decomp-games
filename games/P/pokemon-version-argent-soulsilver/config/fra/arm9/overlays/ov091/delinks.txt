@@ -58,3 +58,11 @@ src/data/ov091_rodata_02261f70.c:
 src/data/ov091_rodata_02261fac.c:
     complete
     .rodata     start:0x02261fac end:0x02261fb0
+
+src/auto/func_ov091_0225e200.c:
+    complete
+    .text       start:0x0225e200 end:0x0225e204
+
+src/auto/func_ov091_0225e420.cpp:
+    complete
+    .text       start:0x0225e420 end:0x0225e42c

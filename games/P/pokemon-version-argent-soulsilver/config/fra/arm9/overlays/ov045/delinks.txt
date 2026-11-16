@@ -471,3 +471,15 @@ src/data/ov045_data_02257778.c:
 src/data/ov045_data_022577cc.c:
     complete
     .data       start:0x022577cc end:0x022577e0
+
+src/auto/func_ov045_0222bd60.cpp:
+    complete
+    .text       start:0x0222bd60 end:0x0222bd6c
+
+src/auto/func_ov045_02230ad4.cpp:
+    complete
+    .text       start:0x02230ad4 end:0x02230ae0
+
+src/auto/func_ov045_02254a24.c:
+    complete
+    .text       start:0x02254a24 end:0x02254a48

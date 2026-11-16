@@ -47,3 +47,7 @@ src/data/ov072_data_0223b67c.c:
 src/data/ov072_data_0223b764.c:
     complete
     .data       start:0x0223b764 end:0x0223b794
+
+src/auto/func_ov072_02237b94.c:
+    complete
+    .text       start:0x02237b94 end:0x02237ba0

@@ -3799,3 +3799,15 @@ src/data/ov000_data_0221a65c.c:
 src/data/ov000_data_0221a664.c:
     complete
     .data       start:0x0221a664 end:0x0221a670
+
+src/auto/func_ov000_021e70ec.c:
+    complete
+    .text       start:0x021e70ec end:0x021e7100
+
+src/auto/func_ov000_022051c8.c:
+    complete
+    .text       start:0x022051c8 end:0x02205698
+
+src/auto/func_ov000_0220a3dc.c:
+    complete
+    .text       start:0x0220a3dc end:0x0220a3e8

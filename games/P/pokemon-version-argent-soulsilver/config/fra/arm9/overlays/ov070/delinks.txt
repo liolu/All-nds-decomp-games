@@ -55,3 +55,7 @@ src/data/ov070_data_02246678.c:
 src/data/ov070_data_02246718.c:
     complete
     .data       start:0x02246718 end:0x022467a0
+
+src/auto/func_ov070_02237f78.c:
+    complete
+    .text       start:0x02237f78 end:0x02237f84

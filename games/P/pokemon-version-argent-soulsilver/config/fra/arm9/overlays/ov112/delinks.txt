@@ -155,3 +155,7 @@ src/data/ov112_data_021ff8f8.c:
 src/data/ov112_data_021ff924.c:
     complete
     .data       start:0x021ff924 end:0x021ff9b8
+
+src/auto/func_ov112_021e59c8.c:
+    complete
+    .text       start:0x021e59c8 end:0x021e59d4
