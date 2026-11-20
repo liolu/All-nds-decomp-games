@@ -1,0 +1,40 @@
+rom_config: ../../../extract/kor/config.yaml
+build_path: ../../../build/kor
+delinks_path: ../../../build/kor/delinks
+main_module:
+  name: main
+  object: ../../../build/kor/build/arm9.bin
+  hash: 1cf9557da1ca9128
+  delinks: delinks.txt
+  symbols: symbols.txt
+  relocations: relocs.txt
+autoloads:
+  - kind: Itcm
+    name: itcm
+    object: ../../../build/kor/build/itcm.bin
+    hash: efe5ec45e2a7e34e
+    delinks: itcm/delinks.txt
+    symbols: itcm/symbols.txt
+    relocations: itcm/relocs.txt
+  - kind: Dtcm
+    name: dtcm
+    object: ../../../build/kor/build/dtcm.bin
+    hash: 4d9bf53ea29e785e
+    delinks: dtcm/delinks.txt
+    symbols: dtcm/symbols.txt
+    relocations: dtcm/relocs.txt
+overlays:
+  - id: 0
+    name: ov000
+    object: ../../../build/kor/build/arm9_ov000.bin
+    hash: e8ba8d20b50408f6
+    delinks: overlays/ov000/delinks.txt
+    symbols: overlays/ov000/symbols.txt
+    relocations: overlays/ov000/relocs.txt
+  - id: 1
+    name: ov001
+    object: ../../../build/kor/build/arm9_ov001.bin
+    hash: e825142dde849889
+    delinks: overlays/ov001/delinks.txt
+    symbols: overlays/ov001/symbols.txt
+    relocations: overlays/ov001/relocs.txt

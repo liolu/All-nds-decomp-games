@@ -1,0 +1,9 @@
+[INFO ] Loading ROM from extract/kor/config.yaml
+[INFO ] Function at 0x020a3cd0 was adjusted to include pre-code constant pool at 0x020a3cbc
+[WARN ] Local function call from 0x02041b6c in ARM9 main to 0x02045900 leads to no function, inserting an unknown function symbol
+[WARN ] Local function call from 0x020abf00 in ARM9 main to 0x020affe0 goes to middle of function 'func_020affd4' at 0x020affd4, adding an external label symbol
+[WARN ] Local function call from 0x020adb18 in ARM9 main to 0x020affe0 goes to middle of function 'func_020affd4' at 0x020affd4, adding an external label symbol
+[WARN ] Local function call from 0x020af130 in ARM9 main to 0x020af0c4 goes to middle of function 'func_020af0b0' at 0x020af0b0, adding an external label symbol
+[WARN ] Local function call from 0x020af2d8 in ARM9 main to 0x020af258 goes to middle of function 'func_020af244' at 0x020af244, adding an external label symbol
+[WARN ] Local function call from 0x020af480 in ARM9 main to 0x020af400 goes to middle of function 'func_020af3ec' at 0x020af3ec, adding an external label symbol
+[WARN ] Local function call from 0x020b0004 in ARM9 main to 0x020b03f0 goes to middle of function 'func_020b03e8' at 0x020b03e8, adding an external label symbol
