@@ -1,0 +1,11 @@
+#include "m2c.h"
+
+M2C_UNK func_02035cc8();                            /* extern */
+M2C_UNK func_02035ce0(M2C_UNK, M2C_UNK, M2C_UNK);   /* extern */
+M2C_UNK func_02035d44();                            /* extern */
+
+void func_020201ac(M2C_UNK arg0, M2C_UNK arg1, M2C_UNK arg2) {
+    func_02035cc8();
+    func_02035ce0(arg0, arg1, arg2);
+    func_02035d44();
+}

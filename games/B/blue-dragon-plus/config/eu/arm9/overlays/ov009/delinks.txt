@@ -1,0 +1,101 @@
+    .text       start:0x021651e0 end:0x02173ce8 kind:code align:32
+    .rodata     start:0x02173ce8 end:0x021765dc kind:rodata align:4
+    .ctor       start:0x021765dc end:0x021765dc kind:rodata align:4
+    .data       start:0x021765e0 end:0x021775e0 kind:data align:32
+    .bss        start:0x021775e0 end:0x0218f600 kind:bss align:32
+
+src/data/ov009_rodata_02173ce8.c:
+    complete
+    .rodata     start:0x02173ce8 end:0x02173cec
+
+src/data/ov009_rodata_021752a0.c:
+    complete
+    .rodata     start:0x021752a0 end:0x021752a4
+
+src/data/ov009_data_021771dc.c:
+    complete
+    .data       start:0x021771dc end:0x02177208
+
+src/data/ov009_data_02177208.c:
+    complete
+    .data       start:0x02177208 end:0x02177234
+
+src/data/ov009_data_02177234.c:
+    complete
+    .data       start:0x02177234 end:0x02177260
+
+src/data/ov009_data_02177260.c:
+    complete
+    .data       start:0x02177260 end:0x0217728c
+
+src/data/ov009_data_0217728c.c:
+    complete
+    .data       start:0x0217728c end:0x021772b8
+
+src/data/ov009_data_021772b8.c:
+    complete
+    .data       start:0x021772b8 end:0x021772e4
+
+src/data/ov009_data_021772e4.c:
+    complete
+    .data       start:0x021772e4 end:0x02177310
+
+src/data/ov009_data_02177310.c:
+    complete
+    .data       start:0x02177310 end:0x0217733c
+
+src/data/ov009_data_0217733c.c:
+    complete
+    .data       start:0x0217733c end:0x02177368
+
+src/data/ov009_data_02177368.c:
+    complete
+    .data       start:0x02177368 end:0x02177394
+
+src/data/ov009_data_02177394.c:
+    complete
+    .data       start:0x02177394 end:0x021773c0
+
+src/data/ov009_data_021773c0.c:
+    complete
+    .data       start:0x021773c0 end:0x021773ec
+
+src/data/ov009_data_021773ec.c:
+    complete
+    .data       start:0x021773ec end:0x02177418
+
+src/data/ov009_data_02177418.c:
+    complete
+    .data       start:0x02177418 end:0x02177444
+
+src/data/ov009_data_02177444.c:
+    complete
+    .data       start:0x02177444 end:0x02177470
+
+src/data/ov009_data_02177470.c:
+    complete
+    .data       start:0x02177470 end:0x0217749c
+
+src/data/ov009_data_0217749c.c:
+    complete
+    .data       start:0x0217749c end:0x021774c8
+
+src/data/ov009_data_021774c8.c:
+    complete
+    .data       start:0x021774c8 end:0x021774f4
+
+src/data/ov009_data_021774f4.c:
+    complete
+    .data       start:0x021774f4 end:0x02177520
+
+src/data/ov009_data_02177520.c:
+    complete
+    .data       start:0x02177520 end:0x0217754c
+
+src/data/ov009_data_0217754c.c:
+    complete
+    .data       start:0x0217754c end:0x02177578
+
+src/data/ov009_data_02177578.c:
+    complete
+    .data       start:0x02177578 end:0x021775a4
