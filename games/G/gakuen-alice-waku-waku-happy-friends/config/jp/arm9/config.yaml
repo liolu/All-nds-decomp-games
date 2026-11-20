@@ -1,0 +1,27 @@
+rom_config: ../../../extract/jp/config.yaml
+build_path: ../../../build/jp
+delinks_path: ../../../build/jp/delinks
+main_module:
+  name: main
+  object: ../../../build/jp/build/arm9.bin
+  hash: 043e03be295c974c
+  delinks: delinks.txt
+  symbols: symbols.txt
+  relocations: relocs.txt
+autoloads:
+  - kind: Itcm
+    name: itcm
+    object: ../../../build/jp/build/itcm.bin
+    hash: e8a0e52d8305ebf2
+    delinks: itcm/delinks.txt
+    symbols: itcm/symbols.txt
+    relocations: itcm/relocs.txt
+  - kind: Dtcm
+    name: dtcm
+    object: ../../../build/jp/build/dtcm.bin
+    hash: 305303adebfec675
+    delinks: dtcm/delinks.txt
+    symbols: dtcm/symbols.txt
+    relocations: dtcm/relocs.txt
+overlays:
+  []
