@@ -1,0 +1,77 @@
+    .text       start:0x021f6820 end:0x02205ea8 kind:code align:32
+    .rodata     start:0x02205ea8 end:0x02206438 kind:rodata align:4
+    .ctor       start:0x02206438 end:0x02206438 kind:rodata align:4
+    .data       start:0x02206440 end:0x022064a0 kind:data align:32
+    .bss        start:0x022064a0 end:0x02206540 kind:bss align:32
+
+src/auto/func_ov005_021f6a9c.c:
+    complete
+    .text       start:0x021f6a9c end:0x021f6aa8
+
+src/auto/func_ov005_021f6aa8.c:
+    complete
+    .text       start:0x021f6aa8 end:0x021f6ab4
+
+src/auto/func_ov005_021f7204.c:
+    complete
+    .text       start:0x021f7204 end:0x021f720c
+
+src/auto/func_ov005_021f720c.c:
+    complete
+    .text       start:0x021f720c end:0x021f7214
+
+src/auto/func_ov005_021f7214.c:
+    complete
+    .text       start:0x021f7214 end:0x021f721c
+
+src/auto/func_ov005_021f7714.c:
+    complete
+    .text       start:0x021f7714 end:0x021f7720
+
+src/auto/func_ov005_021f7720.c:
+    complete
+    .text       start:0x021f7720 end:0x021f772c
+
+src/auto/func_ov005_021f77b0.c:
+    complete
+    .text       start:0x021f77b0 end:0x021f7820
+
+src/auto/func_ov005_021f7ea8.c:
+    complete
+    .text       start:0x021f7ea8 end:0x021f7eb0
+
+src/auto/func_ov005_021f88c8.c:
+    complete
+    .text       start:0x021f88c8 end:0x021f88d4
+
+src/data/ov005_data_02206448.c:
+    complete
+    .data       start:0x02206448 end:0x0220646c
+
+src/data/ov005_data_0220646c.c:
+    complete
+    .data       start:0x0220646c end:0x02206488
+
+src/auto/func_ov005_021f6924.c:
+    complete
+    .text       start:0x021f6924 end:0x021f6938
+
+src/auto/func_ov005_021f6a88.c:
+    complete
+    .text       start:0x021f6a88 end:0x021f6a9c
+
+src/auto/func_ov005_021f6ae4.c:
+    complete
+    .text       start:0x021f6ae4 end:0x021f6af8
+
+src/auto/func_ov005_021f88b4.c:
+    complete
+    .text       start:0x021f88b4 end:0x021f88c8
+
+src/auto/func_ov005_021f8b6c.c:
+    complete
+    .text       start:0x021f8b6c end:0x021f8b80
+
+src/data/ov005_rodata_02205f90.c:
+    complete
+    .rodata     start:0x02205f90 end:0x02206110
