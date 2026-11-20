@@ -1,0 +1,322 @@
+#!/usr/bin/env python3
+"""One command for everything that does not need a human: sync, build, verify, drafts, publish.
+
+    python tools/moulinette.py                 # full run (see steps below)
+    python tools/moulinette.py --no-push       # same, but commit locally only
+    python tools/moulinette.py --permute FUNC  # also run the permuter on FUNC (10 min, --minutes to change)
+    python tools/moulinette.py --permute-near 50 --near-minutes 5   # overnight: permuter on 50 near misses
+    python tools/moulinette.py --games         # list the games (projets/*) with their progress
+    python tools/moulinette.py --game heroes-of-mana     # run on another game (a unique part of the name is enough)
+    python tools/moulinette.py --choose        # numbered menu to pick the game
+    python tools/moulinette.py --restart       # forget everything already tried, then run (longer pass)
+    python tools/moulinette.py --restart permuter --permute-near 100 --near-minutes 15
+
+Without `--game`, the project this file belongs to is used. Other games commit locally and are never pushed unless
+they have a git remote. The game's own `tools/` are used, so each game keeps its own version of the tools.
+
+`--restart [all|auto|permuter|qwen]` clears what the tools remember as "already seen", so the next pass redoes it:
+  auto      build/auto/cache.jsonl (m2c drafts and their results: every function is tried again)
+  permuter  build/auto/permute_state.json (near misses the permuter already tried; the old file is kept in
+            build/auto/history/)
+  qwen      build/qwen_auto/tried.json (functions the Qwen autopilot already failed on)
+Nothing that is already matched is touched: only the memory of failures.
+
+Steps:
+ 1. `git pull --ff-only` (skipped with --offline)
+ 2. configure + `ninja` (extract, split, link, rebuild the ROM)
+ 3. `ninja dis` and m2c drafts for every unmatched function of the delinked files (build/drafts/)
+ 4. automatic matching (`tools/auto_match.py`): m2c drafts that already match are added to src/auto/
+    (and, with --permute-near, the permuter tries to finish the near misses)
+ 5. optional: permuter on one function
+ 6. strict verification (`tools/match.py verify`): byte-identical ROM, complete files at 100%, ASCII sources
+ 7. if the verification passed and src/, include/, config/ or docs/ changed:
+    update the README progress table, commit (listing newly matched functions) and push to main
+
+Nothing is committed or pushed when the verification fails.
+"""
+
+import argparse
+import json
+import shutil
+import subprocess
+import sys
+import time
+from pathlib import Path
+
+HOME = Path(__file__).resolve().parent.parent  # the project this file belongs to
+PROJECTS = HOME.parent
+# the matching tools (draft, auto_match, permute...) live in DS Decomp Studio, not in the games
+GAMETOOLS = PROJECTS.parent / "studio" / "gametools"
+TRACKED = ["src", "include", "config", "docs", "tools", "README.md", "CONTRIBUTING.md", "INSTALL.md", "AGENTS.md"]
+
+
+def version_of(root: Path) -> str:
+    """Game version (usa, eu, jp...) = the directory of config/ that holds an arm9 config."""
+    found = sorted(p.parent.parent.name for p in (root / "config").glob("*/arm9/config.yaml"))
+    return found[0] if found else "usa"
+
+
+def set_project(root: Path):
+    """Points every path of this script to one game."""
+    global ROOT, VER, REPORT, SNAPSHOT, MEMORIES
+    ROOT, VER = root, version_of(root)
+    REPORT = ROOT / "build" / VER / "report.json"
+    SNAPSHOT = ROOT / "build" / VER / "published_matches.json"
+    MEMORIES = {
+        "auto": ROOT / "build" / "auto" / "cache.jsonl",
+        "permuter": ROOT / "build" / "auto" / "permute_state.json",
+        "qwen": ROOT / "build" / "qwen_auto" / "tried.json",
+    }
+
+
+def games() -> list[Path]:
+    return sorted(p for p in PROJECTS.iterdir() if (p / "tools" / "match.py").exists() and (p / "config").is_dir()
+                  and any((p / "config").glob("*/arm9/config.yaml")))
+
+
+def game_status(root: Path) -> str:
+    ver = version_of(root)
+    try:
+        m = json.loads((root / "build" / ver / "report.json").read_text())["measures"]
+        return f"{ver:4} {m.get('matched_functions', 0)}/{m['total_functions']} functions"
+    except Exception:
+        return f"{ver:4} (not built yet)"
+
+
+def resolve_game(name: str) -> Path:
+    """Exact slug, else the only game whose name contains `name`."""
+    all_games = games()
+    exact = [g for g in all_games if g.name == name]
+    hits = exact or [g for g in all_games if name.lower() in g.name.lower()]
+    if len(hits) != 1:
+        options = ", ".join(g.name for g in (hits or all_games))
+        raise SystemExit(f"Game {name!r}: {'ambiguous' if hits else 'not found'}. Candidates: {options}")
+    return hits[0]
+
+
+def choose_game() -> Path:
+    all_games = games()
+    print("Games:")
+    for i, g in enumerate(all_games, 1):
+        print(f"  {i:2}. {g.name:42} {game_status(g)}")
+    answer = input("Number or part of the name (empty = rayman-rr): ").strip()
+    if not answer:
+        return HOME
+    return all_games[int(answer) - 1] if answer.isdigit() and 1 <= int(answer) <= len(all_games)         else resolve_game(answer)
+
+
+def pick_project(argv: list[str]) -> Path:
+    """Reads --game / --games / --choose before the lock is taken (the lock is per game)."""
+    if "--games" in argv:
+        for g in games():
+            print(f"{g.name:42} {game_status(g)}")
+        raise SystemExit(0)
+    if "--choose" in argv:
+        return choose_game()
+    for i, a in enumerate(argv):
+        if a == "--game" and i + 1 < len(argv):
+            return resolve_game(argv[i + 1])
+        if a.startswith("--game="):
+            return resolve_game(a.split("=", 1)[1])
+    return HOME
+
+
+set_project(HOME)
+
+
+def step(title: str):
+    print(f"\n=== {title}", flush=True)
+
+
+def run(cmd: list[str], check: bool = True, capture: bool = False) -> subprocess.CompletedProcess:
+    r = subprocess.run(cmd, cwd=ROOT, text=True, capture_output=capture)
+    if check and r.returncode != 0:
+        if capture:
+            print(r.stdout, r.stderr)
+        raise SystemExit(f"FAILED: {' '.join(cmd)}")
+    return r
+
+
+def matched_functions() -> set[str]:
+    report = json.loads(REPORT.read_text())
+    return {f["name"] for u in report["units"] if not u.get("metadata", {}).get("auto_generated")
+            for f in u.get("functions", []) if float(f.get("fuzzy_match_percent", 0)) == 100.0}
+
+
+def staged_changes(staged: bool = True) -> dict[str, list[str]]:
+    """Paths by kind: added / modified / deleted. staged: the commit being made (git diff --cached); otherwise the
+    working tree against HEAD for the tracked paths, untracked files counting as added (nothing is staged)."""
+    tracked = [t for t in TRACKED if (ROOT / t).exists()]
+    cmd = ["git", "diff", "--name-status", "--no-renames"] + (["--cached"] if staged else ["HEAD", "--", *tracked])
+    kinds = {"added": [], "modified": [], "deleted": []}
+    for line in run(cmd, capture=True).stdout.splitlines():
+        status, _, path = line.partition("\t")
+        kinds["added" if status == "A" else "deleted" if status == "D" else "modified"].append(path)
+    if not staged:
+        kinds["added"] += run(["git", "ls-files", "--others", "--exclude-standard", "--", *tracked],
+                              capture=True).stdout.split()
+    return kinds
+
+
+def functions_by_source() -> dict[str, list[str]]:
+    """Matched functions of each source file, from the objdiff report."""
+    report = json.loads(REPORT.read_text())
+    return {u["metadata"]["source_path"]: [f["name"] for f in u.get("functions", [])
+                                           if float(f.get("fuzzy_match_percent", 0)) == 100.0]
+            for u in report["units"] if u.get("metadata", {}).get("source_path")}
+
+
+def describe_commit(changes: dict[str, list[str]]) -> tuple[str, str]:
+    """Commit title + body that list only what this commit adds or changes (not everything matched since the last
+    moulinette run: other tools commit matches too, so a snapshot difference over-counts)."""
+    funcs = functions_by_source()
+    added = sorted(f for p in changes["added"] for f in funcs.get(p, []))
+    changed = sorted(f for p in changes["modified"] for f in funcs.get(p, []))
+
+    def section(label, items, limit=50):
+        if not items:
+            return ""
+        lines = [f"- {i}" for i in items[:limit]] + ([f"- ... and {len(items) - limit} more"] if len(items) > limit else [])
+        return f"{label} ({len(items)}):\n" + "\n".join(lines)
+
+    title = f"Match {len(added)} function(s)" if added else "Update decompilation"
+    others = [p for p in changes["modified"] if p not in funcs]
+    body = "\n\n".join(s for s in (
+        section("New functions", added),
+        section("Changed functions", changed),
+        section("Other changed files", others, 20),
+        section("Added files without a matched function", [p for p in changes["added"] if not funcs.get(p)], 20),
+        section("Deleted files", changes["deleted"], 20)) if s)
+    return title, body
+
+
+def restart(scope: str):
+    """Forgets what the tools already tried. The permuter history is archived, the others are regenerable."""
+    step(f"Restart: forgetting what was already tried ({scope})")
+    names = list(MEMORIES) if scope == "all" else [scope]
+    for name in names:
+        path = MEMORIES[name]
+        if not path.exists():
+            print(f"  {name}: nothing to forget")
+            continue
+        if name == "permuter":
+            history = path.parent / "history"
+            history.mkdir(exist_ok=True)
+            archive = history / f"permute_state-{time.strftime('%Y%m%d-%H%M%S')}.json"
+            shutil.move(str(path), str(archive))
+            print(f"  {name}: cleared (old state kept in {archive.relative_to(ROOT).as_posix()})")
+        else:
+            path.unlink()
+            print(f"  {name}: cleared ({path.relative_to(ROOT).as_posix()})")
+
+
+def main():
+    ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap.add_argument("--game", metavar="NAME", help="Game to work on (folder of projets/, a unique part is enough)")
+    ap.add_argument("--games", action="store_true", help="List the games with their progress and exit")
+    ap.add_argument("--choose", action="store_true", help="Pick the game from a numbered menu")
+    ap.add_argument("--restart", nargs="?", const="all", choices=["all", "auto", "permuter", "qwen"],
+                    help="Forget what was already tried (default: all) so that the pass redoes it")
+    ap.add_argument("--no-push", action="store_true", help="Commit locally, do not push")
+    ap.add_argument("--no-commit", action="store_true", help="Verify only, do not commit")
+    ap.add_argument("--offline", action="store_true", help="Do not git pull")
+    ap.add_argument("--no-drafts", action="store_true", help="Skip m2c drafts")
+    ap.add_argument("--permute", metavar="FUNCTION", help="Run the permuter on this function")
+    ap.add_argument("--minutes", type=float, default=10.0, help="Permuter duration")
+    ap.add_argument("--no-auto", action="store_true", help="Skip automatic matching of m2c drafts")
+    ap.add_argument("--permute-near", type=int, default=0, metavar="N", help="Permuter on N near misses")
+    ap.add_argument("--near-minutes", type=float, default=5.0, help="Permuter time per near miss")
+    args = ap.parse_args()
+    py = sys.executable
+
+    if args.restart:
+        restart(args.restart)
+
+    has_remote = bool(run(["git", "remote"], check=False, capture=True).stdout.strip())
+    print(f"Game: {ROOT.name} ({VER})" + ("" if has_remote else " - no git remote: commits stay local"))
+
+    if has_remote and not args.offline:
+        step("Sync with GitHub")
+        run(["git", "pull", "--ff-only"], check=False)
+
+    step("Build")
+    if not (ROOT / "build.ninja").exists():
+        run([py, "tools/configure.py", VER])
+    run(["ninja"])
+    # dsd does not delete stale files from a previous split: start from an empty directory
+    shutil.rmtree(ROOT / "build" / VER / "asm", ignore_errors=True)
+    run(["ninja", "dis"])
+
+    if not args.no_drafts:
+        step("m2c drafts")
+        r = run([py, str(GAMETOOLS / "draft.py"), "--worklist"], check=False)
+        if r.returncode != 0:
+            print("(drafts skipped: m2c not installed? see docs/automation.md)")
+
+    if not args.no_auto:
+        step("Automatic matching (m2c)")
+        cmd = [py, str(GAMETOOLS / "auto_match.py")]
+        if args.permute_near:
+            cmd += ["--permute", str(args.permute_near), "--minutes", str(args.near_minutes)]
+        if run(cmd, check=False).returncode != 0:
+            print("(automatic matching failed or was rolled back, continuing)")
+
+    if args.permute:
+        step(f"Permuter on {args.permute}")
+        run([py, str(GAMETOOLS / "permute.py"), args.permute, "--minutes", str(args.minutes)], check=False)
+
+    step("Verification")
+    if run([py, "tools/match.py", "verify"], check=False).returncode != 0:
+        print("\nVerification FAILED: nothing committed. Fix the errors above (see docs/troubleshooting.md).")
+        sys.exit(1)
+
+    now = matched_functions()
+    before = set(json.loads(SNAPSHOT.read_text())) if SNAPSHOT.exists() else set()
+    lost = sorted(before - now)
+    if lost:
+        print(f"WARNING: functions no longer matching: {', '.join(lost)}")
+
+    if args.no_commit:
+        title, body = describe_commit(staged_changes(staged=False))
+        print(f"\nOK, nothing committed (--no-commit). Would be: {title}\n\n{body}")
+        return
+
+    step("Publish")
+    run([py, "tools/match.py", "progress"], check=False)  # games without a progress table in README.md: skipped
+    tracked = [t for t in TRACKED if (ROOT / t).exists()]
+    run(["git", "add", "--", *tracked])
+    if run(["git", "diff", "--cached", "--quiet"], check=False).returncode == 0:
+        print("Nothing to commit.")
+        SNAPSHOT.write_text(json.dumps(sorted(now)))
+        return
+    hooks = run(["pre-commit", "run"], check=False)
+    if hooks.returncode != 0:
+        # Hooks may have reformatted files: re-verify the reformatted code before committing
+        run(["git", "add", "--", *tracked])
+        if run([py, "tools/match.py", "verify"], check=False).returncode != 0:
+            print("Verification failed after formatting: nothing committed.")
+            sys.exit(1)
+        run(["pre-commit", "run"])
+    title, body = describe_commit(staged_changes())
+    print(f"\n{title}\n\n{body}\n")
+    run(["git", "commit", "-m", title + ("\n\n" + body if body else "")])
+    SNAPSHOT.write_text(json.dumps(sorted(now)))
+    if args.no_push or not has_remote:
+        print("Committed locally" + (" (--no-push)." if args.no_push else " (no git remote)."))
+        return
+    run(["git", "push", "origin", "HEAD:main"])
+    print("Pushed to main.")
+
+
+if __name__ == "__main__":
+    # Rerun with the shared venv (ndspy...): configure.py writes sys.executable into build.ninja
+    VENV_PY = PROJECTS.parent / ".venv" / "Scripts" / "python.exe"
+    if VENV_PY.exists() and Path(sys.executable).resolve() != VENV_PY.resolve():
+        sys.exit(subprocess.call([str(VENV_PY), str(Path(__file__).resolve()), *sys.argv[1:]]))
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    from pipeline_lock import pipeline_lock
+
+    if not ({"-h", "--help"} & set(sys.argv[1:])):
+        set_project(pick_project(sys.argv[1:]))  # before the lock: it is taken per game
+    with pipeline_lock("moulinette", ROOT):
+        main()
