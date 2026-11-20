@@ -1,0 +1,13 @@
+    .text       start:0x02000400 end:0x02095c2c kind:code align:32
+    .rodata     start:0x02095c2c end:0x02096584 kind:rodata align:4
+    .ctor       start:0x02096584 end:0x02096584 kind:rodata align:4
+    .data       start:0x020965a0 end:0x020c9de0 kind:data align:32
+    .bss        start:0x020c9de0 end:0x02182980 kind:bss align:32
+
+src/nitro/init/module_params.c:
+    complete
+    .text       start:0x02000f88 end:0x02000fac
+
+src/nitro/init/version_backup.c:
+    complete
+    .text       start:0x02000fac end:0x02000fc4
