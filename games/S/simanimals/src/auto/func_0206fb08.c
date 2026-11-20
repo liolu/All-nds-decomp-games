@@ -1,0 +1,8 @@
+#include "m2c.h"
+
+M2C_UNK func_0206f92c(s32, M2C_UNK);                /* extern */
+s32 func_0206fbac();                                /* extern */
+
+void func_0206fb08(M2C_UNK arg0) {
+    func_0206f92c(func_0206fbac(), arg0);
+}
