@@ -1,0 +1,16 @@
+    .text       start:0x02000000 end:0x020d0968 kind:code align:32
+    .exception  start:0x020d0968 end:0x020d09e8 kind:rodata align:1
+    .exceptix   start:0x020d09e8 end:0x020d0b38 kind:rodata align:4
+    .init       start:0x020d0b38 end:0x020d0fe0 kind:code align:4
+    .rodata     start:0x020d0fe0 end:0x020d76f8 kind:rodata align:4
+    .ctor       start:0x020d76f8 end:0x020d775c kind:rodata align:4
+    .data       start:0x020d7760 end:0x020dfd00 kind:data align:32
+    .bss        start:0x020dfd00 end:0x020f5880 kind:bss align:32
+
+src/nitro/init/module_params.c:
+    complete
+    .text       start:0x02000b88 end:0x02000bac
+
+src/nitro/init/version_backup.c:
+    complete
+    .text       start:0x02000bac end:0x02000bc4
