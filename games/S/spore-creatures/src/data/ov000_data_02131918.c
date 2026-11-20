@@ -1,0 +1,38 @@
+#include "m2c.h"
+extern u8 func_ov004_020ba6a0[];
+extern u8 func_ov004_020ba6a8[];
+extern u8 func_ov004_020ba6ac[];
+extern u8 func_ov004_020ba6c0[];
+extern u8 func_ov004_020ba6c8[];
+extern u8 func_ov004_020bcb20[];
+extern u8 func_ov004_020bcb34[];
+extern u8 func_ov000_021044bc[];
+extern u8 func_ov000_0210493c[];
+extern u8 func_ov000_02104b60[];
+extern u8 func_ov000_02104a48[];
+extern u8 func_ov000_02104484[];
+extern u8 func_ov000_021049f8[];
+extern u8 func_ov000_021048b8[];
+extern u8 func_ov000_021048f4[];
+extern u8 func_ov000_02104928[];
+extern u8 func_ov004_020be130[];
+extern u8 func_ov004_020be13c[];
+extern u8 func_ov004_020be1c8[];
+extern u8 func_ov004_020be214[];
+extern u8 func_ov004_020be3b0[];
+extern u8 func_ov004_020be3b4[];
+extern u8 func_ov004_020be3c8[];
+extern u8 func_ov004_020be3f0[];
+extern u8 func_ov004_020be420[];
+extern u8 func_ov004_020be454[];
+u32 data_ov000_02131918[11] = {(u32) &func_ov000_02104b60,
+                               (u32) &func_ov000_02104a48,
+                               (u32) &func_ov000_02104484,
+                               (u32) &func_ov000_021048b8,
+                               (u32) &func_ov000_021048f4,
+                               (u32) &func_ov000_02104928,
+                               (u32) &func_ov000_021044bc,
+                               (u32) &func_ov000_0210493c,
+                               (u32) &func_ov000_021049f8,
+                               0x00000000,
+                               0x00000000};

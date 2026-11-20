@@ -1,0 +1,34 @@
+[INFO ] Loading ROM from extract/usa/config.yaml
+[INFO ] Function at 0x020bf9e8 was adjusted to include pre-code constant pool at 0x020bf9d4
+[WARN ] Local function call from 0x020b0e54 in ARM9 main to 0x020cd758 goes to middle of function 'func_020cd748' at 0x020cd748, adding an external label symbol
+[WARN ] Local function call from 0x020b0ed4 in ARM9 main to 0x020cd758 goes to middle of function 'func_020cd748' at 0x020cd748, adding an external label symbol
+[WARN ] Local function call from 0x020b0f68 in ARM9 main to 0x020cd758 goes to middle of function 'func_020cd748' at 0x020cd748, adding an external label symbol
+[WARN ] Local function call from 0x020b10bc in ARM9 main to 0x020cd758 goes to middle of function 'func_020cd748' at 0x020cd748, adding an external label symbol
+[WARN ] Local function call from 0x020b11cc in ARM9 main to 0x020cd758 goes to middle of function 'func_020cd748' at 0x020cd748, adding an external label symbol
+[WARN ] Local function call from 0x020b1240 in ARM9 main to 0x020cd758 goes to middle of function 'func_020cd748' at 0x020cd748, adding an external label symbol
+[WARN ] Local function call from 0x020b1290 in ARM9 main to 0x020cd758 goes to middle of function 'func_020cd748' at 0x020cd748, adding an external label symbol
+[WARN ] Local function call from 0x020bd7b4 in ARM9 main to 0x020cd758 goes to middle of function 'func_020cd748' at 0x020cd748, adding an external label symbol
+[WARN ] Local function call from 0x020c2498 in ARM9 main to 0x020cd914 goes to middle of function 'func_020cd908' at 0x020cd908, adding an external label symbol
+[WARN ] Local function call from 0x020c7e50 in ARM9 main to 0x020cd914 goes to middle of function 'func_020cd908' at 0x020cd908, adding an external label symbol
+[WARN ] Local function call from 0x020cab60 in ARM9 main to 0x020cd914 goes to middle of function 'func_020cd908' at 0x020cd908, adding an external label symbol
+[WARN ] Local function call from 0x020cd938 in ARM9 main to 0x020cdb84 goes to middle of function 'func_020cdb7c' at 0x020cdb7c, adding an external label symbol
+[WARN ] Local function call from 0x020fdff8 in overlay 1 to 0x020fe916 goes to middle of function 'func_ov001_020fdfa4' at 0x020fdfa4, adding an external label symbol
+[WARN ] Local function call from 0x020fe014 in overlay 1 to 0x020fe916 goes to middle of function 'func_ov001_020fdfa4' at 0x020fdfa4, adding an external label symbol
+[WARN ] Local function call from 0x020fe066 in overlay 1 to 0x020fe916 goes to middle of function 'func_ov001_020fdfa4' at 0x020fdfa4, adding an external label symbol
+[WARN ] Local function call from 0x020fe082 in overlay 1 to 0x020fe916 goes to middle of function 'func_ov001_020fdfa4' at 0x020fdfa4, adding an external label symbol
+[WARN ] Local function call from 0x020fe0a2 in overlay 1 to 0x020fe916 goes to middle of function 'func_ov001_020fdfa4' at 0x020fdfa4, adding an external label symbol
+[WARN ] Local function call from 0x020fe912 in overlay 1 to 0x020fdfbe goes to middle of function 'func_ov001_020fdfa4' at 0x020fdfa4, adding an external label symbol
+[WARN ] Local function call from 0x02105784 in overlay 1 to 0x021061b6 goes to middle of function 'func_ov001_02105728' at 0x02105728, adding an external label symbol
+[WARN ] Local function call from 0x0210578c in overlay 1 to 0x02106200 goes to middle of function 'func_ov001_02105728' at 0x02105728, adding an external label symbol
+[WARN ] Local function call from 0x021057e2 in overlay 1 to 0x02106200 goes to middle of function 'func_ov001_02105728' at 0x02105728, adding an external label symbol
+[WARN ] Local function call from 0x02110cb2 in overlay 1 to 0x02111f74 goes to middle of function 'func_ov001_02110c60' at 0x02110c60, adding an external label symbol
+[WARN ] Local function call from 0x02110cde in overlay 1 to 0x02111f60 goes to middle of function 'func_ov001_02110c60' at 0x02110c60, adding an external label symbol
+[WARN ] Local function call from 0x021111be in overlay 1 to 0x02111f60 goes to middle of function 'func_ov001_02110c60' at 0x02110c60, adding an external label symbol
+[WARN ] Local function call from 0x021111e4 in overlay 1 to 0x02111f74 goes to middle of function 'func_ov001_02110c60' at 0x02110c60, adding an external label symbol
+[WARN ] Local function call from 0x02111212 in overlay 1 to 0x02111f60 goes to middle of function 'func_ov001_02110c60' at 0x02110c60, adding an external label symbol
+[WARN ] Local function call from 0x02111344 in overlay 1 to 0x02111f74 goes to middle of function 'func_ov001_02110c60' at 0x02110c60, adding an external label symbol
+[WARN ] Local function call from 0x02111500 in overlay 1 to 0x02111f56 goes to middle of function 'func_ov001_02110c60' at 0x02110c60, adding an external label symbol
+[WARN ] Local function call from 0x0211152a in overlay 1 to 0x02111f74 goes to middle of function 'func_ov001_02110c60' at 0x02110c60, adding an external label symbol
+[WARN ] Local function call from 0x021115ca in overlay 1 to 0x02111f56 goes to middle of function 'func_ov001_02110c60' at 0x02110c60, adding an external label symbol
+[WARN ] Local function call from 0x0211165a in overlay 1 to 0x02111f74 goes to middle of function 'func_ov001_02110c60' at 0x02110c60, adding an external label symbol
+[WARN ] Local function call from 0x02111f6e in overlay 1 to 0x02110c80 goes to middle of function 'func_ov001_02110c60' at 0x02110c60, adding an external label symbol

@@ -1,0 +1,2 @@
+#include "m2c.h"
+char data_ov004_02151544[36] = "DWCi_MOV_WH_SYSSTATE_MEASURECHANNEL";
