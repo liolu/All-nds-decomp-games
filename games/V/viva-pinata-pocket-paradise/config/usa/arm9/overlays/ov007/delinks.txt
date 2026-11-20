@@ -1,0 +1,14 @@
+    .text       start:0x020d7d20 end:0x020d879c kind:code align:32
+    .rodata     start:0x020d879c end:0x020d8864 kind:rodata align:4
+    .init       start:0x020d8864 end:0x020d8898 kind:code align:4
+    .ctor       start:0x020d8898 end:0x020d889c kind:rodata align:4
+    .data       start:0x020d88a0 end:0x020d8920 kind:data align:32
+    .bss        start:0x020d8920 end:0x020d8940 kind:bss align:32
+
+src/data/ov007_data_020d88a8.c:
+    complete
+    .data       start:0x020d88a8 end:0x020d88b0
+
+src/data/ov007_data_020d88d4.c:
+    complete
+    .data       start:0x020d88d4 end:0x020d8900
