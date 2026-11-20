@@ -1,0 +1,6 @@
+/* compiler: 2.0/sp1p5 */
+#include "m2c.h"
+
+u32 data_0214cb18[5] = {0x020CEB84, 0x020CEB88, 0x020CCE1C, 0x00000000, 0x00000000};
+u32 data_0214cb2c[9] = {0x020CE720, 0x020CEE48, 0x020CCEB0, 0x020CE798, 0x020CECC8,
+                        0x020CED4C, 0x020CCEA8, 0x00000000, 0x00000000};

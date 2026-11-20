@@ -1,0 +1,5 @@
+/* compiler: 2.0/sp1p5 */
+#include "m2c.h"
+
+char data_ov000_02195b74[4]  = "0";
+char data_ov000_02195b78[24] = "font/score_b/score_b";
