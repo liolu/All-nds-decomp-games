@@ -1,0 +1,15 @@
+#include "engine.h"
+#include "m2c.h"
+
+void func_020b824c(void);
+void func_020b8250(void);
+M2C_UNK func_020bc194(M2C_UNK);
+
+s32 func_020bc170(s32 arg0) {
+    s32 temp_r4;
+
+    func_020b824c();
+    temp_r4 = func_020bc194(arg0);
+    func_020b8250();
+    return temp_r4;
+}
