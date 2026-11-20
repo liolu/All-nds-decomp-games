@@ -1,0 +1,32 @@
+    .text       start:0x02000000 end:0x0212b7b8 kind:code align:32
+    .exception  start:0x0212b7b8 end:0x0212b8e4 kind:rodata align:1
+    .exceptix   start:0x0212b8e4 end:0x0212bd58 kind:rodata align:4
+    .init       start:0x0212bd58 end:0x021317fc kind:code align:4
+    .rodata     start:0x021317fc end:0x02138f88 kind:rodata align:4
+    .ctor       start:0x02138f88 end:0x02139304 kind:rodata align:4
+    .data       start:0x02139320 end:0x02153c40 kind:data align:32
+    .bss        start:0x02153c40 end:0x02171000 kind:bss align:32
+
+src/nitro/init/module_params.c:
+    complete
+    .text       start:0x02000b64 end:0x02000b88
+
+src/nitro/init/version_dwc.c:
+    complete
+    .text       start:0x02000b88 end:0x02000bc0
+
+src/nitro/init/version_wifi.c:
+    complete
+    .text       start:0x02000bc0 end:0x02000be8
+
+src/nitro/init/version_cps.c:
+    complete
+    .text       start:0x02000be8 end:0x02000c00
+
+src/nitro/init/version_ssl.c:
+    complete
+    .text       start:0x02000c00 end:0x02000c18
+
+src/nitro/init/version_backup.c:
+    complete
+    .text       start:0x02000c18 end:0x02000c30
