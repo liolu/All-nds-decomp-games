@@ -1,0 +1,19 @@
+    .ctor       start:0x021111a0 end:0x021111a0 kind:rodata align:4
+    .data       start:0x021111c0 end:0x02111780 kind:data align:32
+    .bss        start:0x02111780 end:0x02111780 kind:bss align:32
+
+src/data/ov037_data_021111c8.c:
+    complete
+    .data       start:0x021111c8 end:0x021111d0
+
+src/data/ov037_data_021111d0.c:
+    complete
+    .data       start:0x021111d0 end:0x021111d8
+
+src/data/ov037_data_02111204.c:
+    complete
+    .data       start:0x02111204 end:0x02111208
+
+src/data/ov037_data_0211159c.c:
+    complete
+    .data       start:0x0211159c end:0x021115a0

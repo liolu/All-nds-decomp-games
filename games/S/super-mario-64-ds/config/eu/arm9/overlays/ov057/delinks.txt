@@ -1,0 +1,24 @@
+    .rodata     start:0x021111a0 end:0x02111498 kind:rodata align:4
+    .ctor       start:0x02111498 end:0x02111498 kind:rodata align:4
+    .data       start:0x021114a0 end:0x02111720 kind:data align:32
+    .bss        start:0x02111720 end:0x02111720 kind:bss align:32
+
+src/data/ov057_rodata_021111a0.c:
+    complete
+    .rodata     start:0x021111a0 end:0x021111a4
+
+src/data/ov057_data_021114a8.c:
+    complete
+    .data       start:0x021114a8 end:0x021114ac
+
+src/data/ov057_data_021114ac.c:
+    complete
+    .data       start:0x021114ac end:0x021114b4
+
+src/data/ov057_data_021114b4.c:
+    complete
+    .data       start:0x021114b4 end:0x021114bc
+
+src/data/ov057_data_021115e0.c:
+    complete
+    .data       start:0x021115e0 end:0x021115e4

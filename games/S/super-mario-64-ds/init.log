@@ -1,0 +1,27 @@
+[INFO ] Loading ROM from extract/eu/config.yaml
+[WARN ] Local function call from 0x0206ceac in ARM9 main to 0x0206d9dc goes to middle of function 'func_0206d9cc' at 0x0206d9cc, adding an external label symbol
+[WARN ] Local function call from 0x0206ceb4 in ARM9 main to 0x0206da28 goes to middle of function 'func_0206da18' at 0x0206da18, adding an external label symbol
+[WARN ] Local function call from 0x0206cf58 in ARM9 main to 0x0206d9dc goes to middle of function 'func_0206d9cc' at 0x0206d9cc, adding an external label symbol
+[WARN ] Local function call from 0x0206cf60 in ARM9 main to 0x0206da28 goes to middle of function 'func_0206da18' at 0x0206da18, adding an external label symbol
+[WARN ] Local function call from 0x0206d87c in ARM9 main to 0x0206d9dc goes to middle of function 'func_0206d9cc' at 0x0206d9cc, adding an external label symbol
+[WARN ] Local function call from 0x0206d884 in ARM9 main to 0x0206da28 goes to middle of function 'func_0206da18' at 0x0206da18, adding an external label symbol
+[WARN ] Local function call from 0x01ffaa0c in ITCM to 0x01ffadf8 goes to middle of function 'func_01ffadf0' at 0x01ffadf0, adding an external label symbol
+[WARN ] No functions from 0x0203b5bc in ARM9 main to 0x01ffa4bc:
+[WARN ] No functions from 0x0203b5c4 in ARM9 main to 0x01ff98f4:
+[WARN ] No functions from 0x02057b4c in ARM9 main to 0x01ffa9e8:
+[WARN ] No functions from 0x0206eda8 in ARM9 main to 0x01ff9e2c:
+[WARN ] No functions from 0x0206f4e8 in ARM9 main to 0x01ff9d40:
+[WARN ] No functions from 0x0206f974 in ARM9 main to 0x01ffa9e8:
+[WARN ] No functions from 0x0207094c in ARM9 main to 0x01ff9d40:
+[WARN ] No functions from 0x02070ca4 in ARM9 main to 0x01ff9d40:
+[WARN ] No functions from 0x02071560 in ARM9 main to 0x01ffa9e8:
+[WARN ] No functions from 0x020dc6d8 in overlay 2 to 0x01ffa4bc:
+[WARN ] No functions from 0x020dc6e0 in overlay 2 to 0x01ff99a4:
+[WARN ] No functions from 0x020dc6fc in overlay 2 to 0x01ffa4bc:
+[WARN ] No functions from 0x020dc708 in overlay 2 to 0x01ff98f4:
+[WARN ] No functions from 0x020fb9d8 in overlay 2 to 0x01ffa9e8:
+[WARN ] No functions from 0x020fba1c in overlay 2 to 0x01ffa9e8:
+[WARN ] No functions from 0x020fbbe8 in overlay 2 to 0x01ffa9e8:
+[WARN ] No functions from 0x020fbc98 in overlay 2 to 0x01ffa9e8:
+[WARN ] No functions from 0x020fbd48 in overlay 2 to 0x01ffa9e8:
+[WARN ] No functions from 0x021204f4 in overlay 74 to 0x01ffa4bc:

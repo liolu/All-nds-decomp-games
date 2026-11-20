@@ -1,0 +1,89 @@
+    .text       start:0x020aa420 end:0x020ab5f8 kind:code align:32
+    .rodata     start:0x020ab5f8 end:0x020ab7e4 kind:rodata align:4
+    .ctor       start:0x020ab7e4 end:0x020ab7e4 kind:rodata align:4
+    .data       start:0x020ab800 end:0x020ad620 kind:data align:32
+    .bss        start:0x020ad620 end:0x020ad660 kind:bss align:32
+
+src/auto/func_ov001_020ab374.c:
+    complete
+    .text       start:0x020ab374 end:0x020ab3a0
+
+src/auto/func_ov001_020ab3a0.c:
+    complete
+    .text       start:0x020ab3a0 end:0x020ab3c4
+
+src/data/ov001_rodata_020ab5f8.c:
+    complete
+    .rodata     start:0x020ab5f8 end:0x020ab5fc
+
+src/data/ov001_rodata_020ab5fc.c:
+    complete
+    .rodata     start:0x020ab5fc end:0x020ab600
+
+src/data/ov001_rodata_020ab600.c:
+    complete
+    .rodata     start:0x020ab600 end:0x020ab604
+
+src/data/ov001_rodata_020ab604.c:
+    complete
+    .rodata     start:0x020ab604 end:0x020ab608
+
+src/data/ov001_rodata_020ab608.c:
+    complete
+    .rodata     start:0x020ab608 end:0x020ab60c
+
+src/data/ov001_rodata_020ab60c.c:
+    complete
+    .rodata     start:0x020ab60c end:0x020ab610
+
+src/data/ov001_data_020ab948.c:
+    complete
+    .data       start:0x020ab948 end:0x020ab958
+
+src/data/ov001_data_020aba70.c:
+    complete
+    .data       start:0x020aba70 end:0x020abac0
+
+src/data/ov001_data_020abb18.c:
+    complete
+    .data       start:0x020abb18 end:0x020abb34
+
+src/data/ov001_data_020abcb4.c:
+    complete
+    .data       start:0x020abcb4 end:0x020abcd8
+
+src/data/ov001_data_020abd98.c:
+    complete
+    .data       start:0x020abd98 end:0x020abda8
+
+src/data/ov001_data_020ac218.c:
+    complete
+    .data       start:0x020ac218 end:0x020ac224
+
+src/data/ov001_data_020ac64c.c:
+    complete
+    .data       start:0x020ac64c end:0x020ac658
+
+src/data/ov001_data_020acb68.c:
+    complete
+    .data       start:0x020acb68 end:0x020acb74
+
+src/data/ov001_data_020ad04c.c:
+    complete
+    .data       start:0x020ad04c end:0x020ad058
+
+src/data/ov001_data_020ad450.c:
+    complete
+    .data       start:0x020ad450 end:0x020ad458
+
+src/data/ov001_data_020ad470.c:
+    complete
+    .data       start:0x020ad470 end:0x020ad478
+
+src/data/ov001_data_020ad478.c:
+    complete
+    .data       start:0x020ad478 end:0x020ad480
+
+src/data/ov001_data_020ad494.c:
+    complete
+    .data       start:0x020ad494 end:0x020ad49c

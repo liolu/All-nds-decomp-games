@@ -1,0 +1,130 @@
+    .text       start:0x02129020 end:0x02130174 kind:code align:32
+    .rodata     start:0x02130174 end:0x0213035c kind:rodata align:4
+    .init       start:0x0213035c end:0x02130860 kind:code align:4
+    .ctor       start:0x02130860 end:0x0213086c kind:rodata align:4
+    .data       start:0x02130880 end:0x02130cc0 kind:data align:32
+    .bss        start:0x02130cc0 end:0x02130ee0 kind:bss align:32
+
+src/auto/func_ov084_021296b0.c:
+    complete
+    .text       start:0x021296b0 end:0x021296cc
+
+src/auto/func_ov084_0212ec58.c:
+    complete
+    .text       start:0x0212ec58 end:0x0212ec60
+
+src/data/ov084_rodata_02130278.c:
+    complete
+    .rodata     start:0x02130278 end:0x02130294
+
+src/data/ov084_rodata_021302f4.c:
+    complete
+    .rodata     start:0x021302f4 end:0x0213030c
+
+src/data/ov084_data_021308ac.c:
+    complete
+    .data       start:0x021308ac end:0x021308b4
+
+src/data/ov084_data_021308b4.c:
+    complete
+    .data       start:0x021308b4 end:0x021308bc
+
+src/data/ov084_data_021308bc.c:
+    complete
+    .data       start:0x021308bc end:0x021308c4
+
+src/data/ov084_data_021308c4.c:
+    complete
+    .data       start:0x021308c4 end:0x021308cc
+
+src/data/ov084_data_021308cc.c:
+    complete
+    .data       start:0x021308cc end:0x021308d4
+
+src/data/ov084_data_021308e0.c:
+    complete
+    .data       start:0x021308e0 end:0x021308ec
+
+src/data/ov084_data_02130948.c:
+    complete
+    .data       start:0x02130948 end:0x021309c4
+
+src/data/ov084_data_021309c4.c:
+    complete
+    .data       start:0x021309c4 end:0x021309cc
+
+src/data/ov084_data_021309cc.c:
+    complete
+    .data       start:0x021309cc end:0x021309d4
+
+src/data/ov084_data_021309d4.c:
+    complete
+    .data       start:0x021309d4 end:0x021309dc
+
+src/data/ov084_data_021309dc.c:
+    complete
+    .data       start:0x021309dc end:0x021309e4
+
+src/data/ov084_data_021309e4.c:
+    complete
+    .data       start:0x021309e4 end:0x021309ec
+
+src/data/ov084_data_021309ec.c:
+    complete
+    .data       start:0x021309ec end:0x021309f4
+
+src/data/ov084_data_021309f4.c:
+    complete
+    .data       start:0x021309f4 end:0x02130a00
+
+src/data/ov084_data_02130a38.c:
+    complete
+    .data       start:0x02130a38 end:0x02130ab4
+
+src/data/ov084_data_02130ac0.c:
+    complete
+    .data       start:0x02130ac0 end:0x02130acc
+
+src/data/ov084_data_02130b28.c:
+    complete
+    .data       start:0x02130b28 end:0x02130ba4
+
+src/data/ov084_data_02130ba4.c:
+    complete
+    .data       start:0x02130ba4 end:0x02130bac
+
+src/data/ov084_data_02130bac.c:
+    complete
+    .data       start:0x02130bac end:0x02130bb4
+
+src/data/ov084_data_02130bb4.c:
+    complete
+    .data       start:0x02130bb4 end:0x02130bbc
+
+src/data/ov084_data_02130bbc.c:
+    complete
+    .data       start:0x02130bbc end:0x02130bc4
+
+src/data/ov084_data_02130bc4.c:
+    complete
+    .data       start:0x02130bc4 end:0x02130bcc
+
+src/data/ov084_data_02130bcc.c:
+    complete
+    .data       start:0x02130bcc end:0x02130bd4
+
+src/data/ov084_data_02130bd4.c:
+    complete
+    .data       start:0x02130bd4 end:0x02130bdc
+
+src/data/ov084_data_02130bdc.c:
+    complete
+    .data       start:0x02130bdc end:0x02130be4
+
+src/data/ov084_data_02130be4.c:
+    complete
+    .data       start:0x02130be4 end:0x02130bec
+
+src/data/ov084_data_02130bf8.c:
+    complete
+    .data       start:0x02130bf8 end:0x02130c04

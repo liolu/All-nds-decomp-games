@@ -1,0 +1,77 @@
+    .text       start:0x02135700 end:0x0213770c kind:code align:32
+    .init       start:0x0213770c end:0x02137900 kind:code align:4
+    .ctor       start:0x02137900 end:0x02137908 kind:rodata align:4
+    .data       start:0x02137920 end:0x02137b20 kind:data align:32
+    .bss        start:0x02137b20 end:0x02137be0 kind:bss align:32
+
+src/auto/func_ov096_021357a4.c:
+    complete
+    .text       start:0x021357a4 end:0x021357ac
+
+src/auto/func_ov096_021357ac.c:
+    complete
+    .text       start:0x021357ac end:0x021357b4
+
+src/auto/func_ov096_0213585c.c:
+    complete
+    .text       start:0x0213585c end:0x02135878
+
+src/data/ov096_data_02137920.c:
+    complete
+    .data       start:0x02137920 end:0x02137928
+
+src/data/ov096_data_02137928.c:
+    complete
+    .data       start:0x02137928 end:0x02137930
+
+src/data/ov096_data_02137930.c:
+    complete
+    .data       start:0x02137930 end:0x02137938
+
+src/data/ov096_data_02137938.c:
+    complete
+    .data       start:0x02137938 end:0x02137940
+
+src/data/ov096_data_02137940.c:
+    complete
+    .data       start:0x02137940 end:0x02137948
+
+src/data/ov096_data_02137948.c:
+    complete
+    .data       start:0x02137948 end:0x02137950
+
+src/data/ov096_data_02137950.c:
+    complete
+    .data       start:0x02137950 end:0x02137958
+
+src/data/ov096_data_02137958.c:
+    complete
+    .data       start:0x02137958 end:0x02137960
+
+src/data/ov096_data_02137960.c:
+    complete
+    .data       start:0x02137960 end:0x02137968
+
+src/data/ov096_data_02137968.c:
+    complete
+    .data       start:0x02137968 end:0x02137970
+
+src/data/ov096_data_02137970.c:
+    complete
+    .data       start:0x02137970 end:0x02137978
+
+src/data/ov096_data_02137978.c:
+    complete
+    .data       start:0x02137978 end:0x02137980
+
+src/data/ov096_data_0213798c.c:
+    complete
+    .data       start:0x0213798c end:0x02137998
+
+src/data/ov096_data_021379d8.c:
+    complete
+    .data       start:0x021379d8 end:0x02137a54
+
+src/data/ov096_data_02137a60.c:
+    complete
+    .data       start:0x02137a60 end:0x02137a6c
