@@ -1,0 +1,19 @@
+    .rodata     start:0x022750c0 end:0x022786c4 kind:rodata align:4
+    .ctor       start:0x022786c4 end:0x022786c4 kind:rodata align:4
+    .bss        start:0x022786e0 end:0x022786e0 kind:bss align:32
+
+src/data/ov336_rodata_022750c0.c:
+    complete
+    .rodata     start:0x022750c0 end:0x022757e0
+
+src/data/ov336_rodata_022757e0.c:
+    complete
+    .rodata     start:0x022757e0 end:0x02275fe0
+
+src/data/ov336_rodata_02275fe0.c:
+    complete
+    .rodata     start:0x02275fe0 end:0x02277620
+
+src/data/ov336_rodata_02277620.c:
+    complete
+    .rodata     start:0x02277620 end:0x022786c4

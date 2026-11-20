@@ -1,0 +1,84 @@
+    .rodata     start:0x022861a0 end:0x0228a58c kind:rodata align:4
+    .ctor       start:0x0228a58c end:0x0228a58c kind:rodata align:4
+    .data       start:0x0228a5a0 end:0x02297e20 kind:data align:32
+    .bss        start:0x02297e20 end:0x02297e40 kind:bss align:32
+
+src/data/ov359_data_02294750.c:
+    complete
+    .data       start:0x02294750 end:0x02294754
+
+src/data/ov359_bss_02297e20.c:
+    complete
+    .bss        start:0x02297e20 end:0x02297e40
+
+src/data/ov359_data_0228bea0.c:
+    complete
+    .data       start:0x0228bea0 end:0x0228bfa4
+
+src/data/ov359_data_0228c024.c:
+    complete
+    .data       start:0x0228c024 end:0x0228c170
+
+src/data/ov359_data_0228c170.c:
+    complete
+    .data       start:0x0228c170 end:0x0228c240
+
+src/data/ov359_data_0228c240.c:
+    complete
+    .data       start:0x0228c240 end:0x0228da88
+
+src/data/ov359_data_0228da88.c:
+    complete
+    .data       start:0x0228da88 end:0x0228df4c
+
+src/data/ov359_data_0228df4c.c:
+    complete
+    .data       start:0x0228df4c end:0x02290d84
+
+src/data/ov359_data_02290d84.c:
+    complete
+    .data       start:0x02290d84 end:0x02291ce4
+
+src/data/ov359_data_02291ce4.c:
+    complete
+    .data       start:0x02291ce4 end:0x02291db4
+
+src/data/ov359_data_02291dbc.c:
+    complete
+    .data       start:0x02291dbc end:0x022945b0
+
+src/data/ov359_data_022945b0.c:
+    complete
+    .data       start:0x022945b0 end:0x02294750
+
+src/data/ov359_data_02294754.c:
+    complete
+    .data       start:0x02294754 end:0x022958b4
+
+src/data/ov359_data_022958b4.c:
+    complete
+    .data       start:0x022958b4 end:0x02295df8
+
+src/data/ov359_data_02295df8.c:
+    complete
+    .data       start:0x02295df8 end:0x022974b8
+
+src/data/ov359_data_022974b8.c:
+    complete
+    .data       start:0x022974b8 end:0x02297ddc
+
+src/data/ov359_rodata_022861f0.c:
+    complete
+    .rodata     start:0x022861f0 end:0x022862c0
+
+src/data/ov359_rodata_0228630c.c:
+    complete
+    .rodata     start:0x0228630c end:0x02286608
+
+src/data/ov359_rodata_02286608.c:
+    complete
+    .rodata     start:0x02286608 end:0x02286bac
+
+src/data/ov359_rodata_02286c1c.c:
+    complete
+    .rodata     start:0x02286c1c end:0x0228844c

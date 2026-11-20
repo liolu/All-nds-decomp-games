@@ -1,0 +1,85 @@
+[INFO ] Loading ROM from extract/usa/config.yaml
+[INFO ] Function at 0x0206768c was adjusted to include pre-code constant pool at 0x02067678
+[WARN ] Local function call from 0x02074050 in ARM9 main to 0x0207eca8 goes to middle of function 'func_0207ec9c' at 0x0207ec9c, adding an external label symbol
+[WARN ] Local function call from 0x02079284 in ARM9 main to 0x0207eca8 goes to middle of function 'func_0207ec9c' at 0x0207ec9c, adding an external label symbol
+[WARN ] Local function call from 0x0207c6f4 in ARM9 main to 0x0207eca8 goes to middle of function 'func_0207ec9c' at 0x0207ec9c, adding an external label symbol
+[WARN ] Local function call from 0x0207df38 in ARM9 main to 0x0207decc goes to middle of function 'func_0207deb8' at 0x0207deb8, adding an external label symbol
+[WARN ] Local function call from 0x0207e0e0 in ARM9 main to 0x0207e060 goes to middle of function 'func_0207e04c' at 0x0207e04c, adding an external label symbol
+[WARN ] Local function call from 0x0207e288 in ARM9 main to 0x0207e208 goes to middle of function 'func_0207e1f4' at 0x0207e1f4, adding an external label symbol
+[WARN ] Local function call from 0x0207eccc in ARM9 main to 0x0207f0d8 goes to middle of function 'func_0207f0d0' at 0x0207f0d0, adding an external label symbol
+[WARN ] Local function call from 0x022750cc in overlay 309 to 0x022755fe goes to middle of function 'func_ov309_022753d4' at 0x022753d4, adding an external label symbol
+[WARN ] Local function call from 0x022b5d86 in overlay 362 to 0x022b6838 goes to middle of function 'func_ov362_022b5d2c' at 0x022b5d2c, adding an external label symbol
+[WARN ] Local function call from 0x022b5d8e in overlay 362 to 0x022b6882 goes to middle of function 'func_ov362_022b5d2c' at 0x022b5d2c, adding an external label symbol
+[WARN ] Local function call from 0x022b5de4 in overlay 362 to 0x022b6882 goes to middle of function 'func_ov362_022b5d2c' at 0x022b5d2c, adding an external label symbol
+[WARN ] Local function call from 0x022b5f02 in overlay 362 to 0x022b6882 goes to middle of function 'func_ov362_022b5d2c' at 0x022b5d2c, adding an external label symbol
+[WARN ] Local function call from 0x022b5f20 in overlay 362 to 0x022b6882 goes to middle of function 'func_ov362_022b5d2c' at 0x022b5d2c, adding an external label symbol
+[WARN ] Local function call from 0x022b5f36 in overlay 362 to 0x022b6882 goes to middle of function 'func_ov362_022b5d2c' at 0x022b5d2c, adding an external label symbol
+[WARN ] Local function call from 0x022b5f46 in overlay 362 to 0x022b6882 goes to middle of function 'func_ov362_022b5d2c' at 0x022b5d2c, adding an external label symbol
+[WARN ] Local function call from 0x022b6000 in overlay 362 to 0x022b6882 goes to middle of function 'func_ov362_022b5d2c' at 0x022b5d2c, adding an external label symbol
+[WARN ] Local function call from 0x022b605e in overlay 362 to 0x022b6882 goes to middle of function 'func_ov362_022b5d2c' at 0x022b5d2c, adding an external label symbol
+[WARN ] Local function call from 0x022b607c in overlay 362 to 0x022b6882 goes to middle of function 'func_ov362_022b5d2c' at 0x022b5d2c, adding an external label symbol
+[WARN ] Local function call from 0x022bbdaa in overlay 362 to 0x022bc6e6 goes to middle of function 'func_ov362_022bbd18' at 0x022bbd18, adding an external label symbol
+[WARN ] Local function call from 0x022bbdc6 in overlay 362 to 0x022bc6e6 goes to middle of function 'func_ov362_022bbd18' at 0x022bbd18, adding an external label symbol
+[WARN ] Local function call from 0x022bbe18 in overlay 362 to 0x022bc6e6 goes to middle of function 'func_ov362_022bbd18' at 0x022bbd18, adding an external label symbol
+[WARN ] Local function call from 0x022bbe34 in overlay 362 to 0x022bc6e6 goes to middle of function 'func_ov362_022bbd18' at 0x022bbd18, adding an external label symbol
+[WARN ] Local function call from 0x022bbe54 in overlay 362 to 0x022bc6e6 goes to middle of function 'func_ov362_022bbd18' at 0x022bbd18, adding an external label symbol
+[WARN ] Local function call from 0x022bbece in overlay 362 to 0x022bc6e6 goes to middle of function 'func_ov362_022bbd18' at 0x022bbd18, adding an external label symbol
+[WARN ] Local function call from 0x022bc6e2 in overlay 362 to 0x022bbd6e goes to middle of function 'func_ov362_022bbd18' at 0x022bbd18, adding an external label symbol
+[WARN ] Local function call from 0x022caee6 in overlay 362 to 0x022cc1ee goes to middle of function 'func_ov362_022caeac' at 0x022caeac, adding an external label symbol
+[WARN ] Local function call from 0x022caf02 in overlay 362 to 0x022cc1ee goes to middle of function 'func_ov362_022caeac' at 0x022caeac, adding an external label symbol
+[WARN ] Local function call from 0x022caf2e in overlay 362 to 0x022cc1da goes to middle of function 'func_ov362_022caeac' at 0x022caeac, adding an external label symbol
+[WARN ] Local function call from 0x022cb40e in overlay 362 to 0x022cc1da goes to middle of function 'func_ov362_022caeac' at 0x022caeac, adding an external label symbol
+[WARN ] Local function call from 0x022cb416 in overlay 362 to 0x022cc1da goes to middle of function 'func_ov362_022caeac' at 0x022caeac, adding an external label symbol
+[WARN ] Local function call from 0x022cb438 in overlay 362 to 0x022cc1ee goes to middle of function 'func_ov362_022caeac' at 0x022caeac, adding an external label symbol
+[WARN ] Local function call from 0x022cb466 in overlay 362 to 0x022cc1da goes to middle of function 'func_ov362_022caeac' at 0x022caeac, adding an external label symbol
+[WARN ] Local function call from 0x022cb4c4 in overlay 362 to 0x022cc1ee goes to middle of function 'func_ov362_022caeac' at 0x022caeac, adding an external label symbol
+[WARN ] Local function call from 0x022cb4e8 in overlay 362 to 0x022cc1ee goes to middle of function 'func_ov362_022caeac' at 0x022caeac, adding an external label symbol
+[WARN ] Local function call from 0x022cb588 in overlay 362 to 0x022cc1ee goes to middle of function 'func_ov362_022caeac' at 0x022caeac, adding an external label symbol
+[WARN ] Local function call from 0x022cb746 in overlay 362 to 0x022cc1ee goes to middle of function 'func_ov362_022caeac' at 0x022caeac, adding an external label symbol
+[WARN ] Local function call from 0x022cb754 in overlay 362 to 0x022cc1d2 goes to middle of function 'func_ov362_022caeac' at 0x022caeac, adding an external label symbol
+[WARN ] Local function call from 0x022cb76a in overlay 362 to 0x022cc1d2 goes to middle of function 'func_ov362_022caeac' at 0x022caeac, adding an external label symbol
+[WARN ] Local function call from 0x022cb782 in overlay 362 to 0x022cc1ee goes to middle of function 'func_ov362_022caeac' at 0x022caeac, adding an external label symbol
+[WARN ] Local function call from 0x022cb808 in overlay 362 to 0x022cc1d2 goes to middle of function 'func_ov362_022caeac' at 0x022caeac, adding an external label symbol
+[WARN ] Local function call from 0x022cb828 in overlay 362 to 0x022cc1d2 goes to middle of function 'func_ov362_022caeac' at 0x022caeac, adding an external label symbol
+[WARN ] Local function call from 0x022cb874 in overlay 362 to 0x022cc1ee goes to middle of function 'func_ov362_022caeac' at 0x022caeac, adding an external label symbol
+[WARN ] Local function call from 0x022cb8bc in overlay 362 to 0x022cc1ee goes to middle of function 'func_ov362_022caeac' at 0x022caeac, adding an external label symbol
+[WARN ] Local function call from 0x022cc1e8 in overlay 362 to 0x022caecc goes to middle of function 'func_ov362_022caeac' at 0x022caeac, adding an external label symbol
+[WARN ] Local function call from 0x01ff9864 in ITCM to 0x01ffbaa0 goes to middle of function 'func_01ffba98' at 0x01ffba98, adding an external label symbol
+[WARN ] Local function call from 0x01ffbd30 in ITCM to 0x01ffc7e2 goes to middle of function 'func_01ffbd14' at 0x01ffbd14, adding an external label symbol
+[WARN ] No functions from 0x022750c8 in overlay 267 to 0x022748cc:
+[WARN ] No functions from 0x022750c8 in overlay 268 to 0x022748cc:
+[WARN ] No functions from 0x022750c8 in overlay 269 to 0x022748cc:
+[WARN ] No functions from 0x022750c8 in overlay 270 to 0x022748cc:
+[WARN ] No functions from 0x022750c8 in overlay 271 to 0x022748cc:
+[WARN ] No functions from 0x022750c8 in overlay 272 to 0x022748cc:
+[WARN ] No functions from 0x022750c8 in overlay 273 to 0x022748cc:
+[WARN ] No functions from 0x022750c8 in overlay 274 to 0x022748cc:
+[WARN ] No functions from 0x01ffdf24 in overlay 306 to 0x0227a120:
+[WARN ] No functions from 0x01ffe0e8 in overlay 306 to 0x0227c0bc:
+[WARN ] No functions from 0x01ffe118 in overlay 306 to 0x0227976c:
+[WARN ] No functions from 0x01ffe330 in overlay 306 to 0x0227a120:
+[WARN ] No functions from 0x01ffe50c in overlay 306 to 0x022751f8:
+[WARN ] No functions from 0x022750c8 in overlay 312 to 0x02274c8c:
+[WARN ] No functions from 0x01ffdcec in overlay 313 to 0x02275214:
+[WARN ] No functions from 0x01ffdcf4 in overlay 313 to 0x02275214:
+[WARN ] No functions from 0x01ffdcfc in overlay 313 to 0x02275214:
+[WARN ] No functions from 0x01ffdd08 in overlay 313 to 0x0227aca4:
+[WARN ] No functions from 0x01ffdd10 in overlay 313 to 0x02275214:
+[WARN ] No functions from 0x01ffdd18 in overlay 313 to 0x02275214:
+[WARN ] No functions from 0x01ffdd24 in overlay 313 to 0x0227aca4:
+[WARN ] No functions from 0x01ffdd2c in overlay 313 to 0x02275214:
+[WARN ] No functions from 0x01ffdd48 in overlay 313 to 0x02275230:
+[WARN ] No functions from 0x01ffde18 in overlay 313 to 0x02275230:
+[WARN ] No functions from 0x01ffde34 in overlay 313 to 0x02279e68:
+[WARN ] No functions from 0x01ffde64 in overlay 313 to 0x0227aca4:
+[WARN ] No functions from 0x01ffdeac in overlay 313 to 0x02279eb4:
+[WARN ] No functions from 0x01ffdf60 in overlay 313 to 0x0227a09c:
+[WARN ] No functions from 0x01ffdf8c in overlay 313 to 0x02279b98:
+[WARN ] No functions from 0x01ffe03c in overlay 313 to 0x02278cc8:
+[WARN ] No functions from 0x01ffe090 in overlay 313 to 0x0227e27c:
+[WARN ] No functions from 0x01ffe2ac in overlay 313 to 0x0227a09c:
+[WARN ] No functions from 0x01ffe588 in overlay 313 to 0x0227a61c:
+[WARN ] No functions from 0x01ffe658 in overlay 313 to 0x0227a09c:
+[WARN ] No functions from 0x01ffe8ac in overlay 313 to 0x02275214:
+[WARN ] No functions from 0x01ffe8dc in overlay 313 to 0x0227a61c:
+[WARN ] No functions from 0x022750c0 in overlay 332 to 0x022749f4:

@@ -1,0 +1,77 @@
+    .text       start:0x022911a0 end:0x02297dac kind:code align:32
+    .rodata     start:0x02297dac end:0x022983e8 kind:rodata align:4
+    .ctor       start:0x022983e8 end:0x022983e8 kind:rodata align:4
+    .data       start:0x02298400 end:0x0229ba60 kind:data align:32
+    .bss        start:0x0229ba60 end:0x0229be80 kind:bss align:32
+
+src/auto/func_ov344_02292248.c:
+    complete
+    .text       start:0x02292248 end:0x02292258
+
+src/data/ov344_data_0229b8d8.c:
+    complete
+    .data       start:0x0229b8d8 end:0x0229b900
+
+src/auto/func_ov344_02292234.c:
+    complete
+    .text       start:0x02292234 end:0x02292248
+
+src/data/ov344_data_02298558.c:
+    complete
+    .data       start:0x02298558 end:0x02298560
+
+src/data/ov344_bss_0229ba60.c:
+    complete
+    .bss        start:0x0229ba60 end:0x0229ba68
+
+src/data/ov344_bss_0229ba68.c:
+    complete
+    .bss        start:0x0229ba68 end:0x0229be80
+
+src/data/ov344_data_0229a718.c:
+    complete
+    .data       start:0x0229a718 end:0x0229a7e4
+
+src/data/ov344_data_0229a94c.c:
+    complete
+    .data       start:0x0229a94c end:0x0229aa30
+
+src/data/ov344_data_0229ab70.c:
+    complete
+    .data       start:0x0229ab70 end:0x0229ac74
+
+src/data/ov344_data_0229acd4.c:
+    complete
+    .data       start:0x0229acd4 end:0x0229ae08
+
+src/data/ov344_data_0229ae78.c:
+    complete
+    .data       start:0x0229ae78 end:0x0229b200
+
+src/data/ov344_data_0229b200.c:
+    complete
+    .data       start:0x0229b200 end:0x0229b310
+
+src/data/ov344_data_0229b310.c:
+    complete
+    .data       start:0x0229b310 end:0x0229b420
+
+src/data/ov344_data_0229b420.c:
+    complete
+    .data       start:0x0229b420 end:0x0229b704
+
+src/data/ov344_data_0229b704.c:
+    complete
+    .data       start:0x0229b704 end:0x0229b8d8
+
+src/data/ov344_data_0229b900.c:
+    complete
+    .data       start:0x0229b900 end:0x0229b9a0
+
+src/data/ov344_data_0229b9a0.c:
+    complete
+    .data       start:0x0229b9a0 end:0x0229ba40
+
+src/data/ov344_rodata_02297ddc.c:
+    complete
+    .rodata     start:0x02297ddc end:0x022983e4

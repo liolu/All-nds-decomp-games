@@ -1,0 +1,85 @@
+    .text       start:0x02288300 end:0x0228adac kind:code align:32
+    .rodata     start:0x0228adac end:0x0228b754 kind:rodata align:4
+    .ctor       start:0x0228b754 end:0x0228b754 kind:rodata align:4
+    .data       start:0x0228b760 end:0x0228faa0 kind:data align:32
+    .bss        start:0x0228faa0 end:0x0228fb00 kind:bss align:32
+
+src/auto/func_ov354_022884b0.c:
+    complete
+    .text       start:0x022884b0 end:0x022884bc
+
+src/data/ov354_data_0228e99c.c:
+    complete
+    .data       start:0x0228e99c end:0x0228e9a0
+
+src/data/ov354_data_0228e9a8.c:
+    complete
+    .data       start:0x0228e9a8 end:0x0228e9d0
+
+src/data/ov354_data_0228b888.c:
+    complete
+    .data       start:0x0228b888 end:0x0228b890
+
+src/data/ov354_data_0228b8a8.c:
+    complete
+    .data       start:0x0228b8a8 end:0x0228b8b0
+
+src/data/ov354_data_0228b8d8.c:
+    complete
+    .data       start:0x0228b8d8 end:0x0228b8e0
+
+src/data/ov354_bss_0228faa0.c:
+    complete
+    .bss        start:0x0228faa0 end:0x0228faa8
+
+src/data/ov354_bss_0228faa8.c:
+    complete
+    .bss        start:0x0228faa8 end:0x0228faac
+
+src/data/ov354_bss_0228faac.c:
+    complete
+    .bss        start:0x0228faac end:0x0228fab0
+
+src/data/ov354_bss_0228fab0.c:
+    complete
+    .bss        start:0x0228fab0 end:0x0228fab4
+
+src/data/ov354_bss_0228fab4.c:
+    complete
+    .bss        start:0x0228fab4 end:0x0228fab8
+
+src/data/ov354_bss_0228fab8.c:
+    complete
+    .bss        start:0x0228fab8 end:0x0228fabc
+
+src/data/ov354_bss_0228fabc.c:
+    complete
+    .bss        start:0x0228fabc end:0x0228fb00
+
+src/data/ov354_data_0228dc10.c:
+    complete
+    .data       start:0x0228dc10 end:0x0228dd3c
+
+src/data/ov354_data_0228dd90.c:
+    complete
+    .data       start:0x0228dd90 end:0x0228df28
+
+src/data/ov354_data_0228df28.c:
+    complete
+    .data       start:0x0228df28 end:0x0228e14c
+
+src/data/ov354_data_0228e14c.c:
+    complete
+    .data       start:0x0228e14c end:0x0228e278
+
+src/data/ov354_data_0228e278.c:
+    complete
+    .data       start:0x0228e278 end:0x0228e99c
+
+src/data/ov354_data_0228ea48.c:
+    complete
+    .data       start:0x0228ea48 end:0x0228f658
+
+src/data/ov354_data_0228f658.c:
+    complete
+    .data       start:0x0228f658 end:0x0228faa0

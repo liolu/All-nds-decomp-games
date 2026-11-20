@@ -1,0 +1,2 @@
+#include "m2c.h"
+const u32 data_ov266_0229d10c[6] = {0x001B0084, 0x002C00FC, 0x00AC0084, 0x00BD00FC, 0x00AC0004, 0x00BD007C};

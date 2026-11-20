@@ -1,0 +1,17 @@
+    .text       start:0x0229eb60 end:0x022a44cc kind:code align:32
+    .rodata     start:0x022a44cc end:0x022a44f4 kind:rodata align:4
+    .ctor       start:0x022a44f4 end:0x022a44f4 kind:rodata align:4
+    .data       start:0x022a4500 end:0x022a4700 kind:data align:32
+    .bss        start:0x022a4700 end:0x022a4760 kind:bss align:32
+
+src/data/ov290_data_022a4540.c:
+    complete
+    .data       start:0x022a4540 end:0x022a4568
+
+src/data/ov290_bss_022a4700.c:
+    complete
+    .bss        start:0x022a4700 end:0x022a4760
+
+src/data/ov290_data_022a4568.c:
+    complete
+    .data       start:0x022a4568 end:0x022a4700
