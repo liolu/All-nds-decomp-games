@@ -1,0 +1,33 @@
+    .text       start:0x02000000 end:0x020be41c kind:code align:32
+    .rodata     start:0x020be41c end:0x020ca560 kind:rodata align:4
+    .ctor       start:0x020ca560 end:0x020ca560 kind:rodata align:4
+    .data       start:0x020ca580 end:0x020f61c0 kind:data align:32
+    .bss        start:0x020f61c0 end:0x021cdf60 kind:bss align:32
+
+src/nitro/init/module_params.c:
+    complete
+    .text       start:0x02000b5c end:0x02000b80
+
+src/nitro/init/version_vx.c:
+    complete
+    .text       start:0x02000b80 end:0x02000b94
+
+src/nitro/init/version_backup.c:
+    complete
+    .text       start:0x02000b94 end:0x02000bac
+
+src/nitro/init/version_wifi.c:
+    complete
+    .text       start:0x02000bac end:0x02000bd4
+
+src/nitro/init/version_cps.c:
+    complete
+    .text       start:0x02000bd4 end:0x02000bec
+
+src/nitro/init/version_ssl.c:
+    complete
+    .text       start:0x02000bec end:0x02000c04
+
+src/nitro/init/version_dwc.c:
+    complete
+    .text       start:0x02000c04 end:0x02000c3c
