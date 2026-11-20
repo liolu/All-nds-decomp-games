@@ -1,0 +1,24 @@
+#include "m2c.h"
+
+M2C_UNK func_0208c330(void *, M2C_UNK);             /* extern */
+s32 _Z20DisableIRQInterruptsv();                                /* extern */
+M2C_UNK _Z20SetIRQInterruptStatei(s32);                         /* extern */
+s32 func_02086208(s32, M2C_UNK, s32, M2C_UNK);      /* extern */
+
+s32 func_0208c42c(void *arg0) {
+    s32 temp_r0;
+    s32 temp_r6;
+
+    temp_r0 = (s32) (M2C_FIELD(arg0, s32 *, 0x24) << 0x1E) >> 0x1F;
+    if (temp_r0 == 0) {
+        return temp_r0;
+    }
+    if (M2C_FIELD(arg0, s32 *, 0x38) != 0) {
+        do {
+            temp_r6 = _Z20DisableIRQInterruptsv();
+            func_0208c330(arg0, 1);
+            _Z20SetIRQInterruptStatei(temp_r6);
+        } while (M2C_FIELD(arg0, s32 *, 0x38) != 0);
+    }
+    return func_02086208(M2C_FIELD(arg0, s32 *, 0x44), 0, 1 << M2C_FIELD(arg0, s32 *, 0x40), 0);
+}
