@@ -1,0 +1,9 @@
+#include "engine.h"
+#include "m2c.h"
+
+s32 func_0204776c(s32 arg0) {
+    if ((M2C_FIELD(arg0, u16 *, 0x40) != 1) || !(M2C_FIELD(arg0, u8 *, 0x4B) & 2)) {
+        return 0;
+    }
+    return 1;
+}
