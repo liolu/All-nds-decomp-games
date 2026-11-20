@@ -1,0 +1,13 @@
+/* compiler: 2.0/sp1p5 */
+#include "m2c.h"
+
+extern u8 data_ov002_02205428[];
+
+const u32 data_ov002_021fb23c[5]  = {0xE92D4010, 0xE1A04000, 0xEB00025B, 0xE1A00004, 0xE8BD8010};
+const u32 data_ov002_021fb250[7]  = {0xE92D4010, 0xE1A04000, 0xEB000256, 0xE1A00004, 0xEBF8E421, 0xE1A00004, 0xE8BD8010};
+const u32 data_ov002_021fb26c[14] = {0xE92D4010, 0xE1A04000, 0xEB000258, 0xE3A01702, 0xE3A00901, 0xE58410AC, 0xE58410B0,
+                                     0xE58400B4, 0xE2840004, 0xE5902000, 0xE3A01009, 0xE592200C, 0xE12FFF32, 0xE8BD8010};
+const u32 data_ov002_021fb2a4[20] = {0xE92D4038, 0xE1A05000, 0xEB000222, 0xE3A04000, 0xE59F1034,
+                                     0xE2850F47, 0xE5851000, 0xE58540E8, 0xE5C540EC, 0xEBF8F14B,
+                                     0xE1A00005, 0xE58541FC, 0xE5854208, 0xE585420C, 0xE5854210,
+                                     0xE5854214, 0xE5854218, 0xE585421C, 0xE8BD8038, (u32) &data_ov002_02205428};

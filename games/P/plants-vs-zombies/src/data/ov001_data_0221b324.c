@@ -1,0 +1,5 @@
+/* compiler: 2.0/sp1p5 */
+#include "m2c.h"
+
+char data_ov001_0221b324[8]  = "{STAT}";
+char data_ov001_0221b32c[12] = "{AQUATIC}";

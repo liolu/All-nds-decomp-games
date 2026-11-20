@@ -1,0 +1,23 @@
+/* compiler: 2.0/sp1p5 */
+#include "m2c.h"
+
+extern u8 data_020e2ec0[];
+extern u8 data_020e2f4c[];
+extern u8 data_020e2f50[];
+extern u8 data_020e2f54[];
+extern u8 data_020e2f5c[];
+extern u8 data_020e2f60[];
+extern u8 data_020e2f64[];
+extern u8 data_020e2f68[];
+extern u8 data_020e2f6c[];
+extern u8 data_020e2f70[];
+extern u8 data_020e2f80[];
+extern u8 data_020e2f88[];
+
+u32 data_020e2f98[48] = {
+    (u32) &data_020e2f60, 0x00000000, 0x00000002, 0x00000000, (u32) &data_020e2f54, 0x00000004, 0x00000002, 0x00000000,
+    (u32) &data_020e2f64, 0x00000008, 0x00000002, 0x00000000, (u32) &data_020e2f70, 0x0000000C, 0x00000002, 0x00000000,
+    (u32) &data_020e2f68, 0x00000010, 0x00000002, 0x00000000, (u32) &data_020e2f6c, 0x00000014, 0x00000002, 0x00000000,
+    (u32) &data_020e2f50, 0x00000018, 0x00000002, 0x00000000, (u32) &data_020e2f4c, 0x0000001C, 0x00000002, 0x00000000,
+    (u32) &data_020e2f5c, 0x00000020, 0x00000009, 0x00000000, (u32) &data_020e2f80, 0x00000024, 0x0000000A, 0x00000000,
+    (u32) &data_020e2f88, 0x00000028, 0x00000003, 0x00000000, (u32) &data_020e2ec0, 0x00000000, 0x00000000, 0x00000000};
