@@ -1,0 +1,10 @@
+    .text       start:0x01ff8000 end:0x01ff873c kind:code align:32
+    .bss        start:0x01ff8740 end:0x01ff9760 kind:bss align:32
+
+src/data/itcm_bss_01ff8740.c:
+    complete
+    .bss        start:0x01ff8740 end:0x01ff874c
+
+src/data/itcm_bss_01ff874c.c:
+    complete
+    .bss        start:0x01ff874c end:0x01ff9760

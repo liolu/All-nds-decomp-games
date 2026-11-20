@@ -1,0 +1,11 @@
+#include "m2c.h"
+
+s32 func_0208651c();                                /* extern */
+
+void func_020864e0(void *arg0, s32 arg1, s32 arg2, s32 arg3) {
+    M2C_FIELD(arg0, s32 *, 4)    = func_0208651c();
+    M2C_FIELD(arg0, s32 *, 0xC)  = arg1;
+    M2C_FIELD(arg0, s32 *, 0x10) = arg2;
+    M2C_FIELD(arg0, s32 *, 0x14) = arg3;
+    M2C_FIELD(arg0, s32 *, 8)    = (s32) M2C_FIELD(arg0, s32 *, 4);
+}

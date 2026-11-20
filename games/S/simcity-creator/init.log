@@ -1,0 +1,13 @@
+[INFO ] Loading ROM from extract/eu/config.yaml
+[INFO ] Function at 0x0200af54 was adjusted to include pre-code constant pool at 0x0200af40
+[WARN ] Local function call from 0x02000ddc in ARM9 main to 0x02019e20 goes to middle of function 'func_02019e10' at 0x02019e10, adding an external label symbol
+[WARN ] Local function call from 0x02000e50 in ARM9 main to 0x02019e20 goes to middle of function 'func_02019e10' at 0x02019e10, adding an external label symbol
+[WARN ] Local function call from 0x02000ea0 in ARM9 main to 0x02019e20 goes to middle of function 'func_02019e10' at 0x02019e10, adding an external label symbol
+[WARN ] Local function call from 0x02012744 in ARM9 main to 0x02019fdc goes to middle of function 'func_02019fd0' at 0x02019fd0, adding an external label symbol
+[WARN ] Local function call from 0x02017638 in ARM9 main to 0x02019fdc goes to middle of function 'func_02019fd0' at 0x02019fd0, adding an external label symbol
+[WARN ] Local function call from 0x0201a000 in ARM9 main to 0x0201a22c goes to middle of function 'func_0201a224' at 0x0201a224, adding an external label symbol
+[WARN ] Local function call from 0x0203c220 in ARM9 main to 0x02019fdc goes to middle of function 'func_02019fd0' at 0x02019fd0, adding an external label symbol
+[WARN ] Local function call from 0x0204262c in ARM9 main to 0x02019fdc goes to middle of function 'func_02019fd0' at 0x02019fd0, adding an external label symbol
+[WARN ] Local function call from 0x020737d4 in ARM9 main to 0x02019e20 goes to middle of function 'func_02019e10' at 0x02019e10, adding an external label symbol
+[WARN ] Local function call from 0x02078490 in ARM9 main to 0x02019e20 goes to middle of function 'func_02019e10' at 0x02019e10, adding an external label symbol
+[WARN ] Local function call from 0x02078560 in ARM9 main to 0x02019e20 goes to middle of function 'func_02019e10' at 0x02019e10, adding an external label symbol

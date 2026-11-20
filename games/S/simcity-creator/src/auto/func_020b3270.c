@@ -1,0 +1,12 @@
+#include "m2c.h"
+
+void func_020b3270(void *arg0, s32 arg1, s32 arg2, s32 arg3, s32 arg4, s32 arg5, s32 arg6, s32 arg7, u8 arg8) {
+    M2C_FIELD(arg0, s32 *, 4)    = arg1;
+    M2C_FIELD(arg0, s32 *, 8)    = arg2;
+    M2C_FIELD(arg0, s32 *, 0x14) = arg3;
+    M2C_FIELD(arg0, s32 *, 0x18) = arg4;
+    M2C_FIELD(arg0, s32 *, 0x1C) = arg5;
+    M2C_FIELD(arg0, s32 *, 0xC)  = arg6;
+    M2C_FIELD(arg0, s32 *, 0x10) = arg7;
+    M2C_FIELD(arg0, u8 *, 0x24)  = arg8;
+}
