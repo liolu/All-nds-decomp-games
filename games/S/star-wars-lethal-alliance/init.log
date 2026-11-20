@@ -1,0 +1,11 @@
+[INFO ] Loading ROM from extract/eu/config.yaml
+[INFO ] Function at 0x0206c354 was adjusted to include pre-code constant pool at 0x0206c340
+[WARN ] Local function call from 0x0205a364 in ARM9 main to 0x0205edd0 goes to middle of function 'func_0205edc4' at 0x0205edc4, adding an external label symbol
+[WARN ] Local function call from 0x0205c3c8 in ARM9 main to 0x0205edd0 goes to middle of function 'func_0205edc4' at 0x0205edc4, adding an external label symbol
+[WARN ] Local function call from 0x0205edf4 in ARM9 main to 0x0205ee64 goes to middle of function 'func_0205ee5c' at 0x0205ee5c, adding an external label symbol
+[WARN ] Local function call from 0x02063b80 in ARM9 main to 0x0205ec14 goes to middle of function 'func_0205ec04' at 0x0205ec04, adding an external label symbol
+[WARN ] Local function call from 0x02063c20 in ARM9 main to 0x0205ec14 goes to middle of function 'func_0205ec04' at 0x0205ec04, adding an external label symbol
+[WARN ] Local function call from 0x02063c98 in ARM9 main to 0x0205ec14 goes to middle of function 'func_0205ec04' at 0x0205ec04, adding an external label symbol
+[WARN ] Local function call from 0x02063ef0 in ARM9 main to 0x0205ec14 goes to middle of function 'func_0205ec04' at 0x0205ec04, adding an external label symbol
+[WARN ] Local function call from 0x0211337a in overlay 20 to 0x02113d82 goes to middle of function 'func_ov020_02113330' at 0x02113330, adding an external label symbol
+[WARN ] Local function call from 0x0215c40e in overlay 21 to 0x0215cc6e goes to middle of function 'func_ov021_0215c400' at 0x0215c400, adding an external label symbol
