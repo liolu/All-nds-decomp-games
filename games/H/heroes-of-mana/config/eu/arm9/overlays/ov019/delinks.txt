@@ -1,0 +1,36 @@
+    .text       start:0x020d0160 end:0x020d283c kind:code align:32
+    .rodata     start:0x020d283c end:0x020d2874 kind:rodata align:4
+    .ctor       start:0x020d2874 end:0x020d2874 kind:rodata align:4
+    .bss        start:0x020d2880 end:0x020d2880 kind:bss align:32
+
+src/auto/func_ov019_020d04f8.c:
+    complete
+    .text       start:0x020d04f8 end:0x020d0548
+
+src/auto/func_ov019_020d0160.c:
+    complete
+    .text       start:0x020d0160 end:0x020d01c0
+
+src/auto/func_ov019_020d0548.c:
+    complete
+    .text       start:0x020d0548 end:0x020d0594
+
+src/auto/func_ov019_020d0594.c:
+    complete
+    .text       start:0x020d0594 end:0x020d05e0
+
+src/auto/func_ov019_020d05e0.c:
+    complete
+    .text       start:0x020d05e0 end:0x020d062c
+
+src/data/ov019_rodata_020d283c.c:
+    complete
+    .rodata     start:0x020d283c end:0x020d2858
+
+src/data/ov019_rodata_020d2858.c:
+    complete
+    .rodata     start:0x020d2858 end:0x020d2874
+
+src/auto/func_ov019_020d01c0.c:
+    complete
+    .text       start:0x020d01c0 end:0x020d04f8

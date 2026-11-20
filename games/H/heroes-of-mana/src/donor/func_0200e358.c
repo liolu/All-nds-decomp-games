@@ -1,0 +1,24 @@
+/* compiler: 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto */
+/* OS_SendMessage from https://github.com/Yokimitsuro/khdays-decomp libs/nitro/os/calls/OS_SendMessage.c (license: CC0-1.0),
+ * reused by tools/donor_match.py */
+extern int func_0200fa98(void);
+extern void func_0200faac(int state);
+extern void OS_SleepThread(void *queue);
+extern void OS_WakeupThread(void *queue);
+extern long long func_0202d478(int a, int b);
+int func_0200e358(char *q, void *msg, int flags) {
+    int enabled = func_0200fa98();
+    while (*(int *) (q + 0x14) <= *(int *) (q + 0x1c)) {
+        if ((flags & 1) == 0) {
+            func_0200faac(enabled);
+            return 0;
+        }
+        OS_SleepThread(q);
+    }
+    (*(void ***) (q + 0x10))[(int) (func_0202d478(*(int *) (q + 0x18) + *(int *) (q + 0x1c), *(int *) (q + 0x14)) >> 32)] =
+        msg;
+    *(int *) (q + 0x1c) = *(int *) (q + 0x1c) + 1;
+    OS_WakeupThread(q + 8);
+    func_0200faac(enabled);
+    return 1;
+}

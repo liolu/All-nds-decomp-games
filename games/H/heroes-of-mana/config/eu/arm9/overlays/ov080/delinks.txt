@@ -1,0 +1,20 @@
+    .text       start:0x020d0160 end:0x020d0754 kind:code align:32
+    .rodata     start:0x020d0754 end:0x020d078c kind:rodata align:4
+    .ctor       start:0x020d078c end:0x020d078c kind:rodata align:4
+    .bss        start:0x020d07a0 end:0x020d07a0 kind:bss align:32
+
+src/auto/func_ov080_020d0160.c:
+    complete
+    .text       start:0x020d0160 end:0x020d0304
+
+src/data/ov080_rodata_020d0754.c:
+    complete
+    .rodata     start:0x020d0754 end:0x020d0770
+
+src/data/ov080_rodata_020d0770.c:
+    complete
+    .rodata     start:0x020d0770 end:0x020d078c
+
+src/auto/func_ov080_020d0304.c:
+    complete
+    .text       start:0x020d0304 end:0x020d0754
