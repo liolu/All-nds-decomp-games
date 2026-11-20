@@ -1,0 +1,18 @@
+    .text       start:0x01ff8000 end:0x01ff85d4 kind:code align:32
+    .bss        start:0x01ff85e0 end:0x01ff85e0 kind:bss align:32
+
+src/auto/func_01ff8420.c:
+    complete
+    .text       start:0x01ff8420 end:0x01ff8460
+
+src/auto/func_01ff83a0.c:
+    complete
+    .text       start:0x01ff83a0 end:0x01ff8420
+
+src/auto/func_01ff8460.c:
+    complete
+    .text       start:0x01ff8460 end:0x01ff8498
+
+src/auto/func_01ff8498.c:
+    complete
+    .text       start:0x01ff8498 end:0x01ff84e8
