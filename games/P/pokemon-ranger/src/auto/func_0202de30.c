@@ -1,0 +1,7 @@
+#include "m2c.h"
+
+M2C_UNK func_0202d120();                            /* extern */
+
+void func_0202de30(void) {
+    func_0202d120();
+}
