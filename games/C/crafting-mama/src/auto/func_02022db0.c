@@ -1,0 +1,10 @@
+#include "m2c.h"
+
+void func_02022db0(void) {
+    u16 temp_r1;
+
+    temp_r1 = *(u16 *) 0x02FFFF96;
+    if (temp_r1 & 1) {
+        *(u16 *) 0x02FFFF96 = temp_r1 & 0xFFFE;
+    }
+}
