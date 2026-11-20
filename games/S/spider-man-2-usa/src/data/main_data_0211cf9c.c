@@ -1,0 +1,6 @@
+/* compiler: 2.0/sp1p5 */
+#include "m2c.h"
+
+extern u8 data_0207e2d0[];
+
+u32 data_0211cf9c[2] = {0x0000000A, (u32) &data_0207e2d0};

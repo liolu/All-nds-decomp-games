@@ -1,0 +1,7 @@
+/* compiler: 2.0/sp1p5 */
+#include "m2c.h"
+
+extern u8 data_02138c6c[];
+
+u32 data_021391c4[6] = {0x7D945580, 0x00000200, 0x4D230000, 0x00000000, 0x00010000, (u32) &data_02138c6c};
+u32 data_021391dc[8] = {0x0000000E, 0xBA32B5F0, 0xC695BE32, 0xD2B6CAB7, 0xD6D7CAB6, 0xDAF8BA11, 0xE319DF19, 0xD2B5DAD7};

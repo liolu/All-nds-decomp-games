@@ -1,0 +1,56 @@
+#include "m2c.h"
+
+/* Uses instructions the compiler never generates: written in assembly. */
+// clang-format off
+asm void func_02000aac(void) {
+    cmp r0, #0x0
+    beq L_02000b4c
+    stmfd sp!, {r4, r5, r6, r7}
+    ldmea r0, {r1, r2}
+    add r2, r0, r2
+    sub r3, r0, r1, lsr #0x18
+    bic r1, r1, #0xff000000
+    sub r1, r0, r1
+    mov r4, r2
+L_02000ad0:
+    cmp r3, r1
+    ble L_02000b30
+    ldrb r5, [r3, #-0x1]!
+    mov r6, #0x8
+L_02000ae0:
+    subs r6, r6, #0x1
+    blt L_02000ad0
+    tst r5, #0x80
+    bne L_02000afc
+    ldrb r0, [r3, #-0x1]!
+    strb r0, [r2, #-0x1]!
+    b L_02000b24
+L_02000afc:
+    ldrb ip, [r3, #-0x1]!
+    ldrb r7, [r3, #-0x1]!
+    orr r7, r7, ip, lsl #0x8
+    bic r7, r7, #0xf000
+    add r7, r7, #0x2
+    add ip, ip, #0x20
+L_02000b14:
+    ldrb r0, [r2, r7]
+    strb r0, [r2, #-0x1]!
+    subs ip, ip, #0x10
+    bge L_02000b14
+L_02000b24:
+    cmp r3, r1
+    mov r5, r5, lsl #0x1
+    bgt L_02000ae0
+L_02000b30:
+    bic r3, r1, #0x1f
+L_02000b34:
+    mcr p15, 0, r3, c7, c5, 1
+    mcr p15, 0, r3, c7, c14, 1
+    add r3, r3, #0x20
+    cmp r3, r4
+    blt L_02000b34
+    ldmfd sp!, {r4, r5, r6, r7}
+L_02000b4c:
+    bx lr
+}
+// clang-format on

@@ -1,0 +1,7 @@
+#include "m2c.h"
+
+M2C_UNK func_0203af74();                            /* extern */
+
+void func_0205a2e4(void) {
+    func_0203af74();
+}
