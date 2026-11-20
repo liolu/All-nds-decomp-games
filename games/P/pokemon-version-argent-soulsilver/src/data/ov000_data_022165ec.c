@@ -1,0 +1,2 @@
+#include "m2c.h"
+char data_ov000_022165ec[8] = "apinfo";

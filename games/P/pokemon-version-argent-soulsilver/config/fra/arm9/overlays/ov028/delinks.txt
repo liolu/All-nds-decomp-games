@@ -1,0 +1,12 @@
+    .text       start:0x0225d480 end:0x0225e9dc kind:code align:32
+    .rodata     start:0x0225e9dc end:0x0225eaec kind:rodata align:4
+    .ctor       start:0x0225eaec end:0x0225eaec kind:rodata align:4
+    .bss        start:0x0225eb00 end:0x0225eb00 kind:bss align:32
+
+src/auto/func_ov028_0225d584.c:
+    complete
+    .text       start:0x0225d584 end:0x0225d588
+
+src/data/ov028_rodata_0225ea0c.c:
+    complete
+    .rodata     start:0x0225ea0c end:0x0225ea20
