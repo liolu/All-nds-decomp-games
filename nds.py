@@ -107,6 +107,15 @@ def sparse() -> bool:
     return git("config", "--bool", "core.sparseCheckout").strip() == "true"
 
 
+BASE = ["tools", "catalog", "docs", ".github"]  # always on disk: a sparse clone only brings the files at the top
+
+
+def ensure_base():
+    """In a sparse clone (git clone --sparse), add the shared folders the first time nds.py runs."""
+    if sparse() and not all((REPO / d).exists() for d in BASE):
+        git("sparse-checkout", "add", *BASE, check=True)
+
+
 # ---------------------------------------------------------------- commands
 def cmd_list(args):
     want = " ".join(args).lower()
@@ -186,6 +195,10 @@ def cmd_build(args):
     v = version(d)
     if not any((d / "extract").glob("baserom*.nds")):
         sys.exit(f"{d.name}: no ROM in extract/ yet: python nds.py rom {d.name} <your ROM>")
+    toml = (d / "game.toml").read_text(encoding="utf-8") if (d / "game.toml").exists() else ""
+    if re.search(r'^dsd\s*=\s*"dsi-enhanced"', toml, re.M) and not (d / "dsd-dsi.exe").exists():
+        print(f"WARNING: {d.name} was set up with a patched dsd (DSi-enhanced / SDK5 ROMs) that is not published yet:"
+              " the released dsd may stop at the ROM extraction (see CONTRIBUTING.md, Known limits).")
     subprocess.run([sys.executable, str(TOOLS / "configure.py"), v], cwd=d, check=True)
     ninja = shutil.which("ninja") or shutil.which("ninja", path=str(Path(sys.executable).parent / "Scripts"))
     if not ninja:
@@ -247,4 +260,5 @@ if __name__ == "__main__":
     if len(sys.argv) < 2 or sys.argv[1] not in COMMANDS:
         print(__doc__)
         sys.exit(0 if len(sys.argv) < 2 else 1)
+    ensure_base()
     COMMANDS[sys.argv[1]](sys.argv[2:])
