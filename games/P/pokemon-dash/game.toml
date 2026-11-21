@@ -5,4 +5,3 @@ opt = "-O4,p"
 lang = "c"                   # "c++" for C++ games
 extra_cc_flags = []
 bytematch = "liolu/pokemon-dash-decomp"   # ByteMatch page (the repository this game came from)
-dsd = "dsi-enhanced"         # set up with the patched dsd (DSi-enhanced / SDK5 ROMs), not published yet

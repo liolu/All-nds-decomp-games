@@ -4,4 +4,4 @@ mwcc_version = "2.0/sp1p5"   # default compiler; single files can differ in conf
 opt = "-O4,p"
 lang = "c"                   # "c++" for C++ games
 extra_cc_flags = []
-dsd = "dsi-enhanced"         # set up with the patched dsd (DSi-enhanced / SDK5 ROMs), not published yet
+dsd = "dsi-enhanced"         # dsd fork for this ROM (github.com/liolu/ds-decomp, branch dsi-enhanced), downloaded by the build

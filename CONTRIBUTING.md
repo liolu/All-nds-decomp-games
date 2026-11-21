@@ -7,7 +7,9 @@ Thank you! One repository holds every game, but you only download the games you 
 You need git 2.27 or newer, Python 3.11 or newer, and nothing else to start: the build downloads its own programs
 (dsd, objdiff, the mwccarm compilers, sjiswrap, and wibo on Linux/macOS, which runs the Windows compilers). Games whose
 `game.toml` says `dsd = "dsi-enhanced"` get the dsd fork with DSi-enhanced (SDK 5) ROM support instead of the released
-dsd ([liolu/ds-decomp](https://github.com/liolu/ds-decomp/releases), branch `dsi-enhanced`).
+dsd ([liolu/ds-decomp](https://github.com/liolu/ds-decomp/releases), branch `dsi-enhanced`). DSi-enhanced ROMs rebuild
+without a BIOS as long as their ARM9 matches; an `arm7_bios.bin` (your own ARM7 BIOS dump, in the game's folder) is
+only needed to sign a changed ARM9 for a real DSi.
 
 ```shell
 git clone --filter=blob:none --sparse https://github.com/liolu/All-nds-decomp-games
