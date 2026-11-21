@@ -13,7 +13,7 @@ s32 func_020d650c(Arc *, u32);
 s32 func_020d64d0(Arc *);
 s32 func_020c9b50(s32, s32, void *, Arc *, u32);
 s32 func_020c98dc(s32, s32, s32, s32);
-void func_020d2878(s32, s32);
+void _Z15CleanCacheRangePKvj(s32, s32);
 void func_020d64d8(Arc *, u32, s32);
 
 s32 func_020ca6c0(Arc *arc, u32 idx, s32 src, s32 heap) {
@@ -39,7 +39,7 @@ s32 func_020ca6c0(Arc *arc, u32 idx, s32 src, s32 heap) {
     if (len != func_020c98dc(src, buf, len, start)) {
         return 0;
     }
-    func_020d2878(buf, len);
+    _Z15CleanCacheRangePKvj(buf, len);
     func_020d64d8(arc, idx, buf);
     return 1;
 }

@@ -18,9 +18,9 @@ typedef struct {
 } Strm;
 extern Ent data_021e02b4[];
 extern s32 data_021e0274[];
-extern s32 func_020f2ba4(s32, s32);
+extern s32 _u32_div_f(s32, s32);
 void func_020c8ea8(Strm *s, s32 arg) {
-    s32 q    = func_020f2ba4(s->total, s->count);
+    s32 q    = _u32_div_f(s->total, s->count);
     s32 base = q * s->pos;
     s32 i;
     for (i = 0; i < s->cnt; i++) {

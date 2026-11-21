@@ -10,8 +10,8 @@ typedef struct {
 } Gs;
 
 extern Gs *data_021d600c;
-s32 func_020d3a38(void);
-void func_020d3a4c(s32);
+s32 _Z20DisableIRQInterruptsv(void);
+void _Z20SetIRQInterruptStatei(s32);
 void func_020ae4fc(void *, s32);
 s32 func_020de248(void *, s32);
 void func_020ae8fc(s32);
@@ -24,9 +24,9 @@ void func_020aeb20(void);
 
 s32 func_020ad9c0(void *a, s32 b) {
     s32 irq;
-    irq = func_020d3a38();
+    irq = _Z20DisableIRQInterruptsv();
     if (data_021d600c == NULL) {
-        func_020d3a4c(irq);
+        _Z20SetIRQInterruptStatei(irq);
         return 1;
     }
     switch (data_021d600c->mode) {
@@ -34,22 +34,22 @@ s32 func_020ad9c0(void *a, s32 b) {
             func_020ae4fc(a, b);
             break;
         case 2:
-            func_020d3a4c(irq);
+            _Z20SetIRQInterruptStatei(irq);
             return 2;
         case 3:
-            func_020d3a4c(irq);
+            _Z20SetIRQInterruptStatei(irq);
             return 0;
         default:
-            func_020d3a4c(irq);
+            _Z20SetIRQInterruptStatei(irq);
             return 1;
     }
     switch (func_020de248(data_021d600c, (u16) data_021d600c->w226c)) {
         case 3:
             func_020ae8fc(0xB);
-            func_020d3a4c(irq);
+            _Z20SetIRQInterruptStatei(irq);
             return 7;
         case 4:
-            func_020d3a4c(irq);
+            _Z20SetIRQInterruptStatei(irq);
             return 5;
         case 1:
         case 2:
@@ -57,7 +57,7 @@ s32 func_020ad9c0(void *a, s32 b) {
         case 6:
         default:
             func_020ae8fc(0xB);
-            func_020d3a4c(irq);
+            _Z20SetIRQInterruptStatei(irq);
             return 7;
         case 0:
             break;
@@ -65,15 +65,15 @@ s32 func_020ad9c0(void *a, s32 b) {
     if (func_020def24() == 0) {
         if (func_020de458() != 0) {
             func_020ae8fc(0xB);
-            func_020d3a4c(irq);
+            _Z20SetIRQInterruptStatei(irq);
             return 7;
         }
-        func_020d3a4c(irq);
+        _Z20SetIRQInterruptStatei(irq);
         return 5;
     }
     if (func_020deba8(func_020aeaa8) != 0) {
         func_020ae8fc(0xB);
-        func_020d3a4c(irq);
+        _Z20SetIRQInterruptStatei(irq);
         return 7;
     }
     switch (func_020df2c4(func_020aeb20)) {
@@ -83,14 +83,14 @@ s32 func_020ad9c0(void *a, s32 b) {
             break;
         case 8:
             func_020ae8fc(0xC);
-            func_020d3a4c(irq);
+            _Z20SetIRQInterruptStatei(irq);
             return 1;
         case 3:
         default:
             func_020ae8fc(0xB);
-            func_020d3a4c(irq);
+            _Z20SetIRQInterruptStatei(irq);
             return 7;
     }
-    func_020d3a4c(irq);
+    _Z20SetIRQInterruptStatei(irq);
     return 3;
 }

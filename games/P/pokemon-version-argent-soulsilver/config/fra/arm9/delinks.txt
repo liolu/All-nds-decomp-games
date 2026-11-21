@@ -1378,11 +1378,11 @@ src/auto/func_020d3a24.c:
     complete
     .text       start:0x020d3a24 end:0x020d3a38
 
-src/auto/func_020d3a38.c:
+src/auto/_Z20DisableIRQInterruptsv.c:
     complete
     .text       start:0x020d3a38 end:0x020d3a4c
 
-src/auto/func_020d3a4c.c:
+src/auto/_Z20SetIRQInterruptStatei.c:
     complete
     .text       start:0x020d3a4c end:0x020d3a64
 
@@ -5032,7 +5032,7 @@ src/auto/func_020d0ee4.c:
     complete
     .text       start:0x020d0ee4 end:0x020d0f6c
 
-src/auto/func_020d1004.c:
+src/auto/_Z19SetInterruptHandlerjPKv.c:
     complete
     .text       start:0x020d1004 end:0x020d108c
 
@@ -5040,11 +5040,11 @@ src/auto/func_020d108c.c:
     complete
     .text       start:0x020d108c end:0x020d1118
 
-src/auto/func_020d11d4.c:
+src/auto/_Z24EnableSpecificInterruptsj.c:
     complete
     .text       start:0x020d11d4 end:0x020d1204
 
-src/auto/func_020d1234.c:
+src/auto/_Z29AcknowledgeSpecificInterruptsj.c:
     complete
     .text       start:0x020d1234 end:0x020d1260
 

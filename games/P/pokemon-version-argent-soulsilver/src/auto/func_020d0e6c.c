@@ -6,8 +6,8 @@ typedef unsigned char u8;
 typedef int s32;
 typedef volatile u32 vu32;
 typedef s32 BOOL;
-extern u32 func_020d3a38(void);
-extern u32 func_020d3a4c(u32 irq_flag);
+extern u32 _Z20DisableIRQInterruptsv(void);
+extern u32 _Z20SetIRQInterruptStatei(u32 irq_flag);
 typedef struct OSContext {
     u32 cpsr;
     u32 r[13];
@@ -56,11 +56,11 @@ extern void func_020d1e7c(OSThreadQueue *queue);
 extern u8 data_027e0000[];
 extern OSThreadQueue data_027e0060;
 void func_020d0e6c(BOOL clear, u32 irqFlags) {
-    u32 irq = func_020d3a38();
+    u32 irq = _Z20DisableIRQInterruptsv();
     if (clear) {
         (*(vu32 *) ((u32) data_027e0000 + 0x3FF8)) &= ~irqFlags;
     }
-    func_020d3a4c(irq);
+    _Z20SetIRQInterruptStatei(irq);
 
     if (irqFlags & (*(vu32 *) ((u32) data_027e0000 + 0x3FF8))) {
         return;
