@@ -15960,7 +15960,6 @@ from:0x020d4cac kind:arm_call to:0x020ce9bc module:overlay(123)
 from:0x020d4cbc kind:arm_call to:0x0202f49c module:main
 from:0x020d4ccc kind:load to:0x020e47c8 module:overlay(123)
 from:0x020d4cd0 kind:load to:0x020d967c module:overlay(123)
-from:0x020d4ec0 kind:load to:0x02030202 module:main
 from:0x020d5030 kind:load to:0x020dbd40 module:overlay(123)
 from:0x020d5034 kind:load to:0x020dbd38 module:overlay(123)
 from:0x020d50d0 kind:load to:0x020dbe24 module:overlay(123)
