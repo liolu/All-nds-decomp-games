@@ -128,6 +128,11 @@ def step(title: str):
     print(f"\n=== {title}", flush=True)
 
 
+# the build tools: the game's own tools/, or the shared tools/ of All-nds-decomp-games (games/<L>/<game>/)
+BT = Path(__file__).resolve().parent if (Path(__file__).resolve().parent / "configure.py").exists() \
+    else Path(__file__).resolve().parents[4] / "tools"
+
+
 def run(cmd: list[str], check: bool = True, capture: bool = False) -> subprocess.CompletedProcess:
     r = subprocess.run(cmd, cwd=ROOT, text=True, capture_output=capture)
     if check and r.returncode != 0:
@@ -147,7 +152,9 @@ def staged_changes(staged: bool = True) -> dict[str, list[str]]:
     """Paths by kind: added / modified / deleted. staged: the commit being made (git diff --cached); otherwise the
     working tree against HEAD for the tracked paths, untracked files counting as added (nothing is staged)."""
     tracked = [t for t in TRACKED if (ROOT / t).exists()]
-    cmd = ["git", "diff", "--name-status", "--no-renames"] + (["--cached"] if staged else ["HEAD", "--", *tracked])
+    # --relative: paths from the game (also inside All-nds-decomp-games, where the repository holds every game)
+    cmd = ["git", "diff", "--name-status", "--no-renames", "--relative"] + (["--cached", "--", *tracked] if staged
+                                                                            else ["HEAD", "--", *tracked])
     kinds = {"added": [], "modified": [], "deleted": []}
     for line in run(cmd, capture=True).stdout.splitlines():
         status, _, path = line.partition("\t")
@@ -241,7 +248,7 @@ def main():
 
     step("Build")
     if not (ROOT / "build.ninja").exists():
-        run([py, "tools/configure.py", VER])
+        run([py, str(BT / "configure.py"), VER])
     run(["ninja"])
     # dsd does not delete stale files from a previous split: start from an empty directory
     shutil.rmtree(ROOT / "build" / VER / "asm", ignore_errors=True)
@@ -266,7 +273,7 @@ def main():
         run([py, str(GAMETOOLS / "permute.py"), args.permute, "--minutes", str(args.minutes)], check=False)
 
     step("Verification")
-    if run([py, "tools/match.py", "verify"], check=False).returncode != 0:
+    if run([py, str(BT / "match.py"), "verify"], check=False).returncode != 0:
         print("\nVerification FAILED: nothing committed. Fix the errors above (see docs/troubleshooting.md).")
         sys.exit(1)
 
@@ -282,24 +289,26 @@ def main():
         return
 
     step("Publish")
-    run([py, "tools/match.py", "progress"], check=False)  # games without a progress table in README.md: skipped
+    run([py, str(BT / "match.py"), "progress"], check=False)  # games without a progress table in README.md: skipped
     tracked = [t for t in TRACKED if (ROOT / t).exists()]
     run(["git", "add", "--", *tracked])
-    if run(["git", "diff", "--cached", "--quiet"], check=False).returncode == 0:
+    if run(["git", "diff", "--cached", "--quiet", "--", *tracked], check=False).returncode == 0:
         print("Nothing to commit.")
         SNAPSHOT.write_text(json.dumps(sorted(now)))
         return
-    hooks = run(["pre-commit", "run"], check=False)
+    staged = run(["git", "diff", "--cached", "--name-only", "--relative", "--diff-filter=d", "--", *tracked],
+                 capture=True).stdout.split()
+    hooks = run(["pre-commit", "run", "--files", *staged], check=False)
     if hooks.returncode != 0:
         # Hooks may have reformatted files: re-verify the reformatted code before committing
         run(["git", "add", "--", *tracked])
-        if run([py, "tools/match.py", "verify"], check=False).returncode != 0:
+        if run([py, str(BT / "match.py"), "verify"], check=False).returncode != 0:
             print("Verification failed after formatting: nothing committed.")
             sys.exit(1)
-        run(["pre-commit", "run"])
+        run(["pre-commit", "run", "--files", *staged])
     title, body = describe_commit(staged_changes())
     print(f"\n{title}\n\n{body}\n")
-    run(["git", "commit", "-m", title + ("\n\n" + body if body else "")])
+    run(["git", "commit", "-m", title + ("\n\n" + body if body else ""), "--", *tracked])  # this game only
     SNAPSHOT.write_text(json.dumps(sorted(now)))
     if args.no_push or not has_remote:
         print("Committed locally" + (" (--no-push)." if args.no_push else " (no git remote)."))

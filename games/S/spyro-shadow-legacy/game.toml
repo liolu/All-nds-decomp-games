@@ -4,3 +4,4 @@ mwcc_version = "2.0/sp1p5"   # default compiler; single files can differ in conf
 opt = "-O4,p"
 lang = "c"                   # "c++" for C++ games
 extra_cc_flags = []
+bytematch = "liolu/spyro-shadow-legacy-decomp"   # ByteMatch page (the repository this game came from)

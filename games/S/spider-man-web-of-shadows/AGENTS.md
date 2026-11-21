@@ -3,7 +3,7 @@
 Matching decompilation of Spidermanwos (X, `CS5X`): C compiled with the original compiler must rebuild a byte-identical ROM.
 
 ## Hard rules
-1. Only the build decides: a function is matched only at 100% (`python tools/match.py verify` prints `VERIFY PASSED`). Never commit otherwise.
+1. Only the build decides: a function is matched only at 100% (`python ../../../tools/match.py verify` prints `VERIFY PASSED`). Never commit otherwise.
 2. Clean room: only the game binary and public projects; never leaked sources or Nintendo SDK source.
 3. Natural C; `asm` only for instructions compilers never generate.
 4. ASCII only in `src/`, `include/`.
@@ -12,9 +12,9 @@ Matching decompilation of Spidermanwos (X, `CS5X`): C compiled with the original
 
 ## Workflow
 ```shell
-python tools/configure.py x
+python ../../../tools/configure.py x
 ninja
-python tools/match.py verify
+python ../../../tools/match.py verify
 python ../../studio/gametools/auto_match.py        # m2c drafts + assembly-only functions
 ```
 

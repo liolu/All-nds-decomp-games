@@ -22,8 +22,8 @@ Read this whole file before making any change. This is a **matching** decompilat
 
 ## Hard rules
 1. **Only the build decides.** A function is matched only when objdiff reports 100% (`ninja report` →
-   `build/usa/report.json`). Nothing is committed unless `python tools/match.py verify` prints `VERIFY PASSED`.
-   Gate commits on it in scripts: `python tools/match.py verify | tail -1 | grep -q "VERIFY PASSED" && git commit ...`.
+   `build/usa/report.json`). Nothing is committed unless `python ../../../tools/match.py verify` prints `VERIFY PASSED`.
+   Gate commits on it in scripts: `python ../../../tools/match.py verify | tail -1 | grep -q "VERIFY PASSED" && git commit ...`.
    (A command chain that ignored a failed verify once pushed a broken build.)
 2. **Clean room.** Only the game binary and the public projects listed in `docs/engine.md`. Never use, reproduce or
    recall the leaked Rayman 2 DS source code or Nintendo SDK source code. SDK function *names* from public
@@ -45,17 +45,17 @@ Read this whole file before making any change. This is a **matching** decompilat
 
 ## Workflow
 ```shell
-python tools/configure.py usa        # once, or after editing configure.py / compilers.txt
+python ../../../tools/configure.py usa        # once, or after editing configure.py / compilers.txt
 ninja                                # must end with: rrr_usa.nds: OK
-python tools/match.py status         # progress
-python tools/match.py verify         # the gate: ROM OK, complete files at 100%, ASCII sources
+python ../../../tools/match.py status         # progress
+python ../../../tools/match.py verify         # the gate: ROM OK, complete files at 100%, ASCII sources
 python ../../studio/gametools/auto_match.py           # automatic matching of m2c drafts (6-10 min), rolls back on failure
-python tools/moulinette.py           # pull, build, drafts, auto_match, verify, commit + push to main
+python ../../../tools/moulinette.py           # pull, build, drafts, auto_match, verify, commit + push to main
 ```
 Single-function work:
 ```shell
-python tools/probe_compiler.py <file.c> <function> <address> --only 2.0/sp1p5 --flags=-O4,p --show
-python tools/match.py check <function> --diff
+python ../../../tools/probe_compiler.py <file.c> <function> <address> --only 2.0/sp1p5 --flags=-O4,p --show
+python ../../../tools/match.py check <function> --diff
 python ../../studio/gametools/permute.py <function> --source <file.c> --minutes 10
 ```
 Near misses (same size, a few instructions differ) are in `build/auto/near/`, status of every function in
@@ -83,7 +83,7 @@ compile with each profile of `COMPILERS` → compare. Matches go to `src/auto/<n
    turn it into a variant/repair in `auto_match.py`, rerun. This pattern loop produced most of the progress.
 4. **Real source files.** Delink files named by assertion strings (`StdGame.c`, `Culling.c`...: list in
    `docs/decompiling.md`), move their `src/auto/` functions in, clean them up, delete the `src/auto/` entries.
-5. Overnight: `python tools/moulinette.py --permute-near 100 --near-minutes 10`.
+5. Overnight: `python ../../../tools/moulinette.py --permute-near 100 --near-minutes 10`.
 
 ## Known traps (all in docs/troubleshooting.md)
 - dsd keeps stale files in `build/usa/asm/`: delete the directory before `ninja dis` (the tools do it).

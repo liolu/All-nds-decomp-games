@@ -1,0 +1,57 @@
+# Every game lives in games/<LETTER>/<game>/. Patterns without a leading / apply in every folder.
+build/
+.vscode/
+.vs/
+venv/
+.venv/
+__pycache__/
+
+# The game itself: never in this repository (ROM, BIOS, saves, anything extracted from the ROM)
+*.nds
+*.srl
+*.dsi
+*bios.bin
+*.sav
+**/extract/*/
+
+# Build outputs (python tools/configure.py, ninja)
+*.xMAP
+objdiff.json
+build.ninja
+.ninja_log*
+.ninja_lock
+.ninja_deps
+rrr_*/
+
+# Programs downloaded by the build into each game folder (tools/download_tool.py)
+/games/*/*/m2ctx
+/games/*/*/objdiff-cli
+/games/*/*/objdiff-cli.exe
+/games/*/*/dsd
+/games/*/*/dsd.exe
+/games/*/*/dsd-dsi.exe
+/games/*/*/dsd.pdb
+/games/*/*/wibo
+/games/*/*/sjiswrap.exe
+/games/*/*/compile_commands.json
+
+# Compilers and optional programs, downloaded once for every game into the shared tools/
+/tools/mwccarm/
+/tools/dsd
+/tools/dsd.exe
+/tools/m2c/
+/tools/decomp-permuter/
+/games/*/*/tools/mwccarm/
+/games/*/*/tools/m2c/
+/games/*/*/tools/decomp-permuter/
+
+# Local tools and editors
+/games/*/*/.qwen/
+/games/*/*/Modelfile*
+/games/*/*/QWEN.md
+/games/*/*/Rayman-RR-usa-decomp/
+
+# Logs of the matching tools (DS Decomp Studio)
+/games/*/*/auto.log
+/games/*/*/.auto_done
+/games/*/*/ninja.log

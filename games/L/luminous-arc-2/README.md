@@ -1,6 +1,6 @@
 # Luminousarc2 decompilation (EU)
 
-Nintendo DS, game code `YL2P`. Matching decompilation with Metrowerks mwccarm (compiler version still to be identified: `python tools/probe_compiler.py`).
+Nintendo DS, game code `YL2P`. Matching decompilation with Metrowerks mwccarm (compiler version still to be identified: `python ../../../tools/probe_compiler.py`).
 
 No game assets in this repository: see `extract/README.md`.
 
@@ -14,13 +14,13 @@ No game assets in this repository: see `extract/README.md`.
 | Auto-matched (raw m2c output, to clean up) | 2725 | 2725/2725 | 16.33% |
 | Reused from other decompilations, not merged into files yet | 153 | 153/153 | 2.38% |
 
-*Updated 2026-10-21 by `python tools/match.py progress` ([DS Decomp Studio](https://github.com/liolu/ds-decomp-studio)). A function counts only when it compiles to the exact same bytes and the ROM still rebuilds byte for byte.*
+*Updated 2026-10-21 by `python ../../../tools/match.py progress` ([DS Decomp Studio](https://github.com/liolu/ds-decomp-studio)). A function counts only when it compiles to the exact same bytes and the ROM still rebuilds byte for byte.*
 <!-- progress:end -->
 
 ```shell
-python tools/configure.py eu
+python ../../../tools/configure.py eu
 ninja
-python tools/match.py status
+python ../../../tools/match.py status
 ```
 
 Created from the rayman-rr template. See `AGENTS.md` for the rules.

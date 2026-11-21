@@ -1,0 +1,133 @@
+# Native runtime of a game (its native/ folder, copied by runtime_sync.py of Nds Game Studio): checked without any ROM
+# on every change, and published for each tag <game>/runtime-v<n> as the archive the launcher downloads
+# (native-runtime-<n>.zip + SHA256SUMS). No ROM and no game code in the archive: the player's machine generates the game
+# from the player's own ROM.
+name: Native runtime
+
+on:
+  push:
+    branches: [main]
+    tags: ['*/runtime-v*']
+    # GitHub does not apply these paths to tags: a tag <game>/runtime-v<n> always publishes
+    paths:
+      - 'games/*/*/native/**'
+      - '.github/workflows/native-runtime.yml'
+  pull_request:
+    paths:
+      - 'games/*/*/native/**'
+  workflow_dispatch:
+
+jobs:
+  list:
+    name: Games to check
+    runs-on: ubuntu-latest
+    outputs:
+      games: ${{ steps.list.outputs.games }}
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+          filter: blob:none
+      - id: list
+        env:
+          REF_TYPE: ${{ github.ref_type }}
+          REF_NAME: ${{ github.ref_name }}
+          BASE: ${{ github.event_name == 'pull_request' && github.event.pull_request.base.sha || github.event.before }}
+        run: |
+          if [ "$REF_TYPE" = tag ]; then
+            game="${REF_NAME%%/*}"
+            ls -d games/*/"$game" > dirs.txt
+          elif [ -n "$BASE" ] && git cat-file -e "$BASE^{commit}" 2>/dev/null; then
+            git diff --name-only "$BASE" HEAD -- 'games/*/*/native/**' | cut -d/ -f1-3 | sort -u > dirs.txt
+          else
+            git ls-files 'games/*/*/native/VERSION' | cut -d/ -f1-3 | sort -u > dirs.txt
+          fi
+          python3 - <<'PY' >> "$GITHUB_OUTPUT"
+          import json, os
+          dirs = [l.strip() for l in open("dirs.txt") if l.strip() and os.path.isdir(l.strip() + "/native")]
+          print("games=" + json.dumps([{"dir": d, "name": d.rsplit("/", 1)[1]} for d in dirs]))
+          PY
+
+  runtime-windows:
+    name: Windows ${{ matrix.game.name }}
+    needs: list
+    if: needs.list.outputs.games != '[]'
+    runs-on: windows-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        game: ${{ fromJSON(needs.list.outputs.games) }}
+    defaults:
+      run:
+        working-directory: ${{ matrix.game.dir }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: ${{ matrix.game.dir }}
+      # WinLibs, like the launcher's shared toolbox
+      - name: WinLibs
+        shell: pwsh
+        run: |
+          $zip = "https://github.com/brechtsanders/winlibs_mingw/releases/download/16.2.0posix-14.0.0-ucrt-r1/winlibs-x86_64-posix-seh-gcc-16.2.0-mingw-w64ucrt-14.0.0-r1.zip"
+          Invoke-WebRequest $zip -OutFile "$env:RUNNER_TEMP/winlibs.zip"
+          Expand-Archive "$env:RUNNER_TEMP/winlibs.zip" -DestinationPath "$env:RUNNER_TEMP/winlibs"
+          "$env:RUNNER_TEMP/winlibs/mingw64/bin" | Out-File -Append -Encoding ascii $env:GITHUB_PATH
+          python -m pip install capstone==5.0.7
+      - name: Runtime built in 64 bits (the players' modules)
+        run: python native/tests/runtime_check.py --arch x86_64
+      - name: Runtime built in 32 bits
+        run: python native/tests/runtime_check.py
+      - name: Translator, hooks and green threads (harness, 32 bits)
+        run: python native/tests/arm2c_test.py
+
+  runtime-macos:
+    name: macOS ${{ matrix.target.arch }} ${{ matrix.game.name }}
+    needs: list
+    if: needs.list.outputs.games != '[]'
+    strategy:
+      fail-fast: false
+      matrix:
+        game: ${{ fromJSON(needs.list.outputs.games) }}
+        target:
+          - { runner: macos-latest, arch: arm64 }
+          - { runner: macos-15-intel, arch: x86_64 }
+    runs-on: ${{ matrix.target.runner }}
+    defaults:
+      run:
+        working-directory: ${{ matrix.game.dir }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: ${{ matrix.game.dir }}
+      - name: Capstone
+        run: |
+          python3 -m venv "$RUNNER_TEMP/venv"
+          "$RUNNER_TEMP/venv/bin/pip" install capstone==5.0.7
+      - name: Runtime built with -Werror
+        run: '"$RUNNER_TEMP/venv/bin/python" native/tests/runtime_check.py --arch ${{ matrix.target.arch }}'
+      - name: Translator, hooks and green threads (harness)
+        run: '"$RUNNER_TEMP/venv/bin/python" native/tests/arm2c_test.py --arch ${{ matrix.target.arch }}'
+
+  release:
+    if: github.ref_type == 'tag' && contains(github.ref_name, '/runtime-v')
+    needs: [list, runtime-windows, runtime-macos]
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Archive and SHA256SUMS
+        run: |
+          game="${GITHUB_REF_NAME%%/*}"
+          version="${GITHUB_REF_NAME##*/runtime-v}"
+          dir=$(ls -d games/*/"$game")
+          cd "$dir"
+          test "$version" = "$(tr -d '[:space:]' < native/VERSION)" || { echo "native/VERSION does not say $version"; exit 1; }
+          code=$(grep -oP 'Game code `\K\w{4}' extract/README.md | head -1)
+          python3 native/tools/runtime_package.py "$code" --version "$version" --out "$GITHUB_WORKSPACE/dist"
+      - name: Publish
+        run: |
+          gh release create "$GITHUB_REF_NAME" dist/* --title "Native runtime $GITHUB_REF_NAME" \
+            --notes "Downloaded by Nds Game Studio to generate this game from the player's own ROM. No game code."

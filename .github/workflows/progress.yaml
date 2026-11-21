@@ -1,0 +1,59 @@
+# Publishes each game's objdiff report for ByteMatch (https://bytematch.dev) as the artifact <game>_report.
+# The report needs the ROM to be built, so it is built locally (`python tools/match.py progress --rebuild`, or DS Decomp
+# Studio) and committed as games/<LETTER>/<game>/progress/report.json.gz; this workflow only unpacks it.
+name: Progress reports
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'games/*/*/progress/report.json.gz'
+  workflow_dispatch:
+jobs:
+  list:
+    name: Reports to publish
+    runs-on: ubuntu-latest
+    outputs:
+      games: ${{ steps.list.outputs.games }}
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+          filter: blob:none
+      - id: list
+        env:
+          BEFORE: ${{ github.event.before }}
+          EVENT: ${{ github.event_name }}
+        run: |
+          if [ "$EVENT" = push ] && git cat-file -e "$BEFORE^{commit}" 2>/dev/null; then
+            git diff --name-only --diff-filter=d "$BEFORE" HEAD -- 'games/*/*/progress/report.json.gz' > reports.txt
+          else
+            git ls-files 'games/*/*/progress/report.json.gz' > reports.txt
+          fi
+          python3 - <<'PY' >> "$GITHUB_OUTPUT"
+          import json
+          dirs = [l.strip().rsplit("/progress/", 1)[0] for l in open("reports.txt") if l.strip()]
+          print("games=" + json.dumps([{"dir": d, "name": d.rsplit("/", 1)[1]} for d in dirs][:250]))
+          PY
+
+  report:
+    name: ${{ matrix.game.name }}
+    needs: list
+    if: needs.list.outputs.games != '[]'
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      max-parallel: 20
+      matrix:
+        game: ${{ fromJSON(needs.list.outputs.games) }}
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          sparse-checkout: ${{ matrix.game.dir }}/progress
+      - name: Unpack the report
+        run: mkdir -p out && gunzip -c "${{ matrix.game.dir }}/progress/report.json.gz" > out/report.json
+      - name: Upload the report
+        uses: actions/upload-artifact@v7
+        with:
+          name: ${{ matrix.game.name }}_report
+          path: out/report.json

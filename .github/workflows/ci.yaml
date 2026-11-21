@@ -1,0 +1,54 @@
+# Checks only what a push or a pull request changed: pre-commit (clang-format, whitespace, line endings) on the changed
+# files, ASCII-only sources in the changed games (sjiswrap reads sources as Shift-JIS). Nothing here needs a ROM.
+name: CI
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+jobs:
+  lint:
+    name: Linting/style checks
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+          filter: blob:none
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: '3.13'
+          check-latest: true
+
+      - name: Install pre-commit
+        run: pip install pre-commit
+
+      - name: Cache pre-commit hooks
+        uses: actions/cache@v6
+        with:
+          path: ~/.cache/pre-commit/
+          key: pre-commit-cache|${{ env.pythonLocation }}|${{ hashFiles('.pre-commit-config.yaml') }}
+
+      - name: Changed files
+        env:
+          BASE: ${{ github.event_name == 'pull_request' && github.event.pull_request.base.sha || github.event.before }}
+        run: |
+          base="$BASE"
+          if [ -z "$base" ] || ! git cat-file -e "$base^{commit}" 2>/dev/null; then base=$(git rev-parse HEAD~1); fi
+          git diff --name-only --diff-filter=d "$base" HEAD > changed.txt
+          echo "$(wc -l < changed.txt) changed file(s)"; head -50 changed.txt
+
+      - name: Run pre-commit checks on the changed files
+        run: |
+          if [ -s changed.txt ]; then
+            xargs -r -d '\n' -n 200 pre-commit run --show-diff-on-failure --color always --files < changed.txt
+          fi
+
+      - name: Check that sources are ASCII
+        run: |
+          grep -E '^games/[^/]+/[^/]+/(src|include|tools/probes)/' changed.txt > sources.txt || true
+          if [ -s sources.txt ] && xargs -r -d '\n' grep -nP '[^\x00-\x7F]' < sources.txt; then
+            echo "Non-ASCII characters found (sjiswrap reads sources as Shift-JIS)"; exit 1
+          fi
