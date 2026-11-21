@@ -195,10 +195,6 @@ def cmd_build(args):
     v = version(d)
     if not any((d / "extract").glob("baserom*.nds")):
         sys.exit(f"{d.name}: no ROM in extract/ yet: python nds.py rom {d.name} <your ROM>")
-    toml = (d / "game.toml").read_text(encoding="utf-8") if (d / "game.toml").exists() else ""
-    if re.search(r'^dsd\s*=\s*"dsi-enhanced"', toml, re.M) and not (d / "dsd-dsi.exe").exists():
-        print(f"WARNING: {d.name} was set up with a patched dsd (DSi-enhanced / SDK5 ROMs) that is not published yet:"
-              " the released dsd may stop at the ROM extraction (see CONTRIBUTING.md, Known limits).")
     subprocess.run([sys.executable, str(TOOLS / "configure.py"), v], cwd=d, check=True)
     ninja = shutil.which("ninja") or shutil.which("ninja", path=str(Path(sys.executable).parent / "Scripts"))
     if not ninja:

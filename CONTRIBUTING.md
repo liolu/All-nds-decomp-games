@@ -5,7 +5,9 @@ Thank you! One repository holds every game, but you only download the games you 
 ## 1. Get one game
 
 You need git 2.27 or newer, Python 3.11 or newer, and nothing else to start: the build downloads its own programs
-(dsd, objdiff, the mwccarm compilers, sjiswrap, and wibo on Linux/macOS).
+(dsd, objdiff, the mwccarm compilers, sjiswrap, and wibo on Linux/macOS, which runs the Windows compilers). Games whose
+`game.toml` says `dsd = "dsi-enhanced"` get the dsd fork with DSi-enhanced (SDK 5) ROM support instead of the released
+dsd ([liolu/ds-decomp](https://github.com/liolu/ds-decomp/releases), branch `dsi-enhanced`).
 
 ```shell
 git clone --filter=blob:none --sparse https://github.com/liolu/All-nds-decomp-games
@@ -71,13 +73,6 @@ python nds.py build <name>
 `new` checks the ROM against `catalog/games.tsv` (No-Intro SHA-1), names the folder after the catalogue title, adds
 `-usa`, `-jp`... when another version of the game is already here, and commits only text files (the dsd
 configuration). Then open a pull request with that commit: the first match can come later.
-
-## Known limits
-
-- Games whose `game.toml` says `dsd = "dsi-enhanced"` were set up with a patched dsd (DSi-enhanced and SDK5 ROMs:
-  autoloads, DTCM) that is not published yet. With the released dsd their build may stop at the ROM extraction
-  (`extract/<version>/arm9/dtcm.bin was not found`). The other games build with the released tools only.
-- Linux and macOS run the Windows compilers through wibo (downloaded by the build).
 
 ## Games in their own repository
 
