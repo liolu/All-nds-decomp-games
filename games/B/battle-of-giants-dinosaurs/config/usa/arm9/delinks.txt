@@ -230,7 +230,7 @@ src/auto/func_02037638.c:
     complete
     .text       start:0x02037638 end:0x02037644
 
-src/auto/func_02037960.c:
+src/auto/_d2f.c:
     complete
     .text       start:0x02037960 end:0x02037a64
 
@@ -238,15 +238,15 @@ src/auto/func_02037a64.c:
     complete
     .text       start:0x02037a64 end:0x02037ab0
 
-src/auto/func_02037bdc.c:
+src/auto/_dflt.c:
     complete
     .text       start:0x02037bdc end:0x02037c1c
 
-src/auto/func_02037c1c.c:
+src/auto/_dfltu.c:
     complete
     .text       start:0x02037c1c end:0x02037c58
 
-src/auto/func_02037c58.c:
+src/auto/_dmul.c:
     complete
     .text       start:0x02037c58 end:0x02037fbc
 
@@ -270,11 +270,11 @@ src/auto/func_02038878.c:
     complete
     .text       start:0x02038878 end:0x0203891c
 
-src/auto/func_0203891c.c:
+src/auto/_dls.c:
     complete
     .text       start:0x0203891c end:0x020389b8
 
-src/auto/func_020389b8.c:
+src/auto/_deq.c:
     complete
     .text       start:0x020389b8 end:0x02038a44
 
@@ -294,7 +294,7 @@ src/auto/func_02038b88.c:
     complete
     .text       start:0x02038b88 end:0x02038be4
 
-src/auto/func_02038fa8.c:
+src/auto/_f2d.c:
     complete
     .text       start:0x02038fa8 end:0x0203902c
 
@@ -350,11 +350,11 @@ src/auto/func_0203a390.c:
     complete
     .text       start:0x0203a390 end:0x0203a398
 
-src/auto/func_0203a398.c:
+src/auto/_Z20__DecodeSignedNumberPcPl.c:
     complete
     .text       start:0x0203a398 end:0x0203a424
 
-src/auto/func_0203a424.c:
+src/auto/_Z22__DecodeUnsignedNumberPcPm.c:
     complete
     .text       start:0x0203a424 end:0x0203a4b0
 
@@ -422,7 +422,7 @@ src/auto/func_0203ba58.c:
     complete
     .text       start:0x0203ba58 end:0x0203ba78
 
-src/auto/func_0203bc28.c:
+src/auto/_Z15__PopStackFrameP12ThrowContextP13ExceptionInfo.c:
     complete
     .text       start:0x0203bc28 end:0x0203bc84
 
