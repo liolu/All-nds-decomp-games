@@ -1,0 +1,7 @@
+#include "m2c.h"
+
+void func_02015604(void *arg0, s32 arg1, s32 arg2) {
+    M2C_FIELD(arg0, s32 *, 0x14) = arg2;
+    M2C_FIELD(arg0, s32 *, 0xC)  = arg1;
+    M2C_FIELD(arg0, s8 *, 0x19)  = 1;
+}

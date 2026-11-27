@@ -288,3 +288,109 @@ src/auto/func_ov004_02134b8c.c 2.0/sp1p5 -thumb
 src/auto/func_ov004_021368bc.c 2.0/sp1p5 -thumb
 src/auto/func_ov004_02136990.c 2.0/sp1p5 -thumb
 src/auto/func_ov004_02138d64.c 2.0/sp1p5 -thumb
+src/auto/func_02001f60.c 2.0/sp1p5 -O1,p
+src/auto/func_02002250.c 2.0/sp1p5 -O1,p
+src/auto/func_020024c8.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_02014b38.c 2.0/sp1p5 -O1,p
+src/auto/func_02014e1c.c 2.0/sp1p5 -O1,p
+src/auto/func_02018fac.c 2.0/sp1p5 -O1,p
+src/auto/func_02019020.c 2.0/sp1p5 -O1,p
+src/auto/func_020197c8.c 2.0/sp1p5 -O1,p
+src/auto/func_0201985c.c 2.0/sp1p5 -O1,p
+src/auto/func_02019e54.c 1.2/sp2p3
+src/auto/func_0202c718.c 2.0/sp1p5 -O1,p
+src/auto/func_0202c7a4.c 2.0/sp1p5 -O1,p
+src/auto/func_0202f2b8.c 2.0/sp1p5 -O1,p
+src/auto/func_02036f24.c 1.2/sp2p3
+src/auto/func_020402dc.c 2.0/sp1p5 -O1,p
+src/auto/func_020406fc.c 2.0/sp1p5 -O1,p
+src/auto/func_02043174.c 2.0/sp1p5 -O1,p
+src/auto/func_0204ea7c.c 2.0/sp1p5 -O1,p
+src/auto/func_02060670.c 2.0/sp1p5 -O1,p
+src/auto/func_02060948.c 2.0/sp1p5 -O1,p
+src/auto/func_02069a3c.c 2.0/sp1p5 -O1,p
+src/auto/func_02069a80.c 2.0/sp1p5 -O1,p
+src/auto/func_02069da8.c 2.0/sp1p5 -O1,p
+src/auto/func_02081b20.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_02082dbc.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_02082e44.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_020830dc.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_02083420.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_02083980.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_02083a88.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_02083b58.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_0208b1ec.c 2.0/sp1p5 -O1,p
+src/auto/func_0208b340.c 2.0/sp1p5 -O1,p
+src/auto/func_0208b410.c 2.0/sp1p5 -O1,p
+src/auto/func_0208b71c.c 2.0/sp1p5 -O1,p
+src/auto/func_0208c244.c 2.0/sp1p5 -O1,p
+src/auto/func_02095d54.c 2.0/sp1p5 -O1,p
+src/auto/func_02095e38.c 2.0/sp1p5 -O1,p
+src/auto/func_02096120.c 2.0/sp1p5 -O1,p
+src/auto/func_020b1924.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_020b2b44.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_020b2cf4.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_020b36c0.c 2.0/sp1p5 -flag no-opt_propagation
+src/auto/func_020b3718.c 2.0/sp1p5 -flag no-opt_propagation
+src/auto/func_020b5bf0.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_020b6280.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_020b64a0.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_020b672c.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_020b7588.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_020b7680.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_020bb198.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_020bd6c4.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_020beaf4.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_020bf58c.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_020c19ac.c 1.2/sp3
+src/donor/func_02002320.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_0201a7e0.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_020213e0.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_0202f16c.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_0203f9cc.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_02065004.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_0206a234.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_020815d8.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_020816cc.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_0208180c.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_02082748.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_02082a2c.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_02082b60.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_02082c9c.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_02085bd8.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_02085c3c.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_02085ca0.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_02085d04.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_02085d68.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_02085dcc.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_02085e30.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_02087778.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_0209b8dc.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_020a80b0.c 2.0/sp1p5
+src/donor/func_020aea68.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_020af04c.c 2.0/sp1p5
+src/donor/func_020af5c4.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_020b2440.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_020b6660.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_020b6e54.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_020b791c.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/donor/func_020b87c0.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_020b9f8c.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_020ba344.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_020ba650.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_020badbc.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_020bb958.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_020bbd24.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_020bd5c4.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_020bd9d8.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_020be448.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_020be794.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/__FindExceptionTable.c 2.0/sp1p5
+src/auto/func_02001714.c 1.2/sp2p3
+src/auto/func_02004c88.c 1.2/sp2p3
+src/auto/func_02056350.c 1.2/sp2p3
+src/auto/func_0205dd94.c 1.2/sp2p3
+src/auto/func_02095324.c 1.2/sp2p3
+src/auto/func_02097ca0.c 1.2/sp2p3
+src/auto/func_020a6144.c 1.2/sp2p3
+src/auto/func_020a660c.c 1.2/sp2p3
