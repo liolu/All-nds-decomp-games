@@ -3,3 +3,27 @@
     .ctor       start:0x02131fb8 end:0x02131fbc kind:rodata align:4
     .data       start:0x02131fc0 end:0x02132580 kind:data align:32
     .bss        start:0x02132580 end:0x021325a0 kind:bss align:32
+
+src/auto/func_ov010_02131420.c:
+    complete
+    .text       start:0x02131420 end:0x02131428
+
+src/auto/func_ov010_02131428.c:
+    complete
+    .text       start:0x02131428 end:0x02131430
+
+src/auto/func_ov010_02131430.c:
+    complete
+    .text       start:0x02131430 end:0x0213143c
+
+src/auto/func_ov010_0213143c.c:
+    complete
+    .text       start:0x0213143c end:0x02131448
+
+src/auto/func_ov010_02131b98.c:
+    complete
+    .text       start:0x02131b98 end:0x02131bc4
+
+src/auto/func_ov010_02131bc4.c:
+    complete
+    .text       start:0x02131bc4 end:0x02131be8

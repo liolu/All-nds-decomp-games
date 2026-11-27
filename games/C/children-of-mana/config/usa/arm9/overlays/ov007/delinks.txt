@@ -2,3 +2,35 @@
     .ctor       start:0x02132e9c end:0x02132e9c kind:rodata align:4
     .data       start:0x02132ea0 end:0x021336a0 kind:data align:32
     .bss        start:0x021336a0 end:0x021336c0 kind:bss align:32
+
+src/auto/func_ov007_021329d8.c:
+    complete
+    .text       start:0x021329d8 end:0x021329e4
+
+src/auto/func_ov007_02132a08.c:
+    complete
+    .text       start:0x02132a08 end:0x02132a10
+
+src/data/ov007_data_02132ea0.c:
+    complete
+    .data       start:0x02132ea0 end:0x02132ea4
+
+src/data/ov007_data_02133338.c:
+    complete
+    .data       start:0x02133338 end:0x02133374
+
+src/auto/func_ov007_0213268c.c:
+    complete
+    .text       start:0x0213268c end:0x021326b8
+
+src/auto/func_ov007_021326b8.c:
+    complete
+    .text       start:0x021326b8 end:0x021326dc
+
+src/auto/func_ov007_02132c88.c:
+    complete
+    .text       start:0x02132c88 end:0x02132cb4
+
+src/auto/func_ov007_02132cb4.c:
+    complete
+    .text       start:0x02132cb4 end:0x02132cd8

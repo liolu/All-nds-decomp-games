@@ -1,0 +1,8 @@
+#include "m2c.h"
+
+void func_0204c260(void *arg0) {
+    if (M2C_FIELD(arg0, u8 *, 0x2A) != 0) {
+        M2C_FIELD(arg0, s8 *, 0x29) = 0;
+        M2C_FIELD(arg0, u8 *, 0x2A) = 0U;
+    }
+}

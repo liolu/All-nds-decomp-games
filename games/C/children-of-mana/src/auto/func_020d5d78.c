@@ -1,0 +1,13 @@
+/* compiler: 1.2/sp2p3  */
+#include "m2c.h"
+
+M2C_UNK func_020d5bf4(s32 *, M2C_UNK);              /* extern */
+M2C_UNK func_020d610c();                            /* extern */
+
+void func_020d5d78(s32 *arg0, s32 arg1) {
+    if (*arg0 == 0xE) {
+        return;
+    }
+    func_020d610c(arg0, arg1);
+    func_020d5bf4(arg0, 0xD);
+}

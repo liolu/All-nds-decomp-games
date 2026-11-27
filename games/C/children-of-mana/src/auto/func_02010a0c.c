@@ -1,0 +1,11 @@
+/* compiler: 1.2/sp2p3  */
+#include "m2c.h"
+
+s32 func_02055e74();                    /* extern */
+
+void *func_02010a0c(void *arg0, M2C_UNK arg1) {
+    M2C_FIELD(arg0, s32 *, 0) = func_02055e74(M2C_FIELD(arg0, s32 *, 0));
+    M2C_FIELD(arg0, s32 *, 4) = func_02055e74(M2C_FIELD(arg0, s32 *, 4), arg1);
+    M2C_FIELD(arg0, s32 *, 8) = func_02055e74(M2C_FIELD(arg0, s32 *, 8), arg1);
+    return arg0;
+}

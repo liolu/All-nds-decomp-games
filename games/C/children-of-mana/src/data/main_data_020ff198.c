@@ -1,0 +1,3 @@
+#include "m2c.h"
+#pragma explicit_zero_data on
+u32 data_020ff198[1] = {0};

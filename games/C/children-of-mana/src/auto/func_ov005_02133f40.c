@@ -1,0 +1,5 @@
+#include "m2c.h"
+
+s32 func_ov005_02133f40(u16 *arg0) {
+    return 1;
+}
