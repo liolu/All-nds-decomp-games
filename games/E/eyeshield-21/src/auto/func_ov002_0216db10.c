@@ -1,0 +1,6 @@
+/* compiler: 1.2/sp2p3 */
+#include "m2c.h"
+M2C_UNK func_ov002_0216d5b8();
+void func_ov002_0216db10(void) {
+    func_ov002_0216d5b8();
+}

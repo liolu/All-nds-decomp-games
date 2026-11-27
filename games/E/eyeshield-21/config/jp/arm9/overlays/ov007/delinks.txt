@@ -2622,3 +2622,7 @@ src/data/ov007_data_021bac2c.c:
 src/data/ov007_data_021bac70.c:
     complete
     .data       start:0x021bac70 end:0x021baca0
+
+src/auto/func_ov007_021640b4.c:
+    complete
+    .text       start:0x021640b4 end:0x021640c8
