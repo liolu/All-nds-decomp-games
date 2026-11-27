@@ -3247,3 +3247,5 @@ src/auto/func_ov123_02080a2c.c 1.2/sp3
 src/auto/func_ov123_0209f47c.c 1.2/sp3
 src/auto/func_ov123_0207eac0.c 1.2/sp3
 src/auto/func_ov123_020ad4b4.c 1.2/sp2p3 -thumb
+src/auto/func_0201c458.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_0202e12c.cpp 2.0/sp1p5 -O4,p -ipa file -inline on,noauto
