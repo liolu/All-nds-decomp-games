@@ -1,0 +1,29 @@
+/* compiler: 1.2/sp2p3  */
+#include "m2c.h"
+
+M2C_UNK func_02018df4(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK, s32, s32); /* extern */
+
+void func_0201a228(M2C_UNK arg0) {
+    func_02018df4(arg0, 0xA, 0x18, 0x28, 0xE, 0);
+    func_02018df4(arg0, 0xA, 0x13, 0x23, 5, 0);
+    func_02018df4(arg0, 0xA, 0x15, 0x23, 5, 0);
+    func_02018df4(arg0, 0xA, 0x13, 0x25, 5, 0);
+    func_02018df4(arg0, 9, 0x15, 0x20, 2, 1);
+    func_02018df4(arg0, 9, 0x12, 0x20, 1, 1);
+    func_02018df4(arg0, 9, 0x10, 0x23, 7, 0);
+    func_02018df4(arg0, 9, 0x10, 0x26, 3, 0);
+    func_02018df4(arg0, 9, 0x1E, 0x25, 8, 1);
+    func_02018df4(arg0, 0xA, 0x10, 0x27, 3, 0);
+    func_02018df4(arg0, 0xA, 0x10, 0x21, 3, 0);
+    func_02018df4(arg0, 0xA, 0x11, 0x20, 3, 0);
+    func_02018df4(arg0, 0xA, 0x17, 0x20, 3, 0);
+    func_02018df4(arg0, 0xA, 0x14, 0x20, 0, 0);
+    func_02018df4(arg0, 0xA, 0x17, 0x2B, 3, 0);
+    func_02018df4(arg0, 0xA, 0x19, 0x2B, 3, 0);
+    func_02018df4(arg0, 0xA, 0x1B, 0x29, 3, 0);
+    func_02018df4(arg0, 0xA, 0x1B, 0x27, 3, 0);
+    func_02018df4(arg0, 0xA, 0x15, 0x29, 3, 0);
+    func_02018df4(arg0, 0xA, 0x19, 0x25, 3, 0);
+    func_02018df4(arg0, 6, 0x17, 0x1F, 0xC, 0);
+    func_02018df4(arg0, 6, 0xF, 0x27, 0xC, 0);
+}
