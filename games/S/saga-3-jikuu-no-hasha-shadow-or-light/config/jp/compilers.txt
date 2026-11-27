@@ -1,2 +1,81 @@
 # Source files built with another compiler than tools/configure.py MWCC_VERSION
 # <source path> <mwccarm version> [extra flags]
+src/auto/func_020016f4.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_020017a4.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_02001814.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_02001898.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_02001910.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_02001990.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_020019e8.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_02003c7c.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_02004e84.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_02005164.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_02006b90.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_02007f6c.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_02009120.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_02009148.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_0200a7cc.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_0200ab30.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_0200ac34.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_0200ac74.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_0200afa0.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_0200b024.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_0200b06c.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_0200b2bc.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_0200b30c.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_0200b6fc.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_0200b730.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_0200b7fc.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_0200b998.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_0200c988.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_0200cb2c.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_0200cc98.c 1.2/sp2p3
+src/auto/func_0200dc64.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_0200de2c.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_02012b8c.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_02012be4.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_02013260.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_02013778.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_020137a0.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_02013ae0.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_02013af0.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_02013b40.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_02013c94.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_020144a8.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_020146a8.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_02014ce8.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_02014d00.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_02014d18.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_02014d64.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_02014db8.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_02014dd4.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_02014df8.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_02014e24.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_02014eb8.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_02015ed8.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_02016a64.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_02016abc.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_02017078.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_020170a0.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_020178d0.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_020178fc.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_02018170.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_020184ec.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_0201aae0.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_0201ab20.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_02000a78.c 2.0/sp1p5
+src/donor/func_02001788.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_02001930.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_020050e4.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_02005134.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_02005278.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_02013b00.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_02013b10.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_02013b20.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_02013b30.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_02013b54.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_02013b64.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_02013b74.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_02015000.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/donor/func_02017178.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/func_02018504.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto

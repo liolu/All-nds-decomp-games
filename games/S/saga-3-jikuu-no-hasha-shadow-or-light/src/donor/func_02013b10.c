@@ -1,0 +1,13 @@
+/* compiler: 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto */
+/* OS_DisableICacheForProtectionRegion from https://github.com/Yokimitsuro/khrecoded-decomp
+ * libs/nitro/os/asm_stubs/auto/OS_DisableICacheForProtectionRegion.c (license: CC0-1.0), reused by tools/donor_match.py */
+typedef unsigned int u32;
+// clang-format off
+asm void func_02013b10(register u32 flags)
+{
+    mrc p15, 0, r1, c2, c0, 1
+    bic r1, r1, r0
+    mcr p15, 0, r1, c2, c0, 1
+    bx lr
+}
+// clang-format on

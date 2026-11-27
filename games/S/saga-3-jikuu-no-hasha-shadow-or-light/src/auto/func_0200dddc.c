@@ -1,0 +1,8 @@
+#include "m2c.h"
+
+M2C_UNK func_0204e2f4();                            /* extern */
+
+s32 func_0200dddc(s32 arg0) {
+    func_0204e2f4();
+    return arg0;
+}
