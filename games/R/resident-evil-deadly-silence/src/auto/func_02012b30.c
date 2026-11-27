@@ -2,10 +2,10 @@
 #include "engine.h"
 #include "m2c.h"
 
-M2C_UNK func_0211851c(M2C_UNK, M2C_UNK);
+M2C_UNK _s32_div_f(M2C_UNK, M2C_UNK);
 
 void func_02012b30(s32 arg0, s32 arg1) {
-    M2C_FIELD(arg1, s32 *, 0)    = (s32) (M2C_FIELD(arg1, s32 *, 0) + func_0211851c((s32) M2C_FIELD(arg1, s16 *, 0x12), 0x64));
+    M2C_FIELD(arg1, s32 *, 0)    = (s32) (M2C_FIELD(arg1, s32 *, 0) + _s32_div_f((s32) M2C_FIELD(arg1, s16 *, 0x12), 0x64));
     M2C_FIELD(arg1, s16 *, 0x12) = (s16) (M2C_FIELD(arg1, s16 *, 0x12) - 0x14);
     M2C_FIELD(arg1, u8 *, 0xE4)  = (u8) (M2C_FIELD(arg1, u8 *, 0xE4) - 1);
     if (M2C_FIELD(arg1, u8 *, 0xE4) == 0) {

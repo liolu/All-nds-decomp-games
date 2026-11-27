@@ -2,10 +2,10 @@
 #include "m2c.h"
 
 extern void func_0207b0cc(void *, s32);
-extern s32 func_02117970(s32, s32);
+extern s32 _fdiv(s32, s32);
 extern s32 func_02117e20(u8);
-extern s32 func_02117e68(s8);
-extern s32 func_0211809c(s32, s32);
+extern s32 _fflt(s8);
+extern s32 _fsub(s32, s32);
 
 void func_0207b0f0(void *arg0) {
     u8 buf[4];
@@ -20,10 +20,10 @@ void func_0207b0f0(void *arg0) {
     do {
         a                              = func_02117e20(buf[i]);
         b                              = func_02117e20(((u8 *) arg0)[i + 4]);
-        r                              = func_0211809c(a, b);
+        r                              = _fsub(a, b);
         a                              = r;
-        b                              = func_02117e68(*(s8 *) *(u8 **) ((u8 *) arg0 + 0x1C));
-        ((s32 *) ((u8 *) arg0 + 8))[i] = func_02117970(a, b);
+        b                              = _fflt(*(s8 *) *(u8 **) ((u8 *) arg0 + 0x1C));
+        ((s32 *) ((u8 *) arg0 + 8))[i] = _fdiv(a, b);
         i                              = i + 1;
     } while (i < 4);
 }

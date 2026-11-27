@@ -5,7 +5,7 @@ s32 func_020822dc(void *);                          /* extern */
 u32 func_02082348(void *);                          /* extern */
 M2C_UNK func_02082488(void *, M2C_UNK, M2C_UNK, M2C_UNK); /* extern */
 M2C_UNK func_02084b78(void *, M2C_UNK);             /* extern */
-s32 func_0211851c(s32, s32);                        /* extern */
+s32 _s32_div_f(s32, s32);                        /* extern */
 
 void func_02082bb8(void *arg0) {
     void *temp_r1;
@@ -17,7 +17,7 @@ void func_02082bb8(void *arg0) {
         temp_r5                  = M2C_FIELD(arg0, void **, 0);
         M2C_FIELD(temp_r5, s32 *, 0x34) =
             (s32) (M2C_FIELD(temp_r5, s32 *, 0x34) -
-                   (func_0211851c(M2C_FIELD(arg0, s32 *, 0x1C8), M2C_FIELD(arg0, s32 *, 0x1CC)) - 1));
+                   (_s32_div_f(M2C_FIELD(arg0, s32 *, 0x1C8), M2C_FIELD(arg0, s32 *, 0x1CC)) - 1));
         if ((s32) M2C_FIELD(M2C_FIELD(arg0, void **, 0), s32 *, 0x34) >= 0) {
             M2C_FIELD(arg0, s32 *, 0x1CC)                       = 0;
             M2C_FIELD(arg0, s32 *, 0x1C8)                       = (s32) M2C_FIELD(arg0, s32 *, 0x1CC);

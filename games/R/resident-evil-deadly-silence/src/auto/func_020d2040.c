@@ -8,12 +8,12 @@ typedef struct {
     u8 st;
 } Glob;
 extern Glob data_0213b890;
-s64 func_0211851c(u8, s32);
+s64 _s32_div_f(u8, s32);
 
 void func_020d2040(void) {
     s64 r;
 
-    r = func_0211851c(data_0213b890.st, 2);
+    r = _s32_div_f(data_0213b890.st, 2);
     if ((s32) (r >> 32) == 0) {
         data_0213b890.f1c = 0;
         return;

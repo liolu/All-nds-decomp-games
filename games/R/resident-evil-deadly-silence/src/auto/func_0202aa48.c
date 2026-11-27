@@ -4,7 +4,7 @@
 M2C_UNK func_02029ebc();                      /* extern */
 M2C_UNK func_020559cc();             /* extern */
 M2C_UNK func_020b8110();            /* extern */
-s16 func_0211851c();                        /* extern */
+s16 _s32_div_f();                        /* extern */
 
 void func_0202aa48(void *arg0) {
     u16 temp_r5;
@@ -14,11 +14,11 @@ void func_0202aa48(void *arg0) {
     M2C_FIELD(arg0, s16 *, 0x46) = (s16) (M2C_FIELD(arg0, s16 *, 0x46) - 0x19);
     if ((u32) M2C_FIELD(arg0, u8 *, 0xA2) > 8U) {
         temp_r5                       = M2C_FIELD(arg0, u16 *, 0x188);
-        M2C_FIELD(arg0, s16 *, 0x186) = func_0211851c((func_0211851c(temp_r5, 0x64U) + 0xC8) * 0xA28, temp_r5);
+        M2C_FIELD(arg0, s16 *, 0x186) = _s32_div_f((_s32_div_f(temp_r5, 0x64U) + 0xC8) * 0xA28, temp_r5);
         if ((s32) M2C_FIELD(arg0, s16 *, 0x186) > 0xC8) {
             M2C_FIELD(arg0, s16 *, 0x186) = 0xC8;
         }
-        M2C_FIELD(arg0, s16 *, 0xA6) = (s16) (func_0211851c(M2C_FIELD(arg0, u16 *, 0x188), 0x64U) + 0xC8);
+        M2C_FIELD(arg0, s16 *, 0xA6) = (s16) (_s32_div_f(M2C_FIELD(arg0, u16 *, 0x188), 0x64U) + 0xC8);
         M2C_FIELD(arg0, s16 *, 0x46) = -0x100;
         M2C_FIELD(arg0, s8 *, 0x90)  = 1;
         M2C_FIELD(arg0, s8 *, 0x91)  = 1;

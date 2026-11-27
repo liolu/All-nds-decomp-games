@@ -2,7 +2,7 @@
 #include "m2c.h"
 
 M2C_UNK func_02006f90();                    /* extern */
-s32 func_02118728();                    /* extern */
+s32 _u32_div_f();                    /* extern */
 extern void *data_02137298;
 
 s32 func_02006c20(s32 arg0) {
@@ -18,22 +18,22 @@ s32 func_02006c20(s32 arg0) {
     temp_r3 = M2C_FIELD(temp_r4, u32 *, 0x3EF8);
     switch (temp_r3) {                              /* switch 1; irregular */
         case 0x105D:                                    /* switch 1 */
-            var_r0 = func_02118728(arg0 * 0x1F40, 0x3E8);
+            var_r0 = _u32_div_f(arg0 * 0x1F40, 0x3E8);
             break;
         case 0xBDF:                                     /* switch 1 */
-            var_r0 = func_02118728(arg0 * 0x2B11, 0x3E8);
+            var_r0 = _u32_div_f(arg0 * 0x2B11, 0x3E8);
             break;
         case 0x82E:                                     /* switch 1 */
-            var_r0 = func_02118728(arg0 * 0x3E80, 0x3E8);
+            var_r0 = _u32_div_f(arg0 * 0x3E80, 0x3E8);
             break;
         case 0x5EF:                                     /* switch 1 */
-            var_r0 = func_02118728(arg0 * 0x5622, 0x3E8);
+            var_r0 = _u32_div_f(arg0 * 0x5622, 0x3E8);
             break;
         case 0x417:                                     /* switch 1 */
-            var_r0 = func_02118728(arg0 * 0x7D00, 0x3E8);
+            var_r0 = _u32_div_f(arg0 * 0x7D00, 0x3E8);
             break;
         default:                                        /* switch 1 */
-            var_r0 = func_02118728(temp_r3 * arg0, 0x3E8);
+            var_r0 = _u32_div_f(temp_r3 * arg0, 0x3E8);
             break;
     }
     temp_r1 = M2C_FIELD(temp_r4, u32 *, 0x3EEC);

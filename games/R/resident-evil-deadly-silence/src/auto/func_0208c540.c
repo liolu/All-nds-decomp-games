@@ -2,7 +2,7 @@
 #include "m2c.h"
 
 s32 func_0208aca8(void *);                          /* extern */
-s32 func_0211851c(s32, M2C_UNK);                    /* extern */
+s32 _s32_div_f(s32, M2C_UNK);                    /* extern */
 extern M2C_UNK data_0213ad30;
 
 void func_0208c540(void *arg0) {
@@ -42,7 +42,7 @@ void func_0208c540(void *arg0) {
     if (var_r0_2 < 0x10) {
         var_r0_2 = 0;
     }
-    M2C_FIELD(arg0, s16 *, 0x4C0) = (s16) (M2C_FIELD(arg0, s16 *, 0x4C0) + func_0211851c(var_r0_2, 4));
+    M2C_FIELD(arg0, s16 *, 0x4C0) = (s16) (M2C_FIELD(arg0, s16 *, 0x4C0) + _s32_div_f(var_r0_2, 4));
     if ((s32) M2C_FIELD(arg0, s16 *, 0x4C0) > 0x3E7) {
         M2C_FIELD(arg0, s16 *, 0x4C0) = 0x3E7;
     }

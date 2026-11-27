@@ -1,7 +1,7 @@
 /* compiler: 1.2/sp2p3 */
 #include "m2c.h"
 
-u64 func_0211851c(u8, s32);
+u64 _s32_div_f(u8, s32);
 extern M2C_UNK data_0213b890;
 
 void func_020cb2fc(void) {
@@ -10,7 +10,7 @@ void func_020cb2fc(void) {
 
     var_r8 = 0;
     do {
-        temp = func_0211851c(M2C_FIELD(&data_0213b890, u8 *, 0x1F), 2);
+        temp = _s32_div_f(M2C_FIELD(&data_0213b890, u8 *, 0x1F), 2);
         if ((u32) (temp >> 32) == 0) {
             M2C_FIELD(&data_0213b890, u8 **, 0x4C)[var_r8] = 1;
         } else {

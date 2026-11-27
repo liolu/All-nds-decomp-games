@@ -2,8 +2,8 @@
 #include "m2c.h"
 
 M2C_UNK func_020b8310(u8);                          /* extern */
-void func_02115f28(double, double);
-s32 func_02116344();                                /* extern */
+void _dadd(double, double);
+s32 _dfix();                                /* extern */
 double func_021164b0(s32);
 extern u8 data_0211bc31[];
 extern void *data_0213ad2c;
@@ -20,6 +20,6 @@ void func_02012298(void *arg0, void *arg1) {
         func_020b8310(data_0211bc31[M2C_FIELD(data_0213ad2c, u8 *, 9) * 3]);
         M2C_FIELD(arg1, s8 *, 0xEB) = 1;
     }
-    func_02115f28(func_021164b0(M2C_FIELD(arg1, s32 *, 0)), 6553.6);
-    M2C_FIELD(arg1, s32 *, 0) = func_02116344();
+    _dadd(func_021164b0(M2C_FIELD(arg1, s32 *, 0)), 6553.6);
+    M2C_FIELD(arg1, s32 *, 0) = _dfix();
 }

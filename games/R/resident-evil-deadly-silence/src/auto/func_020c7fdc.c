@@ -2,7 +2,7 @@
 #include "m2c.h"
 
 M2C_UNK func_020b82fc(M2C_UNK);                     /* extern */
-s8 func_0211851c(s16, M2C_UNK);                     /* extern */
+s8 _s32_div_f(s16, M2C_UNK);                     /* extern */
 extern M2C_UNK data_0213b890;
 
 void func_020c7fdc(void) {
@@ -20,11 +20,11 @@ void func_020c7fdc(void) {
     }
     M2C_FIELD(M2C_FIELD(&data_0213b890, void **, 0x4C), s32 *, 0x120) = var_r2;
     temp_r4                                                           = M2C_FIELD(&data_0213b890, void **, 0x4C);
-    M2C_FIELD(temp_r4, s8 *, 0x138)                                   = func_0211851c(M2C_FIELD(temp_r4, s16 *, 0x12), 2);
+    M2C_FIELD(temp_r4, s8 *, 0x138)                                   = _s32_div_f(M2C_FIELD(temp_r4, s16 *, 0x12), 2);
     temp_r4_2                                                         = M2C_FIELD(&data_0213b890, void **, 0x4C);
-    M2C_FIELD(temp_r4_2, s8 *, 0x139)                                 = func_0211851c(M2C_FIELD(temp_r4_2, s16 *, 0x12), 2);
+    M2C_FIELD(temp_r4_2, s8 *, 0x139)                                 = _s32_div_f(M2C_FIELD(temp_r4_2, s16 *, 0x12), 2);
     temp_r4_3                                                         = M2C_FIELD(&data_0213b890, void **, 0x4C);
-    M2C_FIELD(temp_r4_3, s8 *, 0x13A)                                 = func_0211851c(M2C_FIELD(temp_r4_3, s16 *, 0x12), 2);
+    M2C_FIELD(temp_r4_3, s8 *, 0x13A)                                 = _s32_div_f(M2C_FIELD(temp_r4_3, s16 *, 0x12), 2);
     M2C_FIELD(M2C_FIELD(&data_0213b890, void **, 0x4C), s16 *, 0x140) = 0x1000;
     M2C_FIELD(M2C_FIELD(&data_0213b890, void **, 0x4C), s16 *, 0x142) = 0x1000;
     if (M2C_FIELD(M2C_FIELD(&data_0213b890, void **, 0x4C), s16 *, 0x12) == 0x3C) {

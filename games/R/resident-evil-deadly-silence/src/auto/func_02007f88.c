@@ -2,12 +2,12 @@
 #include "m2c.h"
 
 void *func_0200d1f4(void *, M2C_UNK, s32);          /* extern */
-M2C_UNK func_02116dac(M2C_UNK, s32);                /* extern */
-s32 func_02117970(s32, s32);                        /* extern */
+M2C_UNK _fadd(M2C_UNK, s32);                /* extern */
+s32 _fdiv(s32, s32);                        /* extern */
 s8 func_02117de0();                                 /* extern */
 s32 func_02117e20(u8);                              /* extern */
-s32 func_02117e68(M2C_UNK);                         /* extern */
-s32 func_02117eb0(s32, s32);                        /* extern */
+s32 _fflt(M2C_UNK);                         /* extern */
+s32 _fmul(s32, s32);                        /* extern */
 extern void *data_02137298;
 
 s32 func_02007f88(M2C_UNK arg0, M2C_UNK arg1) {
@@ -26,7 +26,7 @@ s32 func_02007f88(M2C_UNK arg0, M2C_UNK arg1) {
         return -6;
     }
     temp_r6 = func_02117e20(M2C_FIELD(temp_r0_2, u8 *, 4));
-    func_02116dac(0x3F000000, func_02117970(func_02117eb0(temp_r6, func_02117e68(arg1)), 0x42FE0000));
+    _fadd(0x3F000000, _fdiv(_fmul(temp_r6, _fflt(arg1)), 0x42FE0000));
     M2C_FIELD(temp_r4, s8 *, 0x5C) = func_02117de0();
     M2C_FIELD(temp_r4, u8 *, 0xE5) = (u8) (M2C_FIELD(temp_r4, u8 *, 0xE5) | 1);
     return 0;

@@ -2,7 +2,7 @@
 #include "engine.h"
 #include "m2c.h"
 
-M2C_UNK func_0211851c(M2C_UNK, M2C_UNK);
+M2C_UNK _s32_div_f(M2C_UNK, M2C_UNK);
 
 void func_0208c150(s32 arg0, s32 arg1) {
     s32 var_r0;
@@ -26,8 +26,8 @@ void func_0208c150(s32 arg0, s32 arg1) {
     } else if (var_r6 > 0x800) {
         var_r6 -= 0x1000;
     }
-    M2C_FIELD(arg0, s16 *, 0x294) = (s16) func_0211851c(var_r0, arg1);
-    M2C_FIELD(arg0, s16 *, 0x296) = (s16) func_0211851c(var_r6, arg1);
+    M2C_FIELD(arg0, s16 *, 0x294) = (s16) _s32_div_f(var_r0, arg1);
+    M2C_FIELD(arg0, s16 *, 0x296) = (s16) _s32_div_f(var_r6, arg1);
     M2C_FIELD(arg0, s16 *, 0x298) = 0;
     M2C_FIELD(arg0, s16 *, 0x29A) = 0;
     M2C_FIELD(arg0, s16 *, 0x29C) = (s16) arg1;

@@ -1,7 +1,7 @@
 /* compiler: 1.2/sp2p3 -O4,s */
 #include "m2c.h"
 
-s32 func_0211851c(s16, M2C_UNK);                    /* extern */
+s32 _s32_div_f(s16, M2C_UNK);                    /* extern */
 extern M2C_UNK data_02137380;
 
 void func_02047b5c(void *arg0) {
@@ -19,7 +19,7 @@ void func_02047b5c(void *arg0) {
     } else {
         var_r1 = 0x18;
     }
-    var_r1_2 = func_0211851c(temp_r2, var_r1) + 1;
+    var_r1_2 = _s32_div_f(temp_r2, var_r1) + 1;
     if (var_r1_2 > 8) {
         var_r1_2 = 8;
     }

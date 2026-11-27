@@ -3,7 +3,7 @@
 
 s32 func_020feda8(s32 *);                           /* extern */
 M2C_UNK func_020feef0(s32 *, s32 *, s32 *);         /* extern */
-M2C_UNK func_0211851c(s32, M2C_UNK);                /* extern */
+M2C_UNK _s32_div_f(s32, M2C_UNK);                /* extern */
 
 void func_0208ac10(s16 *arg0, s16 *arg1) {
     s32 a[3];
@@ -24,5 +24,5 @@ void func_0208ac10(s16 *arg0, s16 *arg1) {
     b[1] = y;
     b[2] = zero;
     func_020feef0(b, a, a);
-    func_0211851c(func_020feda8(a), 0x1000);
+    _s32_div_f(func_020feda8(a), 0x1000);
 }
