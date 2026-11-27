@@ -1,0 +1,23 @@
+#include "m2c.h"
+extern u8 func_020d9890[];
+extern u8 func_020d98b8[];
+extern u8 func_020d98d4[];
+extern u8 func_020d98fc[];
+extern u8 func_020d9934[];
+extern u8 func_020d994c[];
+extern u8 func_020d9964[];
+extern u8 func_020d9998[];
+extern u8 func_020d99cc[];
+extern u8 func_020d9a04[];
+extern u8 func_020d9a1c[];
+extern u8 func_020d9a34[];
+extern u8 func_020d9a60[];
+extern u8 func_020d9d18[];
+extern u8 func_020d9d38[];
+extern u8 func_020d9d50[];
+extern u8 func_020d9d68[];
+extern u8 func_020d9d8c[];
+extern u8 func_020d9db0[];
+extern u8 func_020d9dd0[];
+extern u8 func_020d9ee0[];
+const u32 data_020ae608[1] = {0x4C563344};

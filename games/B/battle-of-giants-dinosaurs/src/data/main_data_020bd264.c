@@ -1,0 +1,2 @@
+#include "m2c.h"
+u32 data_020bd264[4] = {0x0003FB43, 0x000FDA33, 0x003F1DC3, 0x00FB4C24};

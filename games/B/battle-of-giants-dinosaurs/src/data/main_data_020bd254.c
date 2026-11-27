@@ -1,0 +1,2 @@
+#include "m2c.h"
+u32 data_020bd254[4] = {0xFFD51192, 0xFFD5118F, 0xFFD51197, 0xFFD51190};
