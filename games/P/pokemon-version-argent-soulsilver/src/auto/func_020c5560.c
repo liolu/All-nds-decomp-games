@@ -1,0 +1,75 @@
+/* compiler: 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto */
+/* AnmObj_InitMatTable from https://github.com/Yokimitsuro/khdays-decomp libs/nns/g3d/calls/AnmObj_InitMatTable.c (license:
+ * CC0-1.0), reused by tools/donor_match.py */
+typedef unsigned char u8;
+typedef unsigned short u16;
+typedef unsigned long u32;
+extern void func_020d4790(u16 data, void *destp, u32 size);
+extern int func_020c39d8(void *p, void *q);
+extern u32 data_02110a34;
+struct A {
+    u8 pad0[8];
+    u32 off8;
+    u8 padc[2];
+    u16 offE;
+};
+struct B {
+    u8 pad0[8];
+    u32 off8;
+    u8 padc[0xc];
+    u8 off18;
+};
+struct C {
+    u8 pad0[0xc];
+    u32 g;
+    u8 pad10[9];
+    u8 n;
+    u16 arr[1];
+};
+void func_020c5560(struct C *self, struct A *a1, struct B *a2) {
+    char *base;
+    u32 i;
+    void *saved;
+    u32 off;
+    int neg1;
+    void *r1;
+    int r;
+
+    if (a2 != 0 && a2->off8 != 0) {
+        saved = (char *) a2 + a2->off8;
+    } else {
+        saved = (void *) 0;
+    }
+    self->g = data_02110a34;
+    {
+        u32 n   = ((u8 *) a2)[0x18];
+        self->n = (u8) n;
+        func_020d4790(0, self->arr, n << 1);
+    }
+
+    i = 0;
+    if (i < (u32) ((u8 *) a1)[9]) {
+        off  = 0;
+        base = (char *) a1 + 8;
+        neg1 = -1;
+        do {
+            if (base != 0 && i < (u32) ((u8 *) a1)[9]) {
+                char *p = base + a1->offE;
+                p       = p + *(u16 *) (p + 2);
+                r1      = p + off;
+            } else {
+                r1 = (void *) 0;
+            }
+            if (saved == 0) {
+                r = neg1;
+            } else {
+                r = func_020c39d8((char *) saved + 4, r1);
+            }
+            if (r >= 0) {
+                self->arr[r] = (u16) (i | 0x100);
+            }
+            i++;
+            off += 0x10;
+        } while (i < (u32) ((u8 *) a1)[9]);
+    }
+}

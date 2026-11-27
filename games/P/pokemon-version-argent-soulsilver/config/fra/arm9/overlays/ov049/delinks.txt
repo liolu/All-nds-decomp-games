@@ -138,3 +138,15 @@ src/data/ov049_rodata_0226a8ec.c:
 src/data/ov049_rodata_0226a8f4.c:
     complete
     .rodata     start:0x0226a8f4 end:0x0226a8fc
+
+src/auto/func_ov049_0225b08c.c:
+    complete
+    .text       start:0x0225b08c end:0x0225b090
+
+src/auto/func_ov049_0225cc60.c:
+    complete
+    .text       start:0x0225cc60 end:0x0225cc64
+
+src/auto/func_ov049_0225efac.c:
+    complete
+    .text       start:0x0225efac end:0x0225efb0

@@ -99,3 +99,7 @@ src/data/ov080_data_0223dcd8.c:
 src/data/ov080_data_0223dd58.c:
     complete
     .data       start:0x0223dd58 end:0x0223dd60
+
+src/auto/func_ov080_0222c05c.c:
+    complete
+    .text       start:0x0222c05c end:0x0222c060

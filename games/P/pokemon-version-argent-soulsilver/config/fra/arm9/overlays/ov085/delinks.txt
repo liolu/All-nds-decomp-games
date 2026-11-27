@@ -27,3 +27,7 @@ src/data/ov085_rodata_021ea53c.c:
 src/data/ov085_rodata_021ea748.c:
     complete
     .rodata     start:0x021ea748 end:0x021ea74c
+
+src/auto/func_ov085_021e86cc.c:
+    complete
+    .text       start:0x021e86cc end:0x021e86d0
