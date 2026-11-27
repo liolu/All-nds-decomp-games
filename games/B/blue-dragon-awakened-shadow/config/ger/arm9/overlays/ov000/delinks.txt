@@ -3300,3 +3300,11 @@ src/data/ov000_data_021ecddc.c:
 src/data/ov000_data_021ecdec.c:
     complete
     .data       start:0x021ecdec end:0x021ecdf0
+
+src/auto/func_ov000_021b8968.c:
+    complete
+    .text       start:0x021b8968 end:0x021b89fc
+
+src/auto/func_ov000_021c6748.c:
+    complete
+    .text       start:0x021c6748 end:0x021c6754

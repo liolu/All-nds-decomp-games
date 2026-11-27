@@ -135,3 +135,19 @@ src/data/ov002_data_021fef18.c:
 src/data/ov002_data_021ff760.c:
     complete
     .data       start:0x021ff760 end:0x021ff768
+
+src/auto/func_ov002_021fa6c8.c:
+    complete
+    .text       start:0x021fa6c8 end:0x021fa6dc
+
+src/auto/func_ov002_021fa714.c:
+    complete
+    .text       start:0x021fa714 end:0x021fa728
+
+src/auto/func_ov002_021fb414.c:
+    complete
+    .text       start:0x021fb414 end:0x021fb420
+
+src/auto/func_ov002_021fb420.c:
+    complete
+    .text       start:0x021fb420 end:0x021fb42c

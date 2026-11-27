@@ -14166,7 +14166,7 @@ src/auto/scalbn.c:
     complete
     .text       start:0x020229c8 end:0x020229f4
 
-src/auto/func_02022d98.c:
+src/auto/_d2f.c:
     complete
     .text       start:0x02022d98 end:0x02022e9c
 
@@ -14242,11 +14242,11 @@ src/auto/__write_console.c:
     complete
     .text       start:0x02025748 end:0x0202577c
 
-src/auto/func_02025784.c:
+src/auto/_Z20__DecodeSignedNumberPcPl.c:
     complete
     .text       start:0x02025784 end:0x02025810
 
-src/auto/func_02025810.c:
+src/auto/_Z22__DecodeUnsignedNumberPcPm.c:
     complete
     .text       start:0x02025810 end:0x0202589c
 
@@ -14270,7 +14270,7 @@ src/auto/__destroy_global_chain.c:
     complete
     .text       start:0x02026c0c end:0x02026c50
 
-src/auto/func_02027070.c:
+src/auto/_Z15__PopStackFrameP12ThrowContextP13ExceptionInfo.c:
     complete
     .text       start:0x02027070 end:0x020270cc
 
@@ -20905,3 +20905,1639 @@ src/data/main_data_02101840.c:
 src/data/main_data_021018bc.c:
     complete
     .data       start:0x021018bc end:0x021018c0
+
+src/auto/func_02000954.c:
+    complete
+    .text       start:0x02000954 end:0x02000970
+
+src/auto/MTX_Inverse43.c:
+    complete
+    .text       start:0x020016f8 end:0x02001a84
+
+src/auto/OS_WaitIrq.c:
+    complete
+    .text       start:0x020060e4 end:0x02006158
+
+src/auto/OSi_IrqCallback.c:
+    complete
+    .text       start:0x0200615c end:0x020061e4
+
+src/auto/OS_SetIrqFunction.c:
+    complete
+    .text       start:0x0200627c end:0x02006304
+
+src/auto/OS_GetLockID.c:
+    complete
+    .text       start:0x02006810 end:0x02006878
+
+src/auto/func_02006878.c:
+    complete
+    .text       start:0x02006878 end:0x020068c0
+
+src/auto/OS_YieldThread.c:
+    complete
+    .text       start:0x0200714c end:0x02007204
+
+src/auto/OSi_ExceptionHandler.c:
+    complete
+    .text       start:0x020082a8 end:0x0200832c
+
+src/auto/OSi_ArrangeTimer.c:
+    complete
+    .text       start:0x02008994 end:0x02008a84
+
+src/auto/MI_DmaFill32.c:
+    complete
+    .text       start:0x02008ff0 end:0x02009070
+
+src/auto/MI_DmaCopy32.c:
+    complete
+    .text       start:0x02009070 end:0x020090e0
+
+src/auto/MI_DmaCopy16.c:
+    complete
+    .text       start:0x020090e0 end:0x0200914c
+
+src/auto/MI_DmaFill32Async.c:
+    complete
+    .text       start:0x0200914c end:0x02009210
+
+src/auto/MIi_CpuClear16.c:
+    complete
+    .text       start:0x02009774 end:0x0200979c
+
+src/auto/MIi_CpuCopy16.c:
+    complete
+    .text       start:0x0200979c end:0x020097d0
+
+src/auto/MIi_CpuClear32.c:
+    complete
+    .text       start:0x020097d0 end:0x020097ec
+
+src/auto/MIi_CpuCopy32.c:
+    complete
+    .text       start:0x020097ec end:0x02009814
+
+src/auto/MIi_CpuClearFast.c:
+    complete
+    .text       start:0x0200983c end:0x02009898
+
+src/auto/MIi_CpuCopyFast.c:
+    complete
+    .text       start:0x02009898 end:0x020098f0
+
+src/auto/MI_CpuFill8.c:
+    complete
+    .text       start:0x02009978 end:0x02009a34
+
+src/auto/MI_CpuCopy8.c:
+    complete
+    .text       start:0x02009a34 end:0x02009bb4
+
+src/auto/MIi_CardDmaCopy32.c:
+    complete
+    .text       start:0x02009dc4 end:0x02009e38
+
+src/auto/FSi_FindPathCommand.c:
+    complete
+    .text       start:0x0200b968 end:0x0200bb4c
+
+src/auto/FSi_GetPathCommand.c:
+    complete
+    .text       start:0x0200bb4c end:0x0200bef8
+
+src/auto/CARDi_RequestStreamCommand.c:
+    complete
+    .text       start:0x020114b8 end:0x020115a0
+
+src/auto/CARD_IdentifyBackup.c:
+    complete
+    .text       start:0x020115c8 end:0x02011700
+
+src/auto/WmReceiveFifo.c:
+    complete
+    .text       start:0x020126c4 end:0x02012a70
+
+src/auto/func_02015a60.c:
+    complete
+    .text       start:0x02015a60 end:0x02015d50
+
+src/auto/func_0201670c.c:
+    complete
+    .text       start:0x0201670c end:0x02016f88
+
+src/auto/__exit.c:
+    complete
+    .text       start:0x0201747c end:0x020175a4
+
+src/auto/func_020178f0.c:
+    complete
+    .text       start:0x020178f0 end:0x02017934
+
+src/auto/func_02017a34.c:
+    complete
+    .text       start:0x02017a34 end:0x02017abc
+
+src/auto/double2hex.c:
+    complete
+    .text       start:0x020187a8 end:0x02018c84
+
+src/auto/float2str.c:
+    complete
+    .text       start:0x02018da8 end:0x0201950c
+
+src/auto/__pformatter.c:
+    complete
+    .text       start:0x0201950c end:0x02019d30
+
+src/auto/func_0201b704.c:
+    complete
+    .text       start:0x0201b704 end:0x0201b7e4
+
+src/auto/func_0201bd88.c:
+    complete
+    .text       start:0x0201bd88 end:0x0201c300
+
+src/auto/func_0201dcb0.c:
+    complete
+    .text       start:0x0201dcb0 end:0x0201dd20
+
+src/auto/func_02020cbc.c:
+    complete
+    .text       start:0x02020cbc end:0x02020e2c
+
+src/auto/ldexp.c:
+    complete
+    .text       start:0x020210c8 end:0x02021314
+
+src/auto/func_02021314.c:
+    complete
+    .text       start:0x02021314 end:0x02021488
+
+src/auto/func_0202187c.c:
+    complete
+    .text       start:0x0202187c end:0x02021c00
+
+src/auto/func_02021ce0.c:
+    complete
+    .text       start:0x02021ce0 end:0x02021dc0
+
+src/auto/func_02021dc0.c:
+    complete
+    .text       start:0x02021dc0 end:0x02022064
+
+src/auto/func_02022064.c:
+    complete
+    .text       start:0x02022064 end:0x020221e4
+
+src/auto/__dec2num.c:
+    complete
+    .text       start:0x0202228c end:0x020228b0
+
+src/auto/func_020229f4.c:
+    complete
+    .text       start:0x020229f4 end:0x02022a5c
+
+src/auto/func_02022ee8.c:
+    complete
+    .text       start:0x02022ee8 end:0x02022f74
+
+src/auto/func_020247e0.c:
+    complete
+    .text       start:0x020247e0 end:0x020248c4
+
+src/auto/func_0202665c.c:
+    complete
+    .text       start:0x0202665c end:0x020267b0
+
+src/auto/func_02026894.c:
+    complete
+    .text       start:0x02026894 end:0x02026a70
+
+src/auto/func_02026acc.c:
+    complete
+    .text       start:0x02026acc end:0x02026bb8
+
+src/auto/func_02026ec0.c:
+    complete
+    .text       start:0x02026ec0 end:0x02027070
+
+src/auto/func_020270cc.c:
+    complete
+    .text       start:0x020270cc end:0x0202716c
+
+src/auto/NNSi_G3dFuncSbc_BB.c:
+    complete
+    .text       start:0x0202a870 end:0x0202ab78
+
+src/auto/NNSi_G3dFuncSbc_BBY.c:
+    complete
+    .text       start:0x0202ab78 end:0x0202aedc
+
+src/auto/NNSi_SndCaptureMain.c:
+    complete
+    .text       start:0x02032d24 end:0x02032dac
+
+src/auto/NNSi_SndCaptureStop.c:
+    complete
+    .text       start:0x02033118 end:0x02033208
+
+src/auto/NNSi_SndCaptureBeginSleep.c:
+    complete
+    .text       start:0x02033208 end:0x02033268
+
+src/auto/NNSi_SndCaptureEndSleep.c:
+    complete
+    .text       start:0x02033268 end:0x020332ec
+
+src/auto/LoadWaveArcTable.c:
+    complete
+    .text       start:0x02034480 end:0x02034588
+
+src/auto/WcmCountBits.c:
+    complete
+    .text       start:0x0204293c end:0x02042968
+
+src/auto/CRYPTO_RC4Encrypt.c:
+    complete
+    .text       start:0x020ddbf4 end:0x020ddc6c
+
+src/donor/OS_InitContext.c:
+    complete
+    .text       start:0x02007424 end:0x020074a8
+
+src/donor/OS_WaitInterrupt.c:
+    complete
+    .text       start:0x02008b5c end:0x02008c04
+
+src/donor/MIi_FIFOCallback.c:
+    complete
+    .text       start:0x02009584 end:0x02009630
+
+src/donor/MIi_CpuSend32.c:
+    complete
+    .text       start:0x02009814 end:0x0200983c
+
+src/donor/func_0200d978.c:
+    complete
+    .text       start:0x0200d978 end:0x0200da40
+
+src/donor/func_0200da40.c:
+    complete
+    .text       start:0x0200da40 end:0x0200daf8
+
+src/donor/func_0200daf8.c:
+    complete
+    .text       start:0x0200daf8 end:0x0200deac
+
+src/donor/MATH_CalcHMACSHA1.c:
+    complete
+    .text       start:0x0200e24c end:0x0200e2e0
+
+src/donor/HmacCalc.c:
+    complete
+    .text       start:0x0200e2e0 end:0x0200e498
+
+src/donor/func_0200f25c.c:
+    complete
+    .text       start:0x0200f25c end:0x0200f29c
+
+src/donor/func_0200f29c.c:
+    complete
+    .text       start:0x0200f29c end:0x0200f2ec
+
+src/donor/func_0200f2ec.c:
+    complete
+    .text       start:0x0200f2ec end:0x0200f348
+
+src/donor/func_0200f354.c:
+    complete
+    .text       start:0x0200f354 end:0x0200f384
+
+src/donor/func_0200f41c.c:
+    complete
+    .text       start:0x0200f41c end:0x0200f4b0
+
+src/donor/PMi_TryToSendPxiDataTillSuccess.c:
+    complete
+    .text       start:0x0200f4b0 end:0x0200f570
+
+src/donor/PM_ForceToPowerOff.c:
+    complete
+    .text       start:0x0200f86c end:0x0200f8b8
+
+src/donor/func_0200f9b0.c:
+    complete
+    .text       start:0x0200f9b0 end:0x0200fcbc
+
+src/donor/PMi_SetLCDPower.c:
+    complete
+    .text       start:0x0200fcbc end:0x0200fed4
+
+src/donor/func_0200ff10.c:
+    complete
+    .text       start:0x0200ff10 end:0x0200ff2c
+
+src/donor/func_0200ffc8.c:
+    complete
+    .text       start:0x0200ffc8 end:0x02010020
+
+src/donor/CARDi_RequestStreamCommandCore.c:
+    complete
+    .text       start:0x020112c8 end:0x020114b8
+
+src/donor/CARDi_ReadCard.c:
+    complete
+    .text       start:0x02011ab4 end:0x02011ba4
+
+src/donor/func_02017630.c:
+    complete
+    .text       start:0x02017630 end:0x020176c4
+
+src/donor/func_02025a24.cpp:
+    complete
+    .text       start:0x02025a24 end:0x02025dac
+
+src/donor/func_020271bc.cpp:
+    complete
+    .text       start:0x020271bc end:0x020271ec
+
+src/donor/NNSi_G3dAnmBlendJnt.c:
+    complete
+    .text       start:0x02029330 end:0x0202971c
+
+src/donor/NNSi_G3dFuncSbc_MAT_InternalDefault.c:
+    complete
+    .text       start:0x02029d64 end:0x0202a1ec
+
+src/donor/NNSi_G3dFuncSbc_NODEMIX.c:
+    complete
+    .text       start:0x0202aedc end:0x0202b638
+
+src/donor/NNSi_G3dFuncSbc_ENVMAP.c:
+    complete
+    .text       start:0x0202b784 end:0x0202bac8
+
+src/donor/NNSi_G3dFuncSbc_PRJMAP.c:
+    complete
+    .text       start:0x0202bac8 end:0x0202be78
+
+src/donor/NNS_G3dDraw1Mat1Shp.c:
+    complete
+    .text       start:0x0202be78 end:0x0202c11c
+
+src/donor/NNS_SndUpdateDriverInfo.c:
+    complete
+    .text       start:0x02031dd0 end:0x02031eb0
+
+src/donor/NNS_SndCaptureStopReverb.c:
+    complete
+    .text       start:0x02032cb4 end:0x02032d0c
+
+src/donor/reset_network_vars.c:
+    complete
+    .text       start:0x02034f58 end:0x0203505c
+
+src/donor/CPS_CalmDown.c:
+    complete
+    .text       start:0x020352cc end:0x0203531c
+
+src/donor/ip_isme.c:
+    complete
+    .text       start:0x0203559c end:0x0203561c
+
+src/donor/put_in_buffer.c:
+    complete
+    .text       start:0x020356a4 end:0x02035898
+
+src/donor/CPSi_RecvCallbackFunc.c:
+    complete
+    .text       start:0x02035898 end:0x020358f0
+
+src/donor/receive_packet.c:
+    complete
+    .text       start:0x020358f0 end:0x020359b0
+
+src/donor/throw_packet.c:
+    complete
+    .text       start:0x020359b0 end:0x020359f4
+
+src/donor/inq_arpcache.c:
+    complete
+    .text       start:0x020359f4 end:0x02035ac4
+
+src/donor/send_arprequest.c:
+    complete
+    .text       start:0x02035ac4 end:0x02035bc0
+
+src/donor/reg_arpcache.c:
+    complete
+    .text       start:0x02035c30 end:0x02035d6c
+
+src/donor/send_ip_frag.c:
+    complete
+    .text       start:0x02035e3c end:0x02035f64
+
+src/donor/send_ip.c:
+    complete
+    .text       start:0x02035f64 end:0x0203615c
+
+src/donor/send_ping.c:
+    complete
+    .text       start:0x0203615c end:0x0203620c
+
+src/donor/send_udp.c:
+    complete
+    .text       start:0x0203620c end:0x02036348
+
+src/donor/reply_arp.c:
+    complete
+    .text       start:0x020365bc end:0x02036664
+
+src/donor/dispatch_arp.c:
+    complete
+    .text       start:0x02036664 end:0x020367a8
+
+src/donor/tcp_send_rst.c:
+    complete
+    .text       start:0x02036da4 end:0x02036ee0
+
+src/donor/check_frag.c:
+    complete
+    .text       start:0x02037970 end:0x02037c3c
+
+src/donor/dispatch_ip.c:
+    complete
+    .text       start:0x02037c3c end:0x02037e00
+
+src/donor/CPS_SocGetEport.c:
+    complete
+    .text       start:0x02037e70 end:0x02037f18
+
+src/donor/get_seqno.c:
+    complete
+    .text       start:0x02037f18 end:0x02037f5c
+
+src/donor/CPSi_TcpConnectRaw.c:
+    complete
+    .text       start:0x0203809c end:0x02038150
+
+src/donor/CPS_TcpClose.c:
+    complete
+    .text       start:0x0203821c end:0x020382a4
+
+src/donor/tcp_write_do.c:
+    complete
+    .text       start:0x020384a0 end:0x02038564
+
+src/donor/CPSi_TcpWrite2Raw.c:
+    complete
+    .text       start:0x020385a0 end:0x020387a8
+
+src/donor/set_fixed_ip.c:
+    complete
+    .text       start:0x020389c4 end:0x02038a64
+
+src/donor/scavenger.c:
+    complete
+    .text       start:0x02038a64 end:0x02038dd4
+
+src/donor/dhcp_setcommon.c:
+    complete
+    .text       start:0x02038dd4 end:0x02038f60
+
+src/donor/dhcp_send_discover.c:
+    complete
+    .text       start:0x02038f94 end:0x02039058
+
+src/donor/dhcp_send_request.c:
+    complete
+    .text       start:0x02039058 end:0x02039160
+
+src/donor/dhcp_analyze_response.c:
+    complete
+    .text       start:0x02039160 end:0x020394b0
+
+src/donor/dhcp_release_server.c:
+    complete
+    .text       start:0x02039604 end:0x02039670
+
+src/donor/resolve_common.c:
+    complete
+    .text       start:0x020396a0 end:0x02039948
+
+src/donor/CPS_Resolve.c:
+    complete
+    .text       start:0x02039a7c end:0x02039bb4
+
+src/donor/SOCLi_StartupCPS.c:
+    complete
+    .text       start:0x02039c30 end:0x02039d8c
+
+src/donor/SOC_InetNtoA.c:
+    complete
+    .text       start:0x0203c618 end:0x0203c648
+
+src/donor/SOC_InetNtoP.c:
+    complete
+    .text       start:0x0203c698 end:0x0203c71c
+
+src/donor/func_0203c7f0.c:
+    complete
+    .text       start:0x0203c7f0 end:0x0203c884
+
+src/donor/func_0203c884.c:
+    complete
+    .text       start:0x0203c884 end:0x0203c924
+
+src/donor/func_0203c924.c:
+    complete
+    .text       start:0x0203c924 end:0x0203ca10
+
+src/donor/func_0203ca10.c:
+    complete
+    .text       start:0x0203ca10 end:0x0203ca78
+
+src/donor/func_0203cb68.c:
+    complete
+    .text       start:0x0203cb68 end:0x0203cbb4
+
+src/donor/func_0203cc04.c:
+    complete
+    .text       start:0x0203cc04 end:0x0203cc70
+
+src/donor/func_0203cc70.c:
+    complete
+    .text       start:0x0203cc70 end:0x0203ccf0
+
+src/donor/func_0203d1e0.c:
+    complete
+    .text       start:0x0203d1e0 end:0x0203d388
+
+src/donor/func_0203d388.c:
+    complete
+    .text       start:0x0203d388 end:0x0203d46c
+
+src/donor/func_0203d4fc.c:
+    complete
+    .text       start:0x0203d4fc end:0x0203d720
+
+src/donor/func_0203d720.c:
+    complete
+    .text       start:0x0203d720 end:0x0203d7d4
+
+src/donor/func_0203d820.c:
+    complete
+    .text       start:0x0203d820 end:0x0203d880
+
+src/donor/func_0203d890.c:
+    complete
+    .text       start:0x0203d890 end:0x0203d958
+
+src/donor/func_0203d9f4.c:
+    complete
+    .text       start:0x0203d9f4 end:0x0203dc34
+
+src/donor/SSLi_HashKeyMaterialBlock.c:
+    complete
+    .text       start:0x0203dc34 end:0x0203dcd0
+
+src/donor/func_0203dd30.c:
+    complete
+    .text       start:0x0203dd30 end:0x0203defc
+
+src/donor/func_0203df38.c:
+    complete
+    .text       start:0x0203df38 end:0x0203e014
+
+src/donor/func_0203e014.c:
+    complete
+    .text       start:0x0203e014 end:0x0203e0f0
+
+src/donor/func_0203e1ec.c:
+    complete
+    .text       start:0x0203e1ec end:0x0203e41c
+
+src/donor/func_0203e41c.c:
+    complete
+    .text       start:0x0203e41c end:0x0203e620
+
+src/donor/func_0203e6b8.c:
+    complete
+    .text       start:0x0203e6b8 end:0x0203e938
+
+src/donor/func_0203e938.c:
+    complete
+    .text       start:0x0203e938 end:0x0203ead8
+
+src/donor/func_0203ead8.c:
+    complete
+    .text       start:0x0203ead8 end:0x0203ec08
+
+src/donor/func_0203edd0.c:
+    complete
+    .text       start:0x0203edd0 end:0x0203ef64
+
+src/donor/func_0203ef64.c:
+    complete
+    .text       start:0x0203ef64 end:0x0203f224
+
+src/donor/SSLi_DoHandshake.c:
+    complete
+    .text       start:0x0203f254 end:0x0203f320
+
+src/donor/CPS_SslConnect.c:
+    complete
+    .text       start:0x0203f320 end:0x0203f374
+
+src/donor/CPSi_SslRead.c:
+    complete
+    .text       start:0x0203f374 end:0x0203f44c
+
+src/donor/func_0203f49c.c:
+    complete
+    .text       start:0x0203f49c end:0x0203f5e0
+
+src/donor/CPSi_SslWrite2.c:
+    complete
+    .text       start:0x0203f65c end:0x0203f790
+
+src/donor/CPSi_SslShutdown.c:
+    complete
+    .text       start:0x0203f790 end:0x0203f810
+
+src/donor/CPS_SslClose.c:
+    complete
+    .text       start:0x0203f810 end:0x0203f848
+
+src/donor/CPSi_SslPeriodical.c:
+    complete
+    .text       start:0x0203f878 end:0x0203f958
+
+src/donor/MD5Transform.c:
+    complete
+    .text       start:0x0203f9a4 end:0x0203fdc0
+
+src/donor/MD5Update.c:
+    complete
+    .text       start:0x0203fe08 end:0x0203fec0
+
+src/donor/Sha1PutBigEndian.c:
+    complete
+    .text       start:0x0203ff6c end:0x0203ffb0
+
+src/donor/Sha1GetBigEndian.c:
+    complete
+    .text       start:0x0203ffb0 end:0x0203fff8
+
+src/donor/func_0203fff8.c:
+    complete
+    .text       start:0x0203fff8 end:0x02040680
+
+src/donor/SHA1Update.c:
+    complete
+    .text       start:0x020406d4 end:0x0204078c
+
+src/donor/func_02040824.c:
+    complete
+    .text       start:0x02040824 end:0x02040898
+
+src/donor/CPSi_rc4_crypt.c:
+    complete
+    .text       start:0x02040898 end:0x02040904
+
+src/donor/BigInt_GetSign.c:
+    complete
+    .text       start:0x0204092c end:0x0204095c
+
+src/donor/func_0204095c.c:
+    complete
+    .text       start:0x0204095c end:0x020409f8
+
+src/donor/BigInti_AddDigit.c:
+    complete
+    .text       start:0x020409f8 end:0x02040a5c
+
+src/donor/BigInt_Negate.c:
+    complete
+    .text       start:0x02040a5c end:0x02040a9c
+
+src/donor/func_02040a9c.c:
+    complete
+    .text       start:0x02040a9c end:0x02040b44
+
+src/donor/BigInti_SubDigit.c:
+    complete
+    .text       start:0x02040b44 end:0x02040bac
+
+src/donor/BigInti_AddDigitFrom.c:
+    complete
+    .text       start:0x02040be4 end:0x02040c18
+
+src/donor/BigInt_Mul.c:
+    complete
+    .text       start:0x02040c18 end:0x02040cc4
+
+src/donor/BigInti_MulDigit.c:
+    complete
+    .text       start:0x02040cc4 end:0x02040d3c
+
+src/donor/func_02040d3c.c:
+    complete
+    .text       start:0x02040d3c end:0x02040e70
+
+src/donor/func_02040e70.c:
+    complete
+    .text       start:0x02040e70 end:0x02040e7c
+
+src/donor/func_02040e7c.c:
+    complete
+    .text       start:0x02040e7c end:0x02040e8c
+
+src/donor/func_02040e8c.c:
+    complete
+    .text       start:0x02040e8c end:0x02040ea0
+
+src/donor/func_02040ea0.c:
+    complete
+    .text       start:0x02040ea0 end:0x02040ebc
+
+src/donor/func_02040ebc.c:
+    complete
+    .text       start:0x02040ebc end:0x0204109c
+
+src/donor/func_0204109c.c:
+    complete
+    .text       start:0x0204109c end:0x02041230
+
+src/donor/func_02041230.c:
+    complete
+    .text       start:0x02041230 end:0x0204137c
+
+src/donor/func_0204137c.c:
+    complete
+    .text       start:0x0204137c end:0x020414a4
+
+src/donor/func_020414a4.c:
+    complete
+    .text       start:0x020414a4 end:0x020416b0
+
+src/donor/func_020416b0.c:
+    complete
+    .text       start:0x020416b0 end:0x0204170c
+
+src/donor/WcmCpsifUnlockMutexInIRQ.c:
+    complete
+    .text       start:0x02044134 end:0x0204416c
+
+src/donor/DWC_AC_Create.c:
+    complete
+    .text       start:0x020442f0 end:0x02044498
+
+src/donor/func_020446fc.c:
+    complete
+    .text       start:0x020446fc end:0x020447b4
+
+src/donor/func_02044ba4.c:
+    complete
+    .text       start:0x02044ba4 end:0x02044c44
+
+src/donor/func_02044c44.c:
+    complete
+    .text       start:0x02044c44 end:0x02044db0
+
+src/donor/func_02044db0.c:
+    complete
+    .text       start:0x02044db0 end:0x02044e44
+
+src/donor/func_02044e44.c:
+    complete
+    .text       start:0x02044e44 end:0x02044ec0
+
+src/donor/func_02044ec0.c:
+    complete
+    .text       start:0x02044ec0 end:0x02044f50
+
+src/donor/func_02045064.c:
+    complete
+    .text       start:0x02045064 end:0x020450d0
+
+src/donor/func_020450d0.c:
+    complete
+    .text       start:0x020450d0 end:0x020451c0
+
+src/donor/func_020451c0.c:
+    complete
+    .text       start:0x020451c0 end:0x0204524c
+
+src/donor/func_02045290.c:
+    complete
+    .text       start:0x02045290 end:0x02045388
+
+src/donor/func_020454c4.c:
+    complete
+    .text       start:0x020454c4 end:0x02045660
+
+src/donor/func_02045698.c:
+    complete
+    .text       start:0x02045698 end:0x02045784
+
+src/donor/func_0204589c.c:
+    complete
+    .text       start:0x0204589c end:0x020458e4
+
+src/donor/func_02045958.c:
+    complete
+    .text       start:0x02045958 end:0x0204599c
+
+src/donor/func_020459c0.c:
+    complete
+    .text       start:0x020459c0 end:0x02045ad0
+
+src/donor/func_02045b64.c:
+    complete
+    .text       start:0x02045b64 end:0x02045bb0
+
+src/donor/func_02045e94.c:
+    complete
+    .text       start:0x02045e94 end:0x02045ed8
+
+src/donor/func_02045fb4.c:
+    complete
+    .text       start:0x02045fb4 end:0x02046078
+
+src/donor/func_02046078.c:
+    complete
+    .text       start:0x02046078 end:0x020460ac
+
+src/donor/func_020461f4.c:
+    complete
+    .text       start:0x020461f4 end:0x02046244
+
+src/donor/func_02046244.c:
+    complete
+    .text       start:0x02046244 end:0x020462e8
+
+src/donor/func_020462e8.c:
+    complete
+    .text       start:0x020462e8 end:0x02046330
+
+src/donor/func_02046784.c:
+    complete
+    .text       start:0x02046784 end:0x0204680c
+
+src/donor/func_0204696c.c:
+    complete
+    .text       start:0x0204696c end:0x020469fc
+
+src/donor/func_02046aa8.c:
+    complete
+    .text       start:0x02046aa8 end:0x02046ad8
+
+src/donor/func_02046b98.c:
+    complete
+    .text       start:0x02046b98 end:0x02046bec
+
+src/donor/func_02046c40.c:
+    complete
+    .text       start:0x02046c40 end:0x02046cc8
+
+src/donor/func_02046da8.c:
+    complete
+    .text       start:0x02046da8 end:0x02046eac
+
+src/donor/func_02046eac.c:
+    complete
+    .text       start:0x02046eac end:0x02046ef8
+
+src/donor/func_02046ef8.c:
+    complete
+    .text       start:0x02046ef8 end:0x020470a4
+
+src/donor/func_020470a4.c:
+    complete
+    .text       start:0x020470a4 end:0x02047114
+
+src/donor/func_02047114.c:
+    complete
+    .text       start:0x02047114 end:0x0204727c
+
+src/donor/func_020477fc.c:
+    complete
+    .text       start:0x020477fc end:0x020478a0
+
+src/donor/func_02048124.c:
+    complete
+    .text       start:0x02048124 end:0x02048168
+
+src/donor/func_02048168.c:
+    complete
+    .text       start:0x02048168 end:0x020481bc
+
+src/donor/DWCi_Acc_U64ToString32.c:
+    complete
+    .text       start:0x02048264 end:0x020482d4
+
+src/donor/DWCi_Acc_LoginIdToUserName.c:
+    complete
+    .text       start:0x020482d4 end:0x02048364
+
+src/donor/DWC_CheckUserData.c:
+    complete
+    .text       start:0x02048568 end:0x020485ac
+
+src/donor/DWCi_Acc_SetLoginIdToUserData.c:
+    complete
+    .text       start:0x02048644 end:0x0204869c
+
+src/donor/func_02048738.c:
+    complete
+    .text       start:0x02048738 end:0x02048798
+
+src/donor/func_02048798.c:
+    complete
+    .text       start:0x02048798 end:0x020487cc
+
+src/donor/func_02048a54.c:
+    complete
+    .text       start:0x02048a54 end:0x02048b78
+
+src/donor/func_02048f2c.c:
+    complete
+    .text       start:0x02048f2c end:0x020491e0
+
+src/donor/func_020491e0.c:
+    complete
+    .text       start:0x020491e0 end:0x020493b8
+
+src/donor/func_020493b8.c:
+    complete
+    .text       start:0x020493b8 end:0x02049680
+
+src/donor/func_02049680.c:
+    complete
+    .text       start:0x02049680 end:0x02049824
+
+src/donor/func_0204a040.c:
+    complete
+    .text       start:0x0204a040 end:0x0204a0fc
+
+src/donor/func_0204a158.c:
+    complete
+    .text       start:0x0204a158 end:0x0204a1d0
+
+src/donor/func_0204a324.c:
+    complete
+    .text       start:0x0204a324 end:0x0204a640
+
+src/donor/func_0204a6f4.c:
+    complete
+    .text       start:0x0204a6f4 end:0x0204a7b4
+
+src/donor/func_0204aa88.c:
+    complete
+    .text       start:0x0204aa88 end:0x0204aac8
+
+src/donor/func_0204ae18.c:
+    complete
+    .text       start:0x0204ae18 end:0x0204b0b8
+
+src/donor/func_0204b110.c:
+    complete
+    .text       start:0x0204b110 end:0x0204b164
+
+src/donor/func_0204b1a4.c:
+    complete
+    .text       start:0x0204b1a4 end:0x0204b22c
+
+src/donor/func_0204b22c.c:
+    complete
+    .text       start:0x0204b22c end:0x0204b30c
+
+src/donor/func_0204c4a4.c:
+    complete
+    .text       start:0x0204c4a4 end:0x0204c6c0
+
+src/donor/func_0204c6c0.c:
+    complete
+    .text       start:0x0204c6c0 end:0x0204c848
+
+src/donor/DWC_AllocEx.c:
+    complete
+    .text       start:0x0204cb74 end:0x0204cba8
+
+src/donor/DWC_ConnectInetAsync.c:
+    complete
+    .text       start:0x0204cd8c end:0x0204ce40
+
+src/donor/func_0204dd28.c:
+    complete
+    .text       start:0x0204dd28 end:0x0204de30
+
+src/donor/func_0204e20c.c:
+    complete
+    .text       start:0x0204e20c end:0x0204e274
+
+src/donor/func_0204e430.c:
+    complete
+    .text       start:0x0204e430 end:0x0204e494
+
+src/donor/func_0204e61c.c:
+    complete
+    .text       start:0x0204e61c end:0x0204e67c
+
+src/donor/func_0204e6b0.c:
+    complete
+    .text       start:0x0204e6b0 end:0x0204e7cc
+
+src/donor/func_0204f098.c:
+    complete
+    .text       start:0x0204f098 end:0x0204f190
+
+src/donor/func_0204f1ac.c:
+    complete
+    .text       start:0x0204f1ac end:0x0204f1fc
+
+src/donor/func_0204f2f4.c:
+    complete
+    .text       start:0x0204f2f4 end:0x0204f42c
+
+src/donor/func_0204f444.c:
+    complete
+    .text       start:0x0204f444 end:0x0204f4e0
+
+src/donor/func_0204f4e0.c:
+    complete
+    .text       start:0x0204f4e0 end:0x0204f6ac
+
+src/donor/func_0204f6ac.c:
+    complete
+    .text       start:0x0204f6ac end:0x0204f8b4
+
+src/donor/func_0204f8b4.c:
+    complete
+    .text       start:0x0204f8b4 end:0x0204fa58
+
+src/donor/func_0204fa9c.c:
+    complete
+    .text       start:0x0204fa9c end:0x0204fbb8
+
+src/donor/func_0204fcac.c:
+    complete
+    .text       start:0x0204fcac end:0x0204fdc8
+
+src/donor/func_02050324.c:
+    complete
+    .text       start:0x02050324 end:0x02050388
+
+src/donor/func_02050388.c:
+    complete
+    .text       start:0x02050388 end:0x020503c0
+
+src/donor/func_02050474.c:
+    complete
+    .text       start:0x02050474 end:0x020504fc
+
+src/donor/func_020505cc.c:
+    complete
+    .text       start:0x020505cc end:0x0205089c
+
+src/donor/func_0205092c.c:
+    complete
+    .text       start:0x0205092c end:0x020509f0
+
+src/donor/func_02051790.c:
+    complete
+    .text       start:0x02051790 end:0x0205192c
+
+src/donor/func_020519d4.c:
+    complete
+    .text       start:0x020519d4 end:0x02051b3c
+
+src/donor/func_02051b3c.c:
+    complete
+    .text       start:0x02051b3c end:0x02051bec
+
+src/donor/func_02051bec.c:
+    complete
+    .text       start:0x02051bec end:0x02052688
+
+src/donor/func_02052688.c:
+    complete
+    .text       start:0x02052688 end:0x0205277c
+
+src/donor/func_020529c4.c:
+    complete
+    .text       start:0x020529c4 end:0x02052c48
+
+src/donor/func_02052ccc.c:
+    complete
+    .text       start:0x02052ccc end:0x02052cec
+
+src/donor/func_0205313c.c:
+    complete
+    .text       start:0x0205313c end:0x020531a0
+
+src/donor/func_020531a0.c:
+    complete
+    .text       start:0x020531a0 end:0x02053358
+
+src/donor/func_02053ac4.c:
+    complete
+    .text       start:0x02053ac4 end:0x02053cc0
+
+src/donor/func_02053d28.c:
+    complete
+    .text       start:0x02053d28 end:0x02054014
+
+src/donor/func_020540d0.c:
+    complete
+    .text       start:0x020540d0 end:0x02054294
+
+src/donor/func_020543ac.c:
+    complete
+    .text       start:0x020543ac end:0x02054470
+
+src/donor/func_0205450c.c:
+    complete
+    .text       start:0x0205450c end:0x020553f0
+
+src/donor/func_02055730.c:
+    complete
+    .text       start:0x02055730 end:0x020558f0
+
+src/donor/func_02055f1c.c:
+    complete
+    .text       start:0x02055f1c end:0x02056138
+
+src/donor/func_020569a4.c:
+    complete
+    .text       start:0x020569a4 end:0x02056a2c
+
+src/donor/func_02056bc0.c:
+    complete
+    .text       start:0x02056bc0 end:0x02056cc0
+
+src/donor/func_02056cf4.c:
+    complete
+    .text       start:0x02056cf4 end:0x02056db4
+
+src/donor/func_02056f90.c:
+    complete
+    .text       start:0x02056f90 end:0x02057080
+
+src/donor/func_020572f0.c:
+    complete
+    .text       start:0x020572f0 end:0x02057370
+
+src/donor/func_02057370.c:
+    complete
+    .text       start:0x02057370 end:0x02057594
+
+src/donor/func_020577ec.c:
+    complete
+    .text       start:0x020577ec end:0x0205785c
+
+src/donor/func_020578cc.c:
+    complete
+    .text       start:0x020578cc end:0x020579a8
+
+src/donor/func_02057a70.c:
+    complete
+    .text       start:0x02057a70 end:0x02057a98
+
+src/donor/func_02057b08.c:
+    complete
+    .text       start:0x02057b08 end:0x02057f34
+
+src/donor/func_02058180.c:
+    complete
+    .text       start:0x02058180 end:0x020581e0
+
+src/donor/func_02058284.c:
+    complete
+    .text       start:0x02058284 end:0x02058698
+
+src/donor/func_0205869c.c:
+    complete
+    .text       start:0x0205869c end:0x02058874
+
+src/donor/func_02058874.c:
+    complete
+    .text       start:0x02058874 end:0x020589e4
+
+src/donor/func_02058c0c.c:
+    complete
+    .text       start:0x02058c0c end:0x02058cc0
+
+src/donor/func_02059270.c:
+    complete
+    .text       start:0x02059270 end:0x020592d8
+
+src/donor/func_02059308.c:
+    complete
+    .text       start:0x02059308 end:0x020593e8
+
+src/donor/func_02059584.c:
+    complete
+    .text       start:0x02059584 end:0x020596a4
+
+src/donor/func_0205992c.c:
+    complete
+    .text       start:0x0205992c end:0x02059978
+
+src/donor/func_020599b8.c:
+    complete
+    .text       start:0x020599b8 end:0x020599f4
+
+src/donor/func_020599f4.c:
+    complete
+    .text       start:0x020599f4 end:0x02059a34
+
+src/donor/func_02059d4c.c:
+    complete
+    .text       start:0x02059d4c end:0x02059e40
+
+src/donor/func_02059e40.c:
+    complete
+    .text       start:0x02059e40 end:0x02059ec0
+
+src/donor/func_02059ec0.c:
+    complete
+    .text       start:0x02059ec0 end:0x02059f88
+
+src/donor/func_02059f88.c:
+    complete
+    .text       start:0x02059f88 end:0x0205a06c
+
+src/donor/DWCi_BM_SetWiFiInfo.c:
+    complete
+    .text       start:0x0205a1d0 end:0x0205a2ac
+
+src/donor/DWCi_BACKUPlWritePage.c:
+    complete
+    .text       start:0x0205a31c end:0x0205a3a4
+
+src/donor/Callback_NVRAM.c:
+    complete
+    .text       start:0x0205abac end:0x0205abdc
+
+src/donor/TableNew2.c:
+    complete
+    .text       start:0x0205bce8 end:0x0205bd64
+
+src/donor/TableFree.c:
+    complete
+    .text       start:0x0205bd64 end:0x0205bdb0
+
+src/donor/func_0205bdb0.c:
+    complete
+    .text       start:0x0205bdb0 end:0x0205bdfc
+
+src/donor/TableEnter.c:
+    complete
+    .text       start:0x0205bdfc end:0x0205be7c
+
+src/donor/TableRemove.c:
+    complete
+    .text       start:0x0205be7c end:0x0205bef8
+
+src/donor/TableLookup.c:
+    complete
+    .text       start:0x0205bef8 end:0x0205bf70
+
+src/donor/TableMapSafe2.c:
+    complete
+    .text       start:0x0205bfb8 end:0x0205c00c
+
+src/donor/MD5Print.c:
+    complete
+    .text       start:0x0205c00c end:0x0205c068
+
+src/donor/time.c:
+    complete
+    .text       start:0x0205c54c end:0x0205c580
+
+src/donor/func_0205cde4.c:
+    complete
+    .text       start:0x0205cde4 end:0x0205cf2c
+
+src/donor/func_0205e1ac.c:
+    complete
+    .text       start:0x0205e1ac end:0x0205e274
+
+src/donor/func_0205e514.c:
+    complete
+    .text       start:0x0205e514 end:0x0205e564
+
+src/donor/gpDenyBuddyRequest.c:
+    complete
+    .text       start:0x0205e564 end:0x0205e624
+
+src/donor/gpDeleteBuddy.c:
+    complete
+    .text       start:0x0205e8fc end:0x0205e958
+
+src/donor/gpSetStatusA.c:
+    complete
+    .text       start:0x0205e958 end:0x0205eb8c
+
+src/donor/gpSendBuddyMessageA.c:
+    complete
+    .text       start:0x0205eb8c end:0x0205ec24
+
+src/donor/func_0205ec24.c:
+    complete
+    .text       start:0x0205ec24 end:0x0205ecd8
+
+src/donor/gpiProcess.c:
+    complete
+    .text       start:0x0205f400 end:0x0205f570
+
+src/donor/gpiBuddyHandleKeyReply.c:
+    complete
+    .text       start:0x02060d9c end:0x020611ec
+
+src/donor/func_020611ec.c:
+    complete
+    .text       start:0x020611ec end:0x020612b8
+
+src/donor/func_02061a50.c:
+    complete
+    .text       start:0x02061a50 end:0x02061b3c
+
+src/donor/gpiSendBufferToPeer.c:
+    complete
+    .text       start:0x02061b3c end:0x02061ca4
+
+src/donor/gpiReadMessageFromBuffer.c:
+    complete
+    .text       start:0x02061ca4 end:0x02061de0
+
+src/donor/gpiCallErrorCallback.c:
+    complete
+    .text       start:0x02061e38 end:0x02061ec0
+
+src/donor/gpiConnect.c:
+    complete
+    .text       start:0x020626b0 end:0x020628ac
+
+src/donor/func_02063b14.c:
+    complete
+    .text       start:0x02063b14 end:0x02063b84
+
+src/donor/func_020646d0.c:
+    complete
+    .text       start:0x020646d0 end:0x02064ba0
+
+src/donor/gpiStatusInfoKeysInit.c:
+    complete
+    .text       start:0x02065794 end:0x020657dc
+
+src/donor/gpiStatusInfoAddKey.c:
+    complete
+    .text       start:0x02065814 end:0x0206589c
+
+src/donor/gpiStatusInfoSetKey.c:
+    complete
+    .text       start:0x0206589c end:0x02065940
+
+src/donor/gpiStatusInfoCheckKey.c:
+    complete
+    .text       start:0x02065940 end:0x020659d4
+
+src/donor/gpiFailedOpCallback.c:
+    complete
+    .text       start:0x02065d00 end:0x020660b8
+
+src/donor/gpiProcessPeerAcceptingConnection.c:
+    complete
+    .text       start:0x0206665c end:0x020668a0
+
+src/donor/gpiProcessPeerConnected.c:
+    complete
+    .text       start:0x02066978 end:0x02066cf4
+
+src/donor/gpiPeerStartConnect.c:
+    complete
+    .text       start:0x02067160 end:0x02067260
+
+src/donor/gpiPeerAddMessage.c:
+    complete
+    .text       start:0x02067260 end:0x020673c8
+
+src/donor/gpiPeerStartTransferMessage.c:
+    complete
+    .text       start:0x020673c8 end:0x02067424
+
+src/donor/gpiProcessDeleteProfle.c:
+    complete
+    .text       start:0x02067b04 end:0x02067c14
+
+src/donor/gpiValueForKey.c:
+    complete
+    .text       start:0x0206aaa4 end:0x0206ab10
+
+src/donor/gpiReadKeyAndValue.c:
+    complete
+    .text       start:0x0206abd4 end:0x0206ad24
+
+src/donor/gpiEncodeString.c:
+    complete
+    .text       start:0x0206ad5c end:0x0206ade4
+
+src/donor/func_0206ade4.c:
+    complete
+    .text       start:0x0206ade4 end:0x0206ae58
+
+src/donor/DoFind.c:
+    complete
+    .text       start:0x0206b2e8 end:0x0206b318
+
+src/donor/FindRequest.c:
+    complete
+    .text       start:0x0206b6a0 end:0x0206b724
+
+src/donor/ProcessGetData.c:
+    complete
+    .text       start:0x0206b860 end:0x0206b944
+
+src/donor/CallReqCallback.c:
+    complete
+    .text       start:0x0206bb4c end:0x0206bc50
+
+src/donor/func_0206bda4.c:
+    complete
+    .text       start:0x0206bda4 end:0x0206be0c
+
+src/donor/func_0206be0c.c:
+    complete
+    .text       start:0x0206be0c end:0x0206be7c
+
+src/donor/func_0206bf34.c:
+    complete
+    .text       start:0x0206bf34 end:0x0206bf94
+
+src/donor/func_0206c04c.c:
+    complete
+    .text       start:0x0206c04c end:0x0206c0ac
+
+src/donor/gti2GetChallenge.c:
+    complete
+    .text       start:0x0206c1a4 end:0x0206c29c
+
+src/donor/gti2ConnectAttemptCallback.c:
+    complete
+    .text       start:0x0206c56c end:0x0206c64c
+
+src/donor/func_0206c8b8.c:
+    complete
+    .text       start:0x0206c8b8 end:0x0206c980
+
+src/donor/gti2ReceiveFilterCallback.c:
+    complete
+    .text       start:0x0206c980 end:0x0206ca48
+
+src/donor/gti2DumpCallback.c:
+    complete
+    .text       start:0x0206ca48 end:0x0206cb34
+
+src/donor/func_0206cb34.c:
+    complete
+    .text       start:0x0206cb34 end:0x0206cbd4
+
+src/donor/func_0206e41c.c:
+    complete
+    .text       start:0x0206e41c end:0x0206e718
+
+src/donor/gti2ReceiveMessages.c:
+    complete
+    .text       start:0x0206e8b4 end:0x0206ea38
+
+src/donor/gti2EndReliableMessage.c:
+    complete
+    .text       start:0x0206eba0 end:0x0206ebe8
+
+src/donor/gti2SendAppUnreliable.c:
+    complete
+    .text       start:0x0206ef88 end:0x0206f080
+
+src/donor/gti2SendAck.c:
+    complete
+    .text       start:0x0206f080 end:0x0206f124
+
+src/donor/gti2SocketFindConnection.c:
+    complete
+    .text       start:0x0206f3a8 end:0x0206f3e0
+
+src/donor/func_0206f3e0.c:
+    complete
+    .text       start:0x0206f3e0 end:0x0206f624
+
+src/donor/func_0206fecc.c:
+    complete
+    .text       start:0x0206fecc end:0x0206ff30
+
+src/donor/DetermineNatType.c:
+    complete
+    .text       start:0x020702b4 end:0x020704fc
+
+src/donor/func_02070564.c:
+    complete
+    .text       start:0x02070564 end:0x020705f4
+
+src/donor/func_02070700.c:
+    complete
+    .text       start:0x02070700 end:0x02070764
+
+src/donor/gs_encrypt.c:
+    complete
+    .text       start:0x02072068 end:0x020721ac
+
+src/donor/func_020721ac.c:
+    complete
+    .text       start:0x020721ac end:0x020721dc
+
+src/donor/func_0207227c.c:
+    complete
+    .text       start:0x0207227c end:0x0207232c
+
+src/donor/qr_process_query.c:
+    complete
+    .text       start:0x0207289c end:0x02072a30
+
+src/donor/func_02072a30.c:
+    complete
+    .text       start:0x02072a30 end:0x02072b58
+
+src/donor/func_02073bc4.c:
+    complete
+    .text       start:0x02073bc4 end:0x02073c38
+
+src/donor/ProcessIncomingReplies.c:
+    complete
+    .text       start:0x02073fa4 end:0x02074138
+
+src/donor/CheckValidKey.c:
+    complete
+    .text       start:0x020745ec end:0x0207464c
+
+src/donor/mytok.c:
+    complete
+    .text       start:0x0207464c end:0x020746b0
+
+src/donor/ServerBrowserSortA.c:
+    complete
+    .text       start:0x020753a8 end:0x02075408
+
+src/donor/func_02075410.c:
+    complete
+    .text       start:0x02075410 end:0x020755ac
+
+src/donor/func_020755ac.c:
+    complete
+    .text       start:0x020755ac end:0x0207561c
+
+src/donor/func_0207561c.c:
+    complete
+    .text       start:0x0207561c end:0x0207572c
+
+src/donor/func_0207572c.c:
+    complete
+    .text       start:0x0207572c end:0x020757ac
+
+src/donor/func_020757ac.c:
+    complete
+    .text       start:0x020757ac end:0x0207582c
+
+src/donor/SBServerListSort.c:
+    complete
+    .text       start:0x0207582c end:0x02075964
+
+src/donor/SBReleaseStr.c:
+    complete
+    .text       start:0x02075c50 end:0x02075ca4
+
+src/donor/BufferAddInt.c:
+    complete
+    .text       start:0x02076080 end:0x020760d4
+
+src/donor/AllKeysPresent.c:
+    complete
+    .text       start:0x020767bc end:0x02076894
+
+src/donor/ParseServerIPPort.c:
+    complete
+    .text       start:0x02076894 end:0x02076904
+
+src/donor/func_020773d8.c:
+    complete
+    .text       start:0x020773d8 end:0x0207755c
+
+src/donor/ProcessLanData.c:
+    complete
+    .text       start:0x02077b24 end:0x02077c48
+
+src/auto/func_02075ee0.c:
+    complete
+    .text       start:0x02075ee0 end:0x0207600c

@@ -1,0 +1,162 @@
+/* compiler: 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto */
+/* DWCi_AddNewPeer from https://github.com/ctrl-cheeb-del/pokeheartgold lib/NitroDWC/src/match_join.c (license: none), reused
+ * by tools/donor_match.py */
+typedef unsigned char u8;
+typedef unsigned short int u16;
+typedef unsigned long u32;
+typedef unsigned long long int u64;
+typedef int BOOL;
+typedef struct DwcAccData {
+    u32 flags;
+    u32 low;
+    u32 high;
+} DwcAccData;
+typedef struct MatchRequest {
+    u8 flag;
+    u8 retries;
+    u16 port;
+    u32 address;
+    int active;
+} MatchRequest;
+typedef struct MatchWork {
+    void *gpConnection;
+    void **peer;
+    void *callback;
+    u8 flag;
+    u8 players;
+    u8 aidCount;
+    u8 unk_0F;
+    void *reporting;
+    volatile u8 connections;
+    u8 mode;
+    u8 limit;
+    u8 newPeerPending;
+    u8 qr2ShutdownPending;
+    u8 unk_19;
+    u16 port;
+    u32 addr;
+    u32 newPeerProfile;
+    u32 addresses[32];
+    u16 ports[32];
+    void *list;
+    int searchWait;
+    u64 searchWaitTick;
+    int profiles[32];
+    u64 pending;
+    u8 retryCount;
+    u8 matchRetryCount;
+    u16 cookieRandom;
+    int retryProfile;
+    u64 retryTick;
+    u64 waitTick;
+    MatchRequest request;
+    int state;
+    u8 initial;
+    u8 current;
+    u8 unk_1A6;
+    u8 nextServerRetries;
+    u8 closeState;
+    u8 cancelling;
+    u8 reservationRetries;
+    u8 readyRetries;
+    u8 closeRetries;
+    u8 serverPollCount;
+    u8 stopPending;
+    u8 unk_1AF;
+    u16 maxSize;
+    u16 closeDelay;
+    u16 remotePort;
+    u16 unk_1B6;
+    u32 remoteAddr;
+    int active;
+    u64 activeTick;
+    u32 delay;
+    u64 time;
+    u32 readyMask;
+    u32 closeMask;
+    u32 friendCheckMask;
+    u64 readyTick;
+    u64 closeTick;
+    u64 restartWaitTick;
+    u64 serverPollTick;
+    u32 identity;
+    int target;
+    u32 nextServerProfile;
+    int eventPeerProfile;
+    u32 addr2[32];
+    u16 port2[32];
+    u8 aids[32];
+    u32 aidMask;
+    const char *gameName;
+    const char *secretKey;
+    struct DwcAccData *friends;
+    u32 unk_300;
+    u8 friendIds[64];
+    int friendCount;
+    u32 serverPeerCount;
+    u32 serverPeerProfiles[32];
+    u8 sentCommand;
+    u8 commandRetries;
+    u16 commandPort;
+    u32 commandAddr;
+    u8 commandData[0x80];
+    u32 commandProfile;
+    u32 commandSize;
+    u64 commandTick;
+    void (*errorCallback)(int kind, int unk_01, BOOL unk_02, BOOL isServer, int unk_04, void *param);
+    void *errorParam;
+    void (*newPeerCallback)(int friendIndex, void *param);
+    void *newPeerParam;
+    int (*evalCallback)(int index, void *param);
+    void *evalParam;
+    void (*stopCallback)(void *param);
+    void *stopParam;
+} MatchWork;
+extern MatchWork *func_02059234(void);
+extern void func_02057a98(int flag);
+extern int func_02055730(int profile, u32 addr, int port);
+extern int func_020540d0(int command, u32 profile, u32 addr, u32 port, u32 *data, int count);
+extern u8 func_020577ec(void);
+extern void func_02057a98(int flag);
+extern void func_02071c70(void *reporting);
+#pragma opt_lifetimes reset
+int func_02055730(int profile, u32 addr, int port) {
+    MatchWork *w, *v, *u;
+    int data[2];
+    int i, result;
+    if (func_02059234()->newPeerPending && profile == func_02059234()->newPeerProfile) {
+        return 0;
+    }
+    func_02059234()->newPeerPending = 1;
+    func_02059234()->newPeerProfile = profile;
+    func_02059234()->active         = 0;
+    func_02059234()->delay          = 0;
+    func_02071c70(func_02059234()->reporting);
+    func_02059234()->target                        = 0;
+    w                                              = func_02059234();
+    w->profiles[func_02059234()->connections + 1]  = profile;
+    w                                              = func_02059234();
+    w->addresses[func_02059234()->connections + 1] = addr;
+    w                                              = func_02059234();
+    w->ports[func_02059234()->connections + 1]     = port;
+    func_02059234()->remoteAddr                    = addr;
+    func_02059234()->remotePort                    = port;
+    w                                              = func_02059234();
+    v                                              = func_02059234();
+    result                                         = func_020577ec();
+    w->aids[v->connections + 1]                    = result;
+    data[0]                                        = profile;
+    w                                              = func_02059234();
+    data[1]                                        = w->aids[func_02059234()->connections + 1];
+    for (i = 1; i <= func_02059234()->connections; i++) {
+        w      = func_02059234();
+        v      = func_02059234();
+        u      = func_02059234();
+        result = func_020540d0(7, w->profiles[i], v->addresses[i], u->ports[i], (u32 *) data, 2);
+        if (result) {
+            return result;
+        }
+    }
+    func_02057a98(1);
+    return 0;
+}

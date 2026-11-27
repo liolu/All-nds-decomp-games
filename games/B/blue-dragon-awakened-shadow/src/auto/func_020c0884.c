@@ -1,0 +1,30 @@
+#include "m2c.h"
+
+M2C_UNK func_020c0138(void *);                      /* extern */
+void *func_020c3558(void **);                       /* extern */
+
+void func_020c0884(void *arg0, void *arg1) {
+    void **temp_r0;
+    void *temp_r0_2;
+    void *temp_r1;
+    void *temp_r1_2;
+
+    temp_r0 = M2C_FIELD(arg0, void ***, 0xC);
+    if ((temp_r0 == NULL) || (M2C_FIELD(*temp_r0, s32(**)(), 0x68)(temp_r0) == 0)) {
+        func_020c0138(arg0);
+        temp_r1                           = M2C_FIELD(arg0, void **, 4);
+        M2C_FIELD(temp_r1, s32 *, 0x18)   = (s32) M2C_FIELD(arg1, s32 *, 0);
+        M2C_FIELD(temp_r1, s32 *, 0x1C)   = (s32) M2C_FIELD(arg1, s32 *, 4);
+        M2C_FIELD(temp_r1, s32 *, 0x20)   = (s32) M2C_FIELD(arg1, s32 *, 8);
+        temp_r1_2                         = M2C_FIELD(arg0, void **, 4);
+        M2C_FIELD(temp_r1_2, u16 *, 0x34) = (u16) (M2C_FIELD(temp_r1_2, u16 *, 0x34) | 4);
+        return;
+    }
+    temp_r0_2 = func_020c3558(M2C_FIELD(arg0, void ***, 0xC));
+    if (temp_r0_2 == NULL) {
+        return;
+    }
+    M2C_FIELD(temp_r0_2, s32 *, 0x324) = (s32) M2C_FIELD(arg1, s32 *, 0);
+    M2C_FIELD(temp_r0_2, s32 *, 0x328) = (s32) M2C_FIELD(arg1, s32 *, 4);
+    M2C_FIELD(temp_r0_2, s32 *, 0x32C) = (s32) M2C_FIELD(arg1, s32 *, 8);
+}
