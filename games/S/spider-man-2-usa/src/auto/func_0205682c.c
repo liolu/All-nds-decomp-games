@@ -1,8 +1,8 @@
 /* compiler: 1.2/sp2p3  */
 #include "m2c.h"
 
-s32 func_02057aa0();                                /* extern */
-M2C_UNK func_02057ab4(s32);                         /* extern */
+s32 _ZN3IRQ7DisableEv();                                /* extern */
+M2C_UNK _ZN3IRQ7RestoreEj(s32);                         /* extern */
 s32 func_02057acc();                                /* extern */
 M2C_UNK func_02057ae0(s32);                         /* extern */
 s32 func_02058330(s16, void *);                     /* extern */
@@ -14,7 +14,7 @@ s32 func_0205682c(s16 arg0, void *arg1, M2C_UNK (*arg2)(), s32 arg3) {
     if (arg3 != 0) {
         var_r5 = func_02057acc();
     } else {
-        var_r5 = func_02057aa0();
+        var_r5 = _ZN3IRQ7DisableEv();
     }
     temp_r0 = func_02058330(arg0, arg1);
     if (temp_r0 == 0) {
@@ -26,7 +26,7 @@ s32 func_0205682c(s16 arg0, void *arg1, M2C_UNK (*arg2)(), s32 arg3) {
     if (arg3 != 0) {
         func_02057ae0(var_r5);
     } else {
-        func_02057ab4(var_r5);
+        _ZN3IRQ7RestoreEj(var_r5);
     }
     return temp_r0;
 }
