@@ -5,7 +5,7 @@
 #pragma cplusplus off
 #pragma ipa file
 #pragma ipa file
-asm double func_02008690 (int value)
+asm double _dflt (int value)
 {
     ands r2, r0, #0x80000000
     rsbmi r0, r0, #0

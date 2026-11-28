@@ -3227,7 +3227,7 @@ src/donor/func_02008654.c:
     complete
     .text       start:0x02008654 end:0x02008690
 
-src/donor/func_02008690.c:
+src/donor/_dflt.c:
     complete
     .text       start:0x02008690 end:0x020086d0
 
@@ -18870,3 +18870,15 @@ src/auto/func_020582a8.c:
 src/auto/func_0206bd98.c:
     complete
     .text       start:0x0206bd98 end:0x0206c09c
+
+src/auto/func_02004db0.c:
+    complete
+    .text       start:0x02004db0 end:0x02005500
+
+src/auto/func_0200583c.c:
+    complete
+    .text       start:0x0200583c end:0x020064a4
+
+src/auto/func_02006f44.c:
+    complete
+    .text       start:0x02006f44 end:0x0200719c

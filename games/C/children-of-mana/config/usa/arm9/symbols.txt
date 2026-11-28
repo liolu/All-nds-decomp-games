@@ -123,7 +123,7 @@ func_02008144 kind:function(arm,size=0x258) addr:0x02008144
 _dfix kind:function(arm,size=0x144) addr:0x0200839c
 func_020084e8 kind:function(arm,size=0x16c) addr:0x020084e8
 func_02008654 kind:function(arm,size=0x3c) addr:0x02008654
-func_02008690 kind:function(arm,size=0x40) addr:0x02008690
+_dflt kind:function(arm,size=0x40) addr:0x02008690
 _dmul kind:function(arm,size=0x2dc) addr:0x020086d0
 func_02008dc0 kind:function(arm,size=0x238) addr:0x02008dc0
 _dsub kind:function(arm,size=0x568) addr:0x0200901c
@@ -135,10 +135,10 @@ func_020099e4 kind:function(arm,size=0x9e4) addr:0x020099e4
 .L_02009b3c kind:label(arm) addr:0x02009b3c
 .L_02009bb0 kind:label(arm) addr:0x02009bb0
 .L_02009bec kind:label(arm) addr:0x02009bec
-.L_02009f4c kind:label(arm) addr:0x02009f4c
+_deq kind:label(arm) addr:0x02009f4c
 .L_0200a038 kind:label(arm) addr:0x0200a038
 .L_0200a1b0 kind:label(arm) addr:0x0200a1b0
-.L_0200a238 kind:label(arm) addr:0x0200a238
+_dgeq kind:label(arm) addr:0x0200a238
 func_0200a55c kind:function(arm,size=0x380) addr:0x0200a55c
 func_0200ac4c kind:function(arm,size=0xc4) addr:0x0200ac4c
 func_0200ad14 kind:function(arm,size=0x9c) addr:0x0200ad14
