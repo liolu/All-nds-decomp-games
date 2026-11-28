@@ -874,7 +874,7 @@ void func_020e0f2c(M2C_UNK, M2C_UNK, M2C_UNK, M2C_UNK);
 void func_020e0f4c(M2C_UNK, M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020e0f7c
-M2C_UNK func_020e0f7c(M2C_UNK, M2C_UNK);
+M2C_UNK _s32_div_f(M2C_UNK, M2C_UNK);
 #endif
 #ifndef M2C_SELF_func_020e1188
 M2C_UNK func_020e1188(M2C_UNK, M2C_UNK);
