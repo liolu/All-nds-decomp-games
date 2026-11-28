@@ -1,0 +1,18 @@
+/* Uses instructions the compiler never generates: written in assembly. */
+// clang-format off
+asm void func_01ffc2ec(void) {
+    ldrb r7, [r4, #0xfe]
+    add r7, r7, r6
+    mov r7, r7, asr #0x1
+    strb r7, [r4, #0x100]
+    ldrb r8, [r4, #-0xfe]
+    add r8, r8, r6
+    mov r8, r8, asr #0x1
+    strb r8, [r4, #0x2]
+    ldrb r6, [r4, #-0x100]
+    add r7, r7, r6
+    mov r6, r7, asr #0x1
+    strb r6, [r4, #0x0]
+    mov pc, lr
+}
+// clang-format on

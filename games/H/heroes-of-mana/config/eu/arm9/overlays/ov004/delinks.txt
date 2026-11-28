@@ -5356,3 +5356,191 @@ src/auto/func_ov004_020ca704.c:
 src/auto/func_ov004_020bf950.c:
     complete
     .text       start:0x020bf950 end:0x020bf9c8
+
+src/auto/__sinit_ov004_020cce38.c:
+    complete
+    .init       start:0x020cce38 end:0x020cce60
+
+src/auto/__sinit_ov004_020cce60.c:
+    complete
+    .init       start:0x020cce60 end:0x020cce88
+
+src/auto/__sinit_ov004_020cce88.c:
+    complete
+    .init       start:0x020cce88 end:0x020cceb0
+
+src/auto/__sinit_ov004_020cceb0.c:
+    complete
+    .init       start:0x020cceb0 end:0x020cced8
+
+src/auto/__sinit_ov004_020cd090.c:
+    complete
+    .init       start:0x020cd090 end:0x020cd0b8
+
+src/auto/__sinit_ov004_020cd180.c:
+    complete
+    .init       start:0x020cd180 end:0x020cd1a8
+
+src/auto/__sinit_ov004_020cd1a8.c:
+    complete
+    .init       start:0x020cd1a8 end:0x020cd1d0
+
+src/auto/__sinit_ov004_020cd1d0.c:
+    complete
+    .init       start:0x020cd1d0 end:0x020cd1f8
+
+src/auto/__sinit_ov004_020cd1f8.c:
+    complete
+    .init       start:0x020cd1f8 end:0x020cd220
+
+src/auto/__sinit_ov004_020cd220.c:
+    complete
+    .init       start:0x020cd220 end:0x020cd248
+
+src/auto/__sinit_ov004_020cd248.c:
+    complete
+    .init       start:0x020cd248 end:0x020cd270
+
+src/auto/__sinit_ov004_020cd270.c:
+    complete
+    .init       start:0x020cd270 end:0x020cd298
+
+src/auto/__sinit_ov004_020cd298.c:
+    complete
+    .init       start:0x020cd298 end:0x020cd2c0
+
+src/auto/__sinit_ov004_020cced8.c:
+    complete
+    .init       start:0x020cced8 end:0x020ccf00
+
+src/auto/__sinit_ov004_020ccf00.c:
+    complete
+    .init       start:0x020ccf00 end:0x020ccf28
+
+src/auto/__sinit_ov004_020ccf28.c:
+    complete
+    .init       start:0x020ccf28 end:0x020ccf50
+
+src/auto/__sinit_ov004_020ccf50.c:
+    complete
+    .init       start:0x020ccf50 end:0x020ccf78
+
+src/auto/__sinit_ov004_020cd2c0.c:
+    complete
+    .init       start:0x020cd2c0 end:0x020cd2e8
+
+src/auto/__sinit_ov004_020cd2e8.c:
+    complete
+    .init       start:0x020cd2e8 end:0x020cd310
+
+src/auto/__sinit_ov004_020cd310.c:
+    complete
+    .init       start:0x020cd310 end:0x020cd338
+
+src/auto/__sinit_ov004_020cd338.c:
+    complete
+    .init       start:0x020cd338 end:0x020cd360
+
+src/auto/__sinit_ov004_020cd018.c:
+    complete
+    .init       start:0x020cd018 end:0x020cd040
+
+src/auto/__sinit_ov004_020cd040.c:
+    complete
+    .init       start:0x020cd040 end:0x020cd068
+
+src/auto/__sinit_ov004_020cd068.c:
+    complete
+    .init       start:0x020cd068 end:0x020cd090
+
+src/auto/__sinit_ov004_020cd0b8.c:
+    complete
+    .init       start:0x020cd0b8 end:0x020cd0e0
+
+src/auto/__sinit_ov004_020cd0e0.c:
+    complete
+    .init       start:0x020cd0e0 end:0x020cd108
+
+src/auto/__sinit_ov004_020cd108.c:
+    complete
+    .init       start:0x020cd108 end:0x020cd130
+
+src/auto/__sinit_ov004_020cd130.c:
+    complete
+    .init       start:0x020cd130 end:0x020cd158
+
+src/auto/__sinit_ov004_020cd158.c:
+    complete
+    .init       start:0x020cd158 end:0x020cd180
+
+src/auto/__sinit_ov004_020ccf78.c:
+    complete
+    .init       start:0x020ccf78 end:0x020ccfa0
+
+src/auto/__sinit_ov004_020ccfa0.c:
+    complete
+    .init       start:0x020ccfa0 end:0x020ccfc8
+
+src/auto/__sinit_ov004_020ccfc8.c:
+    complete
+    .init       start:0x020ccfc8 end:0x020ccff0
+
+src/auto/__sinit_ov004_020ccff0.c:
+    complete
+    .init       start:0x020ccff0 end:0x020cd018
+
+src/auto/__sinit_ov004_020cd360.c:
+    complete
+    .init       start:0x020cd360 end:0x020cd388
+
+src/auto/__sinit_ov004_020cd388.c:
+    complete
+    .init       start:0x020cd388 end:0x020cd3b0
+
+src/auto/__sinit_ov004_020cd3b0.c:
+    complete
+    .init       start:0x020cd3b0 end:0x020cd3d8
+
+src/auto/__sinit_ov004_020cd3d8.c:
+    complete
+    .init       start:0x020cd3d8 end:0x020cd400
+
+src/auto/__sinit_ov004_020cd540.c:
+    complete
+    .init       start:0x020cd540 end:0x020cd568
+
+src/auto/__sinit_ov004_020cd568.c:
+    complete
+    .init       start:0x020cd568 end:0x020cd590
+
+src/auto/__sinit_ov004_020cd400.c:
+    complete
+    .init       start:0x020cd400 end:0x020cd428
+
+src/auto/__sinit_ov004_020cd428.c:
+    complete
+    .init       start:0x020cd428 end:0x020cd450
+
+src/auto/__sinit_ov004_020cd450.c:
+    complete
+    .init       start:0x020cd450 end:0x020cd478
+
+src/auto/__sinit_ov004_020cd478.c:
+    complete
+    .init       start:0x020cd478 end:0x020cd4a0
+
+src/auto/__sinit_ov004_020cd4a0.c:
+    complete
+    .init       start:0x020cd4a0 end:0x020cd4c8
+
+src/auto/__sinit_ov004_020cd4c8.c:
+    complete
+    .init       start:0x020cd4c8 end:0x020cd4f0
+
+src/auto/__sinit_ov004_020cd4f0.c:
+    complete
+    .init       start:0x020cd4f0 end:0x020cd518
+
+src/auto/__sinit_ov004_020cd518.c:
+    complete
+    .init       start:0x020cd518 end:0x020cd540

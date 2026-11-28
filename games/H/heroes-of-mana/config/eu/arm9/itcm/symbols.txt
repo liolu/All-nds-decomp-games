@@ -258,7 +258,7 @@ func_01ffd478 kind:function(arm,size=0xc) addr:0x01ffd478
 func_01ffd484 kind:function(arm,size=0x4) addr:0x01ffd484
 func_01ffd488 kind:function(arm,size=0x4) addr:0x01ffd488
 func_01ffd4cc kind:function(arm,size=0x14) addr:0x01ffd4cc
-.L_01ffd500 kind:label(arm) addr:0x01ffd500 local
+lbl_01ffd500 kind:label(arm) addr:0x01ffd500
 func_01ffd6dc kind:function(arm,size=0x58) addr:0x01ffd6dc
 func_01ffd734 kind:function(arm,size=0x624) addr:0x01ffd734
 func_01ffdd60 kind:function(arm,size=0x560) addr:0x01ffdd60
