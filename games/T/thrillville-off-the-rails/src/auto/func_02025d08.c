@@ -1,0 +1,27 @@
+/* compiler: 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto */
+
+typedef unsigned int u32;
+typedef int s32;
+extern u32 func_02024624(void);
+extern u32 func_02024638(u32 state);
+typedef struct UnkSndCommand {
+    struct UnkSndCommand *next;
+    s32 id;
+    u32 arg[4];
+} UnkSndCommand;
+extern s32 func_02025d08(void);
+extern UnkSndCommand *data_020ec7ac;
+
+/* func_0207ac8c from https://github.com/GoldieLeGenie/DQIV-DECOMP libs/NitroSDK/src/snd/snd_command.c (license: none), reused
+ * by tools/donor_match.py */
+s32 func_02025d08(void) {
+    u32 enabled = func_02024624();
+    s32 count   = 0;
+    UnkSndCommand *cmd;
+
+    for (cmd = data_020ec7ac; cmd != 0; cmd = cmd->next) {
+        count++;
+    }
+    func_02024638(enabled);
+    return count;
+}

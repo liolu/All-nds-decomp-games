@@ -1,0 +1,15 @@
+#include "m2c.h"
+
+s32 func_020742ec(s32);                             /* extern */
+M2C_UNK func_020857c0();                            /* extern */
+M2C_UNK func_0208838c(M2C_UNK *);                   /* extern */
+extern M2C_UNK data_020e02be;
+
+void func_0203d6e4(void *arg0, u32 arg1) {
+    if (arg1 > 0x0FFFFFFFU) {
+        func_0208838c(&data_020e02be);
+        func_020857c0();
+    }
+    M2C_FIELD(arg0, s32 *, 0) = func_020742ec(arg1 * 0x10);
+    M2C_FIELD(arg0, u32 *, 8) = arg1;
+}
