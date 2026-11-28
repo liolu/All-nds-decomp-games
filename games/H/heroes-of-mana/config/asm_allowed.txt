@@ -1,0 +1,265 @@
+# Functions written as `asm void` with the user's approval (2026-11-28, "Oui, cree-le"): hand-written ITCM code
+# (JPEG/IDCT-style routines that pass values in r4-r11/ip between routines, share their caller's frame, read
+# tables through pc). The reason after each name is the clue found in its code (studio prototypes/asmallow.py --evidence).
+# workbench.judge skips the fake-match check for these names only. Not listed: func_01ff8288, func_01ff82ec
+# (MI DMA helpers with a normal C frame: may be C).
+OS_IrqHandler  instruction the compiler never emits
+OS_IrqHandler_ThreadSwitch  instruction the compiler never emits; saves ip on the stack (the compiler never does)
+func_01ff8380  saves ip on the stack (the compiler never does)
+func_01ff84ec  instruction the compiler never emits; writes callee-saved r10,r6,r9 without saving them
+func_01ff8530  instruction the compiler never emits; writes callee-saved r10,r6,r9 without saving them
+func_01ff858c  pc-relative address; writes callee-saved r8 without saving them; saves ip on the stack (the compiler never does)
+func_01ff85b0  pc-relative address; writes callee-saved r8 without saving them
+func_01ff85c0  returns through a frame it did not push (fragment of a shared epilogue); returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ff85e8  pc-relative address; writes callee-saved r10,r6,r7,r8,r9 without saving them; saves ip on the stack (the compiler never does)
+func_01ff8658  pc-relative address; reads callee-saved registers on entry (register arguments); writes callee-saved r6,r7,r8 without saving them
+func_01ff86a0  returns through a frame it did not push (fragment of a shared epilogue); returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ff86a4  reads callee-saved registers on entry (register arguments); writes callee-saved r10,r6,r7,r8,r9 without saving them
+func_01ff86f0  reads callee-saved registers on entry (register arguments); writes callee-saved r10,r6,r7,r8,r9 without saving them
+func_01ff8740  pc-relative address; reads callee-saved registers on entry (register arguments); writes callee-saved r10,r11,r6,r7,r8,r9 without saving them
+func_01ff8b24  pc-relative address; writes callee-saved r10,r11,r4,r5,r6,r7,r8,r9 without saving them
+func_01ff8b98  reads callee-saved registers on entry (register arguments); writes callee-saved r4,r6 without saving them
+func_01ff8ba8  returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ff8bac  reads callee-saved registers on entry (register arguments); writes callee-saved r10,r9 without saving them
+func_01ff8bcc  reads callee-saved registers on entry (register arguments); writes callee-saved r10,r9 without saving them
+func_01ff8c18  reads callee-saved registers on entry (register arguments); writes callee-saved r10,r6,r7 without saving them
+func_01ff8c44  reads callee-saved registers on entry (register arguments); writes callee-saved r10,r6,r7 without saving them
+func_01ff8c70  writes callee-saved r10,r9 without saving them
+func_01ff8cc0  writes callee-saved r10,r9 without saving them
+func_01ff8da4  writes callee-saved r10,r9 without saving them
+func_01ff8e8c  writes callee-saved r10,r9 without saving them
+func_01ff8f90  writes callee-saved r10,r9 without saving them
+func_01ff9094  writes callee-saved r10,r9 without saving them
+func_01ff9190  writes callee-saved r10,r9 without saving them
+func_01ff9258  pc-relative address; writes callee-saved r8 without saving them; saves ip on the stack (the compiler never does)
+func_01ff9284  pc-relative address; writes callee-saved r8 without saving them; saves ip on the stack (the compiler never does)
+func_01ff92c0  reads callee-saved registers on entry (register arguments); writes callee-saved r11,r4,r5,r9 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ff9330  reads callee-saved registers on entry (register arguments); writes callee-saved r10,r11,r4,r5,r6,r7,r8,r9 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ff93c8  reads callee-saved registers on entry (register arguments); writes callee-saved r10,r11,r4,r5,r6,r7,r8,r9 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ff9480  reads callee-saved registers on entry (register arguments); writes callee-saved r10,r11,r4,r5,r6,r7,r8,r9 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ff9534  writes callee-saved r10,r5,r7,r8,r9 without saving them; saves ip on the stack (the compiler never does)
+func_01ff96bc  writes callee-saved r4,r6,r7,r8 without saving them
+func_01ff9718  writes callee-saved r10,r5,r6,r9 without saving them
+func_01ff9744  writes callee-saved r4,r6,r7,r8 without saving them
+func_01ff979c  writes callee-saved r10,r4,r5,r6,r9 without saving them
+func_01ff97ec  writes callee-saved r4,r9 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ff984c  writes callee-saved r4,r5,r6 without saving them
+func_01ff987c  writes callee-saved r4,r5,r6 without saving them
+func_01ff98ac  saves ip on the stack (the compiler never does)
+func_01ff98bc  writes callee-saved r4 without saving them
+func_01ff98c8  writes callee-saved r4,r5 without saving them
+func_01ff98d8  writes callee-saved r4,r5 without saving them
+func_01ff98e8  writes callee-saved r4,r5,r6,r7 without saving them; returns with pop {pc} without pushing lr (shares the caller frame); saves ip on the stack (the compiler never does)
+func_01ff9a00  reads callee-saved registers on entry (register arguments); writes callee-saved r4,r5,r6,r7 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ff9b2c  pc-relative address; writes callee-saved r6,r7 without saving them
+func_01ff9b40  writes callee-saved r4,r6,r7,r8 without saving them
+func_01ff9b98  writes callee-saved r10,r5,r6,r9 without saving them
+func_01ff9bc4  writes callee-saved r4,r6,r7,r8 without saving them
+func_01ff9c18  writes callee-saved r10,r4,r5,r6,r9 without saving them
+func_01ff9c68  writes callee-saved r4,r9 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ff9ca0  writes callee-saved r4,r5,r6 without saving them
+func_01ff9cd0  writes callee-saved r4,r5,r6 without saving them
+func_01ff9d00  saves ip on the stack (the compiler never does)
+func_01ff9d10  writes callee-saved r4 without saving them
+func_01ff9d1c  writes callee-saved r4,r5 without saving them
+func_01ff9d2c  writes callee-saved r4,r5 without saving them
+func_01ff9d3c  writes callee-saved r4,r5,r6 without saving them; saves ip on the stack (the compiler never does)
+func_01ff9e44  reads callee-saved registers on entry (register arguments); writes callee-saved r4,r5,r6,r7 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ff9f60  pc-relative address; writes callee-saved r6,r7 without saving them
+func_01ff9f74  reads callee-saved registers on entry (register arguments); writes callee-saved r6,r7,r8 without saving them
+func_01ffa098  writes callee-saved r10,r5,r6,r9 without saving them
+func_01ffa0c4  writes callee-saved r4,r6,r7,r8 without saving them
+func_01ffa118  writes callee-saved r10,r4,r5,r6,r9 without saving them
+func_01ffa168  writes callee-saved r4,r5,r6 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffa198  writes callee-saved r4,r5,r6 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffa1c8  returns with pop {pc} without pushing lr (shares the caller frame); saves ip on the stack (the compiler never does)
+func_01ffa1d4  writes callee-saved r4 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffa1e0  writes callee-saved r4,r5 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffa1f0  writes callee-saved r4,r5 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffa200  reads callee-saved registers on entry (register arguments); writes callee-saved r4,r5 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffa22c  reads callee-saved registers on entry (register arguments); writes callee-saved r4,r5 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffa298  pc-relative address; writes callee-saved r6,r7 without saving them
+func_01ffa2ac  writes callee-saved r10,r5,r6,r7,r9 without saving them
+func_01ffa350  writes callee-saved r10,r4,r5,r6,r7,r8,r9 without saving them
+func_01ffa5fc  writes callee-saved r4,r5,r6 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffa62c  writes callee-saved r4,r5,r6 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffa65c  returns with pop {pc} without pushing lr (shares the caller frame); saves ip on the stack (the compiler never does)
+func_01ffa668  writes callee-saved r4 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffa674  returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffa678  returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffa67c  reads callee-saved registers on entry (register arguments); writes callee-saved r4,r5 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffa6e8  pc-relative address; writes callee-saved r6,r7 without saving them
+func_01ffa70c  pc-relative address; writes callee-saved r8 without saving them; saves ip on the stack (the compiler never does)
+func_01ffa738  pc-relative address; writes callee-saved r8 without saving them; saves ip on the stack (the compiler never does)
+func_01ffa774  reads callee-saved registers on entry (register arguments); writes callee-saved r11,r4,r5,r9 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffa7e4  reads callee-saved registers on entry (register arguments); writes callee-saved r11,r4,r5,r6,r7,r8,r9 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffa86c  reads callee-saved registers on entry (register arguments); writes callee-saved r11,r4,r5,r6,r7,r8,r9 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffa8fc  reads callee-saved registers on entry (register arguments); writes callee-saved r11,r4,r5,r6,r7,r8,r9 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffa98c  writes callee-saved r10,r5,r7,r8,r9 without saving them; saves ip on the stack (the compiler never does)
+func_01ffab14  writes callee-saved r4,r6,r7,r8 without saving them
+func_01ffab70  writes callee-saved r10,r5,r6,r9 without saving them
+func_01ffab9c  writes callee-saved r4,r6,r7,r8 without saving them
+func_01ffabf4  writes callee-saved r10,r4,r5,r6,r9 without saving them
+func_01ffac44  writes callee-saved r4,r9 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffac7c  writes callee-saved r4,r5,r6 without saving them
+func_01ffacac  writes callee-saved r4,r5,r6 without saving them
+func_01ffacdc  saves ip on the stack (the compiler never does)
+func_01ffacec  writes callee-saved r4 without saving them
+func_01ffacf8  writes callee-saved r4,r5 without saving them
+func_01ffad08  writes callee-saved r4,r5 without saving them
+func_01ffad18  writes callee-saved r4,r5,r6,r7 without saving them; returns with pop {pc} without pushing lr (shares the caller frame); saves ip on the stack (the compiler never does)
+func_01ffae30  reads callee-saved registers on entry (register arguments); writes callee-saved r4,r5 without saving them
+func_01ffaf3c  pc-relative address; writes callee-saved r6,r7 without saving them
+func_01ffaf50  reads callee-saved registers on entry (register arguments); writes callee-saved r6,r7,r8 without saving them
+func_01ffb054  writes callee-saved r10,r5,r6,r9 without saving them
+func_01ffb080  writes callee-saved r4,r6,r7,r8 without saving them
+func_01ffb0e0  writes callee-saved r10,r4,r5,r6,r9 without saving them
+func_01ffb130  writes callee-saved r4,r9 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffb154  writes callee-saved r4,r5,r6 without saving them
+func_01ffb184  writes callee-saved r4,r5,r6 without saving them
+func_01ffb1b4  saves ip on the stack (the compiler never does)
+func_01ffb1c4  writes callee-saved r4 without saving them
+func_01ffb1d0  writes callee-saved r4,r5 without saving them
+func_01ffb1e0  writes callee-saved r4,r5 without saving them
+func_01ffb1f0  writes callee-saved r4,r5,r6 without saving them; saves ip on the stack (the compiler never does)
+func_01ffb2f8  reads callee-saved registers on entry (register arguments); writes callee-saved r4,r5 without saving them
+func_01ffb3f4  pc-relative address; writes callee-saved r6,r7 without saving them
+func_01ffb408  reads callee-saved registers on entry (register arguments); writes callee-saved r6,r7,r8 without saving them
+func_01ffb490  writes callee-saved r10,r5,r6,r9 without saving them
+func_01ffb4bc  writes callee-saved r4,r6,r7,r8 without saving them
+func_01ffb518  writes callee-saved r10,r4,r5,r6,r9 without saving them
+func_01ffb568  writes callee-saved r4,r5,r6 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffb598  writes callee-saved r4,r5,r6 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffb5c8  returns with pop {pc} without pushing lr (shares the caller frame); saves ip on the stack (the compiler never does)
+func_01ffb5d4  writes callee-saved r4 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffb5e0  writes callee-saved r4,r5 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffb5f0  writes callee-saved r4,r5 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffb600  reads callee-saved registers on entry (register arguments); writes callee-saved r4,r5 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffb62c  reads callee-saved registers on entry (register arguments); writes callee-saved r4,r5 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffb698  pc-relative address; writes callee-saved r6,r7 without saving them
+func_01ffb6ac  writes callee-saved r10,r5,r6,r7,r9 without saving them
+func_01ffb708  reads callee-saved registers on entry (register arguments); writes callee-saved r6,r7,r8 without saving them
+func_01ffb830  writes callee-saved r10,r4,r5,r6,r9 without saving them
+func_01ffb880  writes callee-saved r4,r5,r6 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffb8b0  writes callee-saved r4,r5,r6 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffb8e0  returns with pop {pc} without pushing lr (shares the caller frame); saves ip on the stack (the compiler never does)
+func_01ffb8ec  writes callee-saved r4 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffb8f8  returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffb8fc  returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffb900  reads callee-saved registers on entry (register arguments); writes callee-saved r4,r5 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffb96c  pc-relative address; writes callee-saved r6,r7 without saving them
+func_01ffb990  pc-relative address; writes callee-saved r8 without saving them; saves ip on the stack (the compiler never does)
+func_01ffb9bc  pc-relative address; writes callee-saved r8 without saving them; saves ip on the stack (the compiler never does)
+func_01ffb9f8  reads callee-saved registers on entry (register arguments); returns through a frame it did not push (fragment of a shared epilogue); writes callee-saved r11,r4,r5,r6,r9 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffba58  reads callee-saved registers on entry (register arguments); returns through a frame it did not push (fragment of a shared epilogue); writes callee-saved r11,r4,r5,r6,r7,r9 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffbac8  reads callee-saved registers on entry (register arguments); returns through a frame it did not push (fragment of a shared epilogue); writes callee-saved r11,r4,r5,r6,r7,r9 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffbb40  reads callee-saved registers on entry (register arguments); returns through a frame it did not push (fragment of a shared epilogue); writes callee-saved r11,r4,r5,r6,r7,r9 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffbbb4  writes callee-saved r10,r5,r7,r8,r9 without saving them; saves ip on the stack (the compiler never does)
+func_01ffbd04  reads callee-saved registers on entry (register arguments); writes callee-saved r6,r7,r8 without saving them
+func_01ffbe28  writes callee-saved r10,r5,r6,r9 without saving them
+func_01ffbe54  writes callee-saved r4,r6,r7,r8 without saving them
+func_01ffbeac  writes callee-saved r10,r4,r5,r6,r9 without saving them
+func_01ffbefc  writes callee-saved r4,r5,r6 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffbf2c  writes callee-saved r4,r5,r6 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffbf5c  returns with pop {pc} without pushing lr (shares the caller frame); saves ip on the stack (the compiler never does)
+func_01ffbf68  writes callee-saved r4 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffbf74  writes callee-saved r4,r5 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffbf84  writes callee-saved r4,r5 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffbf94  reads callee-saved registers on entry (register arguments); writes callee-saved r4,r5 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffbfc0  reads callee-saved registers on entry (register arguments); writes callee-saved r4,r5 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffc02c  pc-relative address; writes callee-saved r6,r7 without saving them
+func_01ffc040  reads callee-saved registers on entry (register arguments); writes callee-saved r6,r7,r8 without saving them
+func_01ffc0c8  writes callee-saved r10,r5,r6,r9 without saving them
+func_01ffc0f4  writes callee-saved r4,r6,r7,r8 without saving them
+func_01ffc158  writes callee-saved r10,r4,r5,r6,r9 without saving them
+func_01ffc1a8  writes callee-saved r4,r5,r6 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffc1d8  writes callee-saved r4,r5,r6 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffc208  returns with pop {pc} without pushing lr (shares the caller frame); saves ip on the stack (the compiler never does)
+func_01ffc214  writes callee-saved r4 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffc220  writes callee-saved r4,r5 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffc230  writes callee-saved r4,r5 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffc240  reads callee-saved registers on entry (register arguments); writes callee-saved r4,r5 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffc26c  reads callee-saved registers on entry (register arguments); writes callee-saved r4,r5 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffc2d8  pc-relative address; writes callee-saved r6,r7 without saving them
+func_01ffc2ec  reads callee-saved registers on entry (register arguments); writes callee-saved r6,r7,r8 without saving them
+func_01ffc320  writes callee-saved r10,r5,r6,r9 without saving them
+func_01ffc34c  reads callee-saved registers on entry (register arguments); writes callee-saved r6,r7,r8 without saving them
+func_01ffc450  writes callee-saved r10,r4,r5,r6,r9 without saving them
+func_01ffc4a0  writes callee-saved r4,r5,r6 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffc4d0  writes callee-saved r4,r5,r6 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffc500  returns with pop {pc} without pushing lr (shares the caller frame); saves ip on the stack (the compiler never does)
+func_01ffc50c  writes callee-saved r4 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffc518  writes callee-saved r4,r5 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffc528  writes callee-saved r4,r5 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffc538  reads callee-saved registers on entry (register arguments); writes callee-saved r4,r5 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffc564  reads callee-saved registers on entry (register arguments); writes callee-saved r4,r5 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffc5d0  pc-relative address; writes callee-saved r6,r7 without saving them
+func_01ffc5e4  writes callee-saved r10,r5,r6,r7,r9 without saving them
+func_01ffc61c  reads callee-saved registers on entry (register arguments); writes callee-saved r6,r7,r8 without saving them
+func_01ffc6a4  writes callee-saved r10,r4,r5,r6,r9 without saving them
+func_01ffc6f4  writes callee-saved r4,r5,r6 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffc724  writes callee-saved r4,r5,r6 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffc754  returns with pop {pc} without pushing lr (shares the caller frame); saves ip on the stack (the compiler never does)
+func_01ffc760  writes callee-saved r4 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffc76c  returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffc770  returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffc774  reads callee-saved registers on entry (register arguments); writes callee-saved r4,r5 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffc7e0  pc-relative address; writes callee-saved r6,r7 without saving them
+func_01ffc7f4  writes callee-saved r8 without saving them; saves ip on the stack (the compiler never does)
+func_01ffc81c  writes callee-saved r7,r8,r9 without saving them; saves ip on the stack (the compiler never does)
+func_01ffc93c  writes callee-saved r10,r5,r7,r8,r9 without saving them; saves ip on the stack (the compiler never does)
+func_01ffca34  writes callee-saved r10,r5,r6,r7,r9 without saving them
+func_01ffcad8  writes callee-saved r10,r4,r5,r6,r7,r8,r9 without saving them
+func_01ffcd84  writes callee-saved r4,r5,r6 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffcdb4  writes callee-saved r4,r5,r6 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffcde4  returns with pop {pc} without pushing lr (shares the caller frame); saves ip on the stack (the compiler never does)
+func_01ffcdf0  writes callee-saved r4 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffcdfc  returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffce00  returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffce04  reads callee-saved registers on entry (register arguments); writes callee-saved r4,r5 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffce70  pc-relative address; writes callee-saved r6,r7 without saving them
+func_01ffce84  writes callee-saved r10,r5,r6,r7,r9 without saving them
+func_01ffcee0  reads callee-saved registers on entry (register arguments); writes callee-saved r6,r7,r8 without saving them
+func_01ffd008  writes callee-saved r10,r4,r5,r6,r9 without saving them
+func_01ffd058  writes callee-saved r4,r5,r6 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffd088  writes callee-saved r4,r5,r6 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffd0b8  returns with pop {pc} without pushing lr (shares the caller frame); saves ip on the stack (the compiler never does)
+func_01ffd0c4  writes callee-saved r4 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffd0d0  returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffd0d4  returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffd0d8  reads callee-saved registers on entry (register arguments); writes callee-saved r4,r5 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffd144  pc-relative address; writes callee-saved r6,r7 without saving them
+func_01ffd158  writes callee-saved r10,r5,r6,r7,r9 without saving them
+func_01ffd190  reads callee-saved registers on entry (register arguments); writes callee-saved r6,r7,r8 without saving them
+func_01ffd218  writes callee-saved r10,r4,r5,r6,r9 without saving them
+func_01ffd268  writes callee-saved r4,r5,r6 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffd298  writes callee-saved r4,r5,r6 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffd2c8  returns with pop {pc} without pushing lr (shares the caller frame); saves ip on the stack (the compiler never does)
+func_01ffd2d4  writes callee-saved r4 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffd2e0  returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffd2e4  returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffd2e8  reads callee-saved registers on entry (register arguments); writes callee-saved r4,r5 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffd354  pc-relative address; writes callee-saved r6,r7 without saving them
+func_01ffd368  writes callee-saved r10,r5,r6,r9 without saving them
+func_01ffd390  writes callee-saved r10,r4,r5,r6,r7,r8,r9 without saving them
+func_01ffd40c  writes callee-saved r4,r5,r6 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffd43c  writes callee-saved r4,r5,r6 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffd46c  returns with pop {pc} without pushing lr (shares the caller frame); saves ip on the stack (the compiler never does)
+func_01ffd478  writes callee-saved r4 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffd484  returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffd488  returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffd4cc  pc-relative address; writes callee-saved r6,r7 without saving them
+func_01ffd6dc  instruction the compiler never emits; returns through a frame it did not push (fragment of a shared epilogue); writes callee-saved r4,r5,r8,r9 without saving them
+func_01ffd734  instruction the compiler never emits; pc-relative address; writes callee-saved r10,r11,r5,r6,r7,r8,r9 without saving them; saves ip on the stack (the compiler never does)
+func_01ffdd60  saves ip on the stack (the compiler never does)
+func_01ffe2c0  writes callee-saved r10,r11,r6,r7,r8,r9 without saving them
+func_01ffe2e8  writes callee-saved r10,r11,r6,r7,r8,r9 without saving them
+func_01ffe430  reads callee-saved registers on entry (register arguments); writes callee-saved r10,r11,r5,r6,r7,r8 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffe478  reads callee-saved registers on entry (register arguments); writes callee-saved r10,r11,r5,r6,r7,r8,r9 without saving them; returns with pop {pc} without pushing lr (shares the caller frame)
+func_01ffe504  writes callee-saved r10,r11,r5,r6,r7,r8,r9 without saving them
+func_01ffe674  writes callee-saved r10,r11,r5,r6,r7,r8,r9 without saving them
+func_01ffe6b8  reads r5-r11 and ip as inputs it never set, pushes r2 inside its loop
+func_01ffe980  writes callee-saved r10,r11,r5,r6,r7,r8,r9 without saving them
+func_01ffe9e8  saves ip on the stack (the compiler never does)
+func_01ffea58  writes callee-saved r7,r8,r9 without saving them
+func_01ffea88  instruction the compiler never emits; pc-relative address; saves ip on the stack (the compiler never does)
