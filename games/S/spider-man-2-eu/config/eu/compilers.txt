@@ -1,2 +1,21 @@
 # Source files built with another compiler than tools/configure.py MWCC_VERSION
 # <source path> <mwccarm version> [extra flags]
+src/auto/func_02051578.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_02015574.c 1.2/sp2p3
+src/auto/func_02053738.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
+src/auto/func_02007140.c 1.2/sp2p3
+src/auto/func_02011e28.c 1.2/sp2p3
+src/auto/func_0200b170.c 1.2/sp2p3
+src/auto/func_0200b1e8.c 1.2/sp2p3
+src/auto/func_0204c068.c 1.2/sp2p3
+src/auto/func_0202b3a4.c 1.2/sp2p3
+src/auto/func_020456bc.c 1.2/sp2p3
+src/auto/func_02020100.c 1.2/sp2p3
+src/auto/func_02006720.c 1.2/sp2p3
+src/auto/func_020536dc.c 1.2/sp2p3
+src/auto/func_0203fb98.c 1.2/sp2p3
+src/auto/func_02019880.c 1.2/sp2p3
+src/auto/func_0203a9d0.c 1.2/sp2p3
+src/auto/func_0200c410.c 1.2/sp2p3
+src/auto/func_0203b57c.c 1.2/sp2p3
+src/auto/func_02014cd0.c 1.2/sp2p3
