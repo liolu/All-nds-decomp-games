@@ -6,7 +6,7 @@ typedef struct {
     s32 f20;
 } D;
 extern D data_ov111_020f1bd8;
-s64 func_0202c0ec(s32);
+s64 _dflt(s32);
 s32 func_ov111_020e5d98(s32);
 void func_ov111_020e9c50(s32, s64, s64, s64, s32);
 void func_ov111_020e705c(void) {
@@ -16,16 +16,16 @@ void func_ov111_020e705c(void) {
     a = func_ov111_020e5d98(1);
     b = func_ov111_020e5d98(5);
     c = func_ov111_020e5d98(3);
-    x = func_0202c0ec(a << 10);
-    y = func_0202c0ec(b << 10);
-    z = func_0202c0ec(c << 10);
+    x = _dflt(a << 10);
+    y = _dflt(b << 10);
+    z = _dflt(c << 10);
     func_ov111_020e9c50(6, x, y, z, data_ov111_020f1bd8.f1c);
     a = func_ov111_020e5d98(7);
     b = func_ov111_020e5d98(9);
     c = func_ov111_020e5d98(0xB);
-    x = func_0202c0ec(a);
-    y = func_0202c0ec(b);
-    func_ov111_020e9c50(7, x, y, func_0202c0ec(c), data_ov111_020f1bd8.f20);
+    x = _dflt(a);
+    y = _dflt(b);
+    func_ov111_020e9c50(7, x, y, _dflt(c), data_ov111_020f1bd8.f20);
     data_ov111_020f1bd8.f1c += 1;
     data_ov111_020f1bd8.f20 += 1;
     *(u16 *) ((u8 *) data_ov111_020f1bd8.p0 + 0x50C) += 0xD;

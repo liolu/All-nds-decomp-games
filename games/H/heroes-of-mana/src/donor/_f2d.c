@@ -3,7 +3,7 @@
  * tools/donor_match.py */
 // clang-format off
 #pragma ipa file
-asm double func_0202cf48 (float value)
+asm double _f2d (float value)
 {
     and r2, r0, #0x80000000
     mov r12, r0, lsr #23

@@ -212,10 +212,10 @@ src/donor/func_0202b7b8.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
 src/donor/func_0202b84c.c 2.0/sp1p5
 src/donor/func_0202b860.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
 src/donor/func_0202c014.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
-src/donor/func_0202c0ec.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
-src/donor/func_0202c12c.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/_dflt.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/_dfltu.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
 src/donor/sqrt.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
-src/donor/func_0202cf48.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/donor/_f2d.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
 src/donor/func_0202d458.c 1.2/sp2p3 -O4,p -lang c99 -inline on,noauto
 src/donor/func_0202d478.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
 src/donor/func_0202ddc8.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
@@ -3249,3 +3249,5 @@ src/auto/func_ov123_0207eac0.c 1.2/sp3
 src/auto/func_ov123_020ad4b4.c 1.2/sp2p3 -thumb
 src/auto/func_0201c458.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
 src/auto/func_0202e12c.cpp 2.0/sp1p5 -O4,p -ipa file -inline on,noauto
+src/auto/__dec2num.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto
+src/auto/func_0200b31c.c 2.0/sp1p5 -O4,p -lang c99 -ipa file -inline on,noauto

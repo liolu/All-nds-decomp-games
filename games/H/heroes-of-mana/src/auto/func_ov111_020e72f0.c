@@ -12,7 +12,7 @@ typedef struct {
     u16 pc;
 } Efc;
 
-s64 func_0202c0ec(s32);
+s64 _dflt(s32);
 s32 func_ov111_020e5d98(s32);
 void func_ov111_020e9c50(s32, s64, s64, s64, s32);
 void func_ov111_020e9cb8(void *);
@@ -36,12 +36,11 @@ void func_ov111_020e72f0(void) {
     e  = data_ov111_020f1bd8;
     switch (e->prog[e->pc + 1]) {
         case 2:
-            func_ov111_020e9c50(r6, func_0202c0ec(e->x), func_0202c0ec(e->y), func_0202c0ec(e->z), 0);
+            func_ov111_020e9c50(r6, _dflt(e->x), _dflt(e->y), _dflt(e->z), 0);
             f   = data_ov111_020f1bd8;
             idx = ((s32) (u16) (f->ang + 0x8000) >> 4) * 2;
-            func_ov111_020e9c50(r6, func_0202c0ec(f->x + ((*(s16 *) ((u8 *) data_02030644 + idx * 2) * 0x5000) >> 12)),
-                                func_0202c0ec(f->y),
-                                func_0202c0ec(f->z + ((*(s16 *) ((u8 *) data_02030644 + (idx + 1) * 2) * 0x5000) >> 12)), 1);
+            func_ov111_020e9c50(r6, _dflt(f->x + ((*(s16 *) ((u8 *) data_02030644 + idx * 2) * 0x5000) >> 12)), _dflt(f->y),
+                                _dflt(f->z + ((*(s16 *) ((u8 *) data_02030644 + (idx + 1) * 2) * 0x5000) >> 12)), 1);
             data_ov111_020f1bdc[r6]              = 2;
             off                                  = r6 * 0x820;
             *(s64 *) (data_ov111_020eda9c + off) = 0;

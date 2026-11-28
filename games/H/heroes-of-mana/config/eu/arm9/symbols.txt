@@ -1189,8 +1189,8 @@ _dadd kind:function(arm,size=0x318) addr:0x0202bbf8
 _d2f kind:function(arm,size=0x104) addr:0x0202bf10
 func_0202c014 kind:function(arm,size=0x4c) addr:0x0202c014
 _ll_ufrom_d kind:function(arm,size=0x8c) addr:0x0202c060
-func_0202c0ec kind:function(arm,size=0x40) addr:0x0202c0ec
-func_0202c12c kind:function(arm,size=0x3c) addr:0x0202c12c
+_dflt kind:function(arm,size=0x40) addr:0x0202c0ec
+_dfltu kind:function(arm,size=0x3c) addr:0x0202c12c
 _dmul kind:function(arm,size=0x364) addr:0x0202c168
 sqrt kind:function(arm,size=0x19c) addr:0x0202c4cc
 _dsub kind:function(arm,size=0x3b4) addr:0x0202c680
@@ -1201,10 +1201,10 @@ _dleq kind:function(arm,size=0xa4) addr:0x0202ccf0
 _dls kind:function(arm,size=0x9c) addr:0x0202cd94
 _deq kind:function(arm,size=0x8c) addr:0x0202ce30
 _dneq kind:function(arm,size=0x8c) addr:0x0202cebc
-func_0202cf48 kind:function(arm,size=0x84) addr:0x0202cf48
+_f2d kind:function(arm,size=0x84) addr:0x0202cf48
 _fsub kind:function(arm,size=0x278) addr:0x0202cfd8
 func_0202d250 kind:function(arm,size=0x1c0) addr:0x0202d250
-.L_0202d260 kind:label(arm) addr:0x0202d260
+_ll_sdiv kind:label(arm) addr:0x0202d260
 _ll_udiv kind:function(arm,size=0x48) addr:0x0202d410
 .L_0202d41c kind:label(arm) addr:0x0202d41c
 func_0202d458 kind:function(arm,size=0x20) addr:0x0202d458

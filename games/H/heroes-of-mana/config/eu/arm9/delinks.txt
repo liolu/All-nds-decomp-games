@@ -3130,11 +3130,11 @@ src/donor/func_0202c014.c:
     complete
     .text       start:0x0202c014 end:0x0202c060
 
-src/donor/func_0202c0ec.c:
+src/donor/_dflt.c:
     complete
     .text       start:0x0202c0ec end:0x0202c12c
 
-src/donor/func_0202c12c.c:
+src/donor/_dfltu.c:
     complete
     .text       start:0x0202c12c end:0x0202c168
 
@@ -3146,7 +3146,7 @@ src/donor/sqrt.c:
     complete
     .text       start:0x0202c4cc end:0x0202c668
 
-src/donor/func_0202cf48.c:
+src/donor/_f2d.c:
     complete
     .text       start:0x0202cf48 end:0x0202cfcc
 
@@ -4939,3 +4939,11 @@ src/auto/func_0201c458.c:
 src/auto/func_0202e12c.cpp:
     complete
     .text       start:0x0202e12c end:0x0202e4b4
+
+src/auto/__dec2num.c:
+    complete
+    .text       start:0x0202b194 end:0x0202b7b8
+
+src/auto/func_0200b31c.c:
+    complete
+    .text       start:0x0200b31c end:0x0200b4ec

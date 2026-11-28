@@ -11,7 +11,7 @@ typedef struct P {
 
 extern void func_02029ec8(void);
 extern s32 func_0202c014(void);
-extern double func_0202c0ec(s32);
+extern double _dflt(s32);
 
 double func_ov111_020e9fcc(double x, P *p) {
     s32 i;
@@ -23,6 +23,6 @@ double func_ov111_020e9fcc(double x, P *p) {
     } else if (i >= p->n) {
         i = p->n - 1;
     }
-    d = x - func_0202c0ec(i);
+    d = x - _dflt(i);
     return p->c0[i] + d * (p->c1[i] + d * (p->c2[i] + d * p->c3[i]));
 }

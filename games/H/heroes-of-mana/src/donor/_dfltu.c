@@ -3,7 +3,7 @@
  * tools/donor_match.py */
 typedef unsigned int u32;
 // clang-format off
-asm double func_0202c12c(u32 x)
+asm double _dfltu(u32 x)
 {
     cmp r0, #0
     mov r1, #0
