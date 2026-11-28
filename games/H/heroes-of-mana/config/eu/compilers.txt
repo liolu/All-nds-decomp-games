@@ -3277,3 +3277,10 @@ src/auto/func_ov123_02089710.c 1.2/sp3
 src/auto/func_ov123_0208a580.c 2.0/sp1p5 -O1,p
 src/auto/func_ov123_020a73c4.c 1.2/sp2p3 -thumb
 src/auto/func_ov123_020a906c.c 1.2/sp2p3 -O1,p -thumb
+src/auto/SearchCanUseVramNo.c 2.0/sp1p5 -profile -O2,p
+src/auto/RelifeCarisumaOne.c 2.0/sp1p5 -profile -flag no-opt_dead_assignments
+src/auto/func_ov088_020d0540.c 2.0/sp1p5 -flag no-opt_dead_assignments
+src/auto/SetUpEffectForCreate.c 2.0/sp1p5 -profile -flag no-opt_addtogetherconstantpartsoftreeexpressions
+src/auto/func_ov111_020e21f0.c 2.0/sp1p5 -flag no-opt_arithtransformation
+src/auto/func_ov116_020e4374.c 2.0/sp1p5 -proc v5t
+src/auto/func_ov123_02082478.c 1.2/sp3 -flag no-opt_propagation

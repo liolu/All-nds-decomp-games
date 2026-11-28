@@ -180,9 +180,6 @@ src/data/ov109_profrec_020e9e20.c:
 
 
 
-src/data/ov109_profrec_020e9e64.c:
-    complete
-    .data       start:0x020e9e64 end:0x020e9e7c
 
 src/data/ov109_profrec_020e9e7c.c:
     complete
@@ -799,3 +796,8 @@ src/auto/InShipRoutine.c:
 src/data/ov109_profpad_020e9ada.c:
     complete
     .data       start:0x020e9ada end:0x020e9adc
+
+src/auto/SetUpEffectForCreate.c:
+    complete
+    .text       start:0x020e5380 end:0x020e5484
+    .data       start:0x020e9e64 end:0x020e9e7c
